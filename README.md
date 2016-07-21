@@ -20,8 +20,8 @@ Ficaremos felizes em aceitar contribuições via GitHub pull requests.
 
 ### Aviso Legal
 
-Esse não é um guia ou produto oficial da ThoughtWorks Brasil, mas sim
-material que acontece de ser propriedade intelectual da mesma.
+Esse não é um guia ou produto oficial da ThoughtWorks Brasil,
+mas contém material de propriedade intelectual da mesma.
 
 Esse guia é resultado da compilação de opiniões de funcionários da
 ThoughtWorks Brasil e não necessariamente refletem o posicionamento da empresa.
