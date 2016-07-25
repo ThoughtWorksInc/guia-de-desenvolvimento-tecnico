@@ -119,6 +119,11 @@ se torna mais simples de manter e crescer
 
 #### Recursos
 
+<a name="aplique-ddd" />
+#### Aplique Domain-Driven Design no seu dia-a-dia
+
+[Uma introdução a Domain-Driven Design](http://www.agileandart.com/2010/07/16/ddd-introducao-a-domain-driven-design/)
+
 ## Contribuições
 
 Ficaremos felizes em aceitar contribuições via GitHub pull requests.
