@@ -2,6 +2,8 @@
 
 [![License](https://img.shields.io/aur/license/yaourt.svg?maxAge=2592000)](https://github.com/ThoughtWorksInc/technical-excellence-guide/blob/master/LICENSE)
 
+## [Visão](./visao.md)
+
 ## Introdução
 
 Esse guia provê dicas e recursos para auxiliar no desenvolvimento de suas
