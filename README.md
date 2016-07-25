@@ -12,11 +12,42 @@ melhores desenvolvedoras de software.
 
 ## Recomendações e Recursos
 
-### Tabela de Conteúdo
+##### Índice
 
-...
+1. [Codificação](#codificacao)
+  1. [Programe em (pelo menos) uma linguagem de programação orientada a objetos](#programe-em-uma-linguagem-oo)
+  2. [Escreva testes automatizados]()
+  3. [Construa soluções guiado por testes (TDD)]()
+  4. [Saiba utilizar uma IDE e/ou editor de texto]()
+  5. [Saiba como refatorar seu código]()
+  6. [Programe em (pelo menos) uma linguagem de programação funcional]()
+2. [Projeto de Sistemas Orientado a Objetos]()
+  1. [Aplique Domain-Driven Design no seu dia-a-dia]()
+  2. [Escreva código limpo]()
+3. [Arquitetura de Software]()
+  1. [Entenda os diferentes tipo de arquitetura de software]()
+  2. [Entenda como conciliar requisitos ortogonais com sua arquitetura]()
+  3. [Entenda como conciliar segurança com sua arquitetura]()
+4. [Entrega de Software]()
+  1. [Integre seu código continuamente]()
+  2. [Entregue seu código continuamente]()
+5. [Infra-estrutura]()
+  1. [Entenda o que é infraestrutura como código]()
+  2. [Entenda o que é computação em nuvem]()
+6. [Processos]()
+7. [Estratégia de qualidade]()
+  1. [Análise de Código]()
+  2. [Estratégia de testes]()
+8. [Armazenamento de dados]()
+  1. [Bancos de dados relacionais]()
+  2. [Bancos de dados não-relacionais]()
+9. [Segurança]()
 
-### Aprenda a programar em (pelo menos) uma linguagem de programação orientada a objetos
+<a name="codificacao" />
+### Codificação
+
+<a name="programe-em-uma-linguagem-oo" />
+#### Programe em (pelo menos) uma linguagem de programação orientada a objetos
 
 Programação orientada a objetos é um paradigma de programação que
 abstrai os conceitos do mundo real em objetos. Cada objeto possui
@@ -34,15 +65,11 @@ alfabética):
 
 * Links para mais recursos (todos os recursos devem ser abertos e gratuitos)
 
-#### Livros
-
-* (Effective Java)[https://www.amazon.com/Effective-Java-Joshua-Bloch-ebook/dp/B00B8V09HY]
-
 ## Contribuições
 
 Ficaremos felizes em aceitar contribuições via GitHub pull requests.
 
-### Aviso Legal
+## Aviso Legal
 
 Esse não é um guia ou produto oficial da ThoughtWorks Brasil,
 mas contém material de propriedade intelectual da mesma.
