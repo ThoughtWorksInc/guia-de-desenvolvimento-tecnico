@@ -23,7 +23,7 @@ melhores desenvolvedoras de software.
   6. [Saiba como refatorar seu código]()
   7. [Programe em (pelo menos) uma linguagem de programação funcional]()
 2. [Projeto de Sistemas Orientado a Objetos]()
-  1. [Aplique Domain-Driven Design no seu dia-a-dia]()
+  1. [Aplique Domain-Driven Design no seu dia-a-dia](#aplique-ddd)
   2. [Escreva código limpo]()
 3. [Arquitetura de Software]()
   1. [Entenda os diferentes tipo de arquitetura de software]()
