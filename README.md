@@ -19,8 +19,9 @@ melhores desenvolvedoras de software.
   2. [Escreva testes automatizados]()
   3. [Construa soluções guiado por testes (TDD)]()
   4. [Saiba utilizar uma IDE e/ou editor de texto]()
-  5. [Saiba como refatorar seu código]()
-  6. [Programe em (pelo menos) uma linguagem de programação funcional]()
+  5. [Saiba utilizar um sistema de controle de versão]()
+  6. [Saiba como refatorar seu código]()
+  7. [Programe em (pelo menos) uma linguagem de programação funcional]()
 2. [Projeto de Sistemas Orientado a Objetos]()
   1. [Aplique Domain-Driven Design no seu dia-a-dia]()
   2. [Escreva código limpo]()
@@ -64,6 +65,11 @@ alfabética):
 #### Mais informações
 
 * Links para mais recursos (todos os recursos devem ser abertos e gratuitos)
+
+<a name="aplique-ddd" />
+#### Aplique Domain-Driven Design no seu dia-a-dia
+
+[Uma introdução a Domain-Driven Design](http://www.agileandart.com/2010/07/16/ddd-introducao-a-domain-driven-design/)
 
 ## Contribuições
 
