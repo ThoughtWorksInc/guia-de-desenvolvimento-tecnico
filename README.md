@@ -64,6 +64,9 @@ alfabética):
 #### Recursos
 
 * [[Curso] Programação Orientada a Objetos em Java](https://www.coursera.org/learn/object-oriented-java) :us:
+* [[Curso] Codecademy Java](https://www.codecademy.com/learn/learn-java) :us:
+* [[Curso] Codecademy Ruby](https://www.codecademy.com/pt-BR/learn/ruby)
+* [[Curso] Codecademy Python](https://www.codecademy.com/pt-BR/learn/python)
 
 ## Contribuições
 
