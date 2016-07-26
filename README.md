@@ -61,9 +61,12 @@ alfabética):
 * [Python](https://www.python.org)
 * [Ruby](https://www.ruby-lang.org)
 
-#### Mais informações
+#### Recursos
 
-* Links para mais recursos (todos os recursos devem ser abertos e gratuitos)
+* [[Curso] Programação Orientada a Objetos em Java](https://www.coursera.org/learn/object-oriented-java) :us:
+* [[Curso] Codecademy Java](https://www.codecademy.com/learn/learn-java) :us:
+* [[Curso] Codecademy Ruby](https://www.codecademy.com/pt-BR/learn/ruby)
+* [[Curso] Codecademy Python](https://www.codecademy.com/pt-BR/learn/python)
 
 ## Contribuições
 
