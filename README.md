@@ -69,7 +69,7 @@ alfabética):
 * [Python](https://www.python.org)
 * [Ruby](https://www.ruby-lang.org)
 
-##### Recursos
+#### Recursos
 
 * [[Curso] Programação Orientada a Objetos em Java](https://www.coursera.org/learn/object-oriented-java) :us:
 * [[Curso] Codecademy Java](https://www.codecademy.com/learn/learn-java) :us:
@@ -81,7 +81,7 @@ alfabética):
 <a name="aplique-ddd" />
 #### Aplique Domain-Driven Design no seu dia-a-dia
 
-##### Recursos
+#### Recursos
 
 * [[Artigo] Uma introdução a Domain-Driven Design](http://www.agileandart.com/2010/07/16/ddd-introducao-a-domain-driven-design/)
 
