@@ -39,7 +39,8 @@ melhores desenvolvedoras de software.
   1. [Integre seu código continuamente]()
   2. [Entregue seu código continuamente]()
 5. [Infra-estrutura]()
-  1. [Entenda o que é infraestrutura como código](#entenda-infraestrutura-como-codigo)
+  1. [Entenda o que é a cultura DevOps](#entenda-a-cultura-devops)
+  2. [Entenda o que é infraestrutura como código](#entenda-infraestrutura-como-codigo)
   2. [Entenda o que é computação em nuvem](#entenda-computacao-em-nuvem)
 6. [Processos]()
 7. [Estratégia de qualidade]()
@@ -82,6 +83,13 @@ alfabética):
 
 <a name="infraestrutura" />
 ## Infraestrutura
+
+<a name="entenda-a-cultura-devops" />
+### Entenda o que é a cultura DevOps
+
+#### Recursos
+
+* [[Artigo] DevOps Culture](http://martinfowler.com/bliki/DevOpsCulture.html) :us:
 
 <a name="entenda-infraestrutura-como-codigo" />
 ### Entenda o que é infraestrutura como código
