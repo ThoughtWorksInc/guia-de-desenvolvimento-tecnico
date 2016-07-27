@@ -69,17 +69,21 @@ alfabética):
 * [Python](https://www.python.org)
 * [Ruby](https://www.ruby-lang.org)
 
-#### Recursos
+##### Recursos
 
 * [[Curso] Programação Orientada a Objetos em Java](https://www.coursera.org/learn/object-oriented-java) :us:
 * [[Curso] Codecademy Java](https://www.codecademy.com/learn/learn-java) :us:
 * [[Curso] Codecademy Ruby](https://www.codecademy.com/pt-BR/learn/ruby)
 * [[Curso] Codecademy Python](https://www.codecademy.com/pt-BR/learn/python)
 
+### Projeto de Sistemas Orientado a Objetos
+
 <a name="aplique-ddd" />
 #### Aplique Domain-Driven Design no seu dia-a-dia
 
-[Uma introdução a Domain-Driven Design](http://www.agileandart.com/2010/07/16/ddd-introducao-a-domain-driven-design/)
+##### Recursos
+
+* [[Artigo] Uma introdução a Domain-Driven Design](http://www.agileandart.com/2010/07/16/ddd-introducao-a-domain-driven-design/)
 
 <a name="infraestrutura" />
 ## Infraestrutura
@@ -118,11 +122,6 @@ se torna mais simples de manter e crescer
 ### Entenda o que é computação em nuvem
 
 #### Recursos
-
-<a name="aplique-ddd" />
-#### Aplique Domain-Driven Design no seu dia-a-dia
-
-[Uma introdução a Domain-Driven Design](http://www.agileandart.com/2010/07/16/ddd-introducao-a-domain-driven-design/)
 
 ## Contribuições
 
