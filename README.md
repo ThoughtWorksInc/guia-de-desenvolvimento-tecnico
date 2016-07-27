@@ -18,9 +18,7 @@ habilidades técnicas através de recursos de aprendizagem já existentes.
 Esse guia é para todas as pessoas que desejam aprender como se tornar
 melhores desenvolvedoras de software.
 
-## Recomendações e Recursos
-
-##### Índice
+## Índice
 
 1. [Codificação](#codificacao)
   1. [Programe em (pelo menos) uma linguagem de programação orientada a objetos](#programe-em-uma-linguagem-oo)
@@ -53,10 +51,10 @@ melhores desenvolvedoras de software.
 9. [Segurança]()
 
 <a name="codificacao" />
-### Codificação
+## Codificação
 
 <a name="programe-em-uma-linguagem-oo" />
-#### Programe em (pelo menos) uma linguagem de programação orientada a objetos
+### Programe em (pelo menos) uma linguagem de programação orientada a objetos
 
 Programação orientada a objetos é um paradigma de programação que
 abstrai os conceitos do mundo real em objetos. Cada objeto possui
@@ -70,7 +68,7 @@ alfabética):
 * [Python](https://www.python.org)
 * [Ruby](https://www.ruby-lang.org)
 
-##### Recursos
+#### Recursos
 
 * [[Curso] Programação Orientada a Objetos em Java](https://www.coursera.org/learn/object-oriented-java) :us:
 * [[Curso] Codecademy Java](https://www.codecademy.com/learn/learn-java) :us:
@@ -83,10 +81,10 @@ alfabética):
 [Uma introdução a Domain-Driven Design](http://www.agileandart.com/2010/07/16/ddd-introducao-a-domain-driven-design/)
 
 <a name="infraestrutura" />
-### Infraestrutura
+## Infraestrutura
 
 <a name="entenda-infraestrutura-como-codigo" />
-#### Entenda o que é infraestrutura como código
+### Entenda o que é infraestrutura como código
 
 Infraestrutura como código é a prática de definir e gerenciar seus
 serviços e componentes de infraestrutura através de código-fonte.
@@ -95,12 +93,12 @@ Os grandes objetivos dessa prática são criar um processo seguro,
 consistente e repetitivo. Dessa forma, sua infraestrutura potencialmente
 se torna mais simples de manter e crescer
 
-##### Recursos
+#### Recursos
 
 <a name="entenda-computacao-em-nuvem" />
-#### Entenda o que é computação em nuvem
+### Entenda o que é computação em nuvem
 
-##### Recursos
+#### Recursos
 
 ## Contribuições
 
