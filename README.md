@@ -41,8 +41,8 @@ melhores desenvolvedoras de software.
   1. [Integre seu código continuamente]()
   2. [Entregue seu código continuamente]()
 5. [Infra-estrutura]()
-  1. [Entenda o que é infraestrutura como código]()
-  2. [Entenda o que é computação em nuvem]()
+  1. [Entenda o que é infraestrutura como código](#entenda-infraestrutura-como-codigo)
+  2. [Entenda o que é computação em nuvem](#entenda-computacao-em-nuvem)
 6. [Processos]()
 7. [Estratégia de qualidade]()
   1. [Análise de Código]()
@@ -70,7 +70,7 @@ alfabética):
 * [Python](https://www.python.org)
 * [Ruby](https://www.ruby-lang.org)
 
-#### Recursos
+##### Recursos
 
 * [[Curso] Programação Orientada a Objetos em Java](https://www.coursera.org/learn/object-oriented-java) :us:
 * [[Curso] Codecademy Java](https://www.codecademy.com/learn/learn-java) :us:
@@ -81,6 +81,26 @@ alfabética):
 #### Aplique Domain-Driven Design no seu dia-a-dia
 
 [Uma introdução a Domain-Driven Design](http://www.agileandart.com/2010/07/16/ddd-introducao-a-domain-driven-design/)
+
+<a name="infraestrutura" />
+### Infraestrutura
+
+<a name="entenda-infraestrutura-como-codigo" />
+#### Entenda o que é infraestrutura como código
+
+Infraestrutura como código é a prática de definir e gerenciar seus
+serviços e componentes de infraestrutura através de código-fonte.
+
+Os grandes objetivos dessa prática são criar um processo seguro,
+consistente e repetitivo. Dessa forma, sua infraestrutura potencialmente
+se torna mais simples de manter e crescer
+
+##### Recursos
+
+<a name="entenda-computacao-em-nuvem" />
+#### Entenda o que é computação em nuvem
+
+##### Recursos
 
 ## Contribuições
 
