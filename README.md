@@ -110,10 +110,10 @@ O intuito dessa seção é tratar sobre essa cultura, suas práticas e ferrament
 ### Entenda o que é infraestrutura como código
 
 Infraestrutura como código é a prática de definir e gerenciar seus
-serviços e componentes de infraestrutura através de código-fonte.
+serviços e componentes através de código-fonte.
 
 Os grandes objetivos dessa prática são criar um processo seguro,
-consistente e repetitivo. Dessa forma, sua infraestrutura potencialmente
+consistente e replicável. Dessa forma, sua infraestrutura potencialmente
 se torna mais simples de manter e crescer
 
 #### Recursos
