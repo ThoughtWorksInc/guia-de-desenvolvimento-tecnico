@@ -21,6 +21,14 @@ habilidades técnicas através de recursos de aprendizagem já existentes.
 Esse guia é para todas as pessoas que desejam aprender como se tornar
 melhores desenvolvedoras de software.
 
+### Arquitetura de Software
+
+#### Entenda os diferentes tipos de arquitetura de software
+
+#### Entenda como conciliar requisitos ortogonais com sua arquitetura
+
+#### Entenda como conciliar segurança com sua arquitetura
+
 ## Contribuições
 
 Ficaremos felizes em aceitar contribuições via GitHub pull requests.
