@@ -22,8 +22,8 @@ melhores desenvolvedoras de software.
 
 1. [Codificação](#codificacao)
   2. [Programe em (pelo menos) uma linguagem de programação orientada a objetos](#programe-em-uma-linguagem-oo)
-  2. [Construa soluções guiadas por testes (TDD)]()
-  2. [Saiba utilizar uma IDE e/ou editor de texto]()
+  2. [Construa soluções guiadas por testes (TDD)](#construa-com-tdd)
+  2. [Saiba utilizar uma IDE e/ou editor de texto](#utilizando-ide-editor)
   2. [Saiba utilizar um sistema de controle de versão]()
   2. [Saiba como refatorar seu código]()
   2. [Programe em (pelo menos) uma linguagem de programação funcional]()
@@ -80,14 +80,34 @@ alfabética):
 * [[Curso] Codecademy Ruby](https://www.codecademy.com/pt-BR/learn/ruby)
 * [[Curso] Codecademy Python](https://www.codecademy.com/pt-BR/learn/python)
 
+<a name="construa-com-tdd" />
 ### Construa soluções guiadas por testes (TDD)
-
-
 
 #### Recursos
 
 * [[Artigo] Introdução ao TDD](http://martinfowler.com/bliki/TestDrivenDevelopment.html) :us:
 * [[Livro] Desenvolvimento Guiado por Testes - Kent Beck](https://www.amazon.com.br/TDD-Desenvolvimento-Guiado-por-Testes/dp/857780724X/1?ie=UTF8&qid=1470091695&sr=8-1&keywords=tdd)
+
+<a name="utilizando-ide-editor" />
+### Saiba utilizar uma IDE e/ou editor de texto
+
+Para programar é importante dominar ao menos um editor de texto
+ou IDE(Integrated Development Environment).
+Existem vários disponíveis, é importante escolher aquele que te
+faça sentir mais confortável. Abaixo encontram-se alguns exemplos:
+
+* [Atom](https://atom.io/)
+  * [Documentação](https://atom.io/docs) :us:
+* [Eclipse](http://www.eclipse.org/)
+  * [Documentação](http://www.eclipse.org/documentation) :us:
+* [IntelliJ](https://www.jetbrains.com/)
+  * [Início Rápido](https://confluence.jetbrains.com/pages/viewpage.action?pageId=54919977)
+* [Sublime Text](https://www.sublimetext.com/)
+  * [Dicas Sublime](http://sublimetextdicas.com.br/)
+* [Vim](http://www.vim.org/)
+  * [Folha de Dicas](http://vim.rtorr.com/lang/pt_br/)
+* [Visual Studio Code](https://code.visualstudio.com/)
+  * [Documentação](https://code.visualstudio.com/docs/) :us:
 
 ### Projeto de Sistemas Orientado a Objetos
 
