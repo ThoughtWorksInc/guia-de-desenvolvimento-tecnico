@@ -35,9 +35,9 @@ melhores desenvolvedoras de software.
   1. [Entenda os diferentes tipo de arquitetura de software]()
   2. [Entenda como conciliar requisitos ortogonais com sua arquitetura]()
   3. [Entenda como conciliar segurança com sua arquitetura]()
-4. [Entrega de Software]()
-  1. [Integre seu código continuamente]()
-  2. [Entregue seu código continuamente]()
+4. [Entrega de Software](#entrega-de-software)
+  1. [Integre seu código continuamente](#integre-continuamente)
+  2. [Entregue seu código continuamente](#entregue-continuamente)
 5. [Infraestrutura](#infraestrutura)
   1. [Entenda o que é a cultura DevOps](#entenda-a-cultura-devops)
   2. [Entenda o que é infraestrutura como código](#entenda-infraestrutura-como-codigo)
@@ -122,6 +122,47 @@ se torna mais simples de manter e crescer
 ### Entenda o que é computação em nuvem
 
 #### Recursos
+
+<a name="entrega-de-software" />
+## Entrega de Software
+
+Um software, conforme vai sendo desenvolvido, precisa ser entegre, ou "colocado em produção".
+Ao reduzir o tempo de entegra entre uma iteração e outra, podemos encontrar erros mais rapidamente,
+entregar valor mais rápido para os clientes do produto, e receber feedback para guiar as próximas
+iterações.
+
+Para se conseguir atingir uma entrega eficiente, é necessário reduzir os riscos e o custo do processo,
+através de automação de testes, automação de infraestrutura e uma boa integração entre times de
+desenvolvimentos e operações.
+
+Essa seção trata de técnicas e processos que podem ser utilizados para integrar e entregar software de
+maneira mais efetiva.
+
+<a name="integre-continuamente" />
+### Integre seu código continuamente
+
+Integração Contínua é uma prática de desenvolvimento para que os desenvolvedores do time possam
+integrar suas mudanças no mesmo repositório de forma frequente, até várias vezes ao dia.
+
+Isso permite detectar erros mais rapidamente, aumentando a qualidade e trazendo mais segurança
+para fazer uma entrega.
+
+#### Recursos
+
+* [[Artigo] Continuous Integration](http://martinfowler.com/articles/continuousIntegration.html) :us:
+
+<a name="entregue-continuamente" />
+### Entregue seu código continuamente
+
+Entrega Contínua significa levar o seu código até o consumidor final de forma contínua,
+de forma a conseguir feedback e já usar como insumo para as próximas entregas.
+
+Entrega Contínua é o próximo passo após a Integração Contínua, a diferença é que aqui
+buscamos pegar o que já está integrado e transformar em valor para o usuário final.
+
+#### Recursos
+
+* [[Artigo] Continuous Delivery](http://martinfowler.com/bliki/ContinuousDelivery.html) :us:
 
 ## Contribuições
 
