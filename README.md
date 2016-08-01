@@ -54,6 +54,10 @@ melhores desenvolvedoras de software.
 <a name="codificacao" />
 ## Codificação
 
+A codificação é a principal tarefa relalizada por um desenvolvedor
+de software e nesta seção abordaremos linguagens de programação,
+ferramentas e práticas utilizados para tal finalidade.
+
 <a name="programe-em-uma-linguagem-oo" />
 ### Programe em (pelo menos) uma linguagem de programação orientada a objetos
 
