@@ -38,7 +38,7 @@ melhores desenvolvedoras de software.
 4. [Entrega de Software]()
   1. [Integre seu código continuamente]()
   2. [Entregue seu código continuamente]()
-5. [Infra-estrutura]()
+5. [Infraestrutura](#infraestrutura)
   1. [Entenda o que é a cultura DevOps](#entenda-a-cultura-devops)
   2. [Entenda o que é infraestrutura como código](#entenda-infraestrutura-como-codigo)
   2. [Entenda o que é computação em nuvem](#entenda-computacao-em-nuvem)
@@ -83,6 +83,17 @@ alfabética):
 
 <a name="infraestrutura" />
 ## Infraestrutura
+
+Nos últimos anos várias tecnologias de gerenciamento de infraestrutura emergiram.
+
+Times de infraestrutura e desenvolvimento de software tem trabalhado cada vez mais
+próximos, construindo e gerenciando componentes de infraestrutura utilizando ferramentas
+de automatização que são categorizadas como "Infraestrutura como código".
+
+Essas ferramentas partem do princípio de que servidores, rede e outros
+componentes de infraestrutura são definidos através de código-fonte executável.
+
+O intuito dessa seção é tratar sobre essa cultura, suas práticas e ferramentas disponíveis.
 
 <a name="entenda-a-cultura-devops" />
 ### Entenda o que é a cultura DevOps
