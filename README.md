@@ -2,6 +2,14 @@
 
 [![License](https://img.shields.io/aur/license/yaourt.svg?maxAge=2592000)](https://github.com/ThoughtWorksInc/technical-excellence-guide/blob/master/LICENSE)
 
+## Visão
+ - **Para** indivíduos e times
+ - **Que** buscam desenvolver-se tecnicamente
+ - **O** Guia de Excelência Técnica é um guia
+ - **Que** sugere recursos para crescimento
+ - **Diferentemente** de outros guias
+ - **Nosso produto** tem como base as experiências da ThoughtWorks e tem como objetivo ensinar não só quem quer entrar na ThoughtWorks mas qualquer desenvolvedor
+
 ## Introdução
 
 Esse guia provê dicas e recursos para auxiliar no desenvolvimento de suas
