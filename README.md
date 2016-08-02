@@ -21,13 +21,12 @@ melhores desenvolvedoras de software.
 ## Índice
 
 1. [Codificação](#codificacao)
-  1. [Programe em (pelo menos) uma linguagem de programação orientada a objetos](#programe-em-uma-linguagem-oo)
-  2. [Escreva testes automatizados]()
-  3. [Construa soluções guiado por testes (TDD)]()
-  4. [Saiba utilizar uma IDE e/ou editor de texto]()
-  5. [Saiba utilizar um sistema de controle de versão]()
-  6. [Saiba como refatorar seu código]()
-  7. [Programe em (pelo menos) uma linguagem de programação funcional]()
+  2. [Programe em (pelo menos) uma linguagem de programação orientada a objetos](#programe-em-uma-linguagem-oo)
+  2. [Construa soluções guiadas por testes (TDD)](#construa-com-tdd)
+  2. [Saiba utilizar uma IDE e/ou editor de texto](#utilizando-ide-editor)
+  2. [Saiba utilizar um sistema de controle de versão]()
+  2. [Saiba como refatorar seu código]()
+  2. [Programe em (pelo menos) uma linguagem de programação funcional]()
 2. [Projeto de Sistemas Orientado a Objetos](#projeto_oo)
   1. [Aplique Domain-Driven Design no seu dia-a-dia](#aplique-ddd)
   2. [Escreva código limpo]()
@@ -35,16 +34,17 @@ melhores desenvolvedoras de software.
   1. [Entenda os diferentes tipo de arquitetura de software]()
   2. [Entenda como conciliar requisitos ortogonais com sua arquitetura]()
   3. [Entenda como conciliar segurança com sua arquitetura]()
-4. [Entrega de Software]()
-  1. [Integre seu código continuamente]()
-  2. [Entregue seu código continuamente]()
+4. [Entrega de Software](#entrega-de-software)
+  1. [Integre seu código continuamente](#integre-continuamente)
+  2. [Entregue seu código continuamente](#entregue-continuamente)
 5. [Infraestrutura](#infraestrutura)
   1. [Entenda o que é a cultura DevOps](#entenda-a-cultura-devops)
   2. [Entenda o que é infraestrutura como código](#entenda-infraestrutura-como-codigo)
   2. [Entenda o que é computação em nuvem](#entenda-computacao-em-nuvem)
 6. [Processos]()
-7. [Estratégia de qualidade]()
-  1. [Análise de Código]()
+1. [Estratégia de qualidade](#estrategia-de-qualidade)
+  2. [Escreva testes automatizados](#escreva-testes-automatizados)
+  2. [Análise de Código]()
   2. [Estratégia de testes]()
 8. [Armazenamento de dados]()
   1. [Bancos de dados relacionais]()
@@ -53,6 +53,10 @@ melhores desenvolvedoras de software.
 
 <a name="codificacao" />
 ## Codificação
+
+A codificação é a principal tarefa relalizada por um desenvolvedor
+de software e nesta seção abordaremos linguagens de programação,
+ferramentas e práticas utilizados para tal finalidade.
 
 <a name="programe-em-uma-linguagem-oo" />
 ### Programe em (pelo menos) uma linguagem de programação orientada a objetos
@@ -76,6 +80,34 @@ alfabética):
 * [[Curso] Codecademy Ruby](https://www.codecademy.com/pt-BR/learn/ruby)
 * [[Curso] Codecademy Python](https://www.codecademy.com/pt-BR/learn/python)
 
+<a name="construa-com-tdd" />
+### Construa soluções guiadas por testes (TDD)
+
+#### Recursos
+
+* [[Artigo] Introdução ao TDD](http://martinfowler.com/bliki/TestDrivenDevelopment.html) :us:
+* [[Livro] Desenvolvimento Guiado por Testes - Kent Beck](https://www.amazon.com.br/TDD-Desenvolvimento-Guiado-por-Testes/dp/857780724X/1?ie=UTF8&qid=1470091695&sr=8-1&keywords=tdd)
+
+<a name="utilizando-ide-editor" />
+### Saiba utilizar uma IDE e/ou editor de texto
+
+Para programar é importante dominar ao menos um editor de texto
+ou IDE(Integrated Development Environment).
+Existem vários disponíveis, é importante escolher aquele que te
+faça sentir mais confortável. Abaixo encontram-se alguns exemplos:
+
+* [Atom](https://atom.io/)
+  * [Documentação](https://atom.io/docs) :us:
+* [Eclipse](http://www.eclipse.org/)
+  * [Documentação](http://www.eclipse.org/documentation) :us:
+* [IntelliJ](https://www.jetbrains.com/)
+  * [Início Rápido](https://confluence.jetbrains.com/pages/viewpage.action?pageId=54919977)
+* [Sublime Text](https://www.sublimetext.com/)
+  * [Dicas Sublime](http://sublimetextdicas.com.br/)
+* [Vim](http://www.vim.org/)
+  * [Folha de Dicas](http://vim.rtorr.com/lang/pt_br/)
+* [Visual Studio Code](https://code.visualstudio.com/)
+  * [Documentação](https://code.visualstudio.com/docs/) :us:
 
 <a name="projeto-oo"/>
 ### Projeto de Sistemas Orientado a Objetos
@@ -138,6 +170,50 @@ se torna mais simples de manter e crescer
 ### Entenda o que é computação em nuvem
 
 #### Recursos
+
+<a name="entrega-de-software" />
+## Entrega de Software
+
+Um software, conforme vai sendo desenvolvido, precisa ser entegre, ou "colocado em produção".
+Ao reduzir o tempo de entrega entre uma iteração e outra, podemos encontrar erros mais rapidamente,
+entregar valor mais rápido para os clientes do produto e receber feedback para guiar as próximas
+iterações.
+
+Para se conseguir atingir uma entrega eficiente, é necessário reduzir os riscos e o custo do processo,
+através de automação de testes, automação de infraestrutura e uma boa integração entre times de
+desenvolvimentos e operações.
+
+Essa seção trata de técnicas e processos que podem ser utilizados para integrar e entregar software de
+maneira mais efetiva.
+
+<a name="integre-continuamente" />
+### Integre seu código continuamente
+
+Integração Contínua é uma prática de desenvolvimento para que os desenvolvedores do time possam
+integrar suas mudanças no mesmo repositório de forma frequente, até várias vezes ao dia.
+
+Isso permite detectar erros mais rapidamente, aumentando a qualidade e trazendo mais segurança
+para fazer uma entrega.
+
+#### Recursos
+
+* [[Artigo] Conceitos de Integração Contínua](http://www.linhadecodigo.com.br/artigo/1252/dividir-conquistar-e-integrar-conceitos-de-integracao-continua-para-testadores-ageis.aspx)
+* [[Artigo] Continuous Integration](http://martinfowler.com/articles/continuousIntegration.html) :us:
+
+<a name="entregue-continuamente" />
+### Entregue seu código continuamente
+
+Entrega Contínua significa levar o seu código até o consumidor final de forma contínua,
+de forma a conseguir feedback e já usar como insumo para as próximas entregas.
+
+Entrega Contínua é o próximo passo após a Integração Contínua, a diferença é que aqui
+buscamos pegar o que já está integrado e transformar em valor para o usuário final.
+
+#### Recursos
+
+* [[Livro] Entrega Contínua](https://www.amazon.com.br/Entrega-Cont%C3%ADnua-Entregar-Software-Confi%C3%A1vel/dp/8582601034)
+* [[Artigo] E esse negócio de Entrega Contínua? ](https://brizeno.wordpress.com/2014/01/27/e-esse-negocio-de-entrega-continua/)
+* [[Artigo] Continuous Delivery](http://martinfowler.com/bliki/ContinuousDelivery.html) :us:
 
 ## Contribuições
 
