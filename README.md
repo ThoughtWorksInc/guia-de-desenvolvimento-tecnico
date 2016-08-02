@@ -27,7 +27,7 @@ melhores desenvolvedoras de software.
   2. [Saiba utilizar um sistema de controle de versão]()
   2. [Saiba como refatorar seu código]()
   2. [Programe em (pelo menos) uma linguagem de programação funcional]()
-2. [Projeto de Sistemas Orientado a Objetos]()
+2. [Projeto de Sistemas Orientado a Objetos](#projeto_oo)
   1. [Aplique Domain-Driven Design no seu dia-a-dia](#aplique-ddd)
   2. [Escreva código limpo]()
 3. [Arquitetura de Software]()
@@ -109,10 +109,25 @@ faça sentir mais confortável. Abaixo encontram-se alguns exemplos:
 * [Visual Studio Code](https://code.visualstudio.com/)
   * [Documentação](https://code.visualstudio.com/docs/) :us:
 
+<a name="projeto-oo"/>
 ### Projeto de Sistemas Orientado a Objetos
+
+Orientação a objetos é um dos paradigmas de programação mais usados atualmente. Entender os conceitos e saber aplicá-los são passos importantes para escrever bons sistemas. 
 
 <a name="aplique-ddd" />
 #### Aplique Domain-Driven Design no seu dia-a-dia
+
+Domain-Driven Design é uma abordagem de trabalho em desenvolvimento de software que não é restrita a orientação a objetos, mas é nesse paradigma que as práticas e padrões são descritos. 
+
+Nessa abordagem, o _domínio_ é o que mais importa, sendo o núcleo do produto, as necessidades que ele deve atender. Nele estão contidas todas as regras, restrições e ações que realmente refletem o negócio. 
+
+Para falar em domínio, ninguém melhor do que o _cliente_ para descrevê-lo, e para que o sistema atenda as necessidades desse cliente, a comunicação é fundamental. Portanto, é necessário que uma **linguagem ubíqua**, uma linguagem comum, seja construída e utilizada tanto pelo cliente quanto pelos desenvolvedores que estiverem trabalhando nesse produto. 
+
+Seguindo nessa linha, é importante deixar claro o que deve ser desenvolvido de forma que tanto o cliente quanto os desenvolvedores consigam trocar ideias e gerar algum tipo de documentação de todas as regras implementadas no sistema. Em DDD, é indicado que usemos o conceito de **desenvolvimento orientado pelo modelo**, que pode ser um desenho, um diagrama ou qualquer coisa que facilite a comunicação. Esse modelo deve ser _vivo_, ou seja, qualquer alteração no modelo deve refletir alteração no sistema, e qualquer alteração do sistema deve ser refletida no modelo. Isso ajuda a guiar o trabalho e facilita a organização da aplicação.
+
+Esse domínio pode ter várias peças, componentes organizados de maneira a executar uma determinada tarefa ou para refletir um processo de negócio usado pelo cliente. _Dividir para conquistar_, é um ditado conhecido. Cada componente deve ter seu **contexto** bem definido e **limitado**, deve ser responsável por um único aspecto do sistema. Por exemplo: em um sistema de compras _on line_ temos o contexto do cliente, do pagamento, do catálogo, etc. Cada um desses aspectos da aplicação deve ter uma única preocupação. A isso chamamos de **contextos limitados**. 
+
+Mais informações sobre DDD podem ser encontradas nos recursos abaixo.
 
 #### Recursos
 
