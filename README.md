@@ -127,7 +127,7 @@ se torna mais simples de manter e crescer
 ## Entrega de Software
 
 Um software, conforme vai sendo desenvolvido, precisa ser entegre, ou "colocado em produção".
-Ao reduzir o tempo de entegra entre uma iteração e outra, podemos encontrar erros mais rapidamente,
+Ao reduzir o tempo de entrega entre uma iteração e outra, podemos encontrar erros mais rapidamente,
 entregar valor mais rápido para os clientes do produto, e receber feedback para guiar as próximas
 iterações.
 
