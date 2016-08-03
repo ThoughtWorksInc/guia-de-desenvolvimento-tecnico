@@ -138,6 +138,7 @@ Mais informações sobre DDD podem ser encontradas nos recursos abaixo.
 * [[Artigo] Uma introdução a Domain-Driven Design](http://www.agileandart.com/2010/07/16/ddd-introducao-a-domain-driven-design/)
 * [InfoQ BR](https://www.infoq.com/br/domain-driven-design)
 * [InfoQ EN](https://www.infoq.com/domain-driven-design) :us:
+* [[Minilivro] Domain-Driven Design Quickly](https://www.infoq.com/minibooks/domain-driven-design-quickly)
 
 <a name="infraestrutura" />
 ## Infraestrutura
