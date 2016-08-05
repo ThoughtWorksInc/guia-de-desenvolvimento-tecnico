@@ -27,10 +27,10 @@ melhores desenvolvedoras de software.
   2. [Saiba utilizar um sistema de controle de versão]()
   2. [Saiba como refatorar seu código]()
   2. [Programe em (pelo menos) uma linguagem de programação funcional]()
-2. [Projeto de Sistemas Orientado a Objetos](#projeto_oo)
+2. [Projeto de Sistemas Orientado a Objetos](#projeto-oo)
   1. [Aplique Domain-Driven Design no seu dia-a-dia](#aplique-ddd)
   2. [Escreva código limpo]()
-3. [Arquitetura de Software]()
+3. [Arquitetura de Software](#arquitetura-de-software)
   1. [Entenda os diferentes tipo de arquitetura de software]()
   2. [Entenda como conciliar requisitos ortogonais com sua arquitetura]()
   3. [Entenda como conciliar segurança com sua arquitetura]()
@@ -41,18 +41,18 @@ melhores desenvolvedoras de software.
   1. [Entenda o que é a cultura DevOps](#entenda-a-cultura-devops)
   2. [Entenda o que é infraestrutura como código](#entenda-infraestrutura-como-codigo)
   2. [Entenda o que é computação em nuvem](#entenda-computacao-em-nuvem)
-6. [Processos]()
-1. [Estratégia de qualidade](#estrategia-de-qualidade)
-  2. [Escreva testes automatizados](#escreva-testes-automatizados)
+6. [Processos](#processos)
+7. [Estratégia de qualidade](#estrategia-de-qualidade)
+  1. [Escreva testes automatizados](#escreva-testes-automatizados)
   2. [Análise de Código]()
-  2. [Estratégia de testes]()
-8. [Armazenamento de dados]()
+  3. [Estratégia de testes]()
+8. [Armazenamento de dados](#armazenamento de dados)
   1. [Bancos de dados relacionais]()
   2. [Bancos de dados não-relacionais]()
-9. [Segurança]()
+9. [Segurança](#seguranca)
 
 <a name="codificacao" />
-## Codificação
+## 1. Codificação
 
 A codificação é a principal tarefa relalizada por um desenvolvedor
 de software e nesta seção abordaremos linguagens de programação,
@@ -110,12 +110,12 @@ faça sentir mais confortável. Abaixo encontram-se alguns exemplos:
   * [Documentação](https://code.visualstudio.com/docs/) :us:
 
 <a name="projeto-oo"/>
-### Projeto de Sistemas Orientado a Objetos
+## 2. Projeto de Sistemas Orientado a Objetos
 
 Orientação a objetos é um dos paradigmas de programação mais usados atualmente. Entender os conceitos e saber aplicá-los são passos importantes para escrever bons sistemas. 
 
 <a name="aplique-ddd" />
-#### Aplique Domain-Driven Design no seu dia-a-dia
+### Aplique Domain-Driven Design no seu dia-a-dia
 
 Domain-Driven Design é uma abordagem de trabalho em desenvolvimento de software que não é restrita a orientação a objetos, mas é nesse paradigma que as práticas e padrões são descritos. 
 
@@ -140,46 +140,11 @@ Mais informações sobre DDD podem ser encontradas nos recursos abaixo.
 * [InfoQ EN](https://www.infoq.com/domain-driven-design) :us:
 * [[Minilivro] Domain-Driven Design Quickly](https://www.infoq.com/minibooks/domain-driven-design-quickly)
 
-<a name="infraestrutura" />
-## Infraestrutura
-
-Nos últimos anos várias tecnologias de gerenciamento de infraestrutura emergiram.
-
-Times de infraestrutura e desenvolvimento de software tem trabalhado cada vez mais
-próximos, construindo e gerenciando componentes de infraestrutura utilizando ferramentas
-de automatização que são categorizadas como "Infraestrutura como código".
-
-Essas ferramentas partem do princípio de que servidores, rede e outros
-componentes de infraestrutura são definidos através de código-fonte executável.
-
-O intuito dessa seção é tratar sobre essa cultura, suas práticas e ferramentas disponíveis.
-
-<a name="entenda-a-cultura-devops" />
-### Entenda o que é a cultura DevOps
-
-#### Recursos
-
-* [[Artigo] DevOps Culture](http://martinfowler.com/bliki/DevOpsCulture.html) :us:
-
-<a name="entenda-infraestrutura-como-codigo" />
-### Entenda o que é infraestrutura como código
-
-Infraestrutura como código é a prática de definir e gerenciar seus
-serviços e componentes através de código-fonte.
-
-Os grandes objetivos dessa prática são criar um processo seguro,
-consistente e replicável. Dessa forma, sua infraestrutura potencialmente
-se torna mais simples de manter e crescer
-
-#### Recursos
-
-<a name="entenda-computacao-em-nuvem" />
-### Entenda o que é computação em nuvem
-
-#### Recursos
+<a name="arquitetura-de-software"/>
+## 3. Arquitetura de Software
 
 <a name="entrega-de-software" />
-## Entrega de Software
+## 4. Entrega de Software
 
 Um software, conforme vai sendo desenvolvido, precisa ser entegre, ou "colocado em produção".
 Ao reduzir o tempo de entrega entre uma iteração e outra, podemos encontrar erros mais rapidamente,
@@ -221,6 +186,56 @@ buscamos pegar o que já está integrado e transformar em valor para o usuário 
 * [[Livro] Entrega Contínua](https://www.amazon.com.br/Entrega-Cont%C3%ADnua-Entregar-Software-Confi%C3%A1vel/dp/8582601034)
 * [[Artigo] E esse negócio de Entrega Contínua? ](https://brizeno.wordpress.com/2014/01/27/e-esse-negocio-de-entrega-continua/)
 * [[Artigo] Continuous Delivery](http://martinfowler.com/bliki/ContinuousDelivery.html) :us:
+
+<a name="infraestrutura" />
+## 5. Infraestrutura
+
+Nos últimos anos várias tecnologias de gerenciamento de infraestrutura emergiram.
+
+Times de infraestrutura e desenvolvimento de software tem trabalhado cada vez mais
+próximos, construindo e gerenciando componentes de infraestrutura utilizando ferramentas
+de automatização que são categorizadas como "Infraestrutura como código".
+
+Essas ferramentas partem do princípio de que servidores, rede e outros
+componentes de infraestrutura são definidos através de código-fonte executável.
+
+O intuito dessa seção é tratar sobre essa cultura, suas práticas e ferramentas disponíveis.
+
+<a name="entenda-a-cultura-devops" />
+### Entenda o que é a cultura DevOps
+
+#### Recursos
+
+* [[Artigo] DevOps Culture](http://martinfowler.com/bliki/DevOpsCulture.html) :us:
+
+<a name="entenda-infraestrutura-como-codigo" />
+### Entenda o que é infraestrutura como código
+
+Infraestrutura como código é a prática de definir e gerenciar seus
+serviços e componentes através de código-fonte.
+
+Os grandes objetivos dessa prática são criar um processo seguro,
+consistente e replicável. Dessa forma, sua infraestrutura potencialmente
+se torna mais simples de manter e crescer
+
+#### Recursos
+
+<a name="entenda-computacao-em-nuvem" />
+### Entenda o que é computação em nuvem
+
+#### Recursos
+
+<a name="processos"/>
+## 6. Processos
+
+<a name="estrategia-de-qualidade"/>
+## 7. Estratégia de qualidade
+
+<a name="armazenamento-de-dados"/>
+## 8. Armazenamento de dados
+
+<a name="seguranca"/>
+## 9. Segurança
 
 ## Contribuições
 
