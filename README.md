@@ -21,13 +21,13 @@ melhores desenvolvedoras de software.
 ## Índice
 
 1. [Codificação](#codificacao)
-  2. [Programe em (pelo menos) uma linguagem de programação orientada a objetos](#programe-em-uma-linguagem-oo)
-  2. [Construa soluções guiadas por testes (TDD)](#construa-com-tdd)
   2. [Saiba utilizar uma IDE e/ou editor de texto](#utilizando-ide-editor)
+  2. [Programe em (pelo menos) uma linguagem de programação orientada a objetos](#programe-em-uma-linguagem-oo)
+  2. [Programe em (pelo menos) uma linguagem de programação funcional](#programe-em-uma-linguagem-oo)
   2. [Saiba utilizar um sistema de controle de versão](#controle-versao)
-  2. [Saiba como refatorar seu código]()
-  2. [Programe em (pelo menos) uma linguagem de programação funcional]()
-  2. [Escreva código limpo]()
+  2. [Construa soluções guiadas por testes (TDD)](#construa-com-tdd)
+  2. [Utilize boas práticas de codificação](#boas-praticas)
+  2. [Saiba como refatorar seu código](#refatoracao)
 2. [Projeto de Software](#projeto-de-software)
   1. [Aplique Domain-Driven Design no seu dia-a-dia](#aplique-ddd)
   2. [Conheça Padrões de Projeto Orientado a Objeto](#padroes-oo)
@@ -60,6 +60,27 @@ A codificação é a principal tarefa relalizada por um desenvolvedor
 de software e nesta seção abordaremos linguagens de programação,
 ferramentas e práticas utilizados para tal finalidade.
 
+<a name="utilizando-ide-editor" />
+### Saiba utilizar uma IDE e/ou editor de texto
+
+Para programar é importante dominar ao menos um editor de texto
+ou IDE(Integrated Development Environment).
+Existem vários disponíveis, é importante escolher aquele que te
+faça sentir mais confortável. Abaixo encontram-se alguns exemplos:
+
+* [Atom](https://atom.io/)
+  * [Documentação](https://atom.io/docs) :us:
+* [Eclipse](http://www.eclipse.org/)
+  * [Documentação](http://www.eclipse.org/documentation) :us:
+* [IntelliJ](https://www.jetbrains.com/)
+  * [Início Rápido](https://confluence.jetbrains.com/pages/viewpage.action?pageId=54919977)
+* [Sublime Text](https://www.sublimetext.com/)
+  * [Dicas Sublime](http://sublimetextdicas.com.br/)
+* [Vim](http://www.vim.org/)
+  * [Folha de Dicas](http://vim.rtorr.com/lang/pt_br/)
+* [Visual Studio Code](https://code.visualstudio.com/)
+  * [Documentação](https://code.visualstudio.com/docs/) :us:
+
 <a name="programe-em-uma-linguagem-oo" />
 ### Programe em (pelo menos) uma linguagem de programação orientada a objetos
 
@@ -82,40 +103,8 @@ alfabética):
 * [[Curso] Codecademy Ruby](https://www.codecademy.com/pt-BR/learn/ruby)
 * [[Curso] Codecademy Python](https://www.codecademy.com/pt-BR/learn/python)
 
-<a name="construa-com-tdd" />
-### Construa soluções guiadas por testes (TDD)
-
-Utilizar testes para guiar sua implementação, focando num problema por vez,
-recebendo feedback e refatorando a cada etapa, tendo como resultado um código
-com testes automatizados e facilitando a integração com o código gerado por
-outros membros da equipe.
-
-#### Recursos
-
-* [[Artigo] Introdução ao TDD](http://martinfowler.com/bliki/TestDrivenDevelopment.html) :us:
-* [[Livro] Desenvolvimento Guiado por Testes - Kent Beck](https://www.amazon.com.br/TDD-Desenvolvimento-Guiado-por-Testes/dp/857780724X/)
-* [[Livro] TDD na Prática](https://www.amazon.com.br/TDD-na-Pr%C3%A1tica-Camilo-Lopes/dp/853990327X/)
-
-<a name="utilizando-ide-editor" />
-### Saiba utilizar uma IDE e/ou editor de texto
-
-Para programar é importante dominar ao menos um editor de texto
-ou IDE(Integrated Development Environment).
-Existem vários disponíveis, é importante escolher aquele que te
-faça sentir mais confortável. Abaixo encontram-se alguns exemplos:
-
-* [Atom](https://atom.io/)
-  * [Documentação](https://atom.io/docs) :us:
-* [Eclipse](http://www.eclipse.org/)
-  * [Documentação](http://www.eclipse.org/documentation) :us:
-* [IntelliJ](https://www.jetbrains.com/)
-  * [Início Rápido](https://confluence.jetbrains.com/pages/viewpage.action?pageId=54919977)
-* [Sublime Text](https://www.sublimetext.com/)
-  * [Dicas Sublime](http://sublimetextdicas.com.br/)
-* [Vim](http://www.vim.org/)
-  * [Folha de Dicas](http://vim.rtorr.com/lang/pt_br/)
-* [Visual Studio Code](https://code.visualstudio.com/)
-  * [Documentação](https://code.visualstudio.com/docs/) :us:
+<a name="programe-em-uma-linguagem-funcional" />
+### Programe em (pelo menos) uma linguagem de programação funcional
 
 <a name="controle-versao" />
 ### Saiba utilizar um sistema de controle de versão
@@ -141,6 +130,26 @@ os mais utilizados temos:
 * [[Livro] Controle de Versão com Subversion](https://code.google.com/archive/p/svnbook-pt-br/)
 * [[Tutorial] Uso do Mercurial](https://www.mercurial-scm.org/wiki/BrazilianPortugueseTutorial)
 * [[Livro] Mercurial: The Definitive Guide](http://hgbook.red-bean.com/) :us:
+
+<a name="construa-com-tdd" />
+### Construa soluções guiadas por testes (TDD)
+
+Utilizar testes para guiar sua implementação, focando num problema por vez,
+recebendo feedback e refatorando a cada etapa, tendo como resultado um código
+com testes automatizados e facilitando a integração com o código gerado por
+outros membros da equipe.
+
+#### Recursos
+
+* [[Artigo] Introdução ao TDD](http://martinfowler.com/bliki/TestDrivenDevelopment.html) :us:
+* [[Livro] Desenvolvimento Guiado por Testes - Kent Beck](https://www.amazon.com.br/TDD-Desenvolvimento-Guiado-por-Testes/dp/857780724X/)
+* [[Livro] TDD na Prática](https://www.amazon.com.br/TDD-na-Pr%C3%A1tica-Camilo-Lopes/dp/853990327X/)
+
+<a name="boas-praticas" />
+### Utilize boas práticas de codificação
+
+<a name="refatoracao" />
+### Saiba como refatorar código
 
 <a name="projeto-oo"/>
 ## 2. Projeto de Sistemas Orientado a Objetos
