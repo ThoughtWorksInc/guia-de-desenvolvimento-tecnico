@@ -159,13 +159,25 @@ entendê-los quanto para reescrevê-los de forma mais legível.
 Entenda como diferenciar código bom de um ruim. Criar bons nomes, objetos,
 funções e classes. E também formatar o código para máxima legibilidade.
 
-#### Rescursos
+#### Recursos
 
 * [[Livro] Código Limpo](https://www.amazon.com.br/C%C3%B3digo-Limpo-Habilidades-Pr%C3%A1ticas-Software/dp/8576082675/)
 * [[Referência] Code Smells](https://sourcemaking.com/refactoring/smells)
 
 <a name="refatoracao" />
 ### Saiba como refatorar código
+
+"Refatoração é uma técnica disciplinada para reestruturar um corpo de código já
+existente, alterando sua estrutura interna sem alterar seu comportamento". -
+Martin Folwer (2011).
+
+Refatoração é o ato de executar qualquer melhoria no código, seja ela em um
+simples método ou em quase todo ele.
+
+#### Recursos
+
+* [[Artigo] Refatoração ao pé da letra](https://www.thoughtworks.com/pt/insights/blog/refactoring-book)
+* [[Livro] Refatoração: Aperfeiçoando o Projeto de Código Existente](https://www.amazon.com.br/Refatora%C3%A7%C3%A3o-Aperfei%C3%A7oando-Projeto-C%C3%B3digo-Existente-ebook/dp/B019IZK89A/)
 
 <a name="projeto-oo"/>
 ## 2. Projeto de Sistemas Orientado a Objetos
