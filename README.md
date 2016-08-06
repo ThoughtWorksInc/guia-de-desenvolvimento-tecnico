@@ -148,6 +148,22 @@ outros membros da equipe.
 <a name="boas-praticas" />
 ### Utilize boas práticas de codificação
 
+Ao desenvolver software, é importante lembrar que outras pessoas lerão o seu
+código. Levando isso em consideração, ressalta-se o quão fundamental é a aplicação
+de boas práticas de codificação.
+
+Códigos mal escritos podem fazer com que muitas horas sejam perdidas, tanto para
+entendê-los quanto para reescrevê-los de forma mais legível.
+
+É muito importante ter em mente essas práticas no momento de desenvolver soluções.
+Entenda como diferenciar código bom de um ruim. Criar bons nomes, objetos,
+funções e classes. E também formatar o código para máxima legibilidade.
+
+#### Rescursos
+
+* [[Livro] Código Limpo](https://www.amazon.com.br/C%C3%B3digo-Limpo-Habilidades-Pr%C3%A1ticas-Software/dp/8576082675/)
+* [[Referência] Code Smells](https://sourcemaking.com/refactoring/smells)
+
 <a name="refatoracao" />
 ### Saiba como refatorar código
 
