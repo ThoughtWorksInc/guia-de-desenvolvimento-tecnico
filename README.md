@@ -92,7 +92,8 @@ outros membros da equipe.
 #### Recursos
 
 * [[Artigo] Introdução ao TDD](http://martinfowler.com/bliki/TestDrivenDevelopment.html) :us:
-* [[Livro] Desenvolvimento Guiado por Testes - Kent Beck](https://www.amazon.com.br/TDD-Desenvolvimento-Guiado-por-Testes/dp/857780724X/1?ie=UTF8&qid=1470091695&sr=8-1&keywords=tdd)
+* [[Livro] Desenvolvimento Guiado por Testes - Kent Beck](https://www.amazon.com.br/TDD-Desenvolvimento-Guiado-por-Testes/dp/857780724X/)
+* [[Livro] TDD na Prática](https://www.amazon.com.br/TDD-na-Pr%C3%A1tica-Camilo-Lopes/dp/853990327X/)
 
 <a name="utilizando-ide-editor" />
 ### Saiba utilizar uma IDE e/ou editor de texto
