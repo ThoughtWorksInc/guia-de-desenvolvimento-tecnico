@@ -24,7 +24,7 @@ melhores desenvolvedoras de software.
   2. [Programe em (pelo menos) uma linguagem de programação orientada a objetos](#programe-em-uma-linguagem-oo)
   2. [Construa soluções guiadas por testes (TDD)](#construa-com-tdd)
   2. [Saiba utilizar uma IDE e/ou editor de texto](#utilizando-ide-editor)
-  2. [Saiba utilizar um sistema de controle de versão]()
+  2. [Saiba utilizar um sistema de controle de versão](#controle-versao)
   2. [Saiba como refatorar seu código]()
   2. [Programe em (pelo menos) uma linguagem de programação funcional]()
   2. [Escreva código limpo]()
@@ -110,8 +110,28 @@ faça sentir mais confortável. Abaixo encontram-se alguns exemplos:
 * [Visual Studio Code](https://code.visualstudio.com/)
   * [Documentação](https://code.visualstudio.com/docs/) :us:
 
-<a name="projeto-de-software" />
-## 2. Projeto de Software
+<a name="controle-versao" />
+### Saiba utilizar um sistema de controle de versão
+
+Sistemas de controle de versão além de realizar o armazenamento e
+versionamento de arquivos como o próprio nome diz, tem funcionalidades
+que auxiliam, por exemplo, no trabalho em diferentes frentes de trabalho,
+na marcação de versões significativas e junção do código escrito em
+diferentes máquinas.
+
+Então conhecer bem o sistema de controle de versão utlizado no projeto
+se faz de grande importância para a realização de um bom trabalho. Entre
+os mais utilizados atualmente temos: Git, Hg, SVN.
+
+#### Recursos
+
+* try git
+* folha de dicas
+
+<a name="projeto-oo"/>
+## 2. Projeto de Sistemas Orientado a Objetos
+
+Orientação a objetos é um dos paradigmas de programação mais usados atualmente. Entender os conceitos e saber aplicá-los são passos importantes para escrever bons sistemas.
 
 <a name="aplique-ddd" />
 ### Aplique Domain-Driven Design no seu dia-a-dia
