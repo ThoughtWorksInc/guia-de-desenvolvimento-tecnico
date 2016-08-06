@@ -124,14 +124,21 @@ que auxiliam, por exemplo, no trabalho em diferentes frentes de trabalho,
 na marcação de versões significativas e junção do código escrito em
 diferentes máquinas.
 
-Então conhecer bem o sistema de controle de versão utlizado no projeto
-se faz de grande importância para a realização de um bom trabalho. Entre
-os mais utilizados atualmente temos: Git, Hg, SVN.
+Então conhecer bem o sistema de controle de versão utilizado no projeto
+se faz de grande importância para a realização de um bom trabalho. Dentre
+os mais utilizados temos:
+
+* [Git](https://git-scm.com/),
+* [Mercurial](https://www.mercurial-scm.org/)
+* [SVN](https://subversion.apache.org/)
 
 #### Recursos
 
-* try git
-* folha de dicas
+* [[Livro] Pro Git](https://git-scm.com/book/pt-br/v1)
+* [[Tutorial] Git - Guia Prático](https://rogerdudler.github.io/git-guide/index.pt_BR.html)
+* [[Livro] Controle de Versão com Subversion](https://code.google.com/archive/p/svnbook-pt-br/)
+* [[Tutorial] Uso do Mercurial](https://www.mercurial-scm.org/wiki/BrazilianPortugueseTutorial)
+* [[Livro] Mercurial: The Definitive Guide](http://hgbook.red-bean.com/) :us:
 
 <a name="projeto-oo"/>
 ## 2. Projeto de Sistemas Orientado a Objetos
