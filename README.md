@@ -84,6 +84,11 @@ alfabética):
 <a name="construa-com-tdd" />
 ### Construa soluções guiadas por testes (TDD)
 
+Utilizar testes para guiar sua implementação, focando num problema por vez,
+recebendo feedback e refatorando a cada etapa, tendo como resultado um código
+com testes automatizados e facilitando a integração com o código gerado por
+outros membros da equipe.
+
 #### Recursos
 
 * [[Artigo] Introdução ao TDD](http://martinfowler.com/bliki/TestDrivenDevelopment.html) :us:
