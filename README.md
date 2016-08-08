@@ -169,7 +169,7 @@ funções e classes. E também formatar o código para máxima legibilidade.
 
 "Refatoração é uma técnica disciplinada para reestruturar um corpo de código já
 existente, alterando sua estrutura interna sem alterar seu comportamento". -
-Martin Folwer (2011).
+Martin Fowler (2011).
 
 Refatoração é o ato de executar qualquer melhoria no código, seja ela em um
 simples método ou em quase todo ele.
