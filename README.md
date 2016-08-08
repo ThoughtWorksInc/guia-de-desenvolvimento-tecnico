@@ -23,7 +23,7 @@ melhores desenvolvedoras de software.
 1. [Codificação](#codificacao)
   2. [Saiba utilizar uma IDE e/ou editor de texto](#utilizando-ide-editor)
   2. [Programe em (pelo menos) uma linguagem de programação orientada a objetos](#programe-em-uma-linguagem-oo)
-  2. [Programe em (pelo menos) uma linguagem de programação funcional](#programe-em-uma-linguagem-oo)
+  2. [Programe em (pelo menos) uma linguagem de programação funcional](#programe-em-uma-linguagem-funcional)
   2. [Saiba utilizar um sistema de controle de versão](#controle-versao)
   2. [Construa soluções guiadas por testes (TDD)](#construa-com-tdd)
   2. [Utilize boas práticas de codificação](#boas-praticas)
