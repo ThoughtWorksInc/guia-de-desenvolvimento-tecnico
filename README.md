@@ -115,7 +115,7 @@ alfabética):
 
 Sistemas de controle de versão além de realizar o armazenamento e
 versionamento de arquivos como o próprio nome diz, tem funcionalidades
-que auxiliam, por exemplo, no trabalho em diferentes frentes de trabalho,
+que auxiliam, por exemplo, no trabalho de forma colaborativa,
 na marcação de versões significativas e junção do código escrito em
 diferentes máquinas.
 
