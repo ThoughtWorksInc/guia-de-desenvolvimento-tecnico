@@ -138,8 +138,8 @@ Dentre os mais utilizados temos:
 
 Utilizar testes para guiar sua implementação, focando num problema por vez,
 recebendo feedback e refatorando a cada etapa, tendo como resultado um código
-com testes automatizados e facilitando a integração com o código gerado por
-outros membros da equipe.
+com testes automatizados e facilitando a integração com o código desenvolvido
+por outros membros da equipe.
 
 #### Recursos
 
