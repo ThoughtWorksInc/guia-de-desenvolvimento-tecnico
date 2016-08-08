@@ -119,9 +119,7 @@ que auxiliam, por exemplo, no trabalho de forma colaborativa,
 na marcação de versões significativas e junção do código escrito em
 diferentes máquinas.
 
-Então conhecer bem o sistema de controle de versão utilizado no projeto
-se faz de grande importância para a realização de um bom trabalho. Dentre
-os mais utilizados temos:
+Dentre os mais utilizados temos:
 
 * [Git](https://git-scm.com/),
 * [Mercurial](https://www.mercurial-scm.org/)
