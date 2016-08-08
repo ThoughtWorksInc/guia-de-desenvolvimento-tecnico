@@ -81,6 +81,7 @@ faça sentir mais confortável. Abaixo encontram-se alguns exemplos:
   * [Dicas Sublime](http://sublimetextdicas.com.br/)
 * [Vim](http://www.vim.org/)
   * [Folha de Dicas](http://vim.rtorr.com/lang/pt_br/)
+  * [Vídeos](https://www.youtube.com/playlist?list=PLlPy1OAvxKmQ__RPeTrjpmvuMB73re4HL)
 * [Visual Studio Code](https://code.visualstudio.com/)
   * [Documentação](https://code.visualstudio.com/docs/) :us:
 
