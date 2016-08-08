@@ -66,13 +66,24 @@ Verificar commits [git verify-commit](https://git-scm.com/docs/git-verify-commit
 
 #### Gerenciador de senhas
 
-<!--Comentar sobre o pass, KeePassX e 1password-->
-<!--TODO-->
+Recomenda-se utilizar gerenciadores de senhas, criar senhas fortes e não utilizar as mesmas senhas para serviços.
+
+Exemplo, ter uma senha com caracteres especiais, letras maiusculas e minusculas e números sendo elas diferentes
+para as contas que utilizas (ex. Heroku, Github, SnapCI, etc)
+
+Ferramentas para gerenciador de senhas:
+
+[1Password](https://1password.com/) Ferramenta paga compatível com Mac OS, Windows, Android e IOS
+[KeepassX](https://www.keepassx.org/) Ferramenta gratis e open source, com interface gráfica compativel com Linux, Mac OS, Android, IOS
+[Pass](https://www.passwordstore.org/) Ferramenta gratis e open source, roda no terminal e utiliza o GPG para criptografar compativel para Linux, Mac OS, Android
 
 #### Gerenciar segredos com o time
 
-<!--Comentar sobre o pass e o Vault-->
-<!--TODO-->
+Um meio seguro de compartilhar segredos com o time é utilizar gerenciador de senhas compartilhado
+
+Um examplo é usar o [Pass](https://www.passwordstore.org/) que utiliza GPG para encriptar o que permite
+que segredos sejam compartilhados para mais de uma pessoa resultando em um único arquivo e o segredos
+são sincronizados através do git para ser compartilhado por todos os membros do time
 
 #### Dois fatores de autenticação
 
