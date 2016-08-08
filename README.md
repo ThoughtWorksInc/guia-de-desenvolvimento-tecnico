@@ -72,6 +72,9 @@ faça sentir mais confortável. Abaixo encontram-se alguns exemplos:
   * [Documentação](https://atom.io/docs) :us:
 * [Eclipse](http://www.eclipse.org/)
   * [Documentação](http://www.eclipse.org/documentation) :us:
+* [Emacs](https://www.gnu.org/software/emacs/)
+  * [Tutorial](https://www.emacswiki.org/emacs/NovatoNoEmacs)
+  * [Spacemacs - Distribuição](http://spacemacs.org/)
 * [IntelliJ](https://www.jetbrains.com/)
   * [Início Rápido](https://confluence.jetbrains.com/pages/viewpage.action?pageId=54919977)
 * [Sublime Text](https://www.sublimetext.com/)
