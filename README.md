@@ -21,6 +21,30 @@ habilidades técnicas através de recursos de aprendizagem já existentes.
 Esse guia é para todas as pessoas que desejam aprender como se tornar
 melhores desenvolvedoras de software.
 
+<a name="processos"/>
+## 6. Processos
+
+<a name="aprenda-os-principios-ageis" />
+### Aprenda os princípios ágeis
+
+<a name="conheca-xp" />
+### Conheça a metodologia Extreme Programming (XP)
+
+<a name="conheca-metodologias-ageis" />
+### Conheça outras metodologias
+
+<a name="conheca-desevolvimento-lean" />
+### Conheça o desenvolvimento de software Lean
+
+<a name="estrategia-de-qualidade"/>
+## 7. Estratégia de qualidade
+
+<a name="armazenamento-de-dados"/>
+## 8. Armazenamento de dados
+
+<a name="seguranca"/>
+## 9. Segurança
+
 ## Contribuições
 
 Ficaremos felizes em aceitar contribuições via GitHub pull requests.
