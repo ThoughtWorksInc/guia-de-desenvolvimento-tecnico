@@ -36,7 +36,9 @@ ThoughtWorks Brasil e não necessariamente refletem o posicionamento da empresa.
 
 ## Segurança
 
-### Boas praticas de segurança
+<!--TODO: impartância de pensar em segurança no desenvolvimento de software-->
+
+### Boas práticas de segurança
 
 Check list sobre segurança https://github.com/FallibleInc/security-guide-for-developers
 
@@ -56,7 +58,7 @@ Recomenda-se utilizar chaves SSH ao invés de senhas para acesso a servidores, r
 
 #### Commit git assinado
 
-O mecanismo do git possui uma forma flexivel de configuração e não possui autenticação, ou seja, não tem-se garantia no autor dos commits.
+Ao fazer commits com a ferramenta git, não há garantias de saber quem é o autor dos commits, sendo que git config não faz nenhum tipo de autenticação durante as configurações.
 
 Um possivel meio para ter garantia na autenticidade dos commits é assinando-os com chave PGP, assim todos e qualquer ferramenta (como o Github por exemplo)
 poderá verificar a assinatura do commit.
