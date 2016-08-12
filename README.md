@@ -97,7 +97,13 @@ Algumas ferramentas para fazer os dois fatores de autenticação são [Okta](htt
 
 #### OAuth2 para authenticação em APIs
 
-<!--TODO-->
+Recomenda-se o uso de OAuth2 para autenticação em APIs, essa mecanismo permite com que apps externos possam se conectar em APIs
+sem com que o mesmo saiba a senha do usuário.
+
+Um exemplo para isso é uma app que utiliza a API do Github, essa app basta apenas pedir autorização pelo usuário para acessar
+deferminadas informações, no qual o usuário fará utilizando o próprio Github.
+
+Para mais detalhes sobre o OAuth2 no site [http://oauth.net/2/](http://oauth.net/2/) :us:
 
 #### Segurança em aplicações web
 
