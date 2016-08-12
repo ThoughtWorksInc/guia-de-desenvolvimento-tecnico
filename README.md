@@ -107,8 +107,11 @@ Para mais detalhes sobre o OAuth2 no site [http://oauth.net/2/](http://oauth.net
 
 #### Segurança em aplicações web
 
-<!--OWASP top 10-->
-<!--TODO-->
+Durante o desenvolvimento de aplicações web geralmente são pensandos pontos de usuabilidade e performance,
+mas assim como esses itens segurança é algo que deve ser levado em consideração durando o desenvolvimento da
+aplicação, um guia para os itens relacionados a segurança é o [OWASP top 10](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project) :us:.
+
+Há um PDF em português através do link [OWASP top 10](https://owasptop10.googlecode.com/files/OWASP_Top_10_-_2013_Brazilian_Portuguese.pdf).
 
 #### HTTPS não significa estar seguro
 
