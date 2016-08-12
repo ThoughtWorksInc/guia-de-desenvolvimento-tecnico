@@ -89,8 +89,11 @@ são sincronizados através do git para ser compartilhado por todos os membros d
 
 #### Dois fatores de autenticação
 
-<!--Okta verify, Google auth-->
-<!--TODO-->
+Possui dois fatores de autenticação (Two factor authentication) é uma boa pratica para manter maior
+segurança no acesso as contas, principalemnte quanto a serviços que podem dar acesso ao codebase ou a
+algum ambiente, exemplo: Github, Heroku, SnapCI e etc.
+
+Algumas ferramentas para fazer os dois fatores de autenticação são [Okta](https://www.okta.com/) e [Google Autenticator](https://www.google.com/landing/2step/).
 
 #### OAuth2 para authenticação em APIs
 
