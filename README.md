@@ -115,7 +115,16 @@ Há um PDF em português através do link [OWASP top 10](https://owasptop10.goog
 
 #### HTTPS não significa estar seguro
 
-<!--TODO-->
+Um item importante ao construir aplicações é sempre pensar em encriptar os meios de comunicação entre APIs, microserviços e usuário-aplicação.
+HTTPS é um recurso que pode-se dizer obrigatório e de baixo custo, que irá evitar ataques *man-in-the-middle* e irá garantir que os dados
+trafegados na rede não foram lidos por mais ninguém atém das duas partes que estão trocando informações.
+
+Existe um projeto chamado [Let's Encrypt](https://letsencrypt.org/) que fornece certificados HTTPS de forma gratuíta e clientes que
+automatizam a atualização desses sertificados em suas aplicações.
+
+Para mais detalhes sobre o HTTPS acesse o link no [Wikipedia](https://pt.wikipedia.org/wiki/Hyper_Text_Transfer_Protocol_Secure).
+
+Porém lembre-se HTTPS é o minimo para sua aplicação, ter HTTPS ainda sim não significa que sua aplicação estão segura.
 
 #### Verificação de vulnerabilidades em bibliotecas e pacotes
 
