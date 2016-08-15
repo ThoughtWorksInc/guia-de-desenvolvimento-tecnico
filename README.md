@@ -130,6 +130,20 @@ Porém lembre-se HTTPS é o minimo para sua aplicação, ter HTTPS ainda sim nã
 
 Como um dos processos que pode ser feito para verificar falhas de segurança é uma verificação nas bibliotecas e dependencias.
 
+Exemplo de ferramentas:
+- NodeJS
+ - [Snyk](https://github.com/Snyk/snyk)
+ - [Gemnasium](https://gemnasium.com/)
+- Java
+ - [OWASP Depency check](https://github.com/jeremylong/DependencyCheck)
+- Python
+ - [dependency-check](https://pypi.python.org/pypi/dependency-check/0.1.0)
+ - [Gemnasium](https://gemnasium.com/)
+- Ruby
+ - [OWASP Depency check](https://github.com/jeremylong/DependencyCheck)
+ - [RubySec](http://rubysec.com/)
+ - [Gemnasium](https://gemnasium.com/)
+
 #### Gerenciando senhas em aplicações
 
 Há casos de aplicações que costumam salvar o [hash](https://pt.wikipedia.org/wiki/Fun%C3%A7%C3%A3o_hash) de senhas no banco de dados, muitas vezes usando apenas um algoritmo simples
