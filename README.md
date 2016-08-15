@@ -128,8 +128,12 @@ Porém lembre-se HTTPS é o minimo para sua aplicação, ter HTTPS ainda sim nã
 
 #### Verificação de vulnerabilidades em bibliotecas e pacotes
 
-<!--TODO-->
+Como um dos processos que pode ser feito para verificar falhas de segurança é uma verificação nas bibliotecas e dependencias.
 
 #### Gerenciando senhas em aplicações
 
-<!--TODO-->
+Há casos de aplicações que costumam salvar o [hash](https://pt.wikipedia.org/wiki/Fun%C3%A7%C3%A3o_hash) de senhas no banco de dados, muitas vezes usando apenas um algoritmo simples
+para isso como o [MD5](https://pt.wikipedia.org/wiki/MD5) ou [SHA1](https://pt.wikipedia.org/wiki/SHA-1), porém recomenda-se que haja uma camada extra de lógica antes de gerar esse hash.
+
+Existe um método de criptografia para hash chamado [bcrypt](https://pt.wikipedia.org/wiki/Bcrypt) que possui uma segurança maior
+no gerar o hash das senhas dos usuários.
