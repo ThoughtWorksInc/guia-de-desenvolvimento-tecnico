@@ -1,0 +1,24 @@
+{
+  "name": "guia-de-desenvolvimento-tecnico",
+  "version": "0.0.1",
+  "description": "Guia de Desenvolvimento Técnico",
+  "main": "index.js",
+  "scripts": {
+    "test": "markdownlint *.md",
+    "watch": "onchange '*.md' -v -- npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ThoughtWorksInc/guia-de-desenvolvimento-tecnico.git"
+  },
+  "author": "",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ThoughtWorksInc/guia-de-desenvolvimento-tecnico/issues"
+  },
+  "homepage": "https://github.com/ThoughtWorksInc/guia-de-desenvolvimento-tecnico#readme",
+  "devDependencies": {
+    "markdownlint-cli": "^0.2.0",
+    "onchange": "^2.5.0"
+  }
+}

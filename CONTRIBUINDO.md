@@ -1,5 +1,7 @@
 # Contribuindo
 
+## Padrão
+
 Temos definido como padrão:
 
 ```md
@@ -27,3 +29,22 @@ Caso o recurso seja noutra língua, adicione o ícone da bandeira. Exemplo:
 ```md
 * [[Tipo do Recurso] Título](link) :us:
 ```
+
+## Testes
+
+Lembre de checar suas alterações instalando as dependências necessárias e
+rodando o teste:
+
+```sh
+npm install
+npm test
+```
+
+Para rodar os testes continuamente enquanto escreve, utilize o comando abaixo:
+
+```sh
+npm run watch
+```
+
+Em caso de erro, mais informações sobre as regras aqui:
+[Markdownlint - Rules](https://github.com/mivok/markdownlint/blob/master/docs/RULES.md)
