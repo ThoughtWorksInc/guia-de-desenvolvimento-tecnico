@@ -36,7 +36,7 @@ ThoughtWorks Brasil e não necessariamente refletem o posicionamento da empresa.
 
 ## Segurança
 
-Pensar em segurança surante o desenvolvimento de software é uma pratica que deveria ser mais comum
+Pensar em segurança surante o desenvolvimento de software é uma prática que deveria ser mais comum
 entre os desenvolvedores, assim como pensa-se em qualidade, arquitetura e acessibilidade.
 
 Esse guia tende a mostrar alguns itens de segurança que são importantes, com o intuito de tornar o software mais seguro
