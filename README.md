@@ -10,8 +10,8 @@
 * **Que** sugere recursos para crescimento
 * **Diferentemente** de outros guias
 * **Nosso produto** tem como base as experiências da ThoughtWorks e tem como
-objetivo ensinar não só quem quer entrar na ThoughtWorks mas qualquer
-desenvolvedor.
+  objetivo ensinar não só quem quer entrar na ThoughtWorks mas qualquer
+  desenvolvedor.
 
 ## Introdução
 
@@ -107,7 +107,7 @@ alfabética):
 #### Recursos
 
 * [[Curso] Programação Orientada a Objetos em Java](https://www.coursera.org/learn/object-oriented-java)
-:us:
+  :us:
 * [[Curso] Codecademy Java](https://www.codecademy.com/learn/learn-java) :us:
 * [[Curso] Codecademy Ruby](https://www.codecademy.com/pt-BR/learn/ruby)
 * [[Curso] Codecademy Python](https://www.codecademy.com/pt-BR/learn/python)
@@ -149,7 +149,7 @@ por outros membros da equipe.
 #### Recursos
 
 * [[Artigo] Introdução ao TDD](http://martinfowler.com/bliki/TestDrivenDevelopment.html)
-:us:
+  :us:
 * [[Livro] Desenvolvimento Guiado por Testes - Kent Beck](https://www.amazon.com.br/TDD-Desenvolvimento-Guiado-por-Testes/dp/857780724X/)
 * [[Livro] TDD na Prática](https://www.amazon.com.br/TDD-na-Pr%C3%A1tica-Camilo-Lopes/dp/853990327X/)
 
@@ -239,13 +239,13 @@ Mais informações sobre DDD podem ser encontradas nos recursos abaixo.
 #### Recursos
 
 * [[Portal] Portal da comunidade Domain-Driven Design](http://dddcommunity.org)
-:us:
+  :us:
 * [[Artigo] O que é Domain-Driven Design](http://dddcommunity.org/learning-ddd/what_is_ddd/)
-:us:
+  :us:
 * [[Artigo] Uma introdução a Domain-Driven Design](http://www.agileandart.com/2010/07/16/ddd-introducao-a-domain-driven-design/)
 * [InfoQ BR](https://www.infoq.com/br/domain-driven-design)
 * [InfoQ EN](https://www.infoq.com/domain-driven-design)
-:us:
+  :us:
 * [[Minilivro] Domain-Driven Design Quickly](https://www.infoq.com/minibooks/domain-driven-design-quickly)
 
 <a name="padroes-oo" />
@@ -285,7 +285,7 @@ mais segurança para fazer uma entrega.
 
 * [[Artigo] Conceitos de Integração Contínua](http://www.linhadecodigo.com.br/artigo/1252/dividir-conquistar-e-integrar-conceitos-de-integracao-continua-para-testadores-ageis.aspx)
 * [[Artigo] Continuous Integration](http://martinfowler.com/articles/continuousIntegration.html)
-:us:
+  :us:
 
 <a name="entregue-continuamente" />
 ### Entregue seu código continuamente
@@ -303,7 +303,7 @@ usuário final.
 * [[Livro] Entrega Contínua](https://www.amazon.com.br/Entrega-Cont%C3%ADnua-Entregar-Software-Confi%C3%A1vel/dp/8582601034)
 * [[Artigo] E esse negócio de Entrega Contínua? ](https://brizeno.wordpress.com/2014/01/27/e-esse-negocio-de-entrega-continua/)
 * [[Artigo] Continuous Delivery](http://martinfowler.com/bliki/ContinuousDelivery.html)
-:us:
+  :us:
 
 <a name="infraestrutura" />
 ## 5. Infraestrutura
