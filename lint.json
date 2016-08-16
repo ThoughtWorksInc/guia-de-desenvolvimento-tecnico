@@ -1,4 +1,5 @@
 {
   "default": true,
-  "MD024": false
+  "MD024": false,
+  "ol-prefix": "one"
 }

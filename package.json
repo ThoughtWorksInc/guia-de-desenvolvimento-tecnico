@@ -4,7 +4,7 @@
   "description": "Guia de Desenvolvimento Técnico",
   "main": "index.js",
   "scripts": {
-    "test": "markdownlint *.md",
+    "test": "markdownlint --config lint.json *.md",
     "watch": "onchange '*.md' -v -- npm test"
   },
   "repository": {
