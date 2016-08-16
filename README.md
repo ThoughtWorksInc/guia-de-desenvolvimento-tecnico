@@ -36,11 +36,17 @@ ThoughtWorks Brasil e não necessariamente refletem o posicionamento da empresa.
 
 ## Segurança
 
-<!--TODO: impartância de pensar em segurança no desenvolvimento de software-->
+Pensar em segurança surante o desenvolvimento de software é uma pratica que deveria ser mais comum
+entre os desenvolvedores, assim como pensa-se em qualidade, arquitetura e acessibilidade.
+
+Esse guia tende a mostrar alguns itens de segurança que são importantes, com o intuito de tornar o software mais seguro
+conforme o desenvolvimento do mesmo, fazendo-o mais seguro e previnindo-se de sofrer alguns ataques por falta de conhecimento
+de algumas ferramentas e práticas. Mas não se limite somente a esse guia.
 
 ### Boas práticas de segurança
 
-Check list sobre segurança https://github.com/FallibleInc/security-guide-for-developers
+Existe uma lista de boas praticas de segurança que pode ser um guia bem completo para quem possui interesse
+na parte de segurança [FallibleInc/security-guide-for-developers](https://github.com/FallibleInc/security-guide-for-developers) :us:
 
 #### Chaves PGP
 
