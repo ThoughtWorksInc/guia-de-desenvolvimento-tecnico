@@ -1,11 +1,11 @@
-# Guia de Excelência Técnica
+# Guia de Desenvolvimento Técnico
 
-[![License](https://img.shields.io/aur/license/yaourt.svg?maxAge=2592000)](https://github.com/ThoughtWorksInc/technical-excellence-guide/blob/master/LICENSE)
+[![License](https://img.shields.io/aur/license/yaourt.svg?maxAge=2592000)](https://github.com/ThoughtWorksInc/guia-de-desenvolvimento-tecnico/blob/master/LICENSE)
 
 ## Visão
  - **Para** indivíduos e times
  - **Que** buscam desenvolver-se tecnicamente
- - **O** Guia de Excelência Técnica é um guia
+ - **O** Guia de Desenvolvimento Técnico é um guia
  - **Que** sugere recursos para crescimento
  - **Diferentemente** de outros guias
  - **Nosso produto** tem como base as experiências da ThoughtWorks e tem como objetivo ensinar não só quem quer entrar na ThoughtWorks mas qualquer desenvolvedor
