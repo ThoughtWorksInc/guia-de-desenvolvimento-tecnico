@@ -3,12 +3,13 @@
 [![License](https://img.shields.io/aur/license/yaourt.svg?maxAge=2592000)](https://github.com/ThoughtWorksInc/guia-de-desenvolvimento-tecnico/blob/master/LICENSE)
 
 ## Visão
- - **Para** indivíduos e times
- - **Que** buscam desenvolver-se tecnicamente
- - **O** Guia de Desenvolvimento Técnico é um guia
- - **Que** sugere recursos para crescimento
- - **Diferentemente** de outros guias
- - **Nosso produto** tem como base as experiências da ThoughtWorks e tem como objetivo ensinar não só quem quer entrar na ThoughtWorks mas qualquer desenvolvedor
+
+* **Para** indivíduos e times
+* **Que** buscam desenvolver-se tecnicamente
+* **O** Guia de Desenvolvimento Técnico é um guia
+* **Que** sugere recursos para crescimento
+* **Diferentemente** de outros guias
+* **Nosso produto** tem como base as experiências da ThoughtWorks e tem como objetivo ensinar não só quem quer entrar na ThoughtWorks mas qualquer desenvolvedor
 
 ## Introdução
 
@@ -21,36 +22,36 @@ melhores desenvolvedoras de software.
 ## Índice
 
 1. [Codificação](#codificacao)
-  2. [Saiba utilizar uma IDE e/ou editor de texto](#utilizando-ide-editor)
-  2. [Programe em (pelo menos) uma linguagem de programação orientada a objetos](#programe-em-uma-linguagem-oo)
-  2. [Programe em (pelo menos) uma linguagem de programação funcional](#programe-em-uma-linguagem-funcional)
-  2. [Saiba utilizar um sistema de controle de versão](#controle-versao)
-  2. [Construa soluções guiadas por testes (TDD)](#construa-com-tdd)
-  2. [Utilize boas práticas de codificação](#boas-praticas)
-  2. [Saiba como refatorar seu código](#refatoracao)
+   1. [Saiba utilizar uma IDE e/ou editor de texto](#utilizando-ide-editor)
+   2. [Programe em (pelo menos) uma linguagem de programação orientada a objetos](#programe-em-uma-linguagem-oo)
+   3. [Programe em (pelo menos) uma linguagem de programação funcional](#programe-em-uma-linguagem-funcional)
+   4. [Saiba utilizar um sistema de controle de versão](#controle-versao)
+   5. [Construa soluções guiadas por testes (TDD)](#construa-com-tdd)
+   6. [Utilize boas práticas de codificação](#boas-praticas)
+   7. [Saiba como refatorar seu código](#refatoracao)
 2. [Projeto de Software](#projeto-de-software)
-  1. [Aplique Domain-Driven Design no seu dia-a-dia](#aplique-ddd)
-  2. [Conheça Padrões de Projeto Orientado a Objeto](#padroes-oo)
+   1. [Aplique Domain-Driven Design no seu dia-a-dia](#aplique-ddd)
+   2. [Conheça Padrões de Projeto Orientado a Objeto](#padroes-oo)
 3. [Arquitetura de Software](#arquitetura-de-software)
-  1. [Entenda os diferentes tipo de arquitetura de software]()
-  2. [Entenda como conciliar requisitos ortogonais com sua arquitetura]()
-  3. [Entenda como conciliar segurança com sua arquitetura]()
+   1. [Entenda os diferentes tipo de arquitetura de software]()
+   2. [Entenda como conciliar requisitos ortogonais com sua arquitetura]()
+   3. [Entenda como conciliar segurança com sua arquitetura]()
 4. [Entrega de Software](#entrega-de-software)
-  1. [Integre seu código continuamente](#integre-continuamente)
-  2. [Entregue seu código continuamente](#entregue-continuamente)
+   1. [Integre seu código continuamente](#integre-continuamente)
+   2. [Entregue seu código continuamente](#entregue-continuamente)
 5. [Infraestrutura](#infraestrutura)
-  1. [Entenda o que é a cultura DevOps](#entenda-a-cultura-devops)
-  2. [Entenda o que é infraestrutura como código](#entenda-infraestrutura-como-codigo)
-  2. [Entenda o que é computação em nuvem](#entenda-computacao-em-nuvem)
+   1. [Entenda o que é a cultura DevOps](#entenda-a-cultura-devops)
+   2. [Entenda o que é infraestrutura como código](#entenda-infraestrutura-como-codigo)
+   2. [Entenda o que é computação em nuvem](#entenda-computacao-em-nuvem)
 6. [Processos](#processos)
 7. [Estratégia de qualidade](#estrategia-de-qualidade)
-  1. [Por que pensar em qualidade?](#porque-pensar-em-qualidade)
-  2. [Escreva testes automatizados](#escreva-testes-automatizados)
-  2. [Entenda cobertura de código](#entenda-cobertura-de-codigo)
-  2. [Defina uma estratégia de qualidade](#defina-estrategia-qualidade)
+   1. [Por que pensar em qualidade?](#porque-pensar-em-qualidade)
+   2. [Escreva testes automatizados](#escreva-testes-automatizados)
+   2. [Entenda cobertura de código](#entenda-cobertura-de-codigo)
+   2. [Defina uma estratégia de qualidade](#defina-estrategia-qualidade)
 8. [Armazenamento de dados](#armazenamento de dados)
-  1. [Bancos de dados relacionais]()
-  2. [Bancos de dados não-relacionais]()
+   1. [Bancos de dados relacionais]()
+   2. [Bancos de dados não-relacionais]()
 9. [Segurança](#seguranca)
 
 <a name="codificacao" />
@@ -86,6 +87,7 @@ faça sentir mais confortável. Abaixo encontram-se alguns exemplos:
   * [Documentação](https://code.visualstudio.com/docs/) :us:
 
 <a name="programe-em-uma-linguagem-oo" />
+
 ### Programe em (pelo menos) uma linguagem de programação orientada a objetos
 
 Programação orientada a objetos é um paradigma de programação que
