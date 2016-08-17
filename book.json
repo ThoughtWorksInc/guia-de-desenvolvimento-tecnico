@@ -1,7 +1,8 @@
 {
   "language": "pt",
   "plugins" : [
-    "simple-page-toc"
+    "simple-page-toc",
+    "advanced-emoji"
   ],
   "pluginsConfig": {
     "simple-page-toc": {
