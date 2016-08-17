@@ -21,49 +21,12 @@ habilidades técnicas através de recursos de aprendizagem já existentes.
 Esse guia é para todas as pessoas que desejam aprender como se tornar
 melhores desenvolvedoras de software.
 
-## Índice
-
-1. [Codificação](#codificacao)
-   1. [Saiba utilizar uma IDE e/ou editor de texto](#utilizando-ide-editor)
-   1. [Programe em (pelo menos) uma linguagem de programação orientada a objetos](#programe-em-uma-linguagem-oo)
-   1. [Programe em (pelo menos) uma linguagem de programação funcional](#programe-em-uma-linguagem-funcional)
-   1. [Saiba utilizar um sistema de controle de versão](#controle-versao)
-   1. [Construa soluções guiadas por testes (TDD)](#construa-com-tdd)
-   1. [Utilize boas práticas de codificação](#boas-praticas)
-   1. [Saiba como refatorar seu código](#refatoracao)
-1. [Projeto de Software](#projeto-de-software)
-   1. [Aplique Domain-Driven Design no seu dia-a-dia](#aplique-ddd)
-   1. [Conheça Padrões de Projeto Orientado a Objeto](#padroes-oo)
-1. [Arquitetura de Software](#arquitetura-de-software)
-   1. [Entenda os diferentes tipo de arquitetura de software](#tipo-arquitetura)
-   1. [Entenda como conciliar requisitos ortogonais com sua arquitetura](#requisitos-ortogonais)
-   1. [Entenda como conciliar segurança com sua arquitetura](#seguranca-arquitetura)
-1. [Entrega de Software](#entrega-de-software)
-   1. [Integre seu código continuamente](#integre-continuamente)
-   1. [Entregue seu código continuamente](#entregue-continuamente)
-1. [Infraestrutura](#infraestrutura)
-   1. [Entenda o que é a cultura DevOps](#entenda-a-cultura-devops)
-   1. [Entenda o que é infraestrutura como código](#entenda-infraestrutura-como-codigo)
-   1. [Entenda o que é computação em nuvem](#entenda-computacao-em-nuvem)
-1. [Processos](#processos)
-1. [Estratégia de qualidade](#estrategia-de-qualidade)
-   1. [Por que pensar em qualidade?](#porque-pensar-em-qualidade)
-   1. [Escreva testes automatizados](#escreva-testes-automatizados)
-   1. [Entenda cobertura de código](#entenda-cobertura-de-codigo)
-   1. [Defina uma estratégia de qualidade](#defina-estrategia-qualidade)
-1. [Armazenamento de dados](#armazenamento de dados)
-   1. [Bancos de dados relacionais](#bancos-relacionais)
-   1. [Bancos de dados não-relacionais](#bancos-nao-relacionais)
-1. [Segurança](#seguranca)
-
-<a name="projeto-oo"/>
 ## 2. Projeto de Sistemas Orientado a Objetos
 
 Orientação a objetos é um dos paradigmas de programação mais usados atualmente.
 Entender os conceitos e saber aplicá-los são passos importantes para escrever
 bons sistemas.
 
-<a name="aplique-ddd" />
 ### Aplique Domain-Driven Design no seu dia-a-dia
 
 Domain-Driven Design é uma abordagem de trabalho em desenvolvimento de software
@@ -117,13 +80,10 @@ Mais informações sobre DDD podem ser encontradas nos recursos abaixo.
   :us:
 * [[Minilivro] Domain-Driven Design Quickly](https://www.infoq.com/minibooks/domain-driven-design-quickly)
 
-<a name="padroes-oo" />
 ### Padrões de Projeto Orientado a Objeto
 
-<a name="arquitetura-de-software"/>
 ## 3. Arquitetura de Software
 
-<a name="entrega-de-software" />
 ## 4. Entrega de Software
 
 Um software, conforme vai sendo desenvolvido, precisa ser entegre, ou "colocado
@@ -140,7 +100,6 @@ infraestrutura e uma boa integração entre times de desenvolvimentos e operaç�
 Essa seção trata de técnicas e processos que podem ser utilizados para integrar
 e entregar software de maneira mais efetiva.
 
-<a name="integre-continuamente" />
 ### Integre seu código continuamente
 
 Integração Contínua é uma prática de desenvolvimento para que os
@@ -156,7 +115,6 @@ mais segurança para fazer uma entrega.
 * [[Artigo] Continuous Integration](http://martinfowler.com/articles/continuousIntegration.html)
   :us:
 
-<a name="entregue-continuamente" />
 ### Entregue seu código continuamente
 
 Entrega Contínua significa levar o seu código até o consumidor final de forma
@@ -174,7 +132,6 @@ usuário final.
 * [[Artigo] Continuous Delivery](http://martinfowler.com/bliki/ContinuousDelivery.html)
   :us:
 
-<a name="infraestrutura" />
 ## 5. Infraestrutura
 
 Nos últimos anos várias tecnologias de gerenciamento de infraestrutura emergiram.
@@ -188,14 +145,12 @@ componentes de infraestrutura são definidos através de código-fonte executáv
 
 O intuito dessa seção é tratar sobre essa cultura, suas práticas e ferramentas disponíveis.
 
-<a name="entenda-a-cultura-devops" />
 ### Entenda o que é a cultura DevOps
 
 #### Recursos
 
 * [[Artigo] DevOps Culture](http://martinfowler.com/bliki/DevOpsCulture.html) :us:
 
-<a name="entenda-infraestrutura-como-codigo" />
 ### Entenda o que é infraestrutura como código
 
 Infraestrutura como código é a prática de definir e gerenciar seus
@@ -207,21 +162,16 @@ se torna mais simples de manter e crescer
 
 #### Recursos
 
-<a name="entenda-computacao-em-nuvem" />
 ### Entenda o que é computação em nuvem
 
 #### Recursos
 
-<a name="processos"/>
 ## 6. Processos
 
-<a name="estrategia-de-qualidade"/>
 ## 7. Estratégia de qualidade
 
-<a name="armazenamento-de-dados"/>
 ## 8. Armazenamento de dados
 
-<a name="seguranca"/>
 ## 9. Segurança
 
 ## Contribuições
