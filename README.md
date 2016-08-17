@@ -35,9 +35,9 @@ melhores desenvolvedoras de software.
    1. [Aplique Domain-Driven Design no seu dia-a-dia](#aplique-ddd)
    1. [Conheça Padrões de Projeto Orientado a Objeto](#padroes-oo)
 1. [Arquitetura de Software](#arquitetura-de-software)
-   1. [Entenda os diferentes tipo de arquitetura de software]()
-   1. [Entenda como conciliar requisitos ortogonais com sua arquitetura]()
-   1. [Entenda como conciliar segurança com sua arquitetura]()
+   1. [Entenda os diferentes tipo de arquitetura de software](#tipo-arquitetura)
+   1. [Entenda como conciliar requisitos ortogonais com sua arquitetura](#requisitos-ortogonais)
+   1. [Entenda como conciliar segurança com sua arquitetura](#seguranca-arquitetura)
 1. [Entrega de Software](#entrega-de-software)
    1. [Integre seu código continuamente](#integre-continuamente)
    1. [Entregue seu código continuamente](#entregue-continuamente)
@@ -52,8 +52,8 @@ melhores desenvolvedoras de software.
    1. [Entenda cobertura de código](#entenda-cobertura-de-codigo)
    1. [Defina uma estratégia de qualidade](#defina-estrategia-qualidade)
 1. [Armazenamento de dados](#armazenamento de dados)
-   1. [Bancos de dados relacionais]()
-   1. [Bancos de dados não-relacionais]()
+   1. [Bancos de dados relacionais](#bancos-relacionais)
+   1. [Bancos de dados não-relacionais](#bancos-nao-relacionais)
 1. [Segurança](#seguranca)
 
 <a name="codificacao" />
@@ -301,7 +301,7 @@ usuário final.
 #### Recursos
 
 * [[Livro] Entrega Contínua](https://www.amazon.com.br/Entrega-Cont%C3%ADnua-Entregar-Software-Confi%C3%A1vel/dp/8582601034)
-* [[Artigo] E esse negócio de Entrega Contínua? ](https://brizeno.wordpress.com/2014/01/27/e-esse-negocio-de-entrega-continua/)
+* [[Artigo] E esse negócio de Entrega Contínua?](https://brizeno.wordpress.com/2014/01/27/e-esse-negocio-de-entrega-continua/)
 * [[Artigo] Continuous Delivery](http://martinfowler.com/bliki/ContinuousDelivery.html)
   :us:
 
