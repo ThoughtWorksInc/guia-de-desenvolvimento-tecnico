@@ -4,8 +4,9 @@
   "description": "Guia de Desenvolvimento Técnico",
   "main": "index.js",
   "scripts": {
-    "test": "markdownlint --config lint.json *.md",
-    "watch": "onchange '*.md' -v -- npm test"
+    "start": "gitbook serve",
+    "test": "markdownlint --config lint.json {.,topics}/*.md",
+    "watch": "onchange '**/*.md' -v -- npm test"
   },
   "repository": {
     "type": "git",
