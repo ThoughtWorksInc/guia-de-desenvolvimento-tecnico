@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/ThoughtWorksInc/guia-de-desenvolvimento-tecnico#readme",
   "devDependencies": {
+    "gitbook-cli": "^2.3.0",
     "markdownlint-cli": "^0.2.0",
     "onchange": "^2.5.0"
   }
