@@ -14,6 +14,8 @@ infraestrutura e uma boa integração entre times de desenvolvimentos e operaç�
 Essa seção trata de técnicas e processos que podem ser utilizados para integrar
 e entregar software de maneira mais efetiva.
 
+<!-- toc -->
+
 ## Integre seu código continuamente
 
 Integração Contínua é uma prática de desenvolvimento para que os

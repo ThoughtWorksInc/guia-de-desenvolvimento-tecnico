@@ -4,6 +4,8 @@ A codificação é a principal tarefa relalizada por um desenvolvedor
 de software e nesta seção abordaremos linguagens de programação,
 ferramentas e práticas utilizados para tal finalidade.
 
+<!-- toc -->
+
 ## Saiba utilizar uma IDE e/ou editor de texto
 
 Para programar é importante dominar ao menos um editor de texto

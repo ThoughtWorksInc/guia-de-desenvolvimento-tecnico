@@ -4,6 +4,8 @@ Orientação a objetos é um dos paradigmas de programação mais usados atualme
 Entender os conceitos e saber aplicá-los são passos importantes para escrever
 bons sistemas.
 
+<!-- toc -->
+
 ## Aplique Domain-Driven Design no seu dia-a-dia
 
 Domain-Driven Design é uma abordagem de trabalho em desenvolvimento de software

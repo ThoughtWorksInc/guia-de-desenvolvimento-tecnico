@@ -11,6 +11,8 @@ componentes de infraestrutura são definidos através de código-fonte executáv
 
 O intuito dessa seção é tratar sobre essa cultura, suas práticas e ferramentas disponíveis.
 
+<!-- toc -->
+
 ## Entenda o que é a cultura DevOps
 
 ### Recursos
