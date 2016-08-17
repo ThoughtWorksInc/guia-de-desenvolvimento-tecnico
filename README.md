@@ -21,8 +21,6 @@ habilidades técnicas através de recursos de aprendizagem já existentes.
 Esse guia é para todas as pessoas que desejam aprender como se tornar
 melhores desenvolvedoras de software.
 
-## 3. Arquitetura de Software
-
 ## 4. Entrega de Software
 
 Um software, conforme vai sendo desenvolvido, precisa ser entegre, ou "colocado
@@ -104,14 +102,6 @@ se torna mais simples de manter e crescer
 ### Entenda o que é computação em nuvem
 
 #### Recursos
-
-## 6. Processos
-
-## 7. Estratégia de qualidade
-
-## 8. Armazenamento de dados
-
-## 9. Segurança
 
 ## Contribuições
 
