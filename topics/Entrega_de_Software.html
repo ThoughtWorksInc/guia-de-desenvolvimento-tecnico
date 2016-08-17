@@ -1,0 +1,381 @@
+
+<!DOCTYPE HTML>
+<html lang="pt" >
+    <head>
+        <title>Entrega de Software · GitBook</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.0">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="Infraestrutura.html" />
+    
+    
+    <link rel="prev" href="Arquitetura_de_Software.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Escreva para pesquisar" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Sobre o Guia
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="Codificacao.html">
+            
+                <a href="Codificacao.html">
+            
+                    
+                    Codificação
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="Projeto_de_Software.html">
+            
+                <a href="Projeto_de_Software.html">
+            
+                    
+                    Projeto de Software
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="Arquitetura_de_Software.html">
+            
+                <a href="Arquitetura_de_Software.html">
+            
+                    
+                    Arquitetura de Software
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.5" data-path="Entrega_de_Software.html">
+            
+                <a href="Entrega_de_Software.html">
+            
+                    
+                    Entrega de Software
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="Infraestrutura.html">
+            
+                <a href="Infraestrutura.html">
+            
+                    
+                    Infraestrutura
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="Processos.html">
+            
+                <a href="Processos.html">
+            
+                    
+                    Processos
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="Estrategia_de_Qualidade.html">
+            
+                <a href="Estrategia_de_Qualidade.html">
+            
+                    
+                    Estratégia de qualidade
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="Armazenamento_de_Dados.html">
+            
+                <a href="Armazenamento_de_Dados.html">
+            
+                    
+                    Armazenamento de dados
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="Seguranca.html">
+            
+                <a href="Seguranca.html">
+            
+                    
+                    Segurança
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Publicado com GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Entrega de Software</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="entrega-de-software">Entrega de Software</h1><p>Um software, conforme vai sendo desenvolvido, precisa ser entegre, ou &quot;colocado
+em produ&#xE7;&#xE3;o&quot;.</p><p>Ao reduzir o tempo de entrega entre uma itera&#xE7;&#xE3;o e outra, podemos encontrar
+erros mais rapidamente, entregar valor mais r&#xE1;pido para os clientes do produto
+e receber feedback para guiar as pr&#xF3;ximas itera&#xE7;&#xF5;es.</p><p>Para se conseguir atingir uma entrega eficiente, &#xE9; necess&#xE1;rio reduzir os riscos
+e o custo do processo, atrav&#xE9;s de automa&#xE7;&#xE3;o de testes, automa&#xE7;&#xE3;o de
+infraestrutura e uma boa integra&#xE7;&#xE3;o entre times de desenvolvimentos e opera&#xE7;&#xF5;es.</p><p>Essa se&#xE7;&#xE3;o trata de t&#xE9;cnicas e processos que podem ser utilizados para integrar
+e entregar software de maneira mais efetiva.</p><!-- toc -->
+
+
+<ul><li><a href="#integre-seu-c&#xF3;digo-continuamente">Integre seu c&#xF3;digo continuamente</a>
+</li>
+<li><a href="#entregue-seu-c&#xF3;digo-continuamente">Entregue seu c&#xF3;digo continuamente</a>
+</li></ul>
+<!-- tocstop -->
+
+
+<h2 id="integre-seu-c&#xF3;digo-continuamente">Integre seu c&#xF3;digo continuamente</h2><p>Integra&#xE7;&#xE3;o Cont&#xED;nua &#xE9; uma pr&#xE1;tica de desenvolvimento para que os
+desenvolvedores do time possam integrar suas mudan&#xE7;as no mesmo reposit&#xF3;rio de
+forma frequente, at&#xE9; v&#xE1;rias vezes ao dia.</p><p>Isso permite detectar erros mais rapidamente, aumentando a qualidade e trazendo
+mais seguran&#xE7;a para fazer uma entrega.</p><h3 id="recursos">Recursos</h3><ul><li><a href="http://www.linhadecodigo.com.br/artigo/1252/dividir-conquistar-e-integrar-conceitos-de-integracao-continua-para-testadores-ageis.aspx" target="_blank">[Artigo] Conceitos de Integra&#xE7;&#xE3;o Cont&#xED;nua</a>
+</li>
+<li><a href="http://martinfowler.com/articles/continuousIntegration.html" target="_blank">[Artigo] Continuous Integration</a>
+:us:
+</li></ul>
+<h2 id="entregue-seu-c&#xF3;digo-continuamente">Entregue seu c&#xF3;digo continuamente</h2><p>Entrega Cont&#xED;nua significa levar o seu c&#xF3;digo at&#xE9; o consumidor final de forma
+cont&#xED;nua, de forma a conseguir feedback e j&#xE1; usar como insumo para as pr&#xF3;ximas
+entregas.</p><p>Entrega Cont&#xED;nua &#xE9; o pr&#xF3;ximo passo ap&#xF3;s a Integra&#xE7;&#xE3;o Cont&#xED;nua, a diferen&#xE7;a &#xE9; que
+aqui buscamos pegar o que j&#xE1; est&#xE1; integrado e transformar em valor para o
+usu&#xE1;rio final.</p><h3 id="recursos">Recursos</h3><ul><li><a href="https://www.amazon.com.br/Entrega-Cont%C3%ADnua-Entregar-Software-Confi%C3%A1vel/dp/8582601034" target="_blank">[Livro] Entrega Cont&#xED;nua</a>
+</li>
+<li><a href="https://brizeno.wordpress.com/2014/01/27/e-esse-negocio-de-entrega-continua/" target="_blank">[Artigo] E esse neg&#xF3;cio de Entrega Cont&#xED;nua?</a>
+</li>
+<li><a href="http://martinfowler.com/bliki/ContinuousDelivery.html" target="_blank">[Artigo] Continuous Delivery</a>
+:us:
+</li></ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="Arquitetura_de_Software.html" class="navigation navigation-prev " aria-label="Previous page: Arquitetura de Software">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="Infraestrutura.html" class="navigation navigation-next " aria-label="Next page: Infraestrutura">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Entrega de Software","level":"1.5","depth":1,"next":{"title":"Infraestrutura","level":"1.6","depth":1,"path":"topics/Infraestrutura.md","ref":"topics/Infraestrutura.md","articles":[]},"previous":{"title":"Arquitetura de Software","level":"1.4","depth":1,"path":"topics/Arquitetura_de_Software.md","ref":"topics/Arquitetura_de_Software.md","articles":[]},"dir":"ltr"},"config":{"plugins":["simple-page-toc"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"simple-page-toc":{"maxDepth":2,"skipFirstH1":true},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"language":"pt","gitbook":"*"},"file":{"path":"topics/Entrega_de_Software.md","mtime":"2016-08-17T19:18:07.000Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2016-08-17T20:34:05.179Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

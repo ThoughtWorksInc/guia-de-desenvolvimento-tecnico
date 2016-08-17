@@ -1,0 +1,464 @@
+
+<!DOCTYPE HTML>
+<html lang="pt" >
+    <head>
+        <title>Codificação · GitBook</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.0">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="Projeto_de_Software.html" />
+    
+    
+    <link rel="prev" href="../" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Escreva para pesquisar" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Sobre o Guia
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2" data-path="Codificacao.html">
+            
+                <a href="Codificacao.html">
+            
+                    
+                    Codificação
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="Projeto_de_Software.html">
+            
+                <a href="Projeto_de_Software.html">
+            
+                    
+                    Projeto de Software
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="Arquitetura_de_Software.html">
+            
+                <a href="Arquitetura_de_Software.html">
+            
+                    
+                    Arquitetura de Software
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="Entrega_de_Software.html">
+            
+                <a href="Entrega_de_Software.html">
+            
+                    
+                    Entrega de Software
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="Infraestrutura.html">
+            
+                <a href="Infraestrutura.html">
+            
+                    
+                    Infraestrutura
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="Processos.html">
+            
+                <a href="Processos.html">
+            
+                    
+                    Processos
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="Estrategia_de_Qualidade.html">
+            
+                <a href="Estrategia_de_Qualidade.html">
+            
+                    
+                    Estratégia de qualidade
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="Armazenamento_de_Dados.html">
+            
+                <a href="Armazenamento_de_Dados.html">
+            
+                    
+                    Armazenamento de dados
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="Seguranca.html">
+            
+                <a href="Seguranca.html">
+            
+                    
+                    Segurança
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Publicado com GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Codificação</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="codifica&#xE7;&#xE3;o">Codifica&#xE7;&#xE3;o</h1><p>A codifica&#xE7;&#xE3;o &#xE9; a principal tarefa relalizada por um desenvolvedor
+de software e nesta se&#xE7;&#xE3;o abordaremos linguagens de programa&#xE7;&#xE3;o,
+ferramentas e pr&#xE1;ticas utilizados para tal finalidade.</p><!-- toc -->
+
+
+<ul><li><a href="#saiba-utilizar-uma-ide-eou-editor-de-texto">Saiba utilizar uma IDE e/ou editor de texto</a>
+</li>
+<li><a href="#programe-em-pelo-menos-uma-linguagem-de-programa&#xE7;&#xE3;o-orientada-a-objetos">Programe em (pelo menos) uma linguagem de programa&#xE7;&#xE3;o orientada a objetos</a>
+</li>
+<li><a href="#programe-em-pelo-menos-uma-linguagem-de-programa&#xE7;&#xE3;o-funcional">Programe em (pelo menos) uma linguagem de programa&#xE7;&#xE3;o funcional</a>
+</li>
+<li><a href="#saiba-utilizar-um-sistema-de-controle-de-vers&#xE3;o">Saiba utilizar um sistema de controle de vers&#xE3;o</a>
+</li>
+<li><a href="#construa-solu&#xE7;&#xF5;es-guiadas-por-testes-tdd">Construa solu&#xE7;&#xF5;es guiadas por testes (TDD)</a>
+</li>
+<li><a href="#utilize-boas-pr&#xE1;ticas-de-codifica&#xE7;&#xE3;o">Utilize boas pr&#xE1;ticas de codifica&#xE7;&#xE3;o</a>
+</li>
+<li><a href="#saiba-como-refatorar-c&#xF3;digo">Saiba como refatorar c&#xF3;digo</a>
+</li></ul>
+<!-- tocstop -->
+
+
+<h2 id="saiba-utilizar-uma-ide-eou-editor-de-texto">Saiba utilizar uma IDE e/ou editor de texto</h2><p>Para programar &#xE9; importante dominar ao menos um editor de texto
+ou IDE(Integrated Development Environment).
+Existem v&#xE1;rios dispon&#xED;veis, &#xE9; importante escolher aquele que te
+fa&#xE7;a sentir mais confort&#xE1;vel. Abaixo encontram-se alguns exemplos:</p><ul><li><p><a href="https://atom.io/" target="_blank">Atom</a></p><ul><li><a href="https://atom.io/docs" target="_blank">Documenta&#xE7;&#xE3;o</a> :us:
+</li></ul>
+</li>
+<li><p><a href="http://www.eclipse.org/" target="_blank">Eclipse</a></p><ul><li><a href="http://www.eclipse.org/documentation" target="_blank">Documenta&#xE7;&#xE3;o</a> :us:
+</li></ul>
+</li>
+<li><p><a href="https://www.gnu.org/software/emacs/" target="_blank">Emacs</a></p><ul><li><a href="https://www.emacswiki.org/emacs/NovatoNoEmacs" target="_blank">Tutorial</a>
+</li>
+<li><a href="http://spacemacs.org/" target="_blank">Spacemacs - Distribui&#xE7;&#xE3;o</a>
+</li></ul>
+</li>
+<li><p><a href="https://www.jetbrains.com/" target="_blank">IntelliJ</a></p><ul><li><a href="https://confluence.jetbrains.com/pages/viewpage.action?pageId=54919977" target="_blank">In&#xED;cio R&#xE1;pido</a>
+</li></ul>
+</li>
+<li><p><a href="https://www.sublimetext.com/" target="_blank">Sublime Text</a></p><ul><li><a href="http://sublimetextdicas.com.br/" target="_blank">Dicas Sublime</a>
+</li></ul>
+</li>
+<li><p><a href="http://www.vim.org/" target="_blank">Vim</a></p><ul><li><a href="http://vim.rtorr.com/lang/pt_br/" target="_blank">Folha de Dicas</a>
+</li>
+<li><a href="https://www.youtube.com/playlist?list=PLlPy1OAvxKmQ__RPeTrjpmvuMB73re4HL" target="_blank">V&#xED;deos</a>
+</li></ul>
+</li>
+<li><p><a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a></p><ul><li><a href="https://code.visualstudio.com/docs/" target="_blank">Documenta&#xE7;&#xE3;o</a> :us:
+</li></ul>
+</li></ul>
+<h2 id="programe-em-pelo-menos-uma-linguagem-de-programa&#xE7;&#xE3;o-orientada-a-objetos">Programe em (pelo menos) uma linguagem de programa&#xE7;&#xE3;o orientada a objetos</h2><p>Programa&#xE7;&#xE3;o orientada a objetos &#xE9; um paradigma de programa&#xE7;&#xE3;o que
+abstrai os conceitos do mundo real em objetos. Cada objeto possui
+seus pr&#xF3;prios dados e apenas ele &#xE9; capaz de manipul&#xE1;-los.
+Esse &#xE9; um dos paradigmas de programa&#xE7;&#xE3;o mais utilizados em aplica&#xE7;&#xF5;es
+corporativas. Algumas das linguagens mais famosas s&#xE3;o (em ordem
+alfab&#xE9;tica):</p><ul><li><a href="https://www.microsoft.com/net" target="_blank">C#</a>
+</li>
+<li><a href="https://java.net" target="_blank">Java</a>
+</li>
+<li><a href="https://www.python.org" target="_blank">Python</a>
+</li>
+<li><a href="https://www.ruby-lang.org" target="_blank">Ruby</a>
+</li></ul>
+<h3 id="recursos">Recursos</h3><ul><li><a href="https://www.coursera.org/learn/object-oriented-java" target="_blank">[Curso] Programa&#xE7;&#xE3;o Orientada a Objetos em Java</a>
+:us:
+</li>
+<li><a href="https://www.codecademy.com/learn/learn-java" target="_blank">[Curso] Codecademy Java</a> :us:
+</li>
+<li><a href="https://www.codecademy.com/pt-BR/learn/ruby" target="_blank">[Curso] Codecademy Ruby</a>
+</li>
+<li><a href="https://www.codecademy.com/pt-BR/learn/python" target="_blank">[Curso] Codecademy Python</a>
+</li></ul>
+<h2 id="programe-em-pelo-menos-uma-linguagem-de-programa&#xE7;&#xE3;o-funcional">Programe em (pelo menos) uma linguagem de programa&#xE7;&#xE3;o funcional</h2><h2 id="saiba-utilizar-um-sistema-de-controle-de-vers&#xE3;o">Saiba utilizar um sistema de controle de vers&#xE3;o</h2><p>Sistemas de controle de vers&#xE3;o al&#xE9;m de realizar o armazenamento e
+versionamento de arquivos como o pr&#xF3;prio nome diz, tem funcionalidades
+que auxiliam, por exemplo, no trabalho de forma colaborativa,
+na marca&#xE7;&#xE3;o de vers&#xF5;es significativas e jun&#xE7;&#xE3;o do c&#xF3;digo escrito em
+diferentes m&#xE1;quinas.</p><p>Dentre os mais utilizados temos:</p><ul><li><a href="https://git-scm.com/" target="_blank">Git</a>,
+</li>
+<li><a href="https://www.mercurial-scm.org/" target="_blank">Mercurial</a>
+</li>
+<li><a href="https://subversion.apache.org/" target="_blank">SVN</a>
+</li></ul>
+<h3 id="recursos">Recursos</h3><ul><li><a href="https://git-scm.com/book/pt-br/v1" target="_blank">[Livro] Pro Git</a>
+</li>
+<li><a href="https://rogerdudler.github.io/git-guide/index.pt_BR.html" target="_blank">[Tutorial] Git - Guia Pr&#xE1;tico</a>
+</li>
+<li><a href="https://code.google.com/archive/p/svnbook-pt-br/" target="_blank">[Livro] Controle de Vers&#xE3;o com Subversion</a>
+</li>
+<li><a href="https://www.mercurial-scm.org/wiki/BrazilianPortugueseTutorial" target="_blank">[Tutorial] Uso do Mercurial</a>
+</li>
+<li><a href="http://hgbook.red-bean.com/" target="_blank">[Livro] Mercurial: The Definitive Guide</a> :us:
+</li></ul>
+<h2 id="construa-solu&#xE7;&#xF5;es-guiadas-por-testes-tdd">Construa solu&#xE7;&#xF5;es guiadas por testes (TDD)</h2><p>Utilizar testes para guiar sua implementa&#xE7;&#xE3;o, focando num problema por vez,
+recebendo feedback e refatorando a cada etapa, tendo como resultado um c&#xF3;digo
+com testes automatizados e facilitando a integra&#xE7;&#xE3;o com o c&#xF3;digo desenvolvido
+por outros membros da equipe.</p><h3 id="recursos">Recursos</h3><ul><li><a href="http://martinfowler.com/bliki/TestDrivenDevelopment.html" target="_blank">[Artigo] Introdu&#xE7;&#xE3;o ao TDD</a>
+:us:
+</li>
+<li><a href="https://www.amazon.com.br/TDD-Desenvolvimento-Guiado-por-Testes/dp/857780724X/" target="_blank">[Livro] Desenvolvimento Guiado por Testes - Kent Beck</a>
+</li>
+<li><a href="https://www.amazon.com.br/TDD-na-Pr%C3%A1tica-Camilo-Lopes/dp/853990327X/" target="_blank">[Livro] TDD na Pr&#xE1;tica</a>
+</li></ul>
+<h2 id="utilize-boas-pr&#xE1;ticas-de-codifica&#xE7;&#xE3;o">Utilize boas pr&#xE1;ticas de codifica&#xE7;&#xE3;o</h2><p>Ao desenvolver software, &#xE9; importante lembrar que outras pessoas ler&#xE3;o o seu
+c&#xF3;digo. Levando isso em considera&#xE7;&#xE3;o, ressalta-se o qu&#xE3;o fundamental &#xE9; a aplica&#xE7;&#xE3;o
+de boas pr&#xE1;ticas de codifica&#xE7;&#xE3;o.</p><p>C&#xF3;digos mal escritos podem fazer com que muitas horas sejam perdidas, tanto para
+entend&#xEA;-los quanto para reescrev&#xEA;-los de forma mais leg&#xED;vel.</p><p>&#xC9; muito importante ter em mente essas pr&#xE1;ticas no momento de desenvolver solu&#xE7;&#xF5;es.
+Entenda como diferenciar c&#xF3;digo bom de um ruim. Criar bons nomes, objetos,
+fun&#xE7;&#xF5;es e classes. E tamb&#xE9;m formatar o c&#xF3;digo para m&#xE1;xima legibilidade.</p><h3 id="recursos">Recursos</h3><ul><li><a href="https://www.amazon.com.br/C%C3%B3digo-Limpo-Habilidades-Pr%C3%A1ticas-Software/dp/8576082675/" target="_blank">[Livro] C&#xF3;digo Limpo</a>
+</li>
+<li><a href="https://sourcemaking.com/refactoring/smells" target="_blank">[Refer&#xEA;ncia] Code Smells</a>
+</li></ul>
+<h2 id="saiba-como-refatorar-c&#xF3;digo">Saiba como refatorar c&#xF3;digo</h2><p>&quot;Refatora&#xE7;&#xE3;o &#xE9; uma t&#xE9;cnica disciplinada para reestruturar um corpo de c&#xF3;digo j&#xE1;
+existente, alterando sua estrutura interna sem alterar seu comportamento&quot;. -
+Martin Fowler (2011).</p><p>Refatora&#xE7;&#xE3;o &#xE9; o ato de executar qualquer melhoria no c&#xF3;digo, seja ela em um
+simples m&#xE9;todo ou em quase todo ele.</p><h3 id="recursos">Recursos</h3><ul><li><a href="https://www.thoughtworks.com/pt/insights/blog/refactoring-book" target="_blank">[Artigo] Refatora&#xE7;&#xE3;o ao p&#xE9; da letra</a>
+</li>
+<li><a href="https://www.amazon.com.br/Refatora%C3%A7%C3%A3o-Aperfei%C3%A7oando-Projeto-C%C3%B3digo-Existente-ebook/dp/B019IZK89A/" target="_blank">[Livro] Refatora&#xE7;&#xE3;o: Aperfei&#xE7;oando o Projeto de C&#xF3;digo Existente</a>
+</li></ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../" class="navigation navigation-prev " aria-label="Previous page: Sobre o Guia">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="Projeto_de_Software.html" class="navigation navigation-next " aria-label="Next page: Projeto de Software">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Codificação","level":"1.2","depth":1,"next":{"title":"Projeto de Software","level":"1.3","depth":1,"path":"topics/Projeto_de_Software.md","ref":"topics/Projeto_de_Software.md","articles":[]},"previous":{"title":"Sobre o Guia","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"plugins":["simple-page-toc"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"simple-page-toc":{"maxDepth":2,"skipFirstH1":true},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"language":"pt","gitbook":"*"},"file":{"path":"topics/Codificacao.md","mtime":"2016-08-17T19:15:08.000Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2016-08-17T20:34:05.179Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
