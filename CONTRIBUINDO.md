@@ -2,24 +2,27 @@
 
 ## Padrão
 
-Temos definido como padrão:
+Cada tópico tem um arquivo Markdown na pasta `topics/` e para seu conteúdo
+temos definido como padrão:
 
 ```md
-<a name="topico" />
-## 1. Tópico
+# Tópico
 
 Introdução ao Tópico
 
-<a name="subtopico" />
-### Subtópico
+<!-- toc -->
+
+## Subtópico
 
 Descrição do subtópico
 
-#### Recursos
+### Recursos
 
 * [[Tipo do Recurso] Título](link)
 
 ```
+
+A linha `<!-- toc -->` é para a geração automática do índice do tópico.
 
 Os tipos de recurso podem ser: artigos, livros, vídeos, cursos, folha de dicas,
 documentação, etc.
@@ -48,3 +51,9 @@ npm run watch
 
 Em caso de erro, mais informações sobre as regras aqui:
 [Markdownlint - Rules](https://github.com/mivok/markdownlint/blob/master/docs/RULES.md)
+
+Caso deseje visualizar como será a página gerada pelo Gitbook, execute:
+
+```sh
+npm start
+```
