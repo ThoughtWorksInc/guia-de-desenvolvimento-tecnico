@@ -1,0 +1,13 @@
+{
+  "language": "pt",
+  "plugins" : [
+    "simple-page-toc",
+    "advanced-emoji"
+  ],
+  "pluginsConfig": {
+    "simple-page-toc": {
+      "maxDepth": 2,
+      "skipFirstH1": true
+    }
+  }
+}

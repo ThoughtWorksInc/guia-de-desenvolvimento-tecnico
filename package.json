@@ -4,8 +4,11 @@
   "description": "Guia de Desenvolvimento Técnico",
   "main": "index.js",
   "scripts": {
-    "test": "markdownlint --config lint.json *.md",
-    "watch": "onchange '*.md' -v -- npm test"
+    "start": "gitbook serve",
+    "build": "gitbook build",
+    "test": "markdownlint --config lint.json {.,topics}/*.md",
+    "watch": "onchange '**/*.md' -v -- npm test",
+    "deploy": "npm run build && gh-pages -d _book"
   },
   "repository": {
     "type": "git",
@@ -18,6 +21,10 @@
   },
   "homepage": "https://github.com/ThoughtWorksInc/guia-de-desenvolvimento-tecnico#readme",
   "devDependencies": {
+    "gh-pages": "^0.11.0",
+    "gitbook-cli": "^2.3.0",
+    "gitbook-plugin-advanced-emoji": "^0.2.1",
+    "gitbook-plugin-simple-page-toc": "^0.1.0",
     "markdownlint-cli": "^0.2.0",
     "onchange": "^2.5.0"
   }
