@@ -14,9 +14,9 @@ Existem vários disponíveis, é importante escolher aquele que te
 faça sentir mais confortável. Abaixo encontram-se alguns exemplos:
 
 * [Atom](https://atom.io/)
-  * [Documentação](https://atom.io/docs) :us:
+  * [Documentação](https://atom.io/docs) :uk:
 * [Eclipse](http://www.eclipse.org/)
-  * [Documentação](http://www.eclipse.org/documentation) :us:
+  * [Documentação](http://www.eclipse.org/documentation) :uk:
 * [Emacs](https://www.gnu.org/software/emacs/)
   * [Tutorial](https://www.emacswiki.org/emacs/NovatoNoEmacs)
   * [Spacemacs - Distribuição](http://spacemacs.org/)
@@ -28,7 +28,7 @@ faça sentir mais confortável. Abaixo encontram-se alguns exemplos:
   * [Folha de Dicas](http://vim.rtorr.com/lang/pt_br/)
   * [Vídeos](https://www.youtube.com/playlist?list=PLlPy1OAvxKmQ__RPeTrjpmvuMB73re4HL)
 * [Visual Studio Code](https://code.visualstudio.com/)
-  * [Documentação](https://code.visualstudio.com/docs/) :us:
+  * [Documentação](https://code.visualstudio.com/docs/) :uk:
 
 ## Programe em (pelo menos) uma linguagem de programação orientada a objetos
 
@@ -47,8 +47,8 @@ alfabética):
 ### Recursos
 
 * [[Curso] Programação Orientada a Objetos em Java](https://www.coursera.org/learn/object-oriented-java)
-  :us:
-* [[Curso] Codecademy Java](https://www.codecademy.com/learn/learn-java) :us:
+  :uk:
+* [[Curso] Codecademy Java](https://www.codecademy.com/learn/learn-java) :uk:
 * [[Curso] Codecademy Ruby](https://www.codecademy.com/pt-BR/learn/ruby)
 * [[Curso] Codecademy Python](https://www.codecademy.com/pt-BR/learn/python)
 
@@ -74,7 +74,7 @@ Dentre os mais utilizados temos:
 * [[Tutorial] Git - Guia Prático](https://rogerdudler.github.io/git-guide/index.pt_BR.html)
 * [[Livro] Controle de Versão com Subversion](https://code.google.com/archive/p/svnbook-pt-br/)
 * [[Tutorial] Uso do Mercurial](https://www.mercurial-scm.org/wiki/BrazilianPortugueseTutorial)
-* [[Livro] Mercurial: The Definitive Guide](http://hgbook.red-bean.com/) :us:
+* [[Livro] Mercurial: The Definitive Guide](http://hgbook.red-bean.com/) :uk:
 
 ## Construa soluções guiadas por testes (TDD)
 
@@ -86,7 +86,7 @@ por outros membros da equipe.
 ### Recursos
 
 * [[Artigo] Introdução ao TDD](http://martinfowler.com/bliki/TestDrivenDevelopment.html)
-  :us:
+  :uk:
 * [[Livro] Desenvolvimento Guiado por Testes - Kent Beck](https://www.amazon.com.br/TDD-Desenvolvimento-Guiado-por-Testes/dp/857780724X/)
 * [[Livro] TDD na Prática](https://www.amazon.com.br/TDD-na-Pr%C3%A1tica-Camilo-Lopes/dp/853990327X/)
 

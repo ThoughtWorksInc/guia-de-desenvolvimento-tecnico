@@ -50,13 +50,13 @@ Mais informações sobre DDD podem ser encontradas nos recursos abaixo.
 ### Recursos
 
 * [[Portal] Portal da comunidade Domain-Driven Design](http://dddcommunity.org)
-  :us:
+  :uk:
 * [[Artigo] O que é Domain-Driven Design](http://dddcommunity.org/learning-ddd/what_is_ddd/)
-  :us:
+  :uk:
 * [[Artigo] Uma introdução a Domain-Driven Design](http://www.agileandart.com/2010/07/16/ddd-introducao-a-domain-driven-design/)
 * [InfoQ BR](https://www.infoq.com/br/domain-driven-design)
 * [InfoQ EN](https://www.infoq.com/domain-driven-design)
-  :us:
+  :uk:
 * [[Minilivro] Domain-Driven Design Quickly](https://www.infoq.com/minibooks/domain-driven-design-quickly)
 
 ## Padrões de Projeto Orientado a Objeto
