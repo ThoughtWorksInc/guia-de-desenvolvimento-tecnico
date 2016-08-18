@@ -29,7 +29,7 @@ mais segurança para fazer uma entrega.
 
 * [[Artigo] Conceitos de Integração Contínua](http://www.linhadecodigo.com.br/artigo/1252/dividir-conquistar-e-integrar-conceitos-de-integracao-continua-para-testadores-ageis.aspx)
 * [[Artigo] Continuous Integration](http://martinfowler.com/articles/continuousIntegration.html)
-  :us:
+  :uk:
 
 ## Entregue seu código continuamente
 
@@ -46,4 +46,4 @@ usuário final.
 * [[Livro] Entrega Contínua](https://www.amazon.com.br/Entrega-Cont%C3%ADnua-Entregar-Software-Confi%C3%A1vel/dp/8582601034)
 * [[Artigo] E esse negócio de Entrega Contínua?](https://brizeno.wordpress.com/2014/01/27/e-esse-negocio-de-entrega-continua/)
 * [[Artigo] Continuous Delivery](http://martinfowler.com/bliki/ContinuousDelivery.html)
-  :us:
+  :uk:
