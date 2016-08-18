@@ -17,7 +17,7 @@ estão sendo atendidas. Pensar em estratégia de qualidade compreende:
 
 ### Recursos
 
-[[Livro Gratuito] PRÁTICAS E TENDÊNCIAS EM TESTE](https://info.thoughtworks.com/praticas-e-tendencias-em-teste-ebook.html)
+[[Livro Gratuito] Práticas e Tendências em Teste](https://info.thoughtworks.com/praticas-e-tendencias-em-teste-ebook.html)
 
 [[Artigo] Boas Práticas de Teste Automatizado](http://www.bugbang.com.br/agile-brazil-2012-boas-praticas-de-teste-automatizado/)
 
