@@ -2,50 +2,64 @@
 ========== housekeeping, ignore =============$ [32mpwd[0m
 /var/snap-ci/repo
 Command [32mpwd[0m exited successfully with status 0.
-Took 0.00525 seconds.
+Took 0.02659 seconds.
 
 $ [32mls -a[0m
 .
 ..
+.bookignore
+.git
+.gitignore
+CONTRIBUINDO.md
+LICENSE
+README.md
+SUMMARY.md
+_book
+book.json
+lint.json
+node_modules
+package.json
+snap-ci-console.log
+topics
 Command [32mls -a[0m exited successfully with status 0.
-Took 0.02491 seconds.
+Took 0.01463 seconds.
 
 $ [32msudo find -mindepth 1 -delete[0m
 Command [32msudo find -mindepth 1 -delete[0m exited successfully with status 0.
-Took 0.02259 seconds.
+Took 0.30161 seconds.
 
 $ [32mpwd[0m
 /var/snap-ci/repo
 Command [32mpwd[0m exited successfully with status 0.
-Took 0.02442 seconds.
+Took 0.01535 seconds.
 
 $ [32mls -la[0m
 total 8
-drwxrwxr-x 2 go go 4096 Aug 18 01:18 .
+drwxrwxr-x 2 go go 4096 Aug 18 01:20 .
 drwxr-x--- 3 go go 4096 Aug 18 01:18 ..
 Command [32mls -la[0m exited successfully with status 0.
-Took 0.01483 seconds.
+Took 0.02525 seconds.
 
 =============================================$ [32mgit clone git@localhost:ThoughtWorksInc/guia-de-desenvolvimento-tecnico .[0m
 Cloning into '.'...
 Warning: Permanently added 'localhost' (RSA) to the list of known hosts.
 Command [32mgit clone git@localhost:ThoughtWorksInc/guia-de-desenvolvimento-tecnico .[0m exited successfully with status 0.
-Took 0.48891 seconds.
+Took 0.33393 seconds.
 
 $ [32mgit checkout language-flag[0m
 Switched to a new branch 'language-flag'
 Branch language-flag set up to track remote branch language-flag from origin.
 Command [32mgit checkout language-flag[0m exited successfully with status 0.
-Took 0.09195 seconds.
+Took 0.03156 seconds.
 
 $ [32mgit reset --hard 35b3e9f358a9d3e563667ed4ea45f486f17608b1[0m
 HEAD is now at 35b3e9f Merge branch 'master' into language-flag
 Command [32mgit reset --hard 35b3e9f358a9d3e563667ed4ea45f486f17608b1[0m exited successfully with status 0.
-Took 0.02639 seconds.
+Took 0.02935 seconds.
 
 $ [32mgit submodule update --init --recursive[0m
 Command [32mgit submodule update --init --recursive[0m exited successfully with status 0.
-Took 0.04258 seconds.
+Took 0.04303 seconds.
 
 $ export SNAP_CI=true
 $ export CI=true
@@ -58,19 +72,40 @@ $ export SNAP_STAGE_NAME=Lint
 $ export SNAP_BRANCH=language-flag
 $ export SNAP_COMMIT=35b3e9f358a9d3e563667ed4ea45f486f17608b1
 $ export SNAP_COMMIT_SHORT=35b3e9f
-$ export SNAP_TRACKING_PIPELINE=true
-$ export SNAP_INTEGRATION_PIPELINE=false
+$ export SNAP_TRACKING_PIPELINE=false
+$ export SNAP_INTEGRATION_PIPELINE=true
+
+$ [32mgit remote update[0m
+Fetching origin
+Warning: Permanently added 'localhost' (RSA) to the list of known hosts.
+Command [32mgit remote update[0m exited successfully with status 0.
+Took 0.16613 seconds.
+
+$ [32mgit checkout master && git fetch && git reset FETCH_HEAD --hard[0m
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+Warning: Permanently added 'localhost' (RSA) to the list of known hosts.
+HEAD is now at abfa8ec Merge pull request #28 from ThoughtWorksInc/contribuindo-gitbook
+Command [32mgit checkout master && git fetch && git reset FETCH_HEAD --hard[0m exited successfully with status 0.
+Took 0.16793 seconds.
+
+$ [32mgit checkout language-flag && git merge master --no-edit[0m
+Switched to branch 'language-flag'
+Your branch is up-to-date with 'origin/language-flag'.
+Already up-to-date.
+Command [32mgit checkout language-flag && git merge master --no-edit[0m exited successfully with status 0.
+Took 0.00763 seconds.
 
 $ [32mnpm install[0m
 npm WARN engine markdownlint-cli@0.2.0: wanted: {"node":">=0.12.0"} (current: {"node":"0.10.37","npm":"1.4.28"})
-npm WARN deprecated wrench@1.5.8: wrench.js is deprecated! You should check out fs-extra (https://github.com/jprichardson/node-fs-extra) for any operations you were using wrench for. Thanks for all the usage over the years.
 npm WARN engine deep-extend@0.4.1: wanted: {"node":">=0.12.0","iojs":">=1.0.0"} (current: {"node":"0.10.37","npm":"1.4.28"})
+npm WARN deprecated wrench@1.5.8: wrench.js is deprecated! You should check out fs-extra (https://github.com/jprichardson/node-fs-extra) for any operations you were using wrench for. Thanks for all the usage over the years.
 npm WARN optional dep failed, continuing fsevents@1.0.14
 onchange@2.5.0 node_modules/onchange
 ├── arrify@1.0.1
 ├── minimist@1.2.0
 ├── cross-spawn@4.0.0 (lru-cache@4.0.1, which@1.2.10)
-└── chokidar@1.5.2 (path-is-absolute@1.0.0, glob-parent@2.0.0, inherits@2.0.1, async-each@1.0.0, is-binary-path@1.0.1, is-glob@2.0.1, readdirp@2.1.0, anymatch@1.3.0)
+└── chokidar@1.5.2 (glob-parent@2.0.0, async-each@1.0.0, path-is-absolute@1.0.0, inherits@2.0.1, is-binary-path@1.0.1, is-glob@2.0.1, anymatch@1.3.0, readdirp@2.1.0)
 
 gh-pages@0.11.0 node_modules/gh-pages
 ├── graceful-fs@4.1.2
@@ -92,15 +127,15 @@ markdownlint-cli@0.2.0 node_modules/markdownlint-cli
 
 gitbook-plugin-simple-page-toc@0.1.0 node_modules/gitbook-plugin-simple-page-toc
 ├── uslug@1.0.4 (unorm@1.4.1)
-└── markdown-toc@0.12.16 (markdown-link@0.1.1, strip-color@0.1.0, repeat-string@1.5.4, minimist@1.2.0, mixin-deep@1.1.3, object.pick@1.1.2, lazy-cache@2.0.1, concat-stream@1.5.1, list-item@1.1.1, gray-matter@2.0.2, remarkable@1.6.2)
+└── markdown-toc@0.12.16 (markdown-link@0.1.1, strip-color@0.1.0, repeat-string@1.5.4, mixin-deep@1.1.3, object.pick@1.1.2, minimist@1.2.0, lazy-cache@2.0.1, concat-stream@1.5.1, list-item@1.1.1, gray-matter@2.0.2, remarkable@1.6.2)
 
 gitbook-cli@2.3.0 node_modules/gitbook-cli
 ├── bash-color@0.0.4
 ├── user-home@2.0.0 (os-homedir@1.0.1)
-├── commander@2.9.0 (graceful-readlink@1.0.1)
-├── q@1.4.1
 ├── semver@5.1.0
+├── commander@2.9.0 (graceful-readlink@1.0.1)
 ├── tmp@0.0.28 (os-tmpdir@1.0.1)
+├── q@1.4.1
 ├── optimist@0.6.1 (wordwrap@0.0.3, minimist@0.0.10)
 ├── fs-extra@0.26.5 (path-is-absolute@1.0.0, klaw@1.3.0, jsonfile@2.3.1, graceful-fs@4.1.5, rimraf@2.5.4)
 ├── lodash@4.5.1
@@ -110,7 +145,7 @@ gitbook-cli@2.3.0 node_modules/gitbook-cli
 gitbook-plugin-advanced-emoji@0.2.1 node_modules/gitbook-plugin-advanced-emoji
 └── emojify.js@1.1.0
 Command [32mnpm install[0m exited successfully with status 0.
-Took 20.45 seconds.
+Took 19.8 seconds.
 
 $ [32mnpm test[0m
 
@@ -119,6 +154,6 @@ $ [32mnpm test[0m
 
 
 Command [32mnpm test[0m exited successfully with status 0.
-Took 0.4765 seconds.
+Took 0.47752 seconds.
 
 Saving console log for later
