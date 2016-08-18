@@ -2,64 +2,50 @@
 ========== housekeeping, ignore =============$ [32mpwd[0m
 /var/snap-ci/repo
 Command [32mpwd[0m exited successfully with status 0.
-Took 0.00586 seconds.
+Took 0.02713 seconds.
 
 $ [32mls -a[0m
 .
 ..
-.bookignore
-.git
-.gitignore
-CONTRIBUINDO.md
-LICENSE
-README.md
-SUMMARY.md
-_book
-book.json
-lint.json
-node_modules
-package.json
-snap-ci-console.log
-topics
 Command [32mls -a[0m exited successfully with status 0.
-Took 0.02768 seconds.
+Took 0.01604 seconds.
 
 $ [32msudo find -mindepth 1 -delete[0m
 Command [32msudo find -mindepth 1 -delete[0m exited successfully with status 0.
-Took 0.27714 seconds.
+Took 0.02611 seconds.
 
 $ [32mpwd[0m
 /var/snap-ci/repo
 Command [32mpwd[0m exited successfully with status 0.
-Took 0.01805 seconds.
+Took 0.00451 seconds.
 
 $ [32mls -la[0m
 total 8
-drwxrwxr-x 2 go go 4096 Aug 18 01:11 .
-drwxr-x--- 3 go go 4096 Aug 18 01:10 ..
+drwxrwxr-x 2 go go 4096 Aug 18 01:14 .
+drwxr-x--- 3 go go 4096 Aug 18 01:14 ..
 Command [32mls -la[0m exited successfully with status 0.
-Took 0.02674 seconds.
+Took 0.02591 seconds.
 
 =============================================$ [32mgit clone git@localhost:ThoughtWorksInc/guia-de-desenvolvimento-tecnico .[0m
 Cloning into '.'...
 Warning: Permanently added 'localhost' (RSA) to the list of known hosts.
 Command [32mgit clone git@localhost:ThoughtWorksInc/guia-de-desenvolvimento-tecnico .[0m exited successfully with status 0.
-Took 0.37952 seconds.
+Took 0.49905 seconds.
 
-$ [32mgit checkout language-flag[0m
-Switched to a new branch 'language-flag'
-Branch language-flag set up to track remote branch language-flag from origin.
-Command [32mgit checkout language-flag[0m exited successfully with status 0.
-Took 0.03253 seconds.
+$ [32mgit checkout master[0m
+Already on 'master'
+Your branch is up-to-date with 'origin/master'.
+Command [32mgit checkout master[0m exited successfully with status 0.
+Took 0.02734 seconds.
 
-$ [32mgit reset --hard 9db300d016a2c69b78904dd073343f03e03666a2[0m
-HEAD is now at 9db300d altera flag para inglês no guia de contribuição
-Command [32mgit reset --hard 9db300d016a2c69b78904dd073343f03e03666a2[0m exited successfully with status 0.
-Took 0.02744 seconds.
+$ [32mgit reset --hard abfa8ec597c83041b2f97f3a303d69cc444fd4bc[0m
+HEAD is now at abfa8ec Merge pull request #28 from ThoughtWorksInc/contribuindo-gitbook
+Command [32mgit reset --hard abfa8ec597c83041b2f97f3a303d69cc444fd4bc[0m exited successfully with status 0.
+Took 0.02753 seconds.
 
 $ [32mgit submodule update --init --recursive[0m
 Command [32mgit submodule update --init --recursive[0m exited successfully with status 0.
-Took 0.04234 seconds.
+Took 0.04474 seconds.
 
 $ export SNAP_CI=true
 $ export CI=true
@@ -67,37 +53,13 @@ $ export SNAP_CACHE_DIR=/var/go
 $ export LANG=en_US.UTF-8
 $ export LC_ALL=en_US.UTF-8
 $ export SNAP_WORKING_DIR=/var/snap-ci/repo
-$ export SNAP_PIPELINE_COUNTER=2
+$ export SNAP_PIPELINE_COUNTER=7
 $ export SNAP_STAGE_NAME=Lint
-$ export SNAP_BRANCH=language-flag
-$ export SNAP_COMMIT=9db300d016a2c69b78904dd073343f03e03666a2
-$ export SNAP_COMMIT_SHORT=9db300d
-$ export SNAP_TRACKING_PIPELINE=false
-$ export SNAP_INTEGRATION_PIPELINE=true
-
-$ [32mgit remote update[0m
-Fetching origin
-Warning: Permanently added 'localhost' (RSA) to the list of known hosts.
-Command [32mgit remote update[0m exited successfully with status 0.
-Took 0.17486 seconds.
-
-$ [32mgit checkout master && git fetch && git reset FETCH_HEAD --hard[0m
-Switched to branch 'master'
-Your branch is up-to-date with 'origin/master'.
-Warning: Permanently added 'localhost' (RSA) to the list of known hosts.
-HEAD is now at abfa8ec Merge pull request #28 from ThoughtWorksInc/contribuindo-gitbook
-Command [32mgit checkout master && git fetch && git reset FETCH_HEAD --hard[0m exited successfully with status 0.
-Took 0.17701 seconds.
-
-$ [32mgit checkout language-flag && git merge master --no-edit[0m
-Switched to branch 'language-flag'
-Your branch is up-to-date with 'origin/language-flag'.
-Auto-merging CONTRIBUINDO.md
-Merge made by the 'recursive' strategy.
- CONTRIBUINDO.md | 21 +++++++++++++++------
- 1 file changed, 15 insertions(+), 6 deletions(-)
-Command [32mgit checkout language-flag && git merge master --no-edit[0m exited successfully with status 0.
-Took 0.01447 seconds.
+$ export SNAP_BRANCH=master
+$ export SNAP_COMMIT=abfa8ec597c83041b2f97f3a303d69cc444fd4bc
+$ export SNAP_COMMIT_SHORT=abfa8ec
+$ export SNAP_TRACKING_PIPELINE=true
+$ export SNAP_INTEGRATION_PIPELINE=false
 
 $ [32mnpm install[0m
 npm WARN engine markdownlint-cli@0.2.0: wanted: {"node":">=0.12.0"} (current: {"node":"0.10.37","npm":"1.4.28"})
@@ -108,7 +70,7 @@ onchange@2.5.0 node_modules/onchange
 ├── arrify@1.0.1
 ├── minimist@1.2.0
 ├── cross-spawn@4.0.0 (lru-cache@4.0.1, which@1.2.10)
-└── chokidar@1.5.2 (path-is-absolute@1.0.0, glob-parent@2.0.0, async-each@1.0.0, is-binary-path@1.0.1, is-glob@2.0.1, inherits@2.0.1, anymatch@1.3.0, readdirp@2.1.0)
+└── chokidar@1.5.2 (glob-parent@2.0.0, path-is-absolute@1.0.0, async-each@1.0.0, inherits@2.0.1, is-binary-path@1.0.1, is-glob@2.0.1, anymatch@1.3.0, readdirp@2.1.0)
 
 gh-pages@0.11.0 node_modules/gh-pages
 ├── graceful-fs@4.1.2
@@ -130,7 +92,7 @@ markdownlint-cli@0.2.0 node_modules/markdownlint-cli
 
 gitbook-plugin-simple-page-toc@0.1.0 node_modules/gitbook-plugin-simple-page-toc
 ├── uslug@1.0.4 (unorm@1.4.1)
-└── markdown-toc@0.12.16 (markdown-link@0.1.1, strip-color@0.1.0, repeat-string@1.5.4, mixin-deep@1.1.3, object.pick@1.1.2, minimist@1.2.0, lazy-cache@2.0.1, concat-stream@1.5.1, list-item@1.1.1, gray-matter@2.0.2, remarkable@1.6.2)
+└── markdown-toc@0.12.16 (markdown-link@0.1.1, strip-color@0.1.0, repeat-string@1.5.4, mixin-deep@1.1.3, minimist@1.2.0, object.pick@1.1.2, lazy-cache@2.0.1, concat-stream@1.5.1, list-item@1.1.1, gray-matter@2.0.2, remarkable@1.6.2)
 
 gitbook-cli@2.3.0 node_modules/gitbook-cli
 ├── bash-color@0.0.4
@@ -138,8 +100,8 @@ gitbook-cli@2.3.0 node_modules/gitbook-cli
 ├── semver@5.1.0
 ├── commander@2.9.0 (graceful-readlink@1.0.1)
 ├── tmp@0.0.28 (os-tmpdir@1.0.1)
-├── optimist@0.6.1 (wordwrap@0.0.3, minimist@0.0.10)
 ├── q@1.4.1
+├── optimist@0.6.1 (wordwrap@0.0.3, minimist@0.0.10)
 ├── fs-extra@0.26.5 (path-is-absolute@1.0.0, klaw@1.3.0, jsonfile@2.3.1, graceful-fs@4.1.5, rimraf@2.5.4)
 ├── lodash@4.5.1
 ├── npmi@1.0.1 (semver@4.3.6, npm@2.15.10)
@@ -148,7 +110,7 @@ gitbook-cli@2.3.0 node_modules/gitbook-cli
 gitbook-plugin-advanced-emoji@0.2.1 node_modules/gitbook-plugin-advanced-emoji
 └── emojify.js@1.1.0
 Command [32mnpm install[0m exited successfully with status 0.
-Took 19.87 seconds.
+Took 19.46 seconds.
 
 $ [32mnpm test[0m
 
@@ -157,6 +119,6 @@ $ [32mnpm test[0m
 
 
 Command [32mnpm test[0m exited successfully with status 0.
-Took 0.61843 seconds.
+Took 0.53137 seconds.
 
 Saving console log for later

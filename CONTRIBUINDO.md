@@ -30,7 +30,7 @@ documentação, etc.
 Caso o recurso seja noutra língua, adicione o ícone da bandeira. Exemplo:
 
 ```md
-* [[Tipo do Recurso] Título](link) :uk:
+* [[Tipo do Recurso] Título](link) :us:
 ```
 
 ## Testes
