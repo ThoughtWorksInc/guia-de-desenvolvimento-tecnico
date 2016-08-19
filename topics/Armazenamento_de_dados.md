@@ -1,7 +1,7 @@
 # Armazenamento de dados
 
 Nas últimas décadas do século XX o banco de dados relacional tornou-se tão
-importante que era praticamente uma unamidade. Até que Amazon.com e Google
+importante que era praticamente uma unanimidade. Até que Amazon.com e Google
 publicaram papers seminais revelando que utilizavam internamente bancos de dados
 não relacionais projetados para escalar horizontalmente -- algo que sempre foi
 muito difícil no modelo relacional normalizado.
