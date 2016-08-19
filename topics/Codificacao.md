@@ -58,7 +58,7 @@ alfabética):
 
 #### Python
 
-* [[Curso] Codecademy Python](https://www.codecademy.com/pt-BR/learn/python) :uk:
+* [[Curso] Codecademy Python](https://www.codecademy.com/pt-BR/learn/python)
 * [[eBook Grátis] Dive Into Python 3](http://www.diveintopython3.net/) :uk:
 
 ## Programe em (pelo menos) uma linguagem de programação funcional
