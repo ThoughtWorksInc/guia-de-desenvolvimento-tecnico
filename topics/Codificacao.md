@@ -46,11 +46,20 @@ alfabética):
 
 ### Recursos
 
+#### Java
+
 * [[Curso] Programação Orientada a Objetos em Java](https://www.coursera.org/learn/object-oriented-java)
   :uk:
 * [[Curso] Codecademy Java](https://www.codecademy.com/learn/learn-java) :uk:
+
+#### Ruby
+
 * [[Curso] Codecademy Ruby](https://www.codecademy.com/pt-BR/learn/ruby)
+
+#### Python
+
 * [[Curso] Codecademy Python](https://www.codecademy.com/pt-BR/learn/python)
+* [[eBook Grátis] Dive Into Python 3](http://www.diveintopython3.net/) :uk:
 
 ## Programe em (pelo menos) uma linguagem de programação funcional
 
