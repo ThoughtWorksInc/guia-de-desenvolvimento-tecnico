@@ -1,5 +1,8 @@
 {
   "language": "pt",
+  "structure" : {
+    "summary": "INDICE.md"
+  },
   "plugins" : [
     "simple-page-toc",
     "advanced-emoji"
