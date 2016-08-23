@@ -6,30 +6,6 @@ ferramentas e práticas utilizados para tal finalidade.
 
 <!-- toc -->
 
-## Saiba utilizar uma IDE e/ou editor de texto
-
-Para programar é importante dominar ao menos um editor de texto
-ou IDE(Integrated Development Environment).
-Existem vários disponíveis, é importante escolher aquele que te
-faça sentir mais confortável. Abaixo encontram-se alguns exemplos:
-
-* [Atom](https://atom.io/)
-  * [Documentação](https://atom.io/docs) :uk:
-* [Eclipse](http://www.eclipse.org/)
-  * [Documentação](http://www.eclipse.org/documentation) :uk:
-* [Emacs](https://www.gnu.org/software/emacs/)
-  * [Tutorial](https://www.emacswiki.org/emacs/NovatoNoEmacs)
-  * [Spacemacs - Distribuição](http://spacemacs.org/)
-* [IntelliJ](https://www.jetbrains.com/)
-  * [Início Rápido](https://confluence.jetbrains.com/pages/viewpage.action?pageId=54919977)
-* [Sublime Text](https://www.sublimetext.com/)
-  * [Dicas Sublime](http://sublimetextdicas.com.br/)
-* [Vim](http://www.vim.org/)
-  * [Folha de Dicas](http://vim.rtorr.com/lang/pt_br/)
-  * [Vídeos](https://www.youtube.com/playlist?list=PLlPy1OAvxKmQ__RPeTrjpmvuMB73re4HL)
-* [Visual Studio Code](https://code.visualstudio.com/)
-  * [Documentação](https://code.visualstudio.com/docs/) :uk:
-
 ## Programe em (pelo menos) uma linguagem de programação orientada a objetos
 
 Programação orientada a objetos é um paradigma de programação que
@@ -98,6 +74,33 @@ por outros membros da equipe.
   :uk:
 * [[Livro] Desenvolvimento Guiado por Testes - Kent Beck](https://www.amazon.com.br/TDD-Desenvolvimento-Guiado-por-Testes/dp/857780724X/)
 * [[Livro] TDD na Prática](https://www.amazon.com.br/TDD-na-Pr%C3%A1tica-Camilo-Lopes/dp/853990327X/)
+
+## Saiba utilizar uma IDE e/ou editor de texto
+
+Para programar é importante dominar ao menos um editor de texto ou
+IDE(Integrated Development Environment). Por mais que o editor pode mudar
+dependendo da linguagem usada em cada contexto, conhecer uma ferramenta
+extremamente bem irá ajuda-lo a ser mais eficiente e produtivo. Se a pessoa
+desenvolvedora é uma pintora, seu editor é seu pincel!
+Existem vários editores disponíveis -- é importante escolher aquele que te
+faça sentir mais confortável. Abaixo encontram-se alguns exemplos:
+
+* [Atom](https://atom.io/)
+  * [Documentação](https://atom.io/docs) :uk:
+* [Eclipse](http://www.eclipse.org/)
+  * [Documentação](http://www.eclipse.org/documentation) :uk:
+* [Emacs](https://www.gnu.org/software/emacs/)
+  * [Tutorial](https://www.emacswiki.org/emacs/NovatoNoEmacs)
+  * [Spacemacs - Distribuição](http://spacemacs.org/)
+* [IntelliJ](https://www.jetbrains.com/)
+  * [Início Rápido](https://confluence.jetbrains.com/pages/viewpage.action?pageId=54919977)
+* [Sublime Text](https://www.sublimetext.com/)
+  * [Dicas Sublime](http://sublimetextdicas.com.br/)
+* [Vim](http://www.vim.org/)
+  * [Folha de Dicas](http://vim.rtorr.com/lang/pt_br/)
+  * [Vídeos](https://www.youtube.com/playlist?list=PLlPy1OAvxKmQ__RPeTrjpmvuMB73re4HL)
+* [Visual Studio Code](https://code.visualstudio.com/)
+  * [Documentação](https://code.visualstudio.com/docs/) :uk:
 
 ## Utilize boas práticas de codificação
 
