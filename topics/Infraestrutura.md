@@ -18,6 +18,7 @@ O intuito dessa seção é tratar sobre essa cultura, suas práticas e ferrament
 ### Recursos
 
 * [[Artigo] DevOps Culture](http://martinfowler.com/bliki/DevOpsCulture.html) :uk:
+* [[Livro] DevOps na prática](https://www.casadocodigo.com.br/products/livro-devops)
 
 ## Entenda o que é infraestrutura como código
 
