@@ -19,6 +19,12 @@ fazer para se desenvolver nelas:
 
 ## Conheça a metodologia Extreme Programming (XP)
 
+### Recursos
+
+* [[Site] Extreme Programming](http://www.desenvolvimentoagil.com.br/xp/)
+* [[Livro] Extreme Programming Explained](https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658)
+  :uk:
+
 ## Conheça outras metodologias
 
 ## Conheça o desenvolvimento de software Lean
