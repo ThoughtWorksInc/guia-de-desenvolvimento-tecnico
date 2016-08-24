@@ -119,7 +119,7 @@ funções e classes. E também formatar o código para máxima legibilidade.
 
 * [[Livro] Código Limpo](https://www.amazon.com.br/C%C3%B3digo-Limpo-Habilidades-Pr%C3%A1ticas-Software/dp/8576082675/)
 * [[Referência] Code Smells](https://sourcemaking.com/refactoring/smells)
-* [[Livro] The Pragmatic Programmer](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X/ref=sr_1_1?s=books&ie=UTF8&qid=1471999533&sr=1-1&keywords=the+pragmatic+programmer)
+* [[Livro] The Pragmatic Programmer](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X/)
   :uk:
 
 ## Saiba como refatorar código
