@@ -47,8 +47,8 @@ dos commits, sendo que git config não faz nenhum tipo de autenticação durante
 configurações.
 
 Um possivel meio para ter garantia na autenticidade dos commits é assinando-os
-com chave PGP, assim todos e qualquer ferramenta (como o Github por exemplo)
-poderá verificar a assinatura do commit.
+com chave PGP, assim todas as pessoas da sua equipe e as ferramentas usadas
+(como o Github, por exemplo) poderá verificar a assinatura do *commit*.
 
 Efetuar commit assinado [git commit -S](https://git-scm.com/docs/git-commit) :uk:
 Verificar commits
