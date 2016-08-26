@@ -25,12 +25,11 @@ podendo assim manter a segurança e autenticidade dos mesmos.
 
 #### Recursos
 
-[PGP](https://en.wikipedia.org/wiki/Pretty_Good_Privacy) :uk:
-(Pretty Good Privacy) é uma implementação que provê criptografica e autenticação
-de dados.
-
-[GPG](https://pt.wikipedia.org/wiki/GNU_Privacy_Guard) (Gnu Privacy Guard) é a
-implementação livre do PGP
+- [PGP](https://en.wikipedia.org/wiki/Pretty_Good_Privacy) :uk:
+  (Pretty Good Privacy) é uma implementação que provê criptografica e autenticação
+  de dados.
+- [GPG](https://pt.wikipedia.org/wiki/GNU_Privacy_Guard) (Gnu Privacy Guard) é a
+  implementação livre do PGP.
 
 ### Chaves SSH
 
@@ -71,12 +70,12 @@ Windows, Android e iOS (ferramenta paga)
 interface gráfica compativel com Linux, Mac OS, Android, iOS
 [Pass](https://www.passwordstore.org/) Ferramenta gratis e open source, roda no
 terminal e utiliza o GPG para criptografar compativel para Linux, Mac OS,
-Android
+Android.
 
 ### Gerenciar segredos com o time
 
 Um meio seguro de compartilhar segredos com o time é utilizar gerenciador de
-senhas compartilhado
+senhas compartilhado.
 
 Um examplo é usar o [Pass](https://www.passwordstore.org/) que utiliza GPG para
 encriptar o que permite que segredos sejam compartilhados para mais de uma
