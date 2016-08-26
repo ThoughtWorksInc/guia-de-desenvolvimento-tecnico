@@ -116,13 +116,15 @@ Para mais detalhes sobre o OAuth2 no site
 
 Durante o desenvolvimento de aplicações web geralmente são pensandos pontos de
 usuabilidade e performance, mas assim como esses itens segurança é algo que deve
-ser levado em consideração durando o desenvolvimento da aplicação, um guia para
+ser levado em consideração durante o desenvolvimento da aplicação. Um guia para
 os itens relacionados a segurança é o
 [OWASP top 10](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project)
 :uk:.
 
-Há um PDF em português através do link
-[OWASP top 10](https://owasptop10.googlecode.com/files/OWASP_Top_10_-_2013_Brazilian_Portuguese.pdf).
+#### Recursos
+
+- Há um PDF em português através do link
+  [OWASP top 10](https://owasptop10.googlecode.com/files/OWASP_Top_10_-_2013_Brazilian_Portuguese.pdf).
 
 ### HTTPS não significa estar seguro
 
