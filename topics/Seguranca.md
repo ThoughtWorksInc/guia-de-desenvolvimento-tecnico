@@ -92,13 +92,16 @@ prática para manter maior segurança no acesso as contas, principalemnte quanto
 serviços que podem dar acesso ao codebase ou a algum ambiente, exemplo: Github,
 Heroku, SnapCI e etc.
 
-Algumas ferramentas para fazer os dois fatores de autenticação são
-[Okta](https://www.okta.com/) e
-[Google Autenticator](https://www.google.com/landing/2step/).
+#### Recursos
+
+Algumas ferramentas para fazer os dois fatores de autenticação são:
+
+- [Okta](https://www.okta.com/) e
+- [Google Autenticator](https://www.google.com/landing/2step/).
 
 ### OAuth2 para authenticação em APIs
 
-Recomenda-se o uso de OAuth2 para autenticação em APIs, essa mecanismo permite
+Recomenda-se o uso de OAuth2 para autenticação em APIs, esse mecanismo permite
 com que apps externos possam se conectar em APIs sem com que o mesmo saiba a
 senha do usuário.
 
