@@ -20,15 +20,17 @@ para quem possui interesse nessa área.
 
 ### Chaves PGP
 
+Tendo um par de chaves GPG é possível encriptar, decriptar e assinar os dados,
+podendo assim manter a segurança e autenticidade dos mesmos.
+
+#### Recursos
+
 [PGP](https://en.wikipedia.org/wiki/Pretty_Good_Privacy) :uk:
 (Pretty Good Privacy) é uma implementação que provê criptografica e autenticação
 de dados.
 
 [GPG](https://pt.wikipedia.org/wiki/GNU_Privacy_Guard) (Gnu Privacy Guard) é a
 implementação livre do PGP
-
-Tendo um par de chaves GPG é possível encriptar, decriptar e assinar dados,
-podendo assim manter a segurança e autenticidade dos dados.
 
 ### Chaves SSH
 
