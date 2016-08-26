@@ -12,7 +12,7 @@ guia.
 
 ## Boas práticas de segurança
 
-Existe uma lista de boas praticas de segurança que pode ser um guia bem completo
+Existe uma lista de boas práticas de segurança que pode ser um guia bem completo
 para quem possui interesse na parte de segurança
 [FallibleInc/security-guide-for-developers](https://github.com/FallibleInc/security-guide-for-developers)
 :uk:
@@ -86,7 +86,7 @@ essa ferramenta é paga.
 ### Dois fatores de autenticação
 
 Possui dois fatores de autenticação (Two factor authentication) é uma boa
-pratica para manter maior segurança no acesso as contas, principalemnte quanto a
+prática para manter maior segurança no acesso as contas, principalemnte quanto a
 serviços que podem dar acesso ao codebase ou a algum ambiente, exemplo: Github,
 Heroku, SnapCI e etc.
 
