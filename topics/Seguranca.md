@@ -61,9 +61,9 @@ SnapCI, etc)
 Ferramentas para gerenciador de senhas:
 
 [1Password](https://1password.com/) Ferramenta paga compatível com Mac OS,
-Windows, Android e IOS (ferramenta paga)
+Windows, Android e iOS (ferramenta paga)
 [KeepassX](https://www.keepassx.org/) Ferramenta gratis e open source, com
-interface gráfica compativel com Linux, Mac OS, Android, IOS
+interface gráfica compativel com Linux, Mac OS, Android, iOS
 [Pass](https://www.passwordstore.org/) Ferramenta gratis e open source, roda no
 terminal e utiliza o GPG para criptografar compativel para Linux, Mac OS,
 Android
@@ -83,7 +83,7 @@ essa ferramenta é paga.
 
 ### Dois fatores de autenticação
 
-Possui dois fatores de autenticação (Two factor authentication) é uma boa
+Possuir dois fatores de autenticação (Two factor authentication) é uma boa
 prática para manter maior segurança no acesso as contas, principalemnte quanto a
 serviços que podem dar acesso ao codebase ou a algum ambiente, exemplo: Github,
 Heroku, SnapCI e etc.
@@ -122,8 +122,9 @@ Há um PDF em português através do link
 Um item importante ao construir aplicações é sempre pensar em encriptar os meios
 de comunicação entre APIs, microserviços e usuário-aplicação.  HTTPS é um
 recurso que pode-se dizer obrigatório e de baixo custo, que irá evitar ataques
-*man-in-the-middle* e irá garantir que os dados trafegados na rede não foram
-lidos por mais ninguém atém das duas partes que estão trocando informações.
+[*man-in-the-middle*](https://pt.wikipedia.org/wiki/Ataque_man-in-the-middle) e
+irá garantir que os dados trafegados na rede não foram lidos por mais ninguém
+atém das duas partes que estão trocando informações.
 
 Existe um projeto chamado [Let's Encrypt](https://letsencrypt.org/) que fornece
 certificados HTTPS de forma gratuíta e clientes que automatizam a atualização
