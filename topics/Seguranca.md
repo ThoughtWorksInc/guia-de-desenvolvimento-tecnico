@@ -1,6 +1,6 @@
 # Segurança
 
-Pensar em segurança surante o desenvolvimento de software é uma prática que é
+Pensar em segurança durante o desenvolvimento de software é uma prática que é
 tão essencial de ser pensada quanto qualidade, arquitetura e acessibilidade.
 
 Esse guia tende a mostrar alguns itens de segurança que são importantes, com o
