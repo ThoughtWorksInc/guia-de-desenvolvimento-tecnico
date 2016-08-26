@@ -11,9 +11,12 @@ ferramentas e práticas. Mas não se limite somente a esse guia.
 ## Boas práticas de segurança
 
 Existe uma lista de boas práticas de segurança que pode ser um guia bem completo
-para quem possui interesse na parte de segurança
-[FallibleInc/security-guide-for-developers](https://github.com/FallibleInc/security-guide-for-developers)
-:uk:
+para quem possui interesse nessa área.
+
+### Recursos
+
+- [FallibleInc/security-guide-for-developers](https://github.com/FallibleInc/security-guide-for-developers)
+  :uk:
 
 ### Chaves PGP
 
