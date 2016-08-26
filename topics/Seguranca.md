@@ -115,7 +115,7 @@ Para mais detalhes sobre o OAuth2 no site
 ### Segurança em aplicações web
 
 Durante o desenvolvimento de aplicações web geralmente são pensandos pontos de
-usuabilidade e performance, mas assim como esses itens segurança é algo que deve
+usuabilidade e performance, mas assim como esses itens, segurança é algo que deve
 ser levado em consideração durante o desenvolvimento da aplicação. Um guia para
 os itens relacionados a segurança é o
 [OWASP top 10](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project)
@@ -133,21 +133,21 @@ de comunicação entre APIs, microserviços e usuário-aplicação.  HTTPS é um
 recurso que pode-se dizer obrigatório e de baixo custo, que irá evitar ataques
 [*man-in-the-middle*](https://pt.wikipedia.org/wiki/Ataque_man-in-the-middle) e
 irá garantir que os dados trafegados na rede não foram lidos por mais ninguém
-atém das duas partes que estão trocando informações.
+além das duas partes que estão trocando informações.
 
 Existe um projeto chamado [Let's Encrypt](https://letsencrypt.org/) que fornece
 certificados HTTPS de forma gratuíta e clientes que automatizam a atualização
-desses sertificados em suas aplicações.
+desses certificados em suas aplicações.
 
 Para mais detalhes sobre o HTTPS acesse o link no
 [Wikipedia](https://pt.wikipedia.org/wiki/Hyper_Text_Transfer_Protocol_Secure).
 
-Porém lembre-se HTTPS é o minimo para sua aplicação, ter HTTPS ainda sim não
+Porém, lembre-se HTTPS é o minimo para sua aplicação, ter HTTPS ainda sim não
 significa que sua aplicação estão segura.
 
 ### Verificação de vulnerabilidades em bibliotecas e pacotes
 
-Como um dos processos que pode ser feito para verificar falhas de segurança é
+Um dos processos que pode ser feito para verificar falhas de segurança é
 uma verificação nas bibliotecas e dependencias.
 
 Exemplo de ferramentas:
