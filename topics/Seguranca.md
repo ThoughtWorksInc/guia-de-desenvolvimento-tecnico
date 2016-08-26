@@ -78,7 +78,7 @@ Um meio seguro de compartilhar segredos com o time é utilizar gerenciador de
 senhas compartilhado.
 
 Um examplo é usar o [Pass](https://www.passwordstore.org/) que utiliza GPG para
-encriptar o que permite que segredos sejam compartilhados para mais de uma
+encriptar, o que permite que segredos sejam compartilhados para mais de uma
 pessoa resultando em um único arquivo e o segredos são sincronizados através do
 git para ser compartilhado por todos os membros do time.
 
