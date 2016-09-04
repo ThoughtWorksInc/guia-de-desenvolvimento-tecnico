@@ -25,6 +25,39 @@ estão sendo atendidas. Pensar em estratégia de qualidade compreende:
 
 [[Artigo] Escreva Testes Melhores em 5 Passos](https://www.thoughtworks.com/pt/insights/blog/write-better-tests-5-steps)
 
-## Análise de Código
+## Análise  de Código
+
+A cada linha de código que você escreve, mais complexidade é adicionada a sua aplicação, então, mais difícil fica criar novas funcionalidades. Para isso existem ferramentas que são responsáveis para realizar a análise do seu código, como por exemplo:
+
+ - Comentários desnecessários
+ - Duplicações de código
+ - Complexidade ciclomáticas
+ - Cobertura de código por testes
+
+Todas essas validações irão te ajudar a produzir código menos complexico e mais limpo.
+
+### Exemplos de ferramentas
+ - [Sonarqube](http://www.sonarqube.org/)
+ - [FindBugs](http://findbugs.sourceforge.net/)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Estratégia de testes
