@@ -27,19 +27,22 @@ estão sendo atendidas. Pensar em estratégia de qualidade compreende:
 
 ## Análise  de Código
 
+### Por ferramentas automatizadas:
+
 A cada linha de código que você escreve, mais complexidade é adicionada a sua aplicação, então, mais difícil fica criar novas funcionalidades. Para isso existem ferramentas que são responsáveis para realizar a análise do seu código, como por exemplo:
+
+ - [Sonarqube](http://www.sonarqube.org/)
+ - [FindBugs](http://findbugs.sourceforge.net/)
+
+Essas ferramentas tem a função de realizar análises no seu código que irão identificar alguns pequenos(ou não) problemas que estão deixando o código mais complexo ou sujo, como por exemplo:
 
  - Comentários desnecessários
  - Duplicações de código
  - Complexidade ciclomáticas
  - Cobertura de código por testes
 
-Todas essas validações irão te ajudar a produzir código menos complexico e mais limpo.
-
-### Exemplos de ferramentas
- - [Sonarqube](http://www.sonarqube.org/)
- - [FindBugs](http://findbugs.sourceforge.net/)
-
+### Por pessoas:
+<!-- falar de praticas de PR  -->
 
 
 
