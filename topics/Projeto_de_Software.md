@@ -4,6 +4,12 @@ Orientação a objetos é um dos paradigmas de programação mais usados atualme
 Entender os conceitos e saber aplicá-los são passos importantes para escrever
 bons sistemas.
 
+## Os 3 pilares da orientação a objetos
+
+* Encapsulamento: Quando Alan Key criou o SmallTalk por volta de 1970, ele acreditava que cada objeto era uma representação de todos os recursos do computador, sendo, dessa forma, completamente independente. É nesse contexto que se formou a ideia de encapsulamento. Os seus componentes devem ser simples o suficiente para poderem ser transportados por toda a aplicação, sem perderem suas propriedades
+* Polimofismo: É a propriedade de ter várias formas de implementar a mesma coisa
+* Herança: É a propriedade de poder extender o comportamento de um componente sem alterá-lo.
+
 <!-- toc -->
 
 ## Aplique Domain-Driven Design no seu dia-a-dia
