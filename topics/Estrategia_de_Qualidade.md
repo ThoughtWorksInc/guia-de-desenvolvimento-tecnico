@@ -29,12 +29,12 @@ estão sendo atendidas. Pensar em estratégia de qualidade compreende:
 
 ### Por ferramentas automatizadas:
 
-A cada linha de código que você escreve, mais complexidade é adicionada a sua aplicação, então, mais difícil fica criar novas funcionalidades. Para isso existem ferramentas que são responsáveis para realizar a análise do seu código, como por exemplo:
+A cada linha de código escrita, mais complexidade é adicionada a aplicação, então, mais difícil fica criar novas funcionalidades. Para isso existem ferramentas que são responsáveis por realizar análise do código, como por exemplo:
 
  - [Sonarqube](http://www.sonarqube.org/)
  - [FindBugs](http://findbugs.sourceforge.net/)
 
-Essas ferramentas tem a função de realizar análises no seu código que irão identificar alguns pequenos(ou não) problemas que estão deixando o código mais complexo ou sujo, como por exemplo:
+Essas ferramentas tem a função de analisar o código escrito, podendo identificar alguns pequenos problemas que por sua vez podem deixar o código mais complexo ou sujo, como por exemplo:
 
  - Comentários desnecessários
  - Duplicações de código
