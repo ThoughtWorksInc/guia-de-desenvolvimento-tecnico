@@ -27,40 +27,35 @@ estão sendo atendidas. Pensar em estratégia de qualidade compreende:
 
 ## Análise  de Código
 
-### Por ferramentas automatizadas:
+### Por ferramentas automatizadas
 
-A cada linha de código escrita, mais complexidade é adicionada a aplicação, então, mais difícil fica criar novas funcionalidades. Para isso existem ferramentas que são responsáveis por realizar análise do código, como por exemplo:
+A cada linha de código escrita, mais complexidade é adicionada a aplicação,
+ então, mais difícil fica criar novas funcionalidades.
+Para isso existem ferramentas que são responsáveis por realizar análise do código.
+Como por exemplo:
 
- - [Sonarqube](http://www.sonarqube.org/)
- - [FindBugs](http://findbugs.sourceforge.net/)
+* [Sonarqube](http://www.sonarqube.org/)
+* [FindBugs](http://findbugs.sourceforge.net/)
 
-Essas ferramentas tem a função de analisar o código escrito, podendo identificar alguns pequenos problemas que por sua vez podem deixar o código mais complexo ou sujo, como por exemplo:
+Essas ferramentas tem a função de analisar o código escrito, podendo identificar
+alguns pequenos problemas que por sua vez podem deixar o código mais complexo ou
+sujo, como por exemplo:
 
- - Comentários desnecessários
- - Duplicações de código
- - Complexidade ciclomáticas
- - Cobertura de código por testes
+* Comentários desnecessários
+* Duplicações de código
+* Complexidade ciclomáticas
+* Cobertura de código por testes
 
-### Por pessoas:
-<!-- falar de praticas de PR  -->
+### Por pessoas
 
+Uma outra forma de realizar de análise de código é por meio da prática de [Pull Request](https://help.github.com/articles/about-pull-requests/),
+aonde a cada push realizado para o repositório, o seu time é responsável
+por fazer a análise desse código novo, com a intenção de encontrar possíveis bugs
+e melhorias na implementação.
 
+### Recursos
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* [[Artigo]Melhorando a qualidade do código com sonarqube](http://www.infobip.com/pt/desenvolvedor/melhorando-a-qualidade-do-codigo-com-sonarqube)
+* [[Artigo] The benefits of pull request](https://www.madetech.com/blog/deployment-by-pull-requests)
 
 ## Estratégia de testes
