@@ -48,8 +48,8 @@ sujo, como por exemplo:
 
 ### Por pessoas
 
-Uma outra forma de realizar de análise de código é por meio da prática de [Pull Request](https://help.github.com/articles/about-pull-requests/),
-aonde a cada push realizado para o repositório, o seu time é responsável
+Uma outra forma de realizar a análise de código é por meio da prática de [Pull Request](https://help.github.com/articles/about-pull-requests/),
+onde a cada push realizado para o repositório, sendo assim, o time é responsável
 por fazer a análise desse código novo, com a intenção de encontrar possíveis bugs
 e melhorias na implementação.
 
