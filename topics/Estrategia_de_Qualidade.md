@@ -37,9 +37,9 @@ em menor quantidade quando comparado aos demais níveis da pirâmide.
 
 ### Recursos
 
-[[Artigo] Test Pyramid](http://martinfowler.com/bliki/TestPyramid.html) :uk:
-[[Artigo] The Forgotten Layer of the Test Automation Pyramid](http://www.mountaingoatsoftware.com/blog/the-forgotten-layer-of-the-test-automation-pyramid) :uk:
-[[Artigo] Melhorando sua Estratégia de Testes Automatizados](http://blog.myscrumhalf.com/2014/03/melhorando-sua-estrategia-de-testes-automatizados/)
+* [[Artigo] Test Pyramid](http://martinfowler.com/bliki/TestPyramid.html) :uk:
+* [[Artigo] The Forgotten Layer of the Test Automation Pyramid](http://www.mountaingoatsoftware.com/blog/the-forgotten-layer-of-the-test-automation-pyramid) :uk:
+* [[Artigo] Melhorando sua Estratégia de Testes Automatizados](http://blog.myscrumhalf.com/2014/03/melhorando-sua-estrategia-de-testes-automatizados/)
 
 ## Escreva testes automatizados
 
