@@ -49,13 +49,13 @@ sujo, como por exemplo:
 ### Por pessoas
 
 Uma outra forma de realizar a análise de código é por meio da prática de [Pull Request](https://help.github.com/articles/about-pull-requests/),
-onde a cada push realizado para o repositório, sendo assim, o time é responsável
-por fazer a análise desse código novo, com a intenção de encontrar possíveis bugs
-e melhorias na implementação.
+onde a cada push realizado para o repositório,
+um outro membro da equipe se responsabiliza por revisar o código
+com a intenção de encontrar possíveis problemas e sugerir melhorias na implementação.
 
 ### Recursos
 
 * [[Artigo]Melhorando a qualidade do código com sonarqube](http://www.infobip.com/pt/desenvolvedor/melhorando-a-qualidade-do-codigo-com-sonarqube)
-* [[Artigo] The benefits of pull request](https://www.madetech.com/blog/deployment-by-pull-requests)
+* [[Artigo]The benefits of pull request](https://www.madetech.com/blog/deployment-by-pull-requests) :uk:
 
 ## Estratégia de testes
