@@ -4,9 +4,7 @@ Orientação a objetos é um dos paradigmas de programação mais usados atualme
 Entender os conceitos e saber aplicá-los são passos importantes para escrever
 bons sistemas.
 
-* [Os Pilares da Orientação a Objetos](#pilares)
-* [Padrões de Projeto Orientado a Objeto](#padroes)
-* [Domain-Driven Design (DDD)](#ddd)
+<!-- toc -->
 
 <a name="pilares"/>
 ## Os pilares da Orientação a Objetos
