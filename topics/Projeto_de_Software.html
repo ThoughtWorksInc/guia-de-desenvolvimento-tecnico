@@ -273,14 +273,55 @@ Entender os conceitos e saber aplic&#xE1;-los s&#xE3;o passos importantes para e
 bons sistemas.</p><!-- toc -->
 
 
-<ul><li><a href="#aplique-domain-driven-design-no-seu-dia-a-dia">Aplique Domain-Driven Design no seu dia-a-dia</a>
+<ul><li><a href="#os-pilares-da-orienta&#xE7;&#xE3;o-a-objetos">Os pilares da Orienta&#xE7;&#xE3;o a Objetos</a>
 </li>
 <li><a href="#padr&#xF5;es-de-projeto-orientado-a-objeto">Padr&#xF5;es de Projeto Orientado a Objeto</a>
+</li>
+<li><a href="#domain-driven-design">Domain-Driven Design</a>
 </li></ul>
 <!-- tocstop -->
 
 
-<h2 id="aplique-domain-driven-design-no-seu-dia-a-dia">Aplique Domain-Driven Design no seu dia-a-dia</h2><p>Domain-Driven Design &#xE9; uma abordagem de trabalho em desenvolvimento de software
+<h2 id="os-pilares-da-orienta&#xE7;&#xE3;o-a-objetos">Os pilares da Orienta&#xE7;&#xE3;o a Objetos</h2><p>S&#xE3;o muitos os conceitos que comp&#xF5;e esse paradigma e n&#xE3;o &#xE9; f&#xE1;cil resum&#xED;-los
+em poucas linhas. Voc&#xEA; vai ver que com experi&#xEA;ncia voc&#xEA; criar&#xE1; seus pr&#xF3;prios
+pontos de vista. De qualquer forma, esse paradigma se constr&#xF3;i sobre os
+seguintes pilares:</p><ul><li>Encapsulamento: Quando Alan Key criou o SmallTalk por volta de 1970,
+ele acreditava que cada objeto era uma representa&#xE7;&#xE3;o de todos os recursos
+do computador, sendo, dessa forma, completamente independente. &#xC9; nesse
+contexto que se formou a ideia de encapsulamento. Os seus componentes devem
+ser simples o suficiente para poderem ser transportados por toda a aplica&#xE7;&#xE3;o,
+sem perderem suas propriedades;
+</li>
+<li>Polimofismo: &#xC9; a propriedade de ter v&#xE1;rias formas de implementar a mesma
+coisa.
+Essa propriedade permite mudan&#xE7;as de comportamento para um mesmo
+tipo de componente;
+</li>
+<li>Heran&#xE7;a: &#xC9; a propriedade de poder extender o comportamento de um componente
+sem alter&#xE1;-lo.
+</li></ul>
+<h3 id="recursos">Recursos</h3><ul><li><a href="https://pt.wikipedia.org/wiki/Orienta%C3%A7%C3%A3o_a_objetos" target="_blank">[Wikipedia] Orienta&#xE7;&#xE3;o a Objetos</a>
+</li>
+<li><a href="http://www.training.com.br/lpmaia/pub_prog_oo.htm" target="_blank">[Artigo] Orienta&#xE7;&#xE3;o a Objetos</a>
+</li>
+<li><a href="https://renatomotzko.wordpress.com/2011/08/29/pilares-da-orientao-a-objetos/" target="_blank">[Artigo] Pilares da Orienta&#xE7;&#xE3;o a Objetos</a>
+</li>
+<li><a href="http://worrydream.com/EarlyHistoryOfSmalltalk/" target="_blank">[Artigo] Curiosidade - Early History of SmallTalk (hist&#xF3;ria do SmallTalk)</a>
+<img align="absmiddle" alt=":uk:" class="emoji" src="../gitbook/gitbook-plugin-advanced-emoji/emojis/uk.png" title=":uk:">
+</li></ul>
+<h2 id="padr&#xF5;es-de-projeto-orientado-a-objeto">Padr&#xF5;es de Projeto Orientado a Objeto</h2><p>Os padr&#xF5;es de projeto surgiram e surgem devido a solu&#xE7;&#xE3;o de problemas
+recorrentes em aplica&#xE7;&#xF5;es orientadas a objetos. S&#xE3;o aplica&#xE7;&#xF5;es diretas
+dos tr&#xEA;s pilares citados anteriormente. Conhecer padr&#xF5;es de projeto vai
+ajudar voc&#xEA; a entender melhor como esse paradigma funciona e como usar
+seus poderosos recursos.</p><h3 id="recursos">Recursos</h3><ul><li><a href="https://brizeno.wordpress.com/padroes/" target="_blank">[Artigo] Padr&#xF5;es de projeto</a>
+</li>
+<li><a href="http://www.devmedia.com.br/conheca-os-padroes-de-projeto/957" target="_blank">[Artigo] Conhe&#xE7;a os padr&#xF5;es de projeto</a>
+</li>
+<li><a href="https://www.amazon.com.br/Cabe%C3%A7a-Padr%C3%B5es-Projetos-Eric-Freeman/dp/8576081741" target="_blank">[Livro] Use a cabe&#xE7;a! Padr&#xF5;es de projeto</a>
+</li>
+<li><a href="https://pt.wikipedia.org/wiki/Padr%C3%A3o_de_projeto_de_software" target="_blank">[Wikipedia] Padr&#xF5;es de projeto de software</a>
+</li></ul>
+<h2 id="domain-driven-design">Domain-Driven Design</h2><p>Domain-Driven Design &#xE9; uma abordagem de trabalho em desenvolvimento de software
 que n&#xE3;o &#xE9; restrita a orienta&#xE7;&#xE3;o a objetos, mas &#xE9; nesse paradigma que as pr&#xE1;ticas
 e padr&#xF5;es s&#xE3;o descritos.</p><p>Nessa abordagem, o <em>dom&#xED;nio</em> &#xE9; o que mais importa, sendo o n&#xFA;cleo do produto, as
 necessidades que ele deve atender. Nele est&#xE3;o contidas todas as regras,
@@ -315,12 +356,12 @@ dia: <em>microservi&#xE7;os</em>, arquitetura <em>CQRS</em> e arquitetura basead
 </li>
 <li><a href="https://www.infoq.com/br/domain-driven-design" target="_blank">InfoQ BR</a>
 </li>
-<li><a href="https://www.infoq.com/domain-driven-design" target="_blank">InfoQ EN</a>
-<img align="absmiddle" alt=":uk:" class="emoji" src="../gitbook/gitbook-plugin-advanced-emoji/emojis/uk.png" title=":uk:">
+<li><a href="https://www.infoq.com/domain-driven-design" target="_blank">InfoQ EN</a> <img align="absmiddle" alt=":uk:" class="emoji" src="../gitbook/gitbook-plugin-advanced-emoji/emojis/uk.png" title=":uk:">
 </li>
 <li><a href="https://www.infoq.com/minibooks/domain-driven-design-quickly" target="_blank">[Minilivro] Domain-Driven Design Quickly</a>
+<img align="absmiddle" alt=":uk:" class="emoji" src="../gitbook/gitbook-plugin-advanced-emoji/emojis/uk.png" title=":uk:">
 </li></ul>
-<h2 id="padr&#xF5;es-de-projeto-orientado-a-objeto">Padr&#xF5;es de Projeto Orientado a Objeto</h2>
+
                                 
                                 </section>
                             
@@ -363,7 +404,7 @@ dia: <em>microservi&#xE7;os</em>, arquitetura <em>CQRS</em> e arquitetura basead
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Projeto de Software","level":"1.3","depth":1,"next":{"title":"Arquitetura de Software","level":"1.4","depth":1,"path":"topics/Arquitetura_de_Software.md","ref":"topics/Arquitetura_de_Software.md","articles":[]},"previous":{"title":"Codificação","level":"1.2","depth":1,"path":"topics/Codificacao.md","ref":"topics/Codificacao.md","articles":[]},"dir":"ltr"},"config":{"plugins":["simple-page-toc","advanced-emoji"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"simple-page-toc":{"maxDepth":2,"skipFirstH1":true},"advanced-emoji":{"embedEmojis":false},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"INDICE.md"},"variables":{},"language":"pt","gitbook":"*"},"file":{"path":"topics/Projeto_de_Software.md","mtime":"2016-08-24T19:34:44.000Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2016-08-24T19:36:16.594Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Projeto de Software","level":"1.3","depth":1,"next":{"title":"Arquitetura de Software","level":"1.4","depth":1,"path":"topics/Arquitetura_de_Software.md","ref":"topics/Arquitetura_de_Software.md","articles":[]},"previous":{"title":"Codificação","level":"1.2","depth":1,"path":"topics/Codificacao.md","ref":"topics/Codificacao.md","articles":[]},"dir":"ltr"},"config":{"plugins":["simple-page-toc","advanced-emoji"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"simple-page-toc":{"maxDepth":2,"skipFirstH1":true},"advanced-emoji":{"embedEmojis":false},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"INDICE.md"},"variables":{},"language":"pt","gitbook":"*"},"file":{"path":"topics/Projeto_de_Software.md","mtime":"2016-09-14T16:30:13.000Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2016-09-14T16:31:30.093Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
