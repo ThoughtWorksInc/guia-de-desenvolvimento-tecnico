@@ -32,7 +32,8 @@ sem alterá-lo.
 * [[Artigo] Orientação a Objetos](http://www.training.com.br/lpmaia/pub_prog_oo.htm)
 * [[Artigo] Pilares da Orientação a Objetos]
 (https://renatomotzko.wordpress.com/2011/08/29/pilares-da-orientao-a-objetos/)
-* [[Artigo] Curiosidade - Early History of SmallTalk (história do SmallTalk)](http://worrydream.com/EarlyHistoryOfSmalltalk/) :uk:
+* [[Artigo] Curiosidade - Early History of SmallTalk (história do SmallTalk)]
+(http://worrydream.com/EarlyHistoryOfSmalltalk/) :uk:
 
 ## Padrões de Projeto Orientado a Objeto
 
@@ -99,4 +100,5 @@ Mais informações sobre DDD podem ser encontradas nos recursos abaixo.
 * [[Artigo] Uma introdução a Domain-Driven Design](http://www.agileandart.com/2010/07/16/ddd-introducao-a-domain-driven-design/)
 * [InfoQ BR](https://www.infoq.com/br/domain-driven-design)
 * [InfoQ EN](https://www.infoq.com/domain-driven-design) :uk:
-* [[Minilivro] Domain-Driven Design Quickly](https://www.infoq.com/minibooks/domain-driven-design-quickly) :uk:
+* [[Minilivro] Domain-Driven Design Quickly]
+(https://www.infoq.com/minibooks/domain-driven-design-quickly) :uk:
