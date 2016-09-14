@@ -14,26 +14,25 @@ pontos de vista. De qualquer forma, esse paradigma se constrói sobre os
 seguintes pilares:
 
 * Encapsulamento: Quando Alan Key criou o SmallTalk por volta de 1970,
-ele acreditava que cada objeto era uma representação de todos os recursos
-do computador, sendo, dessa forma, completamente independente. É nesse
-contexto que se formou a ideia de encapsulamento. Os seus componentes devem
-ser simples o suficiente para poderem ser transportados por toda a aplicação,
-sem perderem suas propriedades;
+  ele acreditava que cada objeto era uma representação de todos os recursos
+  do computador, sendo, dessa forma, completamente independente. É nesse
+  contexto que se formou a ideia de encapsulamento. Os seus componentes devem
+  ser simples o suficiente para poderem ser transportados por toda a aplicação,
+  sem perderem suas propriedades;
 * Polimofismo: É a propriedade de ter várias formas de implementar a mesma
- coisa.
-Essa propriedade permite mudanças de comportamento para um mesmo
-tipo de componente;
+  coisa.
+  Essa propriedade permite mudanças de comportamento para um mesmo
+  tipo de componente;
 * Herança: É a propriedade de poder extender o comportamento de um componente
-sem alterá-lo.
+  sem alterá-lo.
 
 ### Recursos
 
 * [[Wikipedia] Orientação a Objetos](https://pt.wikipedia.org/wiki/Orienta%C3%A7%C3%A3o_a_objetos)
 * [[Artigo] Orientação a Objetos](http://www.training.com.br/lpmaia/pub_prog_oo.htm)
-* [[Artigo] Pilares da Orientação a Objetos]
-(https://renatomotzko.wordpress.com/2011/08/29/pilares-da-orientao-a-objetos/)
-* [[Artigo] Curiosidade - Early History of SmallTalk (história do SmallTalk)]
-(http://worrydream.com/EarlyHistoryOfSmalltalk/) :uk:
+* [[Artigo] Pilares da Orientação a Objetos](https://renatomotzko.wordpress.com/2011/08/29/pilares-da-orientao-a-objetos/)
+* [[Artigo] Curiosidade - Early History of SmallTalk (história do SmallTalk)](http://worrydream.com/EarlyHistoryOfSmalltalk/)
+  :uk:
 
 ## Padrões de Projeto Orientado a Objeto
 
@@ -100,5 +99,5 @@ Mais informações sobre DDD podem ser encontradas nos recursos abaixo.
 * [[Artigo] Uma introdução a Domain-Driven Design](http://www.agileandart.com/2010/07/16/ddd-introducao-a-domain-driven-design/)
 * [InfoQ BR](https://www.infoq.com/br/domain-driven-design)
 * [InfoQ EN](https://www.infoq.com/domain-driven-design) :uk:
-* [[Minilivro] Domain-Driven Design Quickly]
-(https://www.infoq.com/minibooks/domain-driven-design-quickly) :uk:
+* [[Minilivro] Domain-Driven Design Quickly](https://www.infoq.com/minibooks/domain-driven-design-quickly)
+  :uk:
