@@ -66,7 +66,7 @@ diferentes máquinas.
 
 Dentre os mais utilizados temos:
 
-* [Git](https://git-scm.com/),
+* [Git](https://git-scm.com/)
 * [Mercurial](https://www.mercurial-scm.org/)
 * [SVN](https://subversion.apache.org/)
 
