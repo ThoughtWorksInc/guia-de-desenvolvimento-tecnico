@@ -142,7 +142,7 @@ desses certificados em suas aplicações.
 Para mais detalhes sobre o HTTPS acesse o link no
 [Wikipedia](https://pt.wikipedia.org/wiki/Hyper_Text_Transfer_Protocol_Secure).
 
-Porém, lembre-se que HTTPS é o mínimo para sua aplicação. Ter HTTPS ainda sim não
+Porém, lembre-se que HTTPS é o mínimo para sua aplicação. Ter HTTPS ainda assim não
 significa que sua aplicação está segura.
 
 ### Verificação de vulnerabilidades em bibliotecas e pacotes
