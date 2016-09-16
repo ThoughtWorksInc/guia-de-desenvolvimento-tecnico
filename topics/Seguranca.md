@@ -42,7 +42,7 @@ repositórios git entre outros.
 ### Commit git assinado
 
 Ao fazer commits com a ferramenta git, não há garantias de saber quem é o autor
-dos commits, sendo que git config não faz nenhum tipo de autenticação durante as
+dos commits, já que git config não faz nenhum tipo de autenticação durante as
 configurações.
 
 Um possivel meio para ter garantia na autenticidade dos commits é assinando-os
@@ -114,10 +114,10 @@ Para mais detalhes sobre o OAuth2 no site
 
 ### Segurança em aplicações web
 
-Durante o desenvolvimento de aplicações web geralmente são pensandos pontos de
-usuabilidade e performance, mas assim como esses itens, segurança é algo que deve
-ser levado em consideração durante o desenvolvimento da aplicação. Um guia para
-os itens relacionados a segurança é o
+Durante o desenvolvimento de aplicações web geralmente são pensados pontos de
+usuabilidade e performance. Assim como esses itens, segurança é algo que deve
+ser levado em consideração durante todo o desenvolvimento da aplicação. Um guia
+para os itens relacionados a segurança é o
 [OWASP top 10](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project)
 :uk:.
 
@@ -130,27 +130,27 @@ os itens relacionados a segurança é o
 
 Um item importante ao construir aplicações é sempre pensar em encriptar os meios
 de comunicação entre APIs, microserviços e usuário-aplicação.  HTTPS é um
-recurso que pode-se dizer obrigatório e de baixo custo, que irá evitar ataques
+recurso que pode-se dizer obrigatório e de baixo custo, que evita ataques
 [*man-in-the-middle*](https://pt.wikipedia.org/wiki/Ataque_man-in-the-middle) e
-irá garantir que os dados trafegados na rede não foram lidos por mais ninguém
+garante que os dados trafegados na rede não foram lidos por mais ninguém
 além das duas partes que estão trocando informações.
 
 Existe um projeto chamado [Let's Encrypt](https://letsencrypt.org/) que fornece
-certificados HTTPS de forma gratuíta e clientes que automatizam a atualização
+certificados HTTPS de forma gratuita e clientes que automatizam a atualização
 desses certificados em suas aplicações.
 
 Para mais detalhes sobre o HTTPS acesse o link no
 [Wikipedia](https://pt.wikipedia.org/wiki/Hyper_Text_Transfer_Protocol_Secure).
 
-Porém, lembre-se HTTPS é o minimo para sua aplicação, ter HTTPS ainda sim não
-significa que sua aplicação estão segura.
+Porém, lembre-se que HTTPS é o mínimo para sua aplicação. Ter HTTPS ainda sim não
+significa que sua aplicação está segura.
 
 ### Verificação de vulnerabilidades em bibliotecas e pacotes
 
-Um dos processos que pode ser feito para verificar falhas de segurança é
-uma verificação nas bibliotecas e dependencias.
+Um modo de encontrar falhas de segurança é fazer uma verificação nas bibliotecas
+e dependências que utilizas.
 
-Exemplo de ferramentas:
+Exemplos de ferramentas:
 
 - NodeJS
   - [Snyk](https://github.com/Snyk/snyk)
@@ -169,11 +169,11 @@ Exemplo de ferramentas:
 
 Há casos de aplicações que costumam salvar o
 [hash](https://pt.wikipedia.org/wiki/Fun%C3%A7%C3%A3o_hash) de senhas no banco
-de dados, muitas vezes usando apenas um algoritmo simples para isso como o
+de dados, muitas vezes usando apenas um algoritmo simples para isso, como o
 [MD5](https://pt.wikipedia.org/wiki/MD5) ou
-[SHA1](https://pt.wikipedia.org/wiki/SHA-1), porém recomenda-se que haja uma
+[SHA1](https://pt.wikipedia.org/wiki/SHA-1). Porém recomenda-se que haja uma
 camada extra de lógica antes de gerar esse hash.
 
 Existe um método de criptografia para hash chamado
 [bcrypt](https://pt.wikipedia.org/wiki/Bcrypt) que possui uma segurança maior
-no gerar o hash das senhas dos usuários.
+ao gerar o hash das senhas dos usuários.
