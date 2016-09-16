@@ -42,6 +42,20 @@ alfabética):
 
 ## Programe em (pelo menos) uma linguagem de programação funcional
 
+## Construa soluções guiadas por testes (TDD)
+
+O desenvolvimento guiado por testes faz com que se foque num problema por vez,
+recebendo feedback e refatorando a cada etapa, tendo como resultado um código
+com testes automatizados, facilitando a integração com o código desenvolvido
+por outros membros da equipe.
+
+### Recursos
+
+* [[Artigo] Introdução ao TDD](http://martinfowler.com/bliki/TestDrivenDevelopment.html)
+  :uk:
+* [[Livro] Desenvolvimento Guiado por Testes - Kent Beck](https://www.amazon.com.br/TDD-Desenvolvimento-Guiado-por-Testes/dp/857780724X/)
+* [[Livro] TDD na Prática](https://www.amazon.com.br/TDD-na-Pr%C3%A1tica-Camilo-Lopes/dp/853990327X/)
+
 ## Saiba utilizar um sistema de controle de versão
 
 Sistemas de controle de versão além de realizar o armazenamento e
@@ -64,21 +78,7 @@ Dentre os mais utilizados temos:
 * [[Tutorial] Uso do Mercurial](https://www.mercurial-scm.org/wiki/BrazilianPortugueseTutorial)
 * [[Livro] Mercurial: The Definitive Guide](http://hgbook.red-bean.com/) :uk:
 
-## Construa soluções guiadas por testes (TDD)
-
-Utilizar testes para guiar sua implementação, focando num problema por vez,
-recebendo feedback e refatorando a cada etapa, tendo como resultado um código
-com testes automatizados e facilitando a integração com o código desenvolvido
-por outros membros da equipe.
-
-### Recursos
-
-* [[Artigo] Introdução ao TDD](http://martinfowler.com/bliki/TestDrivenDevelopment.html)
-  :uk:
-* [[Livro] Desenvolvimento Guiado por Testes - Kent Beck](https://www.amazon.com.br/TDD-Desenvolvimento-Guiado-por-Testes/dp/857780724X/)
-* [[Livro] TDD na Prática](https://www.amazon.com.br/TDD-na-Pr%C3%A1tica-Camilo-Lopes/dp/853990327X/)
-
-## Saiba utilizar uma IDE e/ou editor de texto
+## Conheça sua IDE e/ou editor de texto
 
 Para programar é importante dominar ao menos um editor de texto ou
 IDE(Integrated Development Environment). Por mais que o editor pode mudar
