@@ -107,9 +107,9 @@ faça sentir mais confortável. Abaixo encontram-se alguns exemplos:
 
 ## Utilize boas práticas de codificação
 
-Ao desenvolver software, é importante lembrar que outras pessoas lerão o seu
-código. Levando isso em consideração, ressalta-se o quão fundamental é a aplicação
-de boas práticas de codificação.
+Ao desenvolver software, é importante lembrar que outras pessoas lerão e
+manterão o seu código. Levando isso em consideração, ressalta-se o quão
+fundamental é a aplicação de boas práticas de codificação.
 
 Códigos mal escritos podem fazer com que muitas horas sejam perdidas, tanto para
 entendê-los quanto para reescrevê-los de forma mais legível.
