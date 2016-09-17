@@ -269,10 +269,107 @@
                                 <h1 id="seguran&#xE7;a">Seguran&#xE7;a</h1><!-- toc -->
 
 
+<ul><li><a href="#boas-pr&#xE1;ticas-de-seguran&#xE7;a">Boas pr&#xE1;ticas de seguran&#xE7;a</a>
+</li></ul>
 <!-- tocstop -->
 
 
-
+<p>Pensar em seguran&#xE7;a durante o desenvolvimento de software &#xE9; uma pr&#xE1;tica que &#xE9;
+t&#xE3;o essencial de ser pensada quanto qualidade, arquitetura e acessibilidade.</p><p>Esse guia tende a mostrar alguns itens de seguran&#xE7;a que s&#xE3;o importantes, com o
+intuito de tornar o software mais seguro conforme o desenvolvimento do mesmo,
+e previnindo-se de sofrer alguns ataques por falta de conhecimento de algumas
+ferramentas e pr&#xE1;ticas. Mas n&#xE3;o se limite somente a esse guia.</p><h2 id="boas-pr&#xE1;ticas-de-seguran&#xE7;a">Boas pr&#xE1;ticas de seguran&#xE7;a</h2><p>Existe uma lista de boas pr&#xE1;ticas de seguran&#xE7;a que pode ser um guia bem completo
+para quem possui interesse nessa &#xE1;rea.</p><h3 id="recursos">Recursos</h3><ul><li><a href="https://github.com/FallibleInc/security-guide-for-developers" target="_blank">FallibleInc/security-guide-for-developers</a>
+<img align="absmiddle" alt=":uk:" class="emoji" src="../gitbook/gitbook-plugin-advanced-emoji/emojis/uk.png" title=":uk:">
+</li></ul>
+<h3 id="chaves-pgp">Chaves PGP</h3><p>Tendo um par de chaves GPG &#xE9; poss&#xED;vel encriptar, decriptar e assinar os dados,
+podendo assim manter a seguran&#xE7;a e autenticidade dos mesmos.</p><h4 id="recursos">Recursos</h4><ul><li><a href="https://en.wikipedia.org/wiki/Pretty_Good_Privacy" target="_blank">PGP</a> <img align="absmiddle" alt=":uk:" class="emoji" src="../gitbook/gitbook-plugin-advanced-emoji/emojis/uk.png" title=":uk:">
+(Pretty Good Privacy) &#xE9; uma implementa&#xE7;&#xE3;o que prov&#xEA; criptografica e autentica&#xE7;&#xE3;o
+de dados.
+</li>
+<li><a href="https://pt.wikipedia.org/wiki/GNU_Privacy_Guard" target="_blank">GPG</a> (Gnu Privacy Guard) &#xE9; a
+implementa&#xE7;&#xE3;o livre do PGP.
+</li></ul>
+<h3 id="chaves-ssh">Chaves SSH</h3><p><a href="https://pt.wikipedia.org/wiki/Secure_Shell" target="_blank">SSH</a> (Secure Shell) &#xE9; um protocolo
+para acesso remoto ao shell de forma criptografada.</p><p>Recomenda-se utilizar chaves SSH ao inv&#xE9;s de senhas para acesso a servidores,
+reposit&#xF3;rios git entre outros.</p><h3 id="commit-git-assinado">Commit git assinado</h3><p>Ao fazer commits com a ferramenta git, n&#xE3;o h&#xE1; garantias de saber quem &#xE9; o autor
+dos commits, j&#xE1; que git config n&#xE3;o faz nenhum tipo de autentica&#xE7;&#xE3;o durante as
+configura&#xE7;&#xF5;es.</p><p>Um possivel meio para ter garantia na autenticidade dos commits &#xE9; assinando-os
+com chave PGP, assim todas as pessoas da sua equipe e as ferramentas usadas
+(como o Github, por exemplo) poder&#xE1; verificar a assinatura do <em>commit</em>.</p><p>Efetuar commit assinado <a href="https://git-scm.com/docs/git-commit" target="_blank">git commit -S</a> <img align="absmiddle" alt=":uk:" class="emoji" src="../gitbook/gitbook-plugin-advanced-emoji/emojis/uk.png" title=":uk:">
+Verificar commits
+<a href="https://git-scm.com/docs/git-verify-commit" target="_blank">git verify-commit</a> <img align="absmiddle" alt=":uk:" class="emoji" src="../gitbook/gitbook-plugin-advanced-emoji/emojis/uk.png" title=":uk:"></p><h3 id="gerenciador-de-senhas">Gerenciador de senhas</h3><p>Recomenda-se utilizar gerenciadores de senhas, criar senhas fortes e n&#xE3;o
+utilizar as mesmas senhas para servi&#xE7;os.</p><p>Exemplo, ter uma senha com caracteres especiais, letras maiusculas e minusculas
+e n&#xFA;meros sendo elas diferentes para as contas que utilizas (ex. Heroku, Github,
+SnapCI, etc)</p><p>Ferramentas para gerenciador de senhas:</p><p><a href="https://1password.com/" target="_blank">1Password</a> Ferramenta paga compat&#xED;vel com Mac OS,
+Windows, Android e iOS (ferramenta paga)
+<a href="https://www.keepassx.org/" target="_blank">KeepassX</a> Ferramenta gratis e open source, com
+interface gr&#xE1;fica compativel com Linux, Mac OS, Android, iOS
+<a href="https://www.passwordstore.org/" target="_blank">Pass</a> Ferramenta gratis e open source, roda no
+terminal e utiliza o GPG para criptografar compativel para Linux, Mac OS,
+Android.</p><h3 id="gerenciar-segredos-com-o-time">Gerenciar segredos com o time</h3><p>Um meio seguro de compartilhar segredos com o time &#xE9; utilizar gerenciador de
+senhas compartilhado.</p><p>Um examplo &#xE9; usar o <a href="https://www.passwordstore.org/" target="_blank">Pass</a> que utiliza GPG para
+encriptar, o que permite que segredos sejam compartilhados para mais de uma
+pessoa resultando em um &#xFA;nico arquivo e o segredos s&#xE3;o sincronizados atrav&#xE9;s do
+git para ser compartilhado por todos os membros do time.</p><p>Outra ferramenta &#xE9; o <a href="https://1password.com/teams/" target="_blank">1Password for teams</a>, por&#xE9;m
+essa ferramenta &#xE9; paga.</p><h3 id="dois-fatores-de-autentica&#xE7;&#xE3;o">Dois fatores de autentica&#xE7;&#xE3;o</h3><p>Possuir dois fatores de autentica&#xE7;&#xE3;o (Two factor authentication) &#xE9; uma boa
+pr&#xE1;tica para manter maior seguran&#xE7;a no acesso as contas, principalemnte quanto a
+servi&#xE7;os que podem dar acesso ao codebase ou a algum ambiente, exemplo: Github,
+Heroku, SnapCI e etc.</p><h4 id="recursos">Recursos</h4><p>Algumas ferramentas para fazer os dois fatores de autentica&#xE7;&#xE3;o s&#xE3;o:</p><ul><li><a href="https://www.okta.com/" target="_blank">Okta</a> e
+</li>
+<li><a href="https://www.google.com/landing/2step/" target="_blank">Google Autenticator</a>.
+</li></ul>
+<h3 id="oauth2-para-authentica&#xE7;&#xE3;o-em-apis">OAuth2 para authentica&#xE7;&#xE3;o em APIs</h3><p>Recomenda-se o uso de OAuth2 para autentica&#xE7;&#xE3;o em APIs, esse mecanismo permite
+com que apps externos possam se conectar em APIs sem com que o mesmo saiba a
+senha do usu&#xE1;rio.</p><p>Um exemplo para isso &#xE9; uma app que utiliza a API do Github, essa app basta
+apenas pedir autoriza&#xE7;&#xE3;o pelo usu&#xE1;rio para acessar deferminadas informa&#xE7;&#xF5;es, no
+qual o usu&#xE1;rio far&#xE1; utilizando o pr&#xF3;prio Github.</p><p>Para mais detalhes sobre o OAuth2 no site
+<a href="http://oauth.net/2/" target="_blank">http://oauth.net/2/</a> <img align="absmiddle" alt=":uk:" class="emoji" src="../gitbook/gitbook-plugin-advanced-emoji/emojis/uk.png" title=":uk:"></p><h3 id="seguran&#xE7;a-em-aplica&#xE7;&#xF5;es-web">Seguran&#xE7;a em aplica&#xE7;&#xF5;es web</h3><p>Durante o desenvolvimento de aplica&#xE7;&#xF5;es web geralmente s&#xE3;o pensados pontos de
+usuabilidade e performance. Assim como esses itens, seguran&#xE7;a &#xE9; algo que deve
+ser levado em considera&#xE7;&#xE3;o durante todo o desenvolvimento da aplica&#xE7;&#xE3;o. Um guia
+para os itens relacionados a seguran&#xE7;a &#xE9; o
+<a href="https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project" target="_blank">OWASP top 10</a>
+<img align="absmiddle" alt=":uk:" class="emoji" src="../gitbook/gitbook-plugin-advanced-emoji/emojis/uk.png" title=":uk:">.</p><h4 id="recursos">Recursos</h4><ul><li>H&#xE1; um PDF em portugu&#xEA;s atrav&#xE9;s do link
+<a href="https://owasptop10.googlecode.com/files/OWASP_Top_10_-_2013_Brazilian_Portuguese.pdf" target="_blank">OWASP top 10</a>.
+</li></ul>
+<h3 id="https-n&#xE3;o-significa-estar-seguro">HTTPS n&#xE3;o significa estar seguro</h3><p>Um item importante ao construir aplica&#xE7;&#xF5;es &#xE9; sempre pensar em encriptar os meios
+de comunica&#xE7;&#xE3;o entre APIs, microservi&#xE7;os e usu&#xE1;rio-aplica&#xE7;&#xE3;o.  HTTPS &#xE9; um
+recurso que pode-se dizer obrigat&#xF3;rio e de baixo custo, que evita ataques
+<a href="https://pt.wikipedia.org/wiki/Ataque_man-in-the-middle" target="_blank"><em>man-in-the-middle</em></a> e
+garante que os dados trafegados na rede n&#xE3;o foram lidos por mais ningu&#xE9;m
+al&#xE9;m das duas partes que est&#xE3;o trocando informa&#xE7;&#xF5;es.</p><p>Existe um projeto chamado <a href="https://letsencrypt.org/" target="_blank">Let&apos;s Encrypt</a> que fornece
+certificados HTTPS de forma gratuita e clientes que automatizam a atualiza&#xE7;&#xE3;o
+desses certificados em suas aplica&#xE7;&#xF5;es.</p><p>Para mais detalhes sobre o HTTPS acesse o link no
+<a href="https://pt.wikipedia.org/wiki/Hyper_Text_Transfer_Protocol_Secure" target="_blank">Wikipedia</a>.</p><p>Por&#xE9;m, lembre-se que HTTPS &#xE9; o m&#xED;nimo para sua aplica&#xE7;&#xE3;o. Ter HTTPS ainda assim n&#xE3;o
+significa que sua aplica&#xE7;&#xE3;o est&#xE1; segura.</p><h3 id="verifica&#xE7;&#xE3;o-de-vulnerabilidades-em-bibliotecas-e-pacotes">Verifica&#xE7;&#xE3;o de vulnerabilidades em bibliotecas e pacotes</h3><p>Um modo de encontrar falhas de seguran&#xE7;a &#xE9; fazer uma verifica&#xE7;&#xE3;o nas bibliotecas
+e depend&#xEA;ncias que utilizas.</p><p>Exemplos de ferramentas:</p><ul><li><p>NodeJS</p><ul><li><a href="https://github.com/Snyk/snyk" target="_blank">Snyk</a>
+</li>
+<li><a href="https://gemnasium.com/" target="_blank">Gemnasium</a>
+</li></ul>
+</li>
+<li><p>Java</p><ul><li><a href="https://github.com/jeremylong/DependencyCheck" target="_blank">OWASP Depency check</a>
+</li></ul>
+</li>
+<li><p>Python</p><ul><li><a href="https://pypi.python.org/pypi/dependency-check/0.1.0" target="_blank">dependency-check</a>
+</li>
+<li><a href="https://gemnasium.com/" target="_blank">Gemnasium</a>
+</li></ul>
+</li>
+<li><p>Ruby</p><ul><li><a href="https://github.com/jeremylong/DependencyCheck" target="_blank">OWASP Depency check</a>
+</li>
+<li><a href="http://rubysec.com/" target="_blank">RubySec</a>
+</li>
+<li><a href="https://gemnasium.com/" target="_blank">Gemnasium</a>
+</li></ul>
+</li></ul>
+<h3 id="gerenciando-senhas-em-aplica&#xE7;&#xF5;es">Gerenciando senhas em aplica&#xE7;&#xF5;es</h3><p>H&#xE1; casos de aplica&#xE7;&#xF5;es que costumam salvar o
+<a href="https://pt.wikipedia.org/wiki/Fun%C3%A7%C3%A3o_hash" target="_blank">hash</a> de senhas no banco
+de dados, muitas vezes usando apenas um algoritmo simples para isso, como o
+<a href="https://pt.wikipedia.org/wiki/MD5" target="_blank">MD5</a> ou
+<a href="https://pt.wikipedia.org/wiki/SHA-1" target="_blank">SHA1</a>. Por&#xE9;m recomenda-se que haja uma
+camada extra de l&#xF3;gica antes de gerar esse hash.</p><p>Existe um m&#xE9;todo de criptografia para hash chamado
+<a href="https://pt.wikipedia.org/wiki/Bcrypt" target="_blank">bcrypt</a> que possui uma seguran&#xE7;a maior
+ao gerar o hash das senhas dos usu&#xE1;rios.</p>
                                 
                                 </section>
                             
@@ -311,7 +408,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Segurança","level":"1.10","depth":1,"previous":{"title":"Armazenamento de dados","level":"1.9","depth":1,"path":"topics/Armazenamento_de_Dados.md","ref":"topics/Armazenamento_de_Dados.md","articles":[]},"dir":"ltr"},"config":{"plugins":["simple-page-toc","advanced-emoji"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"simple-page-toc":{"maxDepth":2,"skipFirstH1":true},"advanced-emoji":{"embedEmojis":false},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"INDICE.md"},"variables":{},"language":"pt","gitbook":"*"},"file":{"path":"topics/Seguranca.md","mtime":"2016-09-16T23:47:15.000Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2016-09-16T23:48:23.959Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Segurança","level":"1.10","depth":1,"previous":{"title":"Armazenamento de dados","level":"1.9","depth":1,"path":"topics/Armazenamento_de_Dados.md","ref":"topics/Armazenamento_de_Dados.md","articles":[]},"dir":"ltr"},"config":{"plugins":["simple-page-toc","advanced-emoji"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"simple-page-toc":{"maxDepth":2,"skipFirstH1":true},"advanced-emoji":{"embedEmojis":false},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"INDICE.md"},"variables":{},"language":"pt","gitbook":"*"},"file":{"path":"topics/Seguranca.md","mtime":"2016-09-17T21:06:32.000Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2016-09-17T21:07:43.585Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

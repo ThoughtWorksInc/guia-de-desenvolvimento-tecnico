@@ -3,22 +3,22 @@ $ [32mgit clone git@localhost:ThoughtWorksInc/guia-de-desenvolvimento-tecnico .
 Cloning into '.'...
 Warning: Permanently added 'localhost' (RSA) to the list of known hosts.
 Command [32mgit clone git@localhost:ThoughtWorksInc/guia-de-desenvolvimento-tecnico .[0m exited successfully with status 0.
-Took 0.6351 seconds.
+Took 0.57318 seconds.
 
 $ [32mgit checkout master[0m
 Already on 'master'
 Your branch is up-to-date with 'origin/master'.
 Command [32mgit checkout master[0m exited successfully with status 0.
-Took 0.0146 seconds.
+Took 0.01584 seconds.
 
-$ [32mgit reset --hard 370612848dd23d7d17e33b50d4385bab95605067[0m
-HEAD is now at 3706128 Merge pull request #41 from ThoughtWorksInc/feedback-anike-codificacao
-Command [32mgit reset --hard 370612848dd23d7d17e33b50d4385bab95605067[0m exited successfully with status 0.
-Took 0.01407 seconds.
+$ [32mgit reset --hard ca32faa2141572f3ac6ae881070126901389d33a[0m
+HEAD is now at ca32faa Merge pull request #20 from ThoughtWorksInc/segurança
+Command [32mgit reset --hard ca32faa2141572f3ac6ae881070126901389d33a[0m exited successfully with status 0.
+Took 0.02483 seconds.
 
 $ [32mgit submodule update --init --recursive[0m
 Command [32mgit submodule update --init --recursive[0m exited successfully with status 0.
-Took 0.04157 seconds.
+Took 0.04482 seconds.
 
 $ export SNAP_CI=true
 $ export CI=true
@@ -26,11 +26,11 @@ $ export SNAP_CACHE_DIR=/var/go
 $ export LANG=en_US.UTF-8
 $ export LC_ALL=en_US.UTF-8
 $ export SNAP_WORKING_DIR=/var/snap-ci/repo
-$ export SNAP_PIPELINE_COUNTER=19
+$ export SNAP_PIPELINE_COUNTER=20
 $ export SNAP_STAGE_NAME=Lint
 $ export SNAP_BRANCH=master
-$ export SNAP_COMMIT=370612848dd23d7d17e33b50d4385bab95605067
-$ export SNAP_COMMIT_SHORT=3706128
+$ export SNAP_COMMIT=ca32faa2141572f3ac6ae881070126901389d33a
+$ export SNAP_COMMIT_SHORT=ca32faa
 $ export SNAP_TRACKING_PIPELINE=true
 $ export SNAP_INTEGRATION_PIPELINE=false
 
@@ -65,7 +65,7 @@ markdownlint-cli@0.2.0 node_modules/markdownlint-cli
 
 gitbook-plugin-simple-page-toc@0.1.0 node_modules/gitbook-plugin-simple-page-toc
 ├── uslug@1.0.4 (unorm@1.4.1)
-└── markdown-toc@0.12.16 (markdown-link@0.1.1, strip-color@0.1.0, repeat-string@1.5.4, mixin-deep@1.1.3, object.pick@1.1.2, minimist@1.2.0, lazy-cache@2.0.1, concat-stream@1.5.2, list-item@1.1.1, gray-matter@2.0.2, remarkable@1.6.2)
+└── markdown-toc@0.12.16 (strip-color@0.1.0, markdown-link@0.1.1, repeat-string@1.5.4, mixin-deep@1.1.3, object.pick@1.1.2, minimist@1.2.0, lazy-cache@2.0.1, concat-stream@1.5.2, list-item@1.1.1, gray-matter@2.0.2, remarkable@1.6.2)
 
 gitbook-cli@2.3.0 node_modules/gitbook-cli
 ├── bash-color@0.0.4
@@ -83,7 +83,7 @@ gitbook-cli@2.3.0 node_modules/gitbook-cli
 gitbook-plugin-advanced-emoji@0.2.1 node_modules/gitbook-plugin-advanced-emoji
 └── emojify.js@1.1.0
 Command [32mnpm install[0m exited successfully with status 0.
-Took 21.91 seconds.
+Took 22.08 seconds.
 
 $ [32mnpm test[0m
 
@@ -92,6 +92,6 @@ $ [32mnpm test[0m
 
 
 Command [32mnpm test[0m exited successfully with status 0.
-Took 0.48108 seconds.
+Took 0.48696 seconds.
 
 Saving console log for later
