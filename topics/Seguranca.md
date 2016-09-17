@@ -1,5 +1,7 @@
 # Segurança
 
+<!-- toc -->
+
 Pensar em segurança durante o desenvolvimento de software é uma prática que é
 tão essencial de ser pensada quanto qualidade, arquitetura e acessibilidade.
 
