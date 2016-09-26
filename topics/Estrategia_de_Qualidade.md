@@ -88,16 +88,35 @@ sujo, como por exemplo:
 * Complexidade ciclomáticas
 * Cobertura de código por testes
 
-### Por pessoas
-
-Uma outra forma de realizar a análise de código é por meio da prática de [Pull Request](https://help.github.com/articles/about-pull-requests/),
-onde a cada push realizado para o repositório,
-um outro membro da equipe se responsabiliza por revisar o código
-com a intenção de encontrar possíveis problemas e sugerir melhorias na implementação.
-
 ### Recursos
 
 * [[Artigo]Melhorando a qualidade do código com sonarqube](http://www.infobip.com/pt/desenvolvedor/melhorando-a-qualidade-do-codigo-com-sonarqube)
-* [[Artigo]The benefits of pull request](https://www.madetech.com/blog/deployment-by-pull-requests) :uk:
 
 ## Estratégia de testes
+
+## Cultura de qualidade em projetos
+
+### Pull request
+
+Em alguns projetos que utilizam desenvolvimento orientado por branch's, é comum realizar a análise de código,
+por meio da prática de [Pull Request](https://help.github.com/articles/about-pull-requests/),
+onde a cada push realizado para o repositório, é criado um "pull request" aonde membros da equipe se responsabiliza por revisar o código com a intenção de encontrar possíveis problemas e sugerir melhorias na implementação.
+
+### Kick-Off
+
+Kick-Off é uma prática realizada antes de uma estória começar,
+aonde é feita uma revisão com os responsáveis pela estória,
+geralmente desenvolvedores, analistas de negócios e analistas de qualidade. Nessa revisão é verificado se a estória realmente pode ir para desenvolvimento, quais são seus critérios de aceites, se existem wireframes, como será validada e etc.
+
+### Desk-Check
+
+Na prática de Desk-Check é realizada uma revisão depois que a estória é finalizada pelos desenvolvedores. Nessa revisão algumas verificações que podem ser feitas são:
+
+* Todos os critérios de aceitação foram alcançados?
+* Toda a implementação está coberta por testes em seus niveis
+* Ficou algum débito tecnico nessa estória?
+
+### Recursos
+
+* [[Artigo]The benefits of pull request](https://www.madetech.com/blog/deployment-by-pull-requests) :uk:
+*  [[Artigo]Defect Prevention Using Agile Techniques](https://www.thoughtworks.com/de/insights/blog/defect-prevention-using-agile-techniques) :uk:
