@@ -13,6 +13,50 @@ estão sendo atendidas. Pensar em estratégia de qualidade compreende:
 
 <!-- toc -->
 
+## Tipos de testes
+
+Para assegurar a qualidade em projetos de desenvolvimento de software, existem alguns
+tipos de testes que podem ser aplicados como parte da estratégia de qualidade.
+Os tipos de testes podem variar conforme o contexto em questão e em alguns projetos
+talvez seja necessária a aplicação de mais de um tipo. Alguns exemplos de testes
+mais comumente encontrados, mas não se limitando aos citados abaixo, são:
+
+Testes funcionais: Estes testes tem como propósito verficar *o que* o sistema faz,
+bem como se atende as necessidades pré-determinadas para o mesmo.
+
+Alguns testes considerados funcionais são:
+
+* Testes manuais:
+
+* Testes automatizados de interface:
+
+* Testes automatizados de integração:
+
+* Testes exploratórios:
+
+* Testes de regressão:
+
+* Testes de fumaça:
+
+Testes não funcionais: Estes testes tem como finalidade verificar *como* o sistema
+se comporta mediante alguma situação. Alguns testes considerados não funcionais são:
+
+* Testes de performance:
+
+* Teste de segurança:
+
+* Teste de usabiliade:
+
+* Teste de configuração:
+
+### Recursos
+
+* [[Artigo] Tipos de testes de software](http://testesdesoftware.com/tipos-de-teste-de-software/)
+* [[Artigo] Os 13 principais tipos de testes de software](http://www.targettrust.com.br/blog/desenvolvimento/testes/os-13-principais-tipos-de-testes-de-software/)
+* [[Artigo] Performance testing in a Nutshell](https://www.thoughtworks.com/insights/blog/performance-testing-nutshell) :uk:
+
+<!-- toc -->
+
 ## Pirâmide de testes
 
 A pirâmide de testes é um conceito proposto por Mike Cohn,
