@@ -54,9 +54,9 @@ Os principais anti-padrões que podemos encontrar e tentar evitar são:
 ### Recursos
 
 * [[Artigo] Test Pyramid](http://martinfowler.com/bliki/TestPyramid.html) :uk:
-* [[Artigo] The Forgotten Layer of the Test Automation Pyramid](http://www.mountaingoatsoftware.com/blog/the-forgotten-layer-of-the-test-automation-pyramid) :uk:
+* [[Artigo] The Forgotten Layer of the Test Automation Pyramid](https://goo.gl/vYIKPw) :uk:
 * [[Artigo] Melhorando sua Estratégia de Testes Automatizados](http://blog.myscrumhalf.com/2014/03/melhorando-sua-estrategia-de-testes-automatizados/)
-* [[Artigo] Introducing the Software Testing Cupcake (Anti-Pattern)](https://www.thoughtworks.com/insights/blog/introducing-software-testing-cupcake-anti-pattern) :uk:
+* [[Artigo] Introducing the Software Testing Cupcake (Anti-Pattern)](https://goo.gl/P9NgQN) :uk:
 
 ## Escreva testes automatizados
 
@@ -90,7 +90,7 @@ sujo, como por exemplo:
 
 ### Recursos
 
-* [[Artigo]Melhorando a qualidade do código com sonarqube](http://www.infobip.com/pt/desenvolvedor/melhorando-a-qualidade-do-codigo-com-sonarqube)
+* [[Artigo]Melhorando a qualidade do código com sonarqube](https://goo.gl/brR0YF)
 
 ## Estratégia de testes
 
@@ -98,25 +98,36 @@ sujo, como por exemplo:
 
 ### Pull request
 
-Em alguns projetos que utilizam desenvolvimento orientado por branch's, é comum realizar a análise de código,
-por meio da prática de [Pull Request](https://help.github.com/articles/about-pull-requests/),
-onde a cada push realizado para o repositório, é criado um "pull request" aonde membros da equipe se responsabiliza por revisar o código com a intenção de encontrar possíveis problemas e sugerir melhorias na implementação.
+Em alguns projetos que utilizam desenvolvimento orientado por branches,
+é comum realizar a análise de código,por meio da prática de [Pull Request](https://goo.gl/SxiPGr),
+onde a cada push realizado para o repositório,é criado um "pull request"
+e outro membro da equipe se responsabiliza por revisar o código,
+com a intenção de encontrar possíveis problemas e sugerir melhorias na implementação.
 
 ### Kick-Off
 
 Kick-Off é uma prática realizada antes de uma estória começar,
-aonde é feita uma revisão com os responsáveis pela estória,
-geralmente desenvolvedores, analistas de negócios e analistas de qualidade. Nessa revisão é verificado se a estória realmente pode ir para desenvolvimento, quais são seus critérios de aceites, se existem wireframes, como será validada e etc.
+onde é feita uma revisão com os responsáveis pela estória,
+geralmente desenvolvedores, analistas de negócios e analistas de qualidade.
+Nessa revisão é verificado quais os pontos importantes daquela estória,
+deixando claro os critérios de aceitação, eventuais dependências e também
+esclarecendo quaisquer dúvidas que possam surgir,
+com a finalidade de garantir que antes de se começar a nova estória,
+as pessoas envolvidas saibam o que realmente tem que ser feito.
 
 ### Desk-Check
 
-Na prática de Desk-Check é realizada uma revisão depois que a estória é finalizada pelos desenvolvedores. Nessa revisão algumas verificações que podem ser feitas são:
+Na prática de Desk-Check geralmente temos uma revisão,
+do que foi desenvolvido na estória,
+envolvendo as pessoas que trabalharam no desenvolvimento da mesma,
+além de analistas de negócio e de qualidade.
+Nesta revisão algumas verificações que podem ser feitas são:
 
 * Todos os critérios de aceitação foram alcançados?
-* Toda a implementação está coberta por testes em seus niveis
+* Toda a implementação está coberta por testes em seus niveis?
 * Ficou algum débito tecnico nessa estória?
 
 ### Recursos
 
-* [[Artigo]The benefits of pull request](https://www.madetech.com/blog/deployment-by-pull-requests) :uk:
-*  [[Artigo]Defect Prevention Using Agile Techniques](https://www.thoughtworks.com/de/insights/blog/defect-prevention-using-agile-techniques) :uk:
+* [[Artigo]The benefits of pull request](https://goo.gl/s62Xjk) :uk:
+* [[Artigo]Defect Prevention Using Agile Techniques](https://goo.gl/sbkWr4) :uk:
