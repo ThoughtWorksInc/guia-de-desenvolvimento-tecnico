@@ -55,7 +55,7 @@ Os principais anti-padrões que podemos encontrar e tentar evitar são:
 
 * [[Artigo] Test Pyramid](http://martinfowler.com/bliki/TestPyramid.html) :uk:
 * [[Artigo] The Forgotten Layer of the Test Automation Pyramid](https://goo.gl/vYIKPw) :uk:
-* [[Artigo] Melhorando sua Estratégia de Testes Automatizados](http://blog.myscrumhalf.com/2014/03/melhorando-sua-estrategia-de-testes-automatizados/)
+* [[Artigo] Melhorando sua Estratégia de Testes Automatizados](https://goo.gl/U9ddnM)
 * [[Artigo] Introducing the Software Testing Cupcake (Anti-Pattern)](https://goo.gl/P9NgQN) :uk:
 
 ## Escreva testes automatizados
@@ -85,7 +85,7 @@ sujo, como por exemplo:
 
 * Comentários desnecessários
 * Duplicações de código
-* Complexidade ciclomáticas
+* Complexidade ciclomática
 * Cobertura de código por testes
 
 ### Recursos
@@ -99,7 +99,7 @@ sujo, como por exemplo:
 ### Pull request
 
 Em alguns projetos que utilizam desenvolvimento orientado por branches,
-é comum realizar a análise de código,por meio da prática de [Pull Request](https://goo.gl/SxiPGr),
+é comum realizar a análise de código, por meio da prática de [Pull Request](https://goo.gl/SxiPGr),
 onde a cada push realizado para o repositório,é criado um "pull request"
 e outro membro da equipe se responsabiliza por revisar o código,
 com a intenção de encontrar possíveis problemas e sugerir melhorias na implementação.
@@ -111,8 +111,8 @@ onde é feita uma revisão com os responsáveis pela estória,
 geralmente desenvolvedores, analistas de negócios e analistas de qualidade.
 Nessa revisão é verificado quais os pontos importantes daquela estória,
 deixando claro os critérios de aceitação, eventuais dependências e também
-esclarecendo quaisquer dúvidas que possam surgir,
-com a finalidade de garantir que antes de se começar a nova estória,
+esclarecendo quaisquer dúvidas que possam surgir.
+A finalidade é garantir que antes de se começar a nova estória,
 as pessoas envolvidas saibam o que realmente tem que ser feito.
 
 ### Desk-Check
@@ -124,7 +124,7 @@ além de analistas de negócio e de qualidade.
 Nesta revisão algumas verificações que podem ser feitas são:
 
 * Todos os critérios de aceitação foram alcançados?
-* Toda a implementação está coberta por testes em seus niveis?
+* Toda a implementação está coberta por testes em seus níveis?
 * Ficou algum débito tecnico nessa estória?
 
 ### Recursos
