@@ -8,7 +8,7 @@
 ## Visão
 
 * **Para** pessoas interessadas em desenvolvimento técnico
-* **Que** não tem clarezo no que é a jornada de desenvolvimento na visão de TWers
+* **Que** não tem clareza no que é a jornada de desenvolvimento na visão de TWers
 * **O** Guia de desenvolvimento técnico
 * **É** um guia colaborativo online
 * **Que** oferece caminhos de aprendizado
