@@ -67,4 +67,8 @@ Para submeter suas mudanças:
 * Garanta que suas sugestões seguem o padrão e passam os testes
 * Crie uma pull request para mergear seu código nesse repositório
 * Muito provavelmente, você receberá feedbacks ou nosso selo de aprovação
-* Quando receber um "PBPM", ou uma aprovação, você está pronto para mergear suas mudanças!
+* Quando receber um "PBPM", ou uma aprovação, você está pronto para mergear suas
+mudanças!
+
+Se você não teve muitas experiências contribuindo para projetos open source com
+git, sugerimos ler as [dicas do Github](https://guides.github.com/activities/contributing-to-open-source/#contributing) :uk:.
