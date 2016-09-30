@@ -25,6 +25,7 @@ melhores desenvolvedoras de software.
 ## Contribuições
 
 Ficaremos felizes em aceitar contribuições via GitHub pull requests.
+Para saber como começar, leia nossa [documentação de contribuição](https://github.com/ThoughtWorksInc/guia-de-desenvolvimento-tecnico/blob/master/CONTRIBUINDO.md)
 
 ## Aviso Legal
 
