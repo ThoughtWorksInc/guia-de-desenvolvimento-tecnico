@@ -1,5 +1,7 @@
 # Análise de Dados (*Analytics*)
 
+<!-- toc -->
+
 Cada vez mais tem sido recorrente a utilização de análise de dados no
 desenvolvimento de projetos de software. Através de *Analytics* é
 possível compreender o comportamento de pessoas e até mesmo guiar
@@ -22,8 +24,6 @@ de áreas multidisciplinares que tem como objetivo final analisar dados.
 
 Você pode obter mais detalhes através deste [artigo na
 Wikipedia](https://en.wikipedia.org/wiki/Analytics) :uk:
-
-## Níveis de maturidade de Análise de Dados
 
 Podemos extrapolar um pouco mais e comparar análises de dados a dois
 momentos: passado e futuro. A imagem a seguir ilustra esses momentos.
@@ -48,12 +48,21 @@ Business Intelligence (DW/BI), mas não são somente isso. O Google
 Analytics, por exemplo, performa esses tipos de análise, mas não se
 trata de um DW/BI.
 
-## Principais Áreas
+Abaixo seguem as principais áreas que fazem parte de um projeto de
+análise de dados.
 
-### Engenharia de Dados
+## Engenharia de Dados
 
-### Ciência de Dados
+### Recursos
 
-### Visualização de Dados
+## Ciência de Dados
+
+### Recursos
+
+## Visualização de Dados
+
+### Recursos
 
 ## Análise de Dados Ágil
+
+### Recursos
