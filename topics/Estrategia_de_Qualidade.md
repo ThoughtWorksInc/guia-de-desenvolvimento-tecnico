@@ -41,6 +41,14 @@ Nesse conceito, é muito comum encontrar três níveis de testes:
   usuários e fluxos que trazem mais valor ao produto devem ser priorizados nesse
   tipo de teste.
 
+Além disso, podemos considerar que os testes presentes em qualquer pirâmide de teste
+têm como objetivo dar suporte a decisões de desenvolvimento ou de negócio.
+
+* Os testes da base da pirâmide garantem que o código está correto, o foco é a
+  implementação da solução. Nós estamos construíndo corretamente o produto?
+* Os testes do topo da pirâmide garantem que a intenção do produto está de acordo
+  como a visão dos usuários e negócio. Nós estamos construíndo o produto correto?
+
 ### Derivações da pirâmide de testes
 
 É comum encontrar em projetos algumas derivações da pirâmide de testes,
