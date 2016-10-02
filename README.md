@@ -3,6 +3,8 @@
 [![License](https://img.shields.io/aur/license/yaourt.svg?maxAge=2592000)](https://github.com/ThoughtWorksInc/guia-de-desenvolvimento-tecnico/blob/master/LICENSE)
 [![Build Status](https://snap-ci.com/ThoughtWorksInc/guia-de-desenvolvimento-tecnico/branch/master/build_image)](https://snap-ci.com/ThoughtWorksInc/guia-de-desenvolvimento-tecnico/branch/master)
 
+## [Acesse :link:](https://thoughtworksinc.github.io/guia-de-desenvolvimento-tecnico/)
+
 ## Visão
 
 * **Para** indivíduos e times
