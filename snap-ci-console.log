@@ -3,22 +3,22 @@ $ [32mgit clone git@localhost:ThoughtWorksInc/guia-de-desenvolvimento-tecnico .
 Cloning into '.'...
 Warning: Permanently added 'localhost' (RSA) to the list of known hosts.
 Command [32mgit clone git@localhost:ThoughtWorksInc/guia-de-desenvolvimento-tecnico .[0m exited successfully with status 0.
-Took 0.75371 seconds.
+Took 0.65348 seconds.
 
 $ [32mgit checkout master[0m
 Already on 'master'
 Your branch is up-to-date with 'origin/master'.
 Command [32mgit checkout master[0m exited successfully with status 0.
-Took 0.0253 seconds.
+Took 0.0267 seconds.
 
-$ [32mgit reset --hard 6deebad0ba10d938536212a06cab6cd8be8e51d7[0m
-HEAD is now at 6deebad Merge pull request #43 from ThoughtWorksInc/link-para-gitbook
-Command [32mgit reset --hard 6deebad0ba10d938536212a06cab6cd8be8e51d7[0m exited successfully with status 0.
-Took 0.02476 seconds.
+$ [32mgit reset --hard 655415fa495600bcccf080244c7957f4e0a425ec[0m
+HEAD is now at 655415f Merge pull request #46 from ThoughtWorksInc/elaborando-como-contribuir
+Command [32mgit reset --hard 655415fa495600bcccf080244c7957f4e0a425ec[0m exited successfully with status 0.
+Took 0.01478 seconds.
 
 $ [32mgit submodule update --init --recursive[0m
 Command [32mgit submodule update --init --recursive[0m exited successfully with status 0.
-Took 0.04666 seconds.
+Took 0.04969 seconds.
 
 $ export SNAP_CI=true
 $ export CI=true
@@ -26,24 +26,24 @@ $ export SNAP_CACHE_DIR=/var/go
 $ export LANG=en_US.UTF-8
 $ export LC_ALL=en_US.UTF-8
 $ export SNAP_WORKING_DIR=/var/snap-ci/repo
-$ export SNAP_PIPELINE_COUNTER=22
+$ export SNAP_PIPELINE_COUNTER=23
 $ export SNAP_STAGE_NAME=Lint
 $ export SNAP_BRANCH=master
-$ export SNAP_COMMIT=6deebad0ba10d938536212a06cab6cd8be8e51d7
-$ export SNAP_COMMIT_SHORT=6deebad
+$ export SNAP_COMMIT=655415fa495600bcccf080244c7957f4e0a425ec
+$ export SNAP_COMMIT_SHORT=655415f
 $ export SNAP_TRACKING_PIPELINE=true
 $ export SNAP_INTEGRATION_PIPELINE=false
 
 $ [32mnpm install[0m
 npm WARN engine markdownlint-cli@0.2.0: wanted: {"node":">=0.12.0"} (current: {"node":"0.10.37","npm":"1.4.28"})
-npm WARN engine deep-extend@0.4.1: wanted: {"node":">=0.12.0","iojs":">=1.0.0"} (current: {"node":"0.10.37","npm":"1.4.28"})
 npm WARN deprecated wrench@1.5.8: wrench.js is deprecated! You should check out fs-extra (https://github.com/jprichardson/node-fs-extra) for any operations you were using wrench for. Thanks for all the usage over the years.
+npm WARN engine deep-extend@0.4.1: wanted: {"node":">=0.12.0","iojs":">=1.0.0"} (current: {"node":"0.10.37","npm":"1.4.28"})
 npm WARN optional dep failed, continuing fsevents@1.0.14
 onchange@2.5.0 node_modules/onchange
 ├── arrify@1.0.1
 ├── minimist@1.2.0
 ├── cross-spawn@4.0.2 (which@1.2.11, lru-cache@4.0.1)
-└── chokidar@1.5.2 (path-is-absolute@1.0.1, inherits@2.0.3, async-each@1.0.1, glob-parent@2.0.0, is-binary-path@1.0.1, is-glob@2.0.1, anymatch@1.3.0, readdirp@2.1.0)
+└── chokidar@1.5.2 (path-is-absolute@1.0.1, inherits@2.0.3, async-each@1.0.1, glob-parent@2.0.0, is-binary-path@1.0.1, is-glob@2.0.1, readdirp@2.1.0, anymatch@1.3.0)
 
 gh-pages@0.11.0 node_modules/gh-pages
 ├── graceful-fs@4.1.2
@@ -56,7 +56,7 @@ gh-pages@0.11.0 node_modules/gh-pages
 
 gitbook-plugin-simple-page-toc@0.1.0 node_modules/gitbook-plugin-simple-page-toc
 ├── uslug@1.0.4 (unorm@1.4.1)
-└── markdown-toc@0.12.16 (markdown-link@0.1.1, strip-color@0.1.0, repeat-string@1.5.4, mixin-deep@1.1.3, object.pick@1.1.2, minimist@1.2.0, lazy-cache@2.0.1, concat-stream@1.5.2, list-item@1.1.1, gray-matter@2.0.2, remarkable@1.7.0)
+└── markdown-toc@0.12.16 (markdown-link@0.1.1, strip-color@0.1.0, repeat-string@1.5.4, mixin-deep@1.1.3, minimist@1.2.0, object.pick@1.1.2, concat-stream@1.5.2, lazy-cache@2.0.1, list-item@1.1.1, gray-matter@2.0.2, remarkable@1.7.0)
 
 markdownlint-cli@0.2.0 node_modules/markdownlint-cli
 ├── lodash.flatten@4.3.0
@@ -64,16 +64,16 @@ markdownlint-cli@0.2.0 node_modules/markdownlint-cli
 ├── lodash.values@4.2.0
 ├── commander@2.9.0 (graceful-readlink@1.0.1)
 ├── rc@1.1.6 (ini@1.3.4, strip-json-comments@1.0.4, minimist@1.2.0)
-├── glob@7.0.6 (fs.realpath@1.0.0, path-is-absolute@1.0.1, inherits@2.0.3, inflight@1.0.5, once@1.4.0, minimatch@3.0.3)
+├── glob@7.0.6 (path-is-absolute@1.0.1, inherits@2.0.3, fs.realpath@1.0.0, inflight@1.0.5, once@1.4.0, minimatch@3.0.3)
 └── markdownlint@0.2.0 (markdown-it@7.0.1)
 
 gitbook-cli@2.3.0 node_modules/gitbook-cli
 ├── bash-color@0.0.4
 ├── user-home@2.0.0 (os-homedir@1.0.2)
-├── semver@5.1.0
 ├── commander@2.9.0 (graceful-readlink@1.0.1)
-├── tmp@0.0.28 (os-tmpdir@1.0.2)
 ├── q@1.4.1
+├── semver@5.1.0
+├── tmp@0.0.28 (os-tmpdir@1.0.2)
 ├── optimist@0.6.1 (wordwrap@0.0.3, minimist@0.0.10)
 ├── fs-extra@0.26.5 (path-is-absolute@1.0.1, klaw@1.3.0, jsonfile@2.4.0, graceful-fs@4.1.9, rimraf@2.5.4)
 ├── lodash@4.5.1
@@ -83,7 +83,7 @@ gitbook-cli@2.3.0 node_modules/gitbook-cli
 gitbook-plugin-advanced-emoji@0.2.1 node_modules/gitbook-plugin-advanced-emoji
 └── emojify.js@1.1.0
 Command [32mnpm install[0m exited successfully with status 0.
-Took 18.75 seconds.
+Took 21.11 seconds.
 
 $ [32mnpm test[0m
 
@@ -92,6 +92,6 @@ $ [32mnpm test[0m
 
 
 Command [32mnpm test[0m exited successfully with status 0.
-Took 0.47838 seconds.
+Took 0.48092 seconds.
 
 Saving console log for later
