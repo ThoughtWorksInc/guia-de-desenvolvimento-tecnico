@@ -2,12 +2,12 @@
 <!DOCTYPE HTML>
 <html lang="pt" >
     <head>
-        <title>Infraestrutura · GitBook</title>
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Infraestrutura · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
-        <meta name="generator" content="GitBook 3.2.0">
+        <meta name="generator" content="GitBook 3.2.2">
         
         
         
@@ -268,29 +268,37 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="infraestrutura">Infraestrutura</h1><p>Nos &#xFA;ltimos anos v&#xE1;rias tecnologias de gerenciamento de infraestrutura emergiram.</p><p>Times de infraestrutura e desenvolvimento de software tem trabalhado cada vez mais
+                                <h1 id="infraestrutura">Infraestrutura</h1>
+<p>Nos &#xFA;ltimos anos v&#xE1;rias tecnologias de gerenciamento de infraestrutura emergiram.</p>
+<p>Times de infraestrutura e desenvolvimento de software tem trabalhado cada vez mais
 pr&#xF3;ximos, construindo e gerenciando componentes de infraestrutura utilizando ferramentas
-de automatiza&#xE7;&#xE3;o que s&#xE3;o categorizadas como &quot;Infraestrutura como c&#xF3;digo&quot;.</p><p>Essas ferramentas partem do princ&#xED;pio de que servidores, rede e outros
-componentes de infraestrutura s&#xE3;o definidos atrav&#xE9;s de c&#xF3;digo-fonte execut&#xE1;vel.</p><p>O intuito dessa se&#xE7;&#xE3;o &#xE9; tratar sobre essa cultura, suas pr&#xE1;ticas e ferramentas dispon&#xED;veis.</p><!-- toc -->
-
-
-<ul><li><a href="#entenda-o-que-&#xE9;-a-cultura-devops">Entenda o que &#xE9; a cultura DevOps</a>
-</li>
-<li><a href="#entenda-o-que-&#xE9;-infraestrutura-como-c&#xF3;digo">Entenda o que &#xE9; infraestrutura como c&#xF3;digo</a>
-</li>
-<li><a href="#entenda-o-que-&#xE9;-computa&#xE7;&#xE3;o-em-nuvem">Entenda o que &#xE9; computa&#xE7;&#xE3;o em nuvem</a>
-</li></ul>
+de automatiza&#xE7;&#xE3;o que s&#xE3;o categorizadas como &quot;Infraestrutura como c&#xF3;digo&quot;.</p>
+<p>Essas ferramentas partem do princ&#xED;pio de que servidores, rede e outros
+componentes de infraestrutura s&#xE3;o definidos atrav&#xE9;s de c&#xF3;digo-fonte execut&#xE1;vel.</p>
+<p>O intuito dessa se&#xE7;&#xE3;o &#xE9; tratar sobre essa cultura, suas pr&#xE1;ticas e ferramentas dispon&#xED;veis.</p>
+<!-- toc -->
+<ul>
+<li><a href="#entenda-o-que-&#xE9;-a-cultura-devops">Entenda o que &#xE9; a cultura DevOps</a></li>
+<li><a href="#entenda-o-que-&#xE9;-infraestrutura-como-c&#xF3;digo">Entenda o que &#xE9; infraestrutura como c&#xF3;digo</a></li>
+<li><a href="#entenda-o-que-&#xE9;-computa&#xE7;&#xE3;o-em-nuvem">Entenda o que &#xE9; computa&#xE7;&#xE3;o em nuvem</a></li>
+</ul>
 <!-- tocstop -->
-
-
-<h2 id="entenda-o-que-&#xE9;-a-cultura-devops">Entenda o que &#xE9; a cultura DevOps</h2><h3 id="recursos">Recursos</h3><ul><li><a href="http://martinfowler.com/bliki/DevOpsCulture.html" target="_blank">[Artigo] DevOps Culture</a> <img align="absmiddle" alt=":uk:" class="emoji" src="../gitbook/gitbook-plugin-advanced-emoji/emojis/uk.png" title=":uk:">
-</li>
-<li><a href="https://www.casadocodigo.com.br/products/livro-devops" target="_blank">[Livro] DevOps na pr&#xE1;tica</a>
-</li></ul>
-<h2 id="entenda-o-que-&#xE9;-infraestrutura-como-c&#xF3;digo">Entenda o que &#xE9; infraestrutura como c&#xF3;digo</h2><p>Infraestrutura como c&#xF3;digo &#xE9; a pr&#xE1;tica de definir e gerenciar seus
-servi&#xE7;os e componentes atrav&#xE9;s de c&#xF3;digo-fonte.</p><p>Os grandes objetivos dessa pr&#xE1;tica s&#xE3;o criar um processo seguro,
+<h2 id="entenda-o-que-&#xE9;-a-cultura-devops">Entenda o que &#xE9; a cultura DevOps</h2>
+<h3 id="recursos">Recursos</h3>
+<ul>
+<li><a href="http://martinfowler.com/bliki/DevOpsCulture.html" target="_blank">[Artigo] DevOps Culture</a> <img align="absmiddle" alt=":uk:" class="emoji" src="../gitbook/gitbook-plugin-advanced-emoji/emojis/uk.png" title=":uk:"></li>
+<li><a href="https://www.casadocodigo.com.br/products/livro-devops" target="_blank">[Livro] DevOps na pr&#xE1;tica</a></li>
+</ul>
+<h2 id="entenda-o-que-&#xE9;-infraestrutura-como-c&#xF3;digo">Entenda o que &#xE9; infraestrutura como c&#xF3;digo</h2>
+<p>Infraestrutura como c&#xF3;digo &#xE9; a pr&#xE1;tica de definir e gerenciar seus
+servi&#xE7;os e componentes atrav&#xE9;s de c&#xF3;digo-fonte.</p>
+<p>Os grandes objetivos dessa pr&#xE1;tica s&#xE3;o criar um processo seguro,
 consistente e replic&#xE1;vel. Dessa forma, sua infraestrutura potencialmente
-se torna mais simples de manter e crescer</p><h3 id="recursos">Recursos</h3><h2 id="entenda-o-que-&#xE9;-computa&#xE7;&#xE3;o-em-nuvem">Entenda o que &#xE9; computa&#xE7;&#xE3;o em nuvem</h2><h3 id="recursos">Recursos</h3>
+se torna mais simples de manter e crescer</p>
+<h3 id="recursos">Recursos</h3>
+<h2 id="entenda-o-que-&#xE9;-computa&#xE7;&#xE3;o-em-nuvem">Entenda o que &#xE9; computa&#xE7;&#xE3;o em nuvem</h2>
+<h3 id="recursos">Recursos</h3>
+
                                 
                                 </section>
                             
@@ -333,7 +341,7 @@ se torna mais simples de manter e crescer</p><h3 id="recursos">Recursos</h3><h2 
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Infraestrutura","level":"1.6","depth":1,"next":{"title":"Processos de Desenvolvimento","level":"1.7","depth":1,"path":"topics/Processos_de_Desenvolvimento.md","ref":"topics/Processos_de_Desenvolvimento.md","articles":[]},"previous":{"title":"Entrega de Software","level":"1.5","depth":1,"path":"topics/Entrega_de_Software.md","ref":"topics/Entrega_de_Software.md","articles":[]},"dir":"ltr"},"config":{"plugins":["simple-page-toc","advanced-emoji"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"simple-page-toc":{"maxDepth":2,"skipFirstH1":true},"advanced-emoji":{"embedEmojis":false},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"INDICE.md"},"variables":{},"language":"pt","gitbook":"*"},"file":{"path":"topics/Infraestrutura.md","mtime":"2016-09-17T21:06:32.000Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2016-09-17T21:07:43.585Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Infraestrutura","level":"1.6","depth":1,"next":{"title":"Processos de Desenvolvimento","level":"1.7","depth":1,"path":"topics/Processos_de_Desenvolvimento.md","ref":"topics/Processos_de_Desenvolvimento.md","articles":[]},"previous":{"title":"Entrega de Software","level":"1.5","depth":1,"path":"topics/Entrega_de_Software.md","ref":"topics/Entrega_de_Software.md","articles":[]},"dir":"ltr"},"config":{"plugins":["simple-page-toc","advanced-emoji"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"simple-page-toc":{"maxDepth":2,"skipFirstH1":true},"advanced-emoji":{"embedEmojis":false},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"INDICE.md"},"variables":{},"language":"pt","gitbook":"*"},"file":{"path":"topics/Infraestrutura.md","mtime":"2016-10-02T13:44:42.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2016-10-02T13:45:50.850Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
