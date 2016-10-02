@@ -1,15 +1,18 @@
 # Estratégia de Qualidade
 
-A qualidade de software está presente em todo o desenvolvimento de software.
+A qualidade de software deve estar presente em todo o desenvolvimento de software.
 Ela não deve ser pensada apenas como uma etapa a ser realizada após a
 codificação.
 
 Não se resumindo apenas a testes manuais e exploratórios, ela compreende a
-entrega de código bem escrito, criação de soluções guiadas por testes, entrega
-de código continuamente, entre outros tópicos anteriormente citados.
+entrega de código bem escrito, criação de soluções guiadas por testes e entrega
+de código continuamente. Em suma, a partir de boas práticas de engenharia de software
+é possível garantir qualidade.
 
-Garantir a qualidade é ter a certeza de que as necessidades dos usuários finais
-estão sendo atendidas. Pensar em estratégia de qualidade compreende:
+Entretanto, garantir qualidade é também ter a certeza de que as necessidades dos
+usuários finais são atendidas e que o software em questão adiciona valor ao negócio.
+
+Pensar em estratégia de qualidade compreende:
 
 <!-- toc -->
 
