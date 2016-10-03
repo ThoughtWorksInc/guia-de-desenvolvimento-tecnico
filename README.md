@@ -12,7 +12,8 @@
 * **O** Guia de desenvolvimento técnico
 * **É** um guia colaborativo online
 * **Que** oferece caminhos de aprendizado
-* **Diferentemente de** Google Guide, Coursera, etc
+* **Diferentemente de** [Google Guide](https://www.google.com.br/about/careers/students/guide-to-technical-development.html)
+  , especializações do [Coursera](https://pt.coursera.org/) e [awesome lists](https://github.com/sindresorhus/awesome)
 * **O nosso produto** é curado e baseado nas experiências de TWers
 
 ## Introdução
