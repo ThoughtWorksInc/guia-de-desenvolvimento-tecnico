@@ -5,13 +5,13 @@
 Cada vez mais tem sido recorrente a utilização de análise de dados no
 desenvolvimento de projetos de software. Através de *Analytics* é
 possível compreender o comportamento de pessoas e até mesmo guiar
-modelos de negócios/vendas. Muitos são os *players* que utilizam dados
+modelos de negócios/vendas. Muitos são os atores que utilizam dados
 para melhorar serviços oferecidos:
 
 - O Netflix quando faz sugestões de séries ou o Spotify quando faz
   indicações de músicas
 - O Facebook, utilizando reconhecimento de imagem para automaticamente
-  *taggear* seus amigos em fotos publicadas
+  marcar seus amigos em fotos publicadas
 - A Amazon, quando te envia livros antes mesmo de você concluir uma
   compra
 - ...e por aí vai...
