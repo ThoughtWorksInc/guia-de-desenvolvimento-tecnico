@@ -16,7 +16,7 @@
   objetivo ensinar não só quem quer entrar na ThoughtWorks mas qualquer
   desenvolvedor.
 
-  http://linkquebradoparatestecomci.ci
+[test](http://linkquebradoparatestecomci.ci)
 
 ## Introdução
 
