@@ -16,6 +16,8 @@
   objetivo ensinar não só quem quer entrar na ThoughtWorks mas qualquer
   desenvolvedor.
 
+[test](http://linkquebradoparatestecomci.ci)
+
 ## Introdução
 
 Esse guia provê dicas e recursos para auxiliar no desenvolvimento de suas
