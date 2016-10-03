@@ -8,7 +8,7 @@
     "build": "gitbook build",
     "test": "markdownlint --config lint.json {.,topics}/*.md",
     "check-link-diff": "git diff origin/master | markdown-link-check",
-    "check-link-local": "cat topics/*.md | markdown-link-check",
+    "check-link-local": "cat *.md topics/*.md | markdown-link-check",
     "watch": "onchange '**/*.md' -v -- npm test",
     "deploy": "npm run build && gh-pages -d _book"
   },
