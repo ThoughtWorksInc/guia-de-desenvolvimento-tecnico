@@ -21,7 +21,9 @@ Os tipos de testes podem variar conforme o contexto em questão e em alguns proj
 talvez seja necessária a aplicação de mais de um tipo. Alguns exemplos de testes
 mais comumente encontrados, mas não se limitando aos citados abaixo, são:
 
-Testes funcionais: Estes testes tem como propósito verficar *o que* o sistema faz,
+### Testes funcionais
+
+Estes testes tem como propósito verficar *o que* o sistema faz,
 bem como se atende as necessidades pré-determinadas para o mesmo.
 
 Alguns testes considerados funcionais são:
@@ -38,7 +40,9 @@ Alguns testes considerados funcionais são:
 
 * Testes de fumaça:
 
-Testes não funcionais: Estes testes tem como finalidade verificar *como* o sistema
+### Testes não funcionais
+
+Estes testes tem como finalidade verificar *como* o sistema
 se comporta mediante alguma situação. Alguns testes considerados não funcionais são:
 
 * Testes de performance:
