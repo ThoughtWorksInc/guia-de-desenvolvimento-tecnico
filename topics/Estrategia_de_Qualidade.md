@@ -15,25 +15,39 @@ estão sendo atendidas. Pensar em estratégia de qualidade compreende:
 
 ## Pirâmide de testes
 
-A pirâmide de testes é um conceito proposto por Mike Cohn,
-geralmente discutido em meio a equipes ágeis que visa descrever
-uma estratégia de testes mais eficiente. A ideia central da
-pirâmide é a identificação de três níveis de testes:
+A pirâmide de testes é um conceito proposto por Mike Cohn que tem como objetivo
+guiar uma equipe de desenvolvimento para um conjunto de verificações eficientes,
+assim permitindo que um dado produto ou solução evolua com segurança.
+
+Nesse conceito, é muito comum encontrar três níveis de testes:
 
 * No primeiro nível (base da pirâmide), temos os testes unitários
   que devem estar presentes em maior número por proporcionarem execução
-  e feedback mais rápidos às pessoas que desenvolvem o software.
+  e feedback mais rápidos às pessoas que desenvolvem o software. Esses testes
+  guiam o desenvolvimento e nos dão garantias de como o produto está sendo construído.
 
 * No nível intermediário, estão os testes de integração. Estes testes
   não devem estar presentes em um número tão elevado quanto os testes
-  unitários, por serem menos eficientes com relação a execução e feedback.
+  unitários, por serem menos eficientes com relação a execução e feedback. Aqui
+  a ideia é garantir que módulos da aplicação funcionam em conjunto ou com algum
+  colaborador externo, por exemplo um banco de dados.
 
 * Por fim, no topo da pirâmide, encontramos os testes de interface automátizados
   que tendem a ser os testes onde se gasta maior investimento de tempo
   para se escrever e dar manutenção. Além disso, sua execução é lenta,
   não oferecendo um feedback rápido o suficiente para uma equipe de
   desenvolvimento ágil. Desta forma, são os testes que devem aparecer
-  em menor quantidade quando comparado aos demais níveis da pirâmide.
+  em menor quantidade quando comparado aos demais níveis da pirâmide. Jornadas de
+  usuários e fluxos que trazem mais valor ao produto devem ser priorizados nesse
+  tipo de teste.
+
+Além disso, podemos considerar que os testes presentes em qualquer pirâmide de teste
+têm como objetivo dar suporte a decisões de desenvolvimento ou de negócio.
+
+* Os testes da base da pirâmide garantem que o código está correto, o foco é a
+  implementação da solução. Nós estamos construíndo corretamente o produto?
+* Os testes do topo da pirâmide garantem que a intenção do produto está de acordo
+  como a visão dos usuários e negócio. Nós estamos construíndo o produto correto?
 
 ### Derivações da pirâmide de testes
 
