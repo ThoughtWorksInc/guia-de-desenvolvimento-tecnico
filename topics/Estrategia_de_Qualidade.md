@@ -31,17 +31,32 @@ bem como se atende as necessidades pré-determinadas para o mesmo.
 
 Alguns testes considerados funcionais são:
 
-* Testes manuais:
+* Testes manuais: são testes realizados pela equipe do projeto, que simulam a
+iteração do usuário final com o sistema em questão. Deve seguir uma especificação
+de teste (plano de teste, caso de teste ou cenário de teste) criada pela própria
+equipe do projeto e baseada nos requisitos da aplicação.
 
-* Testes automatizados de interface:
+* Testes automatizados de interface: visam a automação de cenários de testes a nível
+de tela simulando os comportamentos realizados manualmente por usuários.
 
-* Testes automatizados de integração:
+* Testes automatizados de integração: testam a interação entre sistemas e/ou parte
+isoladas de software afim de garantir que o conjunto se comporte da forma esperada
+quando integrados.
 
-* Testes exploratórios:
+* Testes exploratórios: aqui a ideia é a mesma dos testes manuais, porém não existe
+uma especificação de teste a ser seguida. Geralmente testes exploratórios são baseados
+em experiência, uma vez que o testador deve explorar o sistema de forma a diversificar
+ao máximo as opções de uso, encontrando assim falhas não identificadas nos testes
+baseados em documentação.
 
-* Testes de regressão:
+* Testes de regressão: visam garantir que outras partes do software em questão não
+tenham sido impactados por alterações recentes. Tais testes podem ser manuais ou
+automatizados.
 
-* Testes de fumaça:
+* Testes de fumaça: são compostos por uma pequena amostra de todos os testes do
+sistema em questão, onde apenas as principais funcionalidades são validadas. Tais testes
+podem ser manuais ou automatizados e geralmente são executados após uma nova versão
+do software ser gerada.
 
 ### Testes não funcionais
 
