@@ -16,8 +16,6 @@ e entregar software de maneira mais efetiva.
 
 <!-- toc -->
 
-*Última modificação: {{ file.mtime }}*
-
 ## Integre seu código continuamente
 
 Integração Contínua é uma prática de desenvolvimento para que os
@@ -49,3 +47,7 @@ usuário final.
 * [[Artigo] E esse negócio de Entrega Contínua?](https://brizeno.wordpress.com/2014/01/27/e-esse-negocio-de-entrega-continua/)
 * [[Artigo] Continuous Delivery](http://martinfowler.com/bliki/ContinuousDelivery.html)
   :uk:
+
+___
+
+*Última modificação: {{ file.mtime }}*

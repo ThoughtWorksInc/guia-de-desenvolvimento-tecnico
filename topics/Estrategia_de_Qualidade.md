@@ -16,8 +16,6 @@ Pensar em estratégia de qualidade compreende:
 
 <!-- toc -->
 
-*Última modificação: {{ file.mtime }}*
-
 ## Escreva testes automatizados
 
 ### Recursos
@@ -33,3 +31,7 @@ Pensar em estratégia de qualidade compreende:
 ## Análise de Código
 
 ## Estratégia de testes
+
+___
+
+*Última modificação: {{ file.mtime }}*

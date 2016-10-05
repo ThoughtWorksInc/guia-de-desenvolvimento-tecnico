@@ -16,8 +16,6 @@ colega, o Martin Fowler, em seu
 
 <!-- toc -->
 
-*Última modificação: {{ file.mtime }}*
-
 ## Conheça bem o modelo relacional e a linguagem SQL
 
 ## Adquira prática com um gerenciador banco de dados relacional
@@ -70,3 +68,7 @@ descentralizada (sem mestres).
 * [[Artigos]O que é NoSQL?](https://aws.amazon.com/pt/nosql/), a visão da
   Amazon.com, que iniciou o movimento NoSQL com seu
   [DynamoDB](https://aws.amazon.com/pt/dynamodb/)
+
+___
+
+*Última modificação: {{ file.mtime }}*

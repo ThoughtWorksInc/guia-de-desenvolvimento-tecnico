@@ -2,5 +2,6 @@
   "default": true,
   "MD024": false,
   "MD033": false,
+  "MD036": false,
   "ol-prefix": "one"
 }

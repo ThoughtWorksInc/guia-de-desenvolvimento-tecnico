@@ -6,8 +6,6 @@ bons sistemas.
 
 <!-- toc -->
 
-*Última modificação: {{ file.mtime }}*
-
 ## Os pilares da Orientação a Objetos
 
 São muitos os conceitos que compõe esse paradigma e não é fácil resumí-los
@@ -103,3 +101,7 @@ Mais informações sobre DDD podem ser encontradas nos recursos abaixo.
 * [InfoQ EN](https://www.infoq.com/domain-driven-design) :uk:
 * [[Minilivro] Domain-Driven Design Quickly](https://www.infoq.com/minibooks/domain-driven-design-quickly)
   :uk:
+
+___
+
+*Última modificação: {{ file.mtime }}*

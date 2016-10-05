@@ -12,8 +12,6 @@ Introdução ao Tópico
 
 <!-- toc -->
 
-*Última modificação: {{ file.mtime }}*
-
 ## Subtópico
 
 Descrição do subtópico
@@ -21,6 +19,10 @@ Descrição do subtópico
 ### Recursos
 
 * [[Tipo do Recurso] Título](link)
+
+___
+
+*Última modificação: {{ file.mtime }}*
 
 ```
 

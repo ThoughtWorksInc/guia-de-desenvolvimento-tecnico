@@ -10,8 +10,6 @@ ferramentas e práticas. Mas não se limite somente a esse guia.
 
 <!-- toc -->
 
-*Última modificação: {{ file.mtime }}*
-
 ## Boas práticas de segurança
 
 Existe uma lista de boas práticas de segurança que pode ser um guia bem completo
@@ -181,3 +179,7 @@ camada extra de lógica antes de gerar esse hash.
 Existe um método de criptografia para hash chamado
 [bcrypt](https://pt.wikipedia.org/wiki/Bcrypt) que possui uma segurança maior
 ao gerar o hash das senhas dos usuários.
+
+___
+
+*Última modificação: {{ file.mtime }}*

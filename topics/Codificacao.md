@@ -6,8 +6,6 @@ ferramentas e práticas utilizados para tal finalidade.
 
 <!-- toc -->
 
-*Última modificação: {{ file.mtime }}*
-
 ## Programe em (pelo menos) uma linguagem de programação orientada a objetos
 
 Programação orientada a objetos é um paradigma de programação que
@@ -140,3 +138,7 @@ simples método ou em quase todo ele.
 
 * [[Artigo] Refatoração ao pé da letra](https://www.thoughtworks.com/pt/insights/blog/refactoring-book)
 * [[Livro] Refatoração: Aperfeiçoando o Projeto de Código Existente](https://www.amazon.com.br/Refatora%C3%A7%C3%A3o-Aperfei%C3%A7oando-Projeto-C%C3%B3digo-Existente-ebook/dp/B019IZK89A/)
+
+___
+
+*Última modificação: {{ file.mtime }}*
