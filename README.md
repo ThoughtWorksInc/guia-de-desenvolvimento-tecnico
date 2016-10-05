@@ -7,14 +7,14 @@
 
 ## Visão
 
-* **Para** indivíduos e times
-* **Que** buscam desenvolver-se tecnicamente
-* **O** Guia de Desenvolvimento Técnico é um guia
-* **Que** sugere recursos para crescimento
-* **Diferentemente** de outros guias
-* **Nosso produto** tem como base as experiências da ThoughtWorks e tem como
-  objetivo ensinar não só quem quer entrar na ThoughtWorks mas qualquer
-  desenvolvedor.
+* **Para** pessoas interessadas em desenvolvimento técnico
+* **Que** não tem clareza no que é a jornada de desenvolvimento na visão de TWers
+* **O** Guia de desenvolvimento técnico
+* **É** um guia colaborativo online
+* **Que** oferece caminhos de aprendizado
+* **Diferentemente de** [Google Guide](https://www.google.com.br/about/careers/students/guide-to-technical-development.html)
+  , especializações do [Coursera](https://pt.coursera.org/) e [awesome lists](https://github.com/sindresorhus/awesome)
+* **O nosso produto** é curado e baseado nas experiências de TWers
 
 ## Introdução
 
