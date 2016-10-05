@@ -6,6 +6,8 @@ bons sistemas.
 
 <!-- toc -->
 
+*Última modificação: {{ file.mtime }}*
+
 ## Os pilares da Orientação a Objetos
 
 São muitos os conceitos que compõe esse paradigma e não é fácil resumí-los

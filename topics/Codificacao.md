@@ -6,6 +6,8 @@ ferramentas e práticas utilizados para tal finalidade.
 
 <!-- toc -->
 
+*Última modificação: {{ file.mtime }}*
+
 ## Programe em (pelo menos) uma linguagem de programação orientada a objetos
 
 Programação orientada a objetos é um paradigma de programação que

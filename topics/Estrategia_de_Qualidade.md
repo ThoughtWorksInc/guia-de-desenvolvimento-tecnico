@@ -16,6 +16,8 @@ Pensar em estratégia de qualidade compreende:
 
 <!-- toc -->
 
+*Última modificação: {{ file.mtime }}*
+
 ## Escreva testes automatizados
 
 ### Recursos

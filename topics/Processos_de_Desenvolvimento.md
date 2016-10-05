@@ -15,6 +15,8 @@ fazer para se desenvolver nelas:
 
 <!-- toc -->
 
+*Última modificação: {{ file.mtime }}*
+
 ## Aprenda os princípios ágeis
 
 ## Conheça a metodologia Extreme Programming (XP)

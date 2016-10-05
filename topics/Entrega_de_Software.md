@@ -16,6 +16,8 @@ e entregar software de maneira mais efetiva.
 
 <!-- toc -->
 
+*Última modificação: {{ file.mtime }}*
+
 ## Integre seu código continuamente
 
 Integração Contínua é uma prática de desenvolvimento para que os

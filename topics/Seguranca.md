@@ -1,7 +1,5 @@
 # Segurança
 
-<!-- toc -->
-
 Pensar em segurança durante o desenvolvimento de software é uma prática que é
 tão essencial de ser pensada quanto qualidade, arquitetura e acessibilidade.
 
@@ -9,6 +7,10 @@ Esse guia tende a mostrar alguns itens de segurança que são importantes, com o
 intuito de tornar o software mais seguro conforme o desenvolvimento do mesmo,
 e previnindo-se de sofrer alguns ataques por falta de conhecimento de algumas
 ferramentas e práticas. Mas não se limite somente a esse guia.
+
+<!-- toc -->
+
+*Última modificação: {{ file.mtime }}*
 
 ## Boas práticas de segurança
 

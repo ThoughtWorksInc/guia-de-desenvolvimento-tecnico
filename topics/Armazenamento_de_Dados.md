@@ -16,6 +16,8 @@ colega, o Martin Fowler, em seu
 
 <!-- toc -->
 
+*Última modificação: {{ file.mtime }}*
+
 ## Conheça bem o modelo relacional e a linguagem SQL
 
 ## Adquira prática com um gerenciador banco de dados relacional

@@ -13,6 +13,8 @@ O intuito dessa seção é tratar sobre essa cultura, suas práticas e ferrament
 
 <!-- toc -->
 
+*Última modificação: {{ file.mtime }}*
+
 ## Entenda o que é a cultura DevOps
 
 ### Recursos
