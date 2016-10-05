@@ -1,18 +1,18 @@
 {
-	"gitbook": "3.1.1",
+  "gitbook": "3.1.1",
   "language": "pt",
   "structure" : {
     "summary": "INDICE.md"
   },
   "plugins" : [
-		"localized-footer",
+    "localized-footer",
     "simple-page-toc",
     "advanced-emoji"
   ],
   "pluginsConfig": {
-		"localized-footer": {
-			"filename": "layouts/FOOTER.md"
-		},
+    "localized-footer": {
+      "filename": "layouts/FOOTER.md"
+    },
     "simple-page-toc": {
       "maxDepth": 2,
       "skipFirstH1": true
