@@ -1,7 +1,5 @@
 # Análise de Dados (*Analytics*)
 
-<!-- toc -->
-
 Cada vez mais tem sido recorrente a utilização de análise de dados no
 desenvolvimento de projetos de software. Através de *Analytics* é
 possível compreender o comportamento de pessoas e até mesmo guiar
@@ -50,6 +48,8 @@ trata de um DW/BI.
 
 Abaixo seguem as principais áreas que fazem parte de um projeto de
 análise de dados.
+
+<!-- toc -->
 
 ## Engenharia de Dados
 
