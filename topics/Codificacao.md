@@ -137,5 +137,4 @@ simples método ou em quase todo ele.
 
 * [[Artigo] Refatoração ao pé da letra](https://www.thoughtworks.com/pt/insights/blog/refactoring-book)
 * [[Livro] Refatoração: Aperfeiçoando o Projeto de Código Existente](https://www.amazon.com.br/Refatora%C3%A7%C3%A3o-Aperfei%C3%A7oando-Projeto-C%C3%B3digo-Existente-ebook/dp/B019IZK89A/)
-<<<<<<< 421ec5c69564a49ea52eaa6c6b7425eda811e0de
 * [[Livro] Refatorando com padrões de projeto](https://www.casadocodigo.com.br/pages/sumario-refatoracao-ruby)
