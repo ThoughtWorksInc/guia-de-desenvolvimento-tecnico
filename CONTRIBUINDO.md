@@ -12,6 +12,8 @@ Introdução ao Tópico
 
 <!-- toc -->
 
+*Última modificação: {{ file.mtime }}*
+
 ## Subtópico
 
 Descrição do subtópico
