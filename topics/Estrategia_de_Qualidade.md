@@ -31,29 +31,29 @@ bem como se atende as necessidades pré-determinadas para o mesmo.
 
 Alguns testes considerados funcionais são:
 
-* Testes manuais: são testes realizados pela equipe do projeto, que simulam a
+* **Testes manuais**: são testes realizados pela equipe do projeto, que simulam a
 iteração do usuário final com o sistema em questão. Deve seguir uma especificação
 de teste (plano de teste, caso de teste ou cenário de teste) criada pela própria
 equipe do projeto e baseada nos requisitos da aplicação.
 
-* Testes automatizados de interface: visam a automação de cenários de testes a nível
+* **Testes automatizados** de interface: visam a automação de cenários de testes a nível
 de tela simulando os comportamentos realizados manualmente por usuários.
 
-* Testes automatizados de integração: testam a interação entre sistemas e/ou parte
+* **Testes automatizados de integração**: testam a interação entre sistemas e/ou parte
 isoladas de software afim de garantir que o conjunto se comporte da forma esperada
 quando integrados.
 
-* Testes exploratórios: aqui a ideia é a mesma dos testes manuais, porém não existe
+* **Testes exploratórios**: aqui a ideia é a mesma dos testes manuais, porém não existe
 uma especificação de teste a ser seguida. Geralmente testes exploratórios são baseados
 em experiência, uma vez que o testador deve explorar o sistema de forma a diversificar
 ao máximo as opções de uso, encontrando assim falhas não identificadas nos testes
 baseados em documentação.
 
-* Testes de regressão: visam garantir que outras partes do software em questão não
+* **Testes de regressão**: visam garantir que outras partes do software em questão não
 tenham sido impactados por alterações recentes. Tais testes podem ser manuais ou
 automatizados.
 
-* Testes de fumaça: são compostos por uma pequena amostra de todos os testes do
+* **Testes de fumaça**: são compostos por uma pequena amostra de todos os testes do
 sistema em questão, onde apenas as principais funcionalidades são validadas. Tais testes
 podem ser manuais ou automatizados e geralmente são executados após uma nova versão
 do software ser gerada.
@@ -63,13 +63,20 @@ do software ser gerada.
 Estes testes tem como finalidade verificar *como* o sistema
 se comporta mediante alguma situação. Alguns testes considerados não funcionais são:
 
-* Testes de performance:
+* **Testes de performance**: são testes que básicamente verificam como sua aplicação
+se comporta em situações extremas, por exemplo,
+quando vários usuários estão acessando a mesma página durante um curto período de tempo.
+Esses testes tem como objetivo captar possíveis pontos de gargalo no sistema,
+ou falhas de segurança.
 
-* Teste de segurança:
+* **Teste de segurança**: visam garantir o quão seguro o seu sistema é
+expondo a situações que simulam ataques que aproveitam vulnerábilidades específicas,
+por exemplo, ataques de  perante a ataques que pretendem, como por exemplo SQL Injection,
+Cross-Site Scripting e quebra de autenticação.
 
-* Teste de usabiliade:
+* **Teste de usabiliade**:
 
-* Teste de configuração:
+* **Teste de configuração**:
 
 ### Recursos
 
