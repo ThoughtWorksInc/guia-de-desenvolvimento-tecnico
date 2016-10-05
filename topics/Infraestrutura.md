@@ -34,3 +34,7 @@ se torna mais simples de manter e crescer
 ## Entenda o que é computação em nuvem
 
 ### Recursos
+
+___
+
+*Última modificação: {{ file.mtime }}*

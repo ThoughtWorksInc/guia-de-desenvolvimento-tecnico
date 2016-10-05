@@ -101,3 +101,7 @@ Mais informações sobre DDD podem ser encontradas nos recursos abaixo.
 * [InfoQ EN](https://www.infoq.com/domain-driven-design) :uk:
 * [[Minilivro] Domain-Driven Design Quickly](https://www.infoq.com/minibooks/domain-driven-design-quickly)
   :uk:
+
+___
+
+*Última modificação: {{ file.mtime }}*

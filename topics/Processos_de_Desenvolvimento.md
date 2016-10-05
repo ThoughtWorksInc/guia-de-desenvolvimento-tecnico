@@ -28,3 +28,7 @@ fazer para se desenvolver nelas:
 ## Conheça outras metodologias
 
 ## Conheça o desenvolvimento de software Lean
+
+___
+
+*Última modificação: {{ file.mtime }}*

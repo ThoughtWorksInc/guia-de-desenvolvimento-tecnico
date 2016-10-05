@@ -1,7 +1,5 @@
 # Segurança
 
-<!-- toc -->
-
 Pensar em segurança durante o desenvolvimento de software é uma prática que é
 tão essencial de ser pensada quanto qualidade, arquitetura e acessibilidade.
 
@@ -9,6 +7,8 @@ Esse guia tende a mostrar alguns itens de segurança que são importantes, com o
 intuito de tornar o software mais seguro conforme o desenvolvimento do mesmo,
 e previnindo-se de sofrer alguns ataques por falta de conhecimento de algumas
 ferramentas e práticas. Mas não se limite somente a esse guia.
+
+<!-- toc -->
 
 ## Boas práticas de segurança
 
@@ -179,3 +179,7 @@ camada extra de lógica antes de gerar esse hash.
 Existe um método de criptografia para hash chamado
 [bcrypt](https://pt.wikipedia.org/wiki/Bcrypt) que possui uma segurança maior
 ao gerar o hash das senhas dos usuários.
+
+___
+
+*Última modificação: {{ file.mtime }}*
