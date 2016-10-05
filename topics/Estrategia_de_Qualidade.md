@@ -31,7 +31,3 @@ Pensar em estratégia de qualidade compreende:
 ## Análise de Código
 
 ## Estratégia de testes
-
-___
-
-*Última modificação: {{ file.mtime }}*
