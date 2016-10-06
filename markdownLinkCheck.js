@@ -13,11 +13,11 @@ var statusLabels = {
 };
 
 var isFailedRelativeUrl = function (result) {
-  return result.status === 'dead' && !result.link.includes('://');
+  return result.status === 'dead' && result.link.indexOf('://') === -1;
 };
 
 var isNotRelativeUrl = function (result) {
-  return result.link.includes('://');
+  return result.link.indexOf('://') > -1;
 };
 
 var printResultsAndCountFailedUrls = function (results) {
