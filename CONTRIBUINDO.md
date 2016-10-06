@@ -20,10 +20,6 @@ Descrição do subtópico
 
 * [[Tipo do Recurso] Título](link)
 
-___
-
-*Última modificação: {{ file.mtime }}*
-
 ```
 
 A linha `<!-- toc -->` é para a geração automática do índice do tópico.
