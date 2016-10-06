@@ -26,7 +26,7 @@ Wikipedia](https://en.wikipedia.org/wiki/Analytics) :uk:
 Podemos extrapolar um pouco mais e comparar análises de dados a dois
 momentos: passado e futuro. A imagem a seguir ilustra esses momentos.
 ![Níveis de maturidade de Análise de
-Dados](../images/analytics/niveis_maturidade.png)
+Dados](/gitbook/images/analytics/niveis_maturidade.png)
 
 É fácil observar que quanto mais complexa é a análise proposta, maior é
 o valor obtido. As análises *Descritiva* e *Diagnóstica* procuram entender o
