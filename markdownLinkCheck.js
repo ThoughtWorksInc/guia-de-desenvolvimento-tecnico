@@ -4,6 +4,7 @@ var markdownLinkCheck = require('markdown-link-check');
 
 var totalFailedUrls = 0;
 var stream = process.stdin;
+var baseUrl = process.argv[2];
 var markdown = '';
 
 var statusLabels = {
@@ -30,7 +31,7 @@ var printResultsAndCountFailedUrls = function (results) {
 var tryAgainWithRelativeUrls = function (results) {
 	results.filter(isFailedRelativeUrl)
 		.forEach(function (result) {
-			var completeMarkdownUrl = '[relative url](http://localhost:4000' + result.link + ')';
+			var completeMarkdownUrl = '[relative url](' + baseUrl + '' + result.link + ')';
 			checkMarkdown(completeMarkdownUrl, failTestIfBrokenLinks);
 		});
 };
