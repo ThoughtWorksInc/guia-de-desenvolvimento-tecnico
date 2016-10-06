@@ -3,7 +3,6 @@
 var markdownLinkCheck = require('markdown-link-check');
 
 var stream = process.stdin;
-var baseUrl = process.argv[2];
 var markdown = '';
 
 var statusLabels = {
