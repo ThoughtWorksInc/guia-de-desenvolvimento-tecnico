@@ -2,7 +2,6 @@
 
 var markdownLinkCheck = require('markdown-link-check');
 
-var totalFailedUrls = 0;
 var stream = process.stdin;
 var baseUrl = process.argv[2];
 var markdown = '';
@@ -12,37 +11,16 @@ var statusLabels = {
   dead: "ERROR"
 };
 
-var isFailedRelativeUrl = function (result) {
-  return result.status === 'dead' && result.link.indexOf('://') === -1;
-};
-
-var isNotRelativeUrl = function (result) {
+var isAbsoluteUrl = function (result) {
   return result.link.indexOf('://') > -1;
 };
 
 var printResultsAndCountFailedUrls = function (results) {
-  return results.filter(isNotRelativeUrl)
+  return results.filter(isAbsoluteUrl)
     .reduce(function (f, result) {
       console.log('[%s] %s', statusLabels[result.status], result.link);
       return (result.status === 'dead') ? f + 1 : f;
     }, 0);
-};
-
-var tryAgainWithRelativeUrls = function (results) {
-  results.filter(isFailedRelativeUrl)
-    .forEach(function (result) {
-      var completeMarkdownUrl = '[relative url](' + baseUrl + '' + result.link + ')';
-      checkMarkdown(completeMarkdownUrl, failTestIfBrokenLinks);
-    });
-};
-
-var checkMarkdown = function (markdown, callback) {
-  markdownLinkCheck(markdown, function (err, results) {
-    totalFailedUrls += printResultsAndCountFailedUrls(results);
-    tryAgainWithRelativeUrls(results);
-
-    if(callback) callback(totalFailedUrls);
-  });
 };
 
 var failTestIfBrokenLinks = function (finalNumberOfFailedUrls) {
@@ -51,6 +29,14 @@ var failTestIfBrokenLinks = function (finalNumberOfFailedUrls) {
     console.log('Number of broken urls: ' + finalNumberOfFailedUrls);
     process.exit(1);
   }
+};
+
+var checkMarkdown = function (markdown) {
+  markdownLinkCheck(markdown, function (err, results) {
+    var totalFailedUrls = printResultsAndCountFailedUrls(results);
+
+    failTestIfBrokenLinks(totalFailedUrls);
+  });
 };
 
 stream.on('data', function (chunk) {
