@@ -9,7 +9,7 @@
     "test": "markdownlint --config lint.json {.,topics}/*.md",
     "generate-diff": "git diff origin/master {.,topics}/*.md | grep -v '^-'",
     "check-link-diff": "npm run generate-diff | node markdownLinkCheck.js",
-    "check-link-local": "cat *.md topics/*.md | node markdownLinkCheck",
+    "check-link-local": "cat *.md topics/*.md | node markdownLinkCheck.js",
     "watch": "onchange '**/*.md' -v -- npm test",
     "deploy": "npm run build && gh-pages -d _book"
   },

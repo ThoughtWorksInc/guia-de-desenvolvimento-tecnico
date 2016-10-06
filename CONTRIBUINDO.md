@@ -52,10 +52,28 @@ npm run watch
 Em caso de erro, mais informações sobre as regras aqui:
 [Markdownlint - Rules](https://github.com/mivok/markdownlint/blob/master/docs/RULES.md)
 
+## Visualizando alterações
+
 Caso deseje visualizar como será a página gerada pelo Gitbook, execute:
 
 ```sh
 npm start
+```
+
+## Validação de links
+
+Para garantir que links externos novos que você adicionou não estão quebrados,
+execute:
+
+```sh
+npm run check-link-diff
+```
+
+O comando acima só valida links que você adicionou. Porém, se quiser ajudar o
+guia a se manter atualizado e verificar todos os links, execute:
+
+```sh
+npm run check-link-local
 ```
 
 ## Submetendo mudanças
