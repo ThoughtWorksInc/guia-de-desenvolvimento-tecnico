@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "gitbook serve",
-    "build": "gitbook build",
+    "build": "gitbook build && ./updateDate.sh",
     "test": "markdownlint --config lint.json {.,topics}/*.md",
     "generate-diff": "git diff origin/master {.,topics}/*.md | grep -v '^-'",
     "check-link-diff": "npm run generate-diff | node markdownLinkCheck.js",
