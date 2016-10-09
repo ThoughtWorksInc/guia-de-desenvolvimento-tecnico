@@ -32,31 +32,27 @@ bem como se atende as necessidades pré-determinadas para o mesmo.
 Alguns testes considerados funcionais são:
 
 * **Testes manuais**: são testes realizados pela equipe do projeto, que simulam a
-iteração do usuário final com o sistema em questão. Deve seguir uma especificação
-de teste (plano de teste, caso de teste ou cenário de teste) criada pela própria
-equipe do projeto e baseada nos requisitos da aplicação.
-
-* **Testes automatizados** de interface: visam a automação de cenários de testes a nível
-de tela simulando os comportamentos realizados manualmente por usuários.
-
-* **Testes automatizados de integração**: testam a interação entre sistemas e/ou parte
-isoladas de software afim de garantir que o conjunto se comporte da forma esperada
-quando integrados.
-
-* **Testes exploratórios**: aqui a ideia é a mesma dos testes manuais, porém não existe
-uma especificação de teste a ser seguida. Geralmente testes exploratórios são baseados
-em experiência, uma vez que o testador deve explorar o sistema de forma a diversificar
-ao máximo as opções de uso, encontrando assim falhas não identificadas nos testes
-baseados em documentação.
-
-* **Testes de regressão**: visam garantir que outras partes do software em questão não
-tenham sido impactados por alterações recentes. Tais testes podem ser manuais ou
-automatizados.
-
-* **Testes de fumaça**: são compostos por uma pequena amostra de todos os testes do
-sistema em questão, onde apenas as principais funcionalidades são validadas. Tais testes
-podem ser manuais ou automatizados e geralmente são executados após uma nova versão
-do software ser gerada.
+  iteração do usuário final com o sistema em questão. Deve seguir uma especificação
+  de teste (plano de teste, caso de teste ou cenário de teste) criada pela própria
+  equipe do projeto e baseada nos requisitos da aplicação.
+* **Testes automatizados de interface**: visam a automação de cenários de testes
+ a nível de tela, aonde simulam os comportamentos realizados manualmente por usuários.
+* **Testes automatizados de integração**: testam a interação entre sistemas e parte
+  isoladas de software afim de garantir que o conjunto se comporte da forma esperada
+  quando integrados.
+* **Testes exploratórios**: aqui a ideia é a mesma dos testes manuais, porém,
+  não existe uma especificação de teste a ser seguida.
+  Geralmente testes exploratórios são baseados em experiência,
+  uma vez que o testador deve explorar o sistema de forma a diversificar
+  ao máximo as opções de uso, encontrando assim falhas não identificadas nos testes
+  baseados em documentação.
+* **Testes de regressão**: visam garantir que outras partes do software não
+  tenham sido impactados por alterações recentes.
+  Tais testes podem ser manuais ou automatizados.
+* **Testes de fumaça**: são compostos por uma pequena suite de todos os testes do
+  sistema em questão, onde apenas as principais funcionalidades são validadas.
+  Tais testes podem ser manuais ou automatizados e
+  geralmente são executados após uma nova versão do software ser gerada.
 
 ### Testes não funcionais
 
@@ -64,27 +60,30 @@ Estes testes tem como finalidade verificar *como* o sistema
 se comporta mediante alguma situação. Alguns testes considerados não funcionais são:
 
 * **Testes de performance**: são testes que básicamente verificam como sua aplicação
-se comporta em situações extremas, por exemplo,
-quando vários usuários estão acessando a mesma página durante um curto período de tempo.
-Esses testes tem como objetivo captar possíveis pontos de gargalo no sistema,
-ou falhas de segurança.
-
-* **Teste de segurança**: visam garantir o quão seguro o seu sistema é
-expondo a situações que simulam ataques que aproveitam vulnerábilidades específicas,
-por exemplo, ataques de  perante a ataques que pretendem, como por exemplo SQL Injection,
-Cross-Site Scripting e quebra de autenticação.
-
-* **Teste de usabiliade**:
-
+  se comporta em situações extremas, por exemplo,
+  quando vários usuários estão acessando a mesma página em um curto período de tempo.
+  Esses testes tem como objetivo captar possíveis pontos de gargalo no sistema.
+* **Teste de segurança**: visam garantir o quão seguro um sistema é,
+  expondo o mesmo a situações que simulam ataques que aproveitam vulnerábilidades
+  específicas, como por exemplo SQL Injection, Cross-Site Scripting e quebra de autenticação.
+* **Teste de usabiliade**: esses testes são usados para compreender melhor a interação
+  do usuário com o produto,
+  geralmente é usado como uma técnica de avaliação,
+  aonde existe um roteiro a ser seguido e um grupo de analistas observando e
+  coletando feedbacks ou problemas, como por exemplo, ambiguidade de informações,
+  complicações no fluxo do sistema ou alguma inadequação.
 * **Teste de configuração**:
 
 ### Recursos
 
 * [[Artigo] Tipos de testes de software](http://testesdesoftware.com/tipos-de-teste-de-software/)
 * [[Artigo] Os 13 principais tipos de testes de software](http://www.targettrust.com.br/blog/desenvolvimento/testes/os-13-principais-tipos-de-testes-de-software/)
-* [[Artigo] Performance testing in a Nutshell](https://www.thoughtworks.com/insights/blog/performance-testing-nutshell) :uk:
-
-<!-- toc -->
+* [[Artigo] Performance testing in a Nutshell](https://www.thoughtworks.com/insights/blog/performance-testing-nutshell):uk:
+* [[Artigo] Breve introdução a teste de performance](https://medium.com/@pedrro/uma-breve-introdu%C3%A7%C3%A3o-a-teste-de-performance-31e788337157#.f7gfk7koc)
+* [[Artigo] Boas Práticas de Teste Automatizado](http://www.bugbang.com.br/agile-brazil-2012-boas-praticas-de-teste-automatizado/)
+* [[Artigo] Testes Funcionais - Como decidir o que automatizar?](https://www.thoughtworks.com/pt/insights/blog/functional-tests-how-decide-what-automate)
+* [[Artigo] Escreva Testes Melhores em 5 Passos](https://www.thoughtworks.com/pt/insights/blog/write-better-tests-5-steps)
+* [[Livro Gratuito] Práticas e Tendências em Teste](https://info.thoughtworks.com/praticas-e-tendencias-em-teste-ebook.html)
 
 ## Pirâmide de testes
 
@@ -141,18 +140,9 @@ Os principais anti-padrões que podemos encontrar e tentar evitar são:
 ### Recursos
 
 * [[Artigo] Test Pyramid](http://martinfowler.com/bliki/TestPyramid.html) :uk:
-* [[Artigo] The Forgotten Layer of the Test Automation Pyramid](https://goo.gl/vYIKPw) :uk:
+* [[Artigo] The Forgotten Layer of the Test Pyramid](https://goo.gl/vYIKPw) :uk:
 * [[Artigo] Melhorando sua Estratégia de Testes Automatizados](https://goo.gl/U9ddnM)
-* [[Artigo] Introducing the Software Testing Cupcake (Anti-Pattern)](https://goo.gl/P9NgQN) :uk:
-
-## Escreva testes automatizados
-
-### Recursos
-
-* [[Livro Gratuito] Práticas e Tendências em Teste](https://info.thoughtworks.com/praticas-e-tendencias-em-teste-ebook.html)
-* [[Artigo] Boas Práticas de Teste Automatizado](http://www.bugbang.com.br/agile-brazil-2012-boas-praticas-de-teste-automatizado/)
-* [[Artigo] Testes Funcionais - Como decidir o que automatizar?](https://www.thoughtworks.com/pt/insights/blog/functional-tests-how-decide-what-automate)
-* [[Artigo] Escreva Testes Melhores em 5 Passos](https://www.thoughtworks.com/pt/insights/blog/write-better-tests-5-steps)
+* [[Artigo] Introducing the Software Testing Cupcake (Anti-Pattern)](https://goo.gl/P9NgQN):uk:
 
 ## Análise  de Código
 
@@ -178,8 +168,6 @@ sujo, como por exemplo:
 ### Recursos
 
 * [[Artigo]Melhorando a qualidade do código com sonarqube](https://goo.gl/brR0YF)
-
-## Estratégia de testes
 
 ## Cultura de qualidade em projetos
 
@@ -216,5 +204,5 @@ Nesta revisão algumas verificações que podem ser feitas são:
 
 ### Recursos
 
-* [[Artigo]The benefits of pull request](https://goo.gl/s62Xjk) :uk:
-* [[Artigo]Defect Prevention Using Agile Techniques](https://goo.gl/sbkWr4) :uk:
+* [[Artigo] The benefits of pull request](https://goo.gl/s62Xjk) :uk:
+* [[Artigo] Defect Prevention Using Agile Techniques](https://goo.gl/sbkWr4) :uk:
