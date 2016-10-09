@@ -10,3 +10,4 @@
 * [Estratégia de qualidade](topics/Estrategia_de_Qualidade.md)
 * [Armazenamento de dados](topics/Armazenamento_de_Dados.md)
 * [Segurança](topics/Seguranca.md)
+* [Análise de Dados (*Analytics*)](topics/Analytics.md)
