@@ -151,22 +151,23 @@ Os principais anti-padrões que podemos encontrar e tentar evitar são:
 
 ### Por ferramentas automatizadas
 
-A cada linha de código escrita, mais complexidade é adicionada a aplicação,
- então, mais difícil fica criar novas funcionalidades.
-Para isso existem ferramentas que são responsáveis por realizar análise do código.
+A cada linha de código escrita, provavelmente mais complexidade é adicionada a uma aplicação. 
+Isso torna mais difícil manter a aplicação e assim consequentemente mais complicado 
+criar novas funcionalidades.
+Para ajudar nesse processo existem ferramentas que analisam o código de maneira automática.
 Como por exemplo:
 
 * [Sonarqube](http://www.sonarqube.org/)
+* [Checkstyle](http://checkstyle.sourceforge.net/)
 * [FindBugs](http://findbugs.sourceforge.net/)
 
-Essas ferramentas tem a função de analisar o código escrito, podendo identificar
-alguns pequenos problemas que por sua vez podem deixar o código mais complexo ou
-sujo, como por exemplo:
+Essas ferramentas podem identificar
+pequenos problemas no código e, geralmente, ajudam nos seguintes cenários:
 
-* Comentários desnecessários
 * Duplicações de código
+* Comentários desnecessários
 * Complexidade ciclomática
-* Cobertura de código por testes
+* Cobertura de testes inexistente
 
 ### Recursos
 
