@@ -66,12 +66,12 @@ se comporta mediante alguma situação. Alguns testes considerados não funciona
 * **Teste de segurança**: visam garantir o quão seguro um sistema é,
   expondo o mesmo a situações que simulam ataques que aproveitam vulnerábilidades
   específicas, como por exemplo SQL Injection, Cross-Site Scripting e quebra de autenticação.
-* **Teste de usabiliade**: esses testes são usados para compreender melhor a interação
-  do usuário com o produto,
-  geralmente é usado como uma técnica de avaliação,
-  aonde existe um roteiro a ser seguido e um grupo de analistas observando e
-  coletando feedbacks ou problemas, como por exemplo, ambiguidade de informações,
-  complicações no fluxo do sistema ou alguma inadequação.
+* **Teste de usabilidade**: esses testes são usados para compreender melhor a interação
+  do usuário com o produto.
+  Geralmente é usado como uma técnica de avaliação,
+  onde existe um roteiro a ser seguido e um grupo de analistas observando e
+  coletando feedbacks ou problemas, como por exemplo,
+  ambiguidade de informações ou complicações no fluxo do sistema.
 
 ### Recursos
 
