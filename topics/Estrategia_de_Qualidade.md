@@ -72,7 +72,6 @@ se comporta mediante alguma situação. Alguns testes considerados não funciona
   aonde existe um roteiro a ser seguido e um grupo de analistas observando e
   coletando feedbacks ou problemas, como por exemplo, ambiguidade de informações,
   complicações no fluxo do sistema ou alguma inadequação.
-* **Teste de configuração**:
 
 ### Recursos
 
