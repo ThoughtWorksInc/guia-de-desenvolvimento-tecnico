@@ -78,6 +78,7 @@ se comporta mediante alguma situação. Alguns testes considerados não funciona
 * [[Artigo] Tipos de testes de software](http://testesdesoftware.com/tipos-de-teste-de-software/)
 * [[Artigo] Os 13 principais tipos de testes de software](http://www.targettrust.com.br/blog/desenvolvimento/testes/os-13-principais-tipos-de-testes-de-software/)
 * [[Artigo] Performance testing in a Nutshell](https://www.thoughtworks.com/insights/blog/performance-testing-nutshell)
+  :uk:
 * [[Artigo] Breve introdução a teste de performance](https://medium.com/@pedrro/uma-breve-introdu%C3%A7%C3%A3o-a-teste-de-performance-31e788337157#.f7gfk7koc)
 * [[Artigo] Boas Práticas de Teste Automatizado](http://www.bugbang.com.br/agile-brazil-2012-boas-praticas-de-teste-automatizado/)
 * [[Artigo] Testes Funcionais - Como decidir o que automatizar?](https://www.thoughtworks.com/pt/insights/blog/functional-tests-how-decide-what-automate)
@@ -142,8 +143,9 @@ Os principais anti-padrões que podemos encontrar e tentar evitar são:
 * [[Artigo] The Forgotten Layer of the Test Pyramid](https://goo.gl/vYIKPw) :uk:
 * [[Artigo] Melhorando sua Estratégia de Testes Automatizados](https://goo.gl/U9ddnM)
 * [[Artigo] Introducing the Software Testing Cupcake (Anti-Pattern)](https://goo.gl/P9NgQN)
+  :uk:
 
-## Análise de Código e Cobertura de Testes
+## Análise de Código
 
 ### Análise de Código com ferramentas automatizadas
 
@@ -169,7 +171,7 @@ pequenos problemas no código e, geralmente, ajudam nos seguintes cenários:
 
 * [[Artigo] Melhorando a qualidade do código com sonarqube](https://goo.gl/brR0YF)
 
-### Cobertura de Testes
+## Cobertura de Testes
 
 Existem ferramentas que têm como objetivo determinar se um código de
 uma aplicação possui ou não testes.
