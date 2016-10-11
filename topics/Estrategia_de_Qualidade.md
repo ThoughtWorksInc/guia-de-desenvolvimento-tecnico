@@ -64,7 +64,7 @@ se comporta mediante alguma situação. Alguns testes considerados não funciona
   quando vários usuários estão acessando a mesma página em um curto período de tempo.
   Esses testes tem como objetivo captar possíveis pontos de gargalo no sistema.
 * **Teste de segurança**: visam garantir o quão seguro um sistema é,
-  expondo o mesmo a situações que simulam ataques que aproveitam vulnerábilidades
+  expondo o mesmo a situações que simulam ataques que aproveitam vulnerabilidades
   específicas, como por exemplo SQL Injection, Cross-Site Scripting e quebra de autenticação.
 * **Teste de usabilidade**: esses testes são usados para compreender melhor a interação
   do usuário com o produto.
@@ -103,7 +103,7 @@ Nesse conceito, é muito comum encontrar três níveis de testes:
   a ideia é garantir que módulos da aplicação funcionam em conjunto ou com algum
   colaborador externo, por exemplo um banco de dados.
 
-* Por fim, no topo da pirâmide, encontramos os testes de interface automátizados
+* Por fim, no topo da pirâmide, encontramos os testes de interface automatizados
   que tendem a ser os testes onde se gasta maior investimento de tempo
   para se escrever e dar manutenção. Além disso, sua execução é lenta,
   não oferecendo um feedback rápido o suficiente para uma equipe de
@@ -118,7 +118,7 @@ têm como objetivo dar suporte a decisões de desenvolvimento ou de negócio.
 * Os testes da base da pirâmide garantem que o código está correto, o foco é a
   implementação da solução. Nós estamos construíndo corretamente o produto?
 * Os testes do topo da pirâmide garantem que a intenção do produto está de acordo
-  como a visão dos usuários e negócio. Nós estamos construíndo o produto correto?
+  como a visão dos usuários e negócio. *Nós estamos construíndo o produto correto?*
 
 ### Derivações da pirâmide de testes
 
@@ -127,7 +127,7 @@ as quais são advindas de uma estratégia de testes por vezes equivocada.
 Os principais anti-padrões que podemos encontrar e tentar evitar são:
 
 * A casquinha de sorvete, que na verdade trata-se de uma pirâmide invertida,
-  pode ser observada em cenários onde testes de interface automátizados e manuais
+  pode ser observada em cenários onde testes de interface automatizados e manuais
   são encontrados em grande quantidade, enquanto os unitários e de integração
   praticamente não existem.
 
@@ -204,7 +204,7 @@ os testes de mutação.
 
 Em alguns projetos que utilizam desenvolvimento orientado por branches,
 é comum realizar a análise de código, por meio da prática de [Pull Request](https://goo.gl/SxiPGr),
-onde a cada push realizado para o repositório,é criado um "pull request"
+onde a cada push realizado para o repositório é criado um "pull request"
 e outro membro da equipe se responsabiliza por revisar o código,
 com a intenção de encontrar possíveis problemas e sugerir melhorias na implementação.
 
@@ -213,7 +213,7 @@ com a intenção de encontrar possíveis problemas e sugerir melhorias na implem
 Kick-Off é uma prática realizada antes de uma estória começar,
 onde é feita uma revisão com os responsáveis pela estória,
 geralmente desenvolvedores, analistas de negócios e analistas de qualidade.
-Nessa revisão é verificado quais os pontos importantes daquela estória,
+Nessa revisão é verificados quais os pontos importantes daquela estória,
 deixando claro os critérios de aceitação, eventuais dependências e também
 esclarecendo quaisquer dúvidas que possam surgir.
 A finalidade é garantir que antes de se começar a nova estória,
@@ -229,7 +229,7 @@ Nesta revisão algumas verificações que podem ser feitas são:
 
 * Todos os critérios de aceitação foram alcançados?
 * Toda a implementação está coberta por testes em seus níveis?
-* Ficou algum débito tecnico nessa estória?
+* Ficou algum dívida técnica nessa estória?
 
 ### Recursos
 
