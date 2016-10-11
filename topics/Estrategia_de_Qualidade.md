@@ -143,30 +143,57 @@ Os principais anti-padrões que podemos encontrar e tentar evitar são:
 * [[Artigo] Melhorando sua Estratégia de Testes Automatizados](https://goo.gl/U9ddnM)
 * [[Artigo] Introducing the Software Testing Cupcake (Anti-Pattern)](https://goo.gl/P9NgQN):uk:
 
-## Análise  de Código
+## Análise de Código e Cobertura de Testes
 
-### Por ferramentas automatizadas
+### Análise de Código com ferramentas automatizadas
 
-A cada linha de código escrita, mais complexidade é adicionada a aplicação,
- então, mais difícil fica criar novas funcionalidades.
-Para isso existem ferramentas que são responsáveis por realizar análise do código.
+A cada linha de código escrita, provavelmente mais complexidade é adicionada a uma aplicação. 
+Isso torna mais difícil manter a aplicação e assim consequentemente mais complicado 
+criar novas funcionalidades.
+Para ajudar nesse processo existem ferramentas que analisam o código de maneira automática.
 Como por exemplo:
 
 * [Sonarqube](http://www.sonarqube.org/)
+* [Checkstyle](http://checkstyle.sourceforge.net/)
 * [FindBugs](http://findbugs.sourceforge.net/)
 
-Essas ferramentas tem a função de analisar o código escrito, podendo identificar
-alguns pequenos problemas que por sua vez podem deixar o código mais complexo ou
-sujo, como por exemplo:
+Essas ferramentas podem identificar
+pequenos problemas no código e, geralmente, ajudam nos seguintes cenários:
 
-* Comentários desnecessários
 * Duplicações de código
+* Comentários desnecessários
 * Complexidade ciclomática
-* Cobertura de código por testes
+* Cobertura de testes inexistente
 
 ### Recursos
 
 * [[Artigo]Melhorando a qualidade do código com sonarqube](https://goo.gl/brR0YF)
+
+### Cobertura de Testes
+
+Existem ferramentas que têm como objetivo determinar se um código de
+uma aplicação possui ou não testes. Isso é muito útil quando queremos entender o quanto do
+comportamento ou intenção da aplicação está sendo validado.
+Assim, consequentemente, pode-se alterar a aplicação com maior segurança e
+eventuais falhas podem ser percebidas mais rapidamente.
+
+É importante dizer que a maioria dessas ferrramentas trabalha com testes do tipo
+unitário. Além disso, o foco delas é realizar uma avaliação quantitativa, sem
+focar na qualidade exata dos cenários de testes existentes. Por exemplo: é possível ter uma
+boa cobertura de testes unitários sem cobrir partes importantes da aplicação. Ou, ainda,
+ter uma cobertura de testes razoável mas que não cobre cenários de borda do código.
+
+Então, para se ter uma noção exata e qualitativa dos testes existentes,
+utilizam-se ferramentas específicas, que alteram o código da aplicação e avaliam
+a qualidade do testes a partir de falhas ou não dos cenários cobertos. Esses são
+os testes de mutação.
+
+### Recursos
+
+* [Jacoco]http://www.eclemma.org/jacoco/
+* [Cobertura]https://github.com/cobertura/cobertura
+* [Coveralls]https://coveralls.io/
+* [Ferramenta para testes de mutação em Java]http://pitest.org/
 
 ## Cultura de qualidade em projetos
 
