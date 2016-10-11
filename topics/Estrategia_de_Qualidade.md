@@ -116,7 +116,7 @@ Além disso, podemos considerar que os testes presentes em qualquer pirâmide de
 têm como objetivo dar suporte a decisões de desenvolvimento ou de negócio.
 
 * Os testes da base da pirâmide garantem que o código está correto, o foco é a
-  implementação da solução. Nós estamos construíndo corretamente o produto?
+  implementação da solução. *Nós estamos construíndo corretamente o produto?*
 * Os testes do topo da pirâmide garantem que a intenção do produto está de acordo
   como a visão dos usuários e negócio. *Nós estamos construíndo o produto correto?*
 
@@ -213,7 +213,7 @@ com a intenção de encontrar possíveis problemas e sugerir melhorias na implem
 Kick-Off é uma prática realizada antes de uma estória começar,
 onde é feita uma revisão com os responsáveis pela estória,
 geralmente desenvolvedores, analistas de negócios e analistas de qualidade.
-Nessa revisão é verificados quais os pontos importantes daquela estória,
+Nessa revisão são verificados quais os pontos importantes daquela estória,
 deixando claro os critérios de aceitação, eventuais dependências e também
 esclarecendo quaisquer dúvidas que possam surgir.
 A finalidade é garantir que antes de se começar a nova estória,
