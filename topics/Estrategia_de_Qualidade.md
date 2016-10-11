@@ -153,9 +153,9 @@ criar novas funcionalidades.
 Para ajudar nesse processo existem ferramentas que analisam o código de maneira automática.
 Como por exemplo:
 
-* [Sonarqube](http://www.sonarqube.org/)
-* [Checkstyle](http://checkstyle.sourceforge.net/)
-* [FindBugs](http://findbugs.sourceforge.net/)
+* [Sonarqube](http://www.sonarqube.org/) :uk:
+* [Checkstyle](http://checkstyle.sourceforge.net/) :uk:
+* [FindBugs](http://findbugs.sourceforge.net/) :uk:
 
 Essas ferramentas podem identificar
 pequenos problemas no código e, geralmente, ajudam nos seguintes cenários:
@@ -167,7 +167,7 @@ pequenos problemas no código e, geralmente, ajudam nos seguintes cenários:
 
 ### Recursos
 
-* [[Artigo]Melhorando a qualidade do código com sonarqube](https://goo.gl/brR0YF)
+* [[Artigo] Melhorando a qualidade do código com sonarqube](https://goo.gl/brR0YF) :uk:
 
 ### Cobertura de Testes
 
@@ -193,10 +193,10 @@ os testes de mutação.
 
 ### Recursos
 
-* [Jacoco](http://www.eclemma.org/jacoco/)
-* [Cobertura](https://github.com/cobertura/cobertura)
-* [Coveralls](https://coveralls.io/)
-* [Ferramenta para testes de mutação em Java](http://pitest.org/)
+* [Jacoco](http://www.eclemma.org/jacoco/) :uk:
+* [Cobertura](https://github.com/cobertura/cobertura) :uk:
+* [Coveralls](https://coveralls.io/) :uk:
+* [Ferramenta para testes de mutação em Java](http://pitest.org/) :uk:
 
 ## Cultura de qualidade em projetos
 
