@@ -143,9 +143,9 @@ Os principais anti-padrões que podemos encontrar e tentar evitar são:
 * [[Artigo] Melhorando sua Estratégia de Testes Automatizados](https://goo.gl/U9ddnM)
 * [[Artigo] Introducing the Software Testing Cupcake (Anti-Pattern)](https://goo.gl/P9NgQN):uk:
 
-## Análise  de Código
+## Análise de Código e Cobertura de Testes
 
-### Por ferramentas automatizadas
+### Análise de Código com ferramentas automatizadas
 
 A cada linha de código escrita, provavelmente mais complexidade é adicionada a uma aplicação. 
 Isso torna mais difícil manter a aplicação e assim consequentemente mais complicado 
@@ -168,6 +168,32 @@ pequenos problemas no código e, geralmente, ajudam nos seguintes cenários:
 ### Recursos
 
 * [[Artigo]Melhorando a qualidade do código com sonarqube](https://goo.gl/brR0YF)
+
+### Cobertura de Testes
+
+Existem ferramentas que têm como objetivo determinar se um código de
+uma aplicação possui ou não testes. Isso é muito útil quando queremos entender o quanto do
+comportamento ou intenção da aplicação está sendo validado.
+Assim, consequentemente, pode-se alterar a aplicação com maior segurança e
+eventuais falhas podem ser percebidas mais rapidamente.
+
+É importante dizer que a maioria dessas ferrramentas trabalha com testes do tipo
+unitário. Além disso, o foco delas é realizar uma avaliação quantitativa, sem
+focar na qualidade exata dos cenários de testes existentes. Por exemplo: é possível ter uma
+boa cobertura de testes unitários sem cobrir partes importantes da aplicação. Ou, ainda,
+ter uma cobertura de testes razoável mas que não cobre cenários de borda do código.
+
+Então, para se ter uma noção exata e qualitativa dos testes existentes,
+utilizam-se ferramentas específicas, que alteram o código da aplicação e avaliam
+a qualidade do testes a partir de falhas ou não dos cenários cobertos. Esses são
+os testes de mutação.
+
+### Recursos
+
+* [Jacoco]http://www.eclemma.org/jacoco/
+* [Cobertura]https://github.com/cobertura/cobertura
+* [Coveralls]https://coveralls.io/
+* [Ferramenta para testes de mutação em Java]http://pitest.org/
 
 ## Cultura de qualidade em projetos
 
