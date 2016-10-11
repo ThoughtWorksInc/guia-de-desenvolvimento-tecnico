@@ -116,9 +116,9 @@ Além disso, podemos considerar que os testes presentes em qualquer pirâmide de
 têm como objetivo dar suporte a decisões de desenvolvimento ou de negócio.
 
 * Os testes da base da pirâmide garantem que o código está correto, o foco é a
-  implementação da solução. *Nós estamos construíndo corretamente o produto?*
+  implementação da solução. *Nós estamos construindo corretamente o produto?*
 * Os testes do topo da pirâmide garantem que a intenção do produto está de acordo
-  como a visão dos usuários e negócio. *Nós estamos construíndo o produto correto?*
+  como a visão dos usuários e negócio. *Nós estamos construindo o produto correto?*
 
 ### Derivações da pirâmide de testes
 
