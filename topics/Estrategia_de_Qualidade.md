@@ -77,7 +77,7 @@ se comporta mediante alguma situação. Alguns testes considerados não funciona
 
 * [[Artigo] Tipos de testes de software](http://testesdesoftware.com/tipos-de-teste-de-software/)
 * [[Artigo] Os 13 principais tipos de testes de software](http://www.targettrust.com.br/blog/desenvolvimento/testes/os-13-principais-tipos-de-testes-de-software/)
-* [[Artigo] Performance test in a Nutshell](https://www.thoughtworks.com/insights/blog/performance-testing-nutshell)
+* [[Artigo] Performance testing in a Nutshell](https://www.thoughtworks.com/insights/blog/performance-testing-nutshell)
 * [[Artigo] Breve introdução a teste de performance](https://medium.com/@pedrro/uma-breve-introdu%C3%A7%C3%A3o-a-teste-de-performance-31e788337157#.f7gfk7koc)
 * [[Artigo] Boas Práticas de Teste Automatizado](http://www.bugbang.com.br/agile-brazil-2012-boas-praticas-de-teste-automatizado/)
 * [[Artigo] Testes Funcionais - Como decidir o que automatizar?](https://www.thoughtworks.com/pt/insights/blog/functional-tests-how-decide-what-automate)
@@ -141,7 +141,7 @@ Os principais anti-padrões que podemos encontrar e tentar evitar são:
 * [[Artigo] Test Pyramid](http://martinfowler.com/bliki/TestPyramid.html) :uk:
 * [[Artigo] The Forgotten Layer of the Test Pyramid](https://goo.gl/vYIKPw) :uk:
 * [[Artigo] Melhorando sua Estratégia de Testes Automatizados](https://goo.gl/U9ddnM)
-* [[Artigo] Introduce the Software Testing Cupcake (Anti-Pattern)](https://goo.gl/P9NgQN)
+* [[Artigo] Introducing the Software Testing Cupcake (Anti-Pattern)](https://goo.gl/P9NgQN)
 
 ## Análise de Código e Cobertura de Testes
 
@@ -153,9 +153,9 @@ criar novas funcionalidades.
 Para ajudar nesse processo existem ferramentas que analisam o código de maneira automática.
 Como por exemplo:
 
-* [Sonarqube](http://www.sonarqube.org/) :uk:
-* [Checkstyle](http://checkstyle.sourceforge.net/) :uk:
-* [FindBugs](http://findbugs.sourceforge.net/) :uk:
+* [Sonarqube](http://www.sonarqube.org/)
+* [Checkstyle](http://checkstyle.sourceforge.net/)
+* [FindBugs](http://findbugs.sourceforge.net/)
 
 Essas ferramentas podem identificar
 pequenos problemas no código e, geralmente, ajudam nos seguintes cenários:
@@ -193,10 +193,10 @@ os testes de mutação.
 
 ### Recursos
 
-* [Jacoco](http://www.eclemma.org/jacoco/) :uk:
-* [Cobertura](https://github.com/cobertura/cobertura) :uk:
-* [Coveralls](https://coveralls.io/) :uk:
-* [Ferramenta para testes de mutação em Java](http://pitest.org/) :uk:
+* [Jacoco](http://www.eclemma.org/jacoco/)
+* [Cobertura](https://github.com/cobertura/cobertura)
+* [Coveralls](https://coveralls.io/)
+* [Ferramenta para testes de mutação em Java](http://pitest.org/)
 
 ## Cultura de qualidade em projetos
 
