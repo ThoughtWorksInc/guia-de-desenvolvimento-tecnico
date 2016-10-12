@@ -294,20 +294,218 @@ usu&#xE1;rios finais s&#xE3;o atendidas e que o software em quest&#xE3;o adicion
 <p>Pensar em estrat&#xE9;gia de qualidade compreende:</p>
 <!-- toc -->
 <ul>
-<li><a href="#escreva-testes-automatizados">Escreva testes automatizados</a></li>
+<li><a href="#tipos-de-testes">Tipos de testes</a></li>
+<li><a href="#pir&#xE2;mide-de-testes">Pir&#xE2;mide de testes</a></li>
 <li><a href="#an&#xE1;lise-de-c&#xF3;digo">An&#xE1;lise de C&#xF3;digo</a></li>
-<li><a href="#estrat&#xE9;gia-de-testes">Estrat&#xE9;gia de testes</a></li>
+<li><a href="#cobertura-de-testes">Cobertura de Testes</a></li>
+<li><a href="#cultura-de-qualidade-em-projetos">Cultura de qualidade em projetos</a></li>
 </ul>
 <!-- tocstop -->
-<h2 id="escreva-testes-automatizados">Escreva testes automatizados</h2>
+<h2 id="tipos-de-testes">Tipos de testes</h2>
+<p>Para assegurar a qualidade em projetos de desenvolvimento de software, existem alguns
+tipos de testes que podem ser aplicados como parte da estrat&#xE9;gia de qualidade.
+Os tipos de testes podem variar conforme o contexto em quest&#xE3;o e em alguns projetos
+talvez seja necess&#xE1;ria a aplica&#xE7;&#xE3;o de mais de um tipo. Alguns exemplos de testes
+mais comumente encontrados, mas n&#xE3;o se limitando aos citados abaixo, s&#xE3;o:</p>
+<h3 id="testes-funcionais">Testes funcionais</h3>
+<p>Estes testes tem como prop&#xF3;sito verficar <em>o que</em> o sistema faz,
+bem como se atende as necessidades pr&#xE9;-determinadas para o mesmo.</p>
+<p>Alguns testes considerados funcionais s&#xE3;o:</p>
+<ul>
+<li><strong>Testes manuais</strong>: s&#xE3;o testes realizados pela equipe do projeto, que simulam a
+itera&#xE7;&#xE3;o do usu&#xE1;rio final com o sistema em quest&#xE3;o. Deve seguir uma especifica&#xE7;&#xE3;o
+de teste (plano de teste, caso de teste ou cen&#xE1;rio de teste) criada pela pr&#xF3;pria
+equipe do projeto e baseada nos requisitos da aplica&#xE7;&#xE3;o.</li>
+<li><strong>Testes automatizados de interface</strong>: visam a automa&#xE7;&#xE3;o de cen&#xE1;rios de testes
+a n&#xED;vel de tela, aonde simulam os comportamentos realizados manualmente por usu&#xE1;rios.</li>
+<li><strong>Testes automatizados de integra&#xE7;&#xE3;o</strong>: testam a intera&#xE7;&#xE3;o entre sistemas e parte
+isoladas de software afim de garantir que o conjunto se comporte da forma esperada
+quando integrados.</li>
+<li><strong>Testes explorat&#xF3;rios</strong>: aqui a ideia &#xE9; a mesma dos testes manuais, por&#xE9;m,
+n&#xE3;o existe uma especifica&#xE7;&#xE3;o de teste a ser seguida.
+Geralmente testes explorat&#xF3;rios s&#xE3;o baseados em experi&#xEA;ncia,
+uma vez que o testador deve explorar o sistema de forma a diversificar
+ao m&#xE1;ximo as op&#xE7;&#xF5;es de uso, encontrando assim falhas n&#xE3;o identificadas nos testes
+baseados em documenta&#xE7;&#xE3;o.</li>
+<li><strong>Testes de regress&#xE3;o</strong>: visam garantir que outras partes do software n&#xE3;o
+tenham sido impactados por altera&#xE7;&#xF5;es recentes.
+Tais testes podem ser manuais ou automatizados.</li>
+<li><strong>Testes de fuma&#xE7;a</strong>: s&#xE3;o compostos por uma pequena suite de todos os testes do
+sistema em quest&#xE3;o, onde apenas as principais funcionalidades s&#xE3;o validadas.
+Tais testes podem ser manuais ou automatizados e
+geralmente s&#xE3;o executados ap&#xF3;s uma nova vers&#xE3;o do software ser gerada.</li>
+</ul>
+<h3 id="testes-n&#xE3;o-funcionais">Testes n&#xE3;o funcionais</h3>
+<p>Estes testes tem como finalidade verificar <em>como</em> o sistema
+se comporta mediante alguma situa&#xE7;&#xE3;o. Alguns testes considerados n&#xE3;o funcionais s&#xE3;o:</p>
+<ul>
+<li><strong>Testes de performance</strong>: s&#xE3;o testes que b&#xE1;sicamente verificam como sua aplica&#xE7;&#xE3;o
+se comporta em situa&#xE7;&#xF5;es extremas, por exemplo,
+quando v&#xE1;rios usu&#xE1;rios est&#xE3;o acessando a mesma p&#xE1;gina em um curto per&#xED;odo de tempo.
+Esses testes tem como objetivo captar poss&#xED;veis pontos de gargalo no sistema.</li>
+<li><strong>Teste de seguran&#xE7;a</strong>: visam garantir o qu&#xE3;o seguro um sistema &#xE9;,
+expondo o mesmo a situa&#xE7;&#xF5;es que simulam ataques que aproveitam vulnerabilidades
+espec&#xED;ficas, como por exemplo SQL Injection, Cross-Site Scripting e quebra de autentica&#xE7;&#xE3;o.</li>
+<li><strong>Teste de usabilidade</strong>: esses testes s&#xE3;o usados para compreender melhor a intera&#xE7;&#xE3;o
+do usu&#xE1;rio com o produto.
+Geralmente &#xE9; usado como uma t&#xE9;cnica de avalia&#xE7;&#xE3;o,
+onde existe um roteiro a ser seguido e um grupo de analistas observando e
+coletando feedbacks ou problemas, como por exemplo,
+ambiguidade de informa&#xE7;&#xF5;es ou complica&#xE7;&#xF5;es no fluxo do sistema.</li>
+</ul>
 <h3 id="recursos">Recursos</h3>
-<p><a href="https://info.thoughtworks.com/praticas-e-tendencias-em-teste-ebook.html" target="_blank">[Livro Gratuito] Pr&#xE1;ticas e Tend&#xEA;ncias em Teste</a></p>
-<p><a href="http://www.bugbang.com.br/agile-brazil-2012-boas-praticas-de-teste-automatizado/" target="_blank">[Artigo] Boas Pr&#xE1;ticas de Teste Automatizado</a></p>
-<p><a href="https://www.thoughtworks.com/pt/insights/blog/functional-tests-how-decide-what-automate" target="_blank">[Artigo] Testes Funcionais - Como decidir o que automatizar?</a></p>
-<p><a href="https://www.thoughtworks.com/pt/insights/blog/write-better-tests-5-steps" target="_blank">[Artigo] Escreva Testes Melhores em 5 Passos</a></p>
+<ul>
+<li><a href="http://testesdesoftware.com/tipos-de-teste-de-software/" target="_blank">[Artigo] Tipos de testes de software</a></li>
+<li><a href="http://www.targettrust.com.br/blog/desenvolvimento/testes/os-13-principais-tipos-de-testes-de-software/" target="_blank">[Artigo] Os 13 principais tipos de testes de software</a></li>
+<li><a href="https://www.thoughtworks.com/insights/blog/performance-testing-nutshell" target="_blank">[Artigo] Performance testing in a Nutshell</a>
+<img align="absmiddle" alt=":uk:" class="emoji" src="../gitbook/gitbook-plugin-advanced-emoji/emojis/uk.png" title=":uk:"></li>
+<li><a href="https://medium.com/@pedrro/uma-breve-introdu%C3%A7%C3%A3o-a-teste-de-performance-31e788337157#.f7gfk7koc" target="_blank">[Artigo] Breve introdu&#xE7;&#xE3;o a teste de performance</a></li>
+<li><a href="http://www.bugbang.com.br/agile-brazil-2012-boas-praticas-de-teste-automatizado/" target="_blank">[Artigo] Boas Pr&#xE1;ticas de Teste Automatizado</a></li>
+<li><a href="https://www.thoughtworks.com/pt/insights/blog/functional-tests-how-decide-what-automate" target="_blank">[Artigo] Testes Funcionais - Como decidir o que automatizar?</a></li>
+<li><a href="https://www.thoughtworks.com/pt/insights/blog/write-better-tests-5-steps" target="_blank">[Artigo] Escreva Testes Melhores em 5 Passos</a></li>
+<li><a href="https://info.thoughtworks.com/praticas-e-tendencias-em-teste-ebook.html" target="_blank">[Livro Gratuito] Pr&#xE1;ticas e Tend&#xEA;ncias em Teste</a></li>
+</ul>
+<h2 id="pir&#xE2;mide-de-testes">Pir&#xE2;mide de testes</h2>
+<p>A pir&#xE2;mide de testes &#xE9; um conceito proposto por Mike Cohn que tem como objetivo
+guiar uma equipe de desenvolvimento para um conjunto de verifica&#xE7;&#xF5;es eficientes,
+assim permitindo que um dado produto ou solu&#xE7;&#xE3;o evolua com seguran&#xE7;a.</p>
+<p>Nesse conceito, &#xE9; muito comum encontrar tr&#xEA;s n&#xED;veis de testes:</p>
+<ul>
+<li><p>No primeiro n&#xED;vel (base da pir&#xE2;mide), temos os testes unit&#xE1;rios
+que devem estar presentes em maior n&#xFA;mero por proporcionarem execu&#xE7;&#xE3;o
+e feedback mais r&#xE1;pidos &#xE0;s pessoas que desenvolvem o software. Esses testes
+guiam o desenvolvimento e nos d&#xE3;o garantias de como o produto est&#xE1; sendo constru&#xED;do.</p>
+</li>
+<li><p>No n&#xED;vel intermedi&#xE1;rio, est&#xE3;o os testes de integra&#xE7;&#xE3;o. Estes testes
+n&#xE3;o devem estar presentes em um n&#xFA;mero t&#xE3;o elevado quanto os testes
+unit&#xE1;rios, por serem menos eficientes com rela&#xE7;&#xE3;o a execu&#xE7;&#xE3;o e feedback. Aqui
+a ideia &#xE9; garantir que m&#xF3;dulos da aplica&#xE7;&#xE3;o funcionam em conjunto ou com algum
+colaborador externo, por exemplo um banco de dados.</p>
+</li>
+<li><p>Por fim, no topo da pir&#xE2;mide, encontramos os testes de interface automatizados
+que tendem a ser os testes onde se gasta maior investimento de tempo
+para se escrever e dar manuten&#xE7;&#xE3;o. Al&#xE9;m disso, sua execu&#xE7;&#xE3;o &#xE9; lenta,
+n&#xE3;o oferecendo um feedback r&#xE1;pido o suficiente para uma equipe de
+desenvolvimento &#xE1;gil. Desta forma, s&#xE3;o os testes que devem aparecer
+em menor quantidade quando comparado aos demais n&#xED;veis da pir&#xE2;mide. Jornadas de
+usu&#xE1;rios e fluxos que trazem mais valor ao produto devem ser priorizados nesse
+tipo de teste.</p>
+</li>
+</ul>
+<p>Al&#xE9;m disso, podemos considerar que os testes presentes em qualquer pir&#xE2;mide de teste
+t&#xEA;m como objetivo dar suporte a decis&#xF5;es de desenvolvimento ou de neg&#xF3;cio.</p>
+<ul>
+<li>Os testes da base da pir&#xE2;mide garantem que o c&#xF3;digo est&#xE1; correto, o foco &#xE9; a
+implementa&#xE7;&#xE3;o da solu&#xE7;&#xE3;o. <em>N&#xF3;s estamos construindo corretamente o produto?</em></li>
+<li>Os testes do topo da pir&#xE2;mide garantem que a inten&#xE7;&#xE3;o do produto est&#xE1; de acordo
+como a vis&#xE3;o dos usu&#xE1;rios e neg&#xF3;cio. <em>N&#xF3;s estamos construindo o produto correto?</em></li>
+</ul>
+<h3 id="deriva&#xE7;&#xF5;es-da-pir&#xE2;mide-de-testes">Deriva&#xE7;&#xF5;es da pir&#xE2;mide de testes</h3>
+<p>&#xC9; comum encontrar em projetos algumas deriva&#xE7;&#xF5;es da pir&#xE2;mide de testes,
+as quais s&#xE3;o advindas de uma estrat&#xE9;gia de testes por vezes equivocada.
+Os principais anti-padr&#xF5;es que podemos encontrar e tentar evitar s&#xE3;o:</p>
+<ul>
+<li><p>A casquinha de sorvete, que na verdade trata-se de uma pir&#xE2;mide invertida,
+pode ser observada em cen&#xE1;rios onde testes de interface automatizados e manuais
+s&#xE3;o encontrados em grande quantidade, enquanto os unit&#xE1;rios e de integra&#xE7;&#xE3;o
+praticamente n&#xE3;o existem.</p>
+</li>
+<li><p>O cupcake &#xE9; comumente encontrado em ambientes onde diferentes equipes
+s&#xE3;o respons&#xE1;veis por testes em diferentes n&#xED;veis. Desta forma, cada time acaba
+por tentar ter uma cobertura m&#xE1;xima em seus testes e o resultado disto
+&#xE9; o excesso de testes em todos os n&#xED;veis da pir&#xE2;mide, al&#xE9;m de muita redund&#xE2;ncia.</p>
+</li>
+</ul>
+<h3 id="recursos">Recursos</h3>
+<ul>
+<li><a href="http://martinfowler.com/bliki/TestPyramid.html" target="_blank">[Artigo] Test Pyramid</a> <img align="absmiddle" alt=":uk:" class="emoji" src="../gitbook/gitbook-plugin-advanced-emoji/emojis/uk.png" title=":uk:"></li>
+<li><a href="https://goo.gl/vYIKPw" target="_blank">[Artigo] The Forgotten Layer of the Test Pyramid</a> <img align="absmiddle" alt=":uk:" class="emoji" src="../gitbook/gitbook-plugin-advanced-emoji/emojis/uk.png" title=":uk:"></li>
+<li><a href="https://goo.gl/U9ddnM" target="_blank">[Artigo] Melhorando sua Estrat&#xE9;gia de Testes Automatizados</a></li>
+<li><a href="https://goo.gl/P9NgQN" target="_blank">[Artigo] Introducing the Software Testing Cupcake (Anti-Pattern)</a>
+<img align="absmiddle" alt=":uk:" class="emoji" src="../gitbook/gitbook-plugin-advanced-emoji/emojis/uk.png" title=":uk:"></li>
+</ul>
 <h2 id="an&#xE1;lise-de-c&#xF3;digo">An&#xE1;lise de C&#xF3;digo</h2>
-<h2 id="estrat&#xE9;gia-de-testes">Estrat&#xE9;gia de testes</h2>
-<p><div id="page-footer"><hr><p><em>Última modificação: 2016-10-05 15:33:00 -0300</em></p>
+<h3 id="an&#xE1;lise-de-c&#xF3;digo-com-ferramentas-automatizadas">An&#xE1;lise de C&#xF3;digo com ferramentas automatizadas</h3>
+<p>A cada linha de c&#xF3;digo escrita, provavelmente mais complexidade &#xE9; adicionada a aplica&#xE7;&#xE3;o.
+Isso torna mais dif&#xED;cil manter a aplica&#xE7;&#xE3;o e assim consequentemente mais complicado
+criar novas funcionalidades.
+Para ajudar nesse processo existem ferramentas que analisam o c&#xF3;digo de maneira autom&#xE1;tica.
+Como por exemplo:</p>
+<ul>
+<li><a href="http://www.sonarqube.org/" target="_blank">Sonarqube</a></li>
+<li><a href="http://checkstyle.sourceforge.net/" target="_blank">Checkstyle</a></li>
+<li><a href="http://findbugs.sourceforge.net/" target="_blank">FindBugs</a></li>
+</ul>
+<p>Essas ferramentas podem identificar
+pequenos problemas no c&#xF3;digo e, geralmente, ajudam nos seguintes cen&#xE1;rios:</p>
+<ul>
+<li>Duplica&#xE7;&#xF5;es de c&#xF3;digo</li>
+<li>Coment&#xE1;rios desnecess&#xE1;rios</li>
+<li>Complexidade ciclom&#xE1;tica</li>
+<li>Cobertura de testes inexistente</li>
+</ul>
+<h3 id="recursos">Recursos</h3>
+<ul>
+<li><a href="https://goo.gl/brR0YF" target="_blank">[Artigo] Melhorando a qualidade do c&#xF3;digo com sonarqube</a></li>
+</ul>
+<h2 id="cobertura-de-testes">Cobertura de Testes</h2>
+<p>Existem ferramentas que t&#xEA;m como objetivo determinar se um c&#xF3;digo de
+uma aplica&#xE7;&#xE3;o possui ou n&#xE3;o testes.
+Isso &#xE9; muito &#xFA;til quando queremos entender o quanto do
+comportamento ou inten&#xE7;&#xE3;o da aplica&#xE7;&#xE3;o est&#xE1; sendo validado.
+Assim, consequentemente, pode-se alterar a aplica&#xE7;&#xE3;o com maior seguran&#xE7;a e
+eventuais falhas podem ser percebidas mais rapidamente.</p>
+<p>&#xC9; importante dizer que a maioria dessas ferrramentas trabalha com testes do tipo
+unit&#xE1;rio. Al&#xE9;m disso, o foco delas &#xE9; realizar uma avalia&#xE7;&#xE3;o quantitativa, sem
+focar na qualidade exata dos cen&#xE1;rios de testes existentes.
+Por exemplo: &#xE9; poss&#xED;vel ter uma
+boa cobertura de testes unit&#xE1;rios sem cobrir partes importantes da aplica&#xE7;&#xE3;o.
+Ou, ainda ter uma cobertura de testes razo&#xE1;vel,
+mas que n&#xE3;o cobre cen&#xE1;rios de borda do c&#xF3;digo.</p>
+<p>Ent&#xE3;o, para se ter uma no&#xE7;&#xE3;o exata e qualitativa dos testes existentes,
+utilizam-se ferramentas espec&#xED;ficas, que alteram o c&#xF3;digo da aplica&#xE7;&#xE3;o e avaliam
+a qualidade do testes a partir de falhas ou n&#xE3;o dos cen&#xE1;rios cobertos. Esses s&#xE3;o
+os testes de muta&#xE7;&#xE3;o.</p>
+<h3 id="recursos">Recursos</h3>
+<ul>
+<li><a href="http://www.eclemma.org/jacoco/" target="_blank">Jacoco</a></li>
+<li><a href="https://github.com/cobertura/cobertura" target="_blank">Cobertura</a></li>
+<li><a href="https://coveralls.io/" target="_blank">Coveralls</a></li>
+<li><a href="http://pitest.org/" target="_blank">Ferramenta para testes de muta&#xE7;&#xE3;o em Java</a></li>
+</ul>
+<h2 id="cultura-de-qualidade-em-projetos">Cultura de qualidade em projetos</h2>
+<h3 id="pull-request">Pull request</h3>
+<p>Em alguns projetos que utilizam desenvolvimento orientado por branches,
+&#xE9; comum realizar a an&#xE1;lise de c&#xF3;digo, por meio da pr&#xE1;tica de <a href="https://goo.gl/SxiPGr" target="_blank">Pull Request</a>,
+onde a cada push realizado para o reposit&#xF3;rio &#xE9; criado um &quot;pull request&quot;
+e outro membro da equipe se responsabiliza por revisar o c&#xF3;digo,
+com a inten&#xE7;&#xE3;o de encontrar poss&#xED;veis problemas e sugerir melhorias na implementa&#xE7;&#xE3;o.</p>
+<h3 id="kick-off">Kick-Off</h3>
+<p>Kick-Off &#xE9; uma pr&#xE1;tica realizada antes de uma est&#xF3;ria come&#xE7;ar,
+onde &#xE9; feita uma revis&#xE3;o com os respons&#xE1;veis pela est&#xF3;ria,
+geralmente desenvolvedores, analistas de neg&#xF3;cios e analistas de qualidade.
+Nessa revis&#xE3;o s&#xE3;o verificados quais os pontos importantes daquela est&#xF3;ria,
+deixando claro os crit&#xE9;rios de aceita&#xE7;&#xE3;o, eventuais depend&#xEA;ncias e tamb&#xE9;m
+esclarecendo quaisquer d&#xFA;vidas que possam surgir.
+A finalidade &#xE9; garantir que antes de se come&#xE7;ar a nova est&#xF3;ria,
+as pessoas envolvidas saibam o que realmente tem que ser feito.</p>
+<h3 id="desk-check">Desk-Check</h3>
+<p>Na pr&#xE1;tica de Desk-Check geralmente temos uma revis&#xE3;o,
+do que foi desenvolvido na est&#xF3;ria,
+envolvendo as pessoas que trabalharam no desenvolvimento da mesma,
+al&#xE9;m de analistas de neg&#xF3;cio e de qualidade.
+Nesta revis&#xE3;o algumas verifica&#xE7;&#xF5;es que podem ser feitas s&#xE3;o:</p>
+<ul>
+<li>Todos os crit&#xE9;rios de aceita&#xE7;&#xE3;o foram alcan&#xE7;ados?</li>
+<li>Toda a implementa&#xE7;&#xE3;o est&#xE1; coberta por testes em seus n&#xED;veis?</li>
+<li>Ficou algum d&#xED;vida t&#xE9;cnica nessa est&#xF3;ria?</li>
+</ul>
+<h3 id="recursos">Recursos</h3>
+<ul>
+<li><a href="https://goo.gl/s62Xjk" target="_blank">[Artigo] The benefits of pull request</a> <img align="absmiddle" alt=":uk:" class="emoji" src="../gitbook/gitbook-plugin-advanced-emoji/emojis/uk.png" title=":uk:"></li>
+<li><a href="https://goo.gl/sbkWr4" target="_blank">[Artigo] Defect Prevention Using Agile Techniques</a> <img align="absmiddle" alt=":uk:" class="emoji" src="../gitbook/gitbook-plugin-advanced-emoji/emojis/uk.png" title=":uk:"></li>
+</ul>
+<p><div id="page-footer"><hr><p><em>Última modificação: 2016-10-11 20:41:52 -0300</em></p>
 </div></p>
 
                                 
@@ -352,7 +550,7 @@ usu&#xE1;rios finais s&#xE3;o atendidas e que o software em quest&#xE3;o adicion
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Estratégia de qualidade","level":"1.8","depth":1,"next":{"title":"Armazenamento de dados","level":"1.9","depth":1,"path":"topics/Armazenamento_de_Dados.md","ref":"topics/Armazenamento_de_Dados.md","articles":[]},"previous":{"title":"Processos de Desenvolvimento","level":"1.7","depth":1,"path":"topics/Processos_de_Desenvolvimento.md","ref":"topics/Processos_de_Desenvolvimento.md","articles":[]},"dir":"ltr"},"config":{"plugins":["localized-footer","simple-page-toc","advanced-emoji"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"simple-page-toc":{"maxDepth":2,"skipFirstH1":true},"search":{},"localized-footer":{"filename":"layouts/FOOTER.md"},"lunr":{"maxIndexSize":1000000},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"advanced-emoji":{"embedEmojis":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"INDICE.md"},"variables":{},"language":"pt","gitbook":"3.1.1"},"file":{"path":"topics/Estrategia_de_Qualidade.md","mtime":"2016-10-11T16:26:59.000Z","type":"markdown"},"gitbook":{"version":"3.1.1","time":"2016-10-11T16:28:11.466Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Estratégia de qualidade","level":"1.8","depth":1,"next":{"title":"Armazenamento de dados","level":"1.9","depth":1,"path":"topics/Armazenamento_de_Dados.md","ref":"topics/Armazenamento_de_Dados.md","articles":[]},"previous":{"title":"Processos de Desenvolvimento","level":"1.7","depth":1,"path":"topics/Processos_de_Desenvolvimento.md","ref":"topics/Processos_de_Desenvolvimento.md","articles":[]},"dir":"ltr"},"config":{"plugins":["localized-footer","simple-page-toc","advanced-emoji"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"simple-page-toc":{"maxDepth":2,"skipFirstH1":true},"search":{},"localized-footer":{"filename":"layouts/FOOTER.md"},"lunr":{"maxIndexSize":1000000},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"advanced-emoji":{"embedEmojis":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"INDICE.md"},"variables":{},"language":"pt","gitbook":"3.1.1"},"file":{"path":"topics/Estrategia_de_Qualidade.md","mtime":"2016-10-12T03:52:58.000Z","type":"markdown"},"gitbook":{"version":"3.1.1","time":"2016-10-12T03:53:24.376Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
