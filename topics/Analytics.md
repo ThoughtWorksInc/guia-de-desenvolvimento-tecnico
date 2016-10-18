@@ -59,14 +59,14 @@ armazenamento, transformação, processamento, manutenção e escalabilidade de
 dados.
 
 Existe muita colaboração entre *Engenharia de Dados* e *Ciência de Dados*. A
-*Engenharia de Dados* é responsável pela ciração e manutenção de ferramentas e
+*Engenharia de Dados* é responsável pela criação e manutenção de ferramentas e
 plataformas para a *Ciência de Daddos*. Além disso, ela também é responsável por
 resolver problemas de implementação e escalabilidade de algoritmos e fluxos de
 processamento, enquanto a *Ciência de Dados* é mais focada no aspecto analítico
 e exploratório da Análise de Dados.
 
 Portanto, conhecimento sobre as técnicas e processos utilizados na *Ciência de
-Dados* é imporante para a *Engenharia de Dados*. Muitas das áreas da Egenharia
+Dados* é importante para a *Engenharia de Dados*. Muitas das áreas da Egenharia
 de Software também são fundamentais para a *Engenharia de Dados*, com destaque
 especial para os seguintes tópicos:
 
