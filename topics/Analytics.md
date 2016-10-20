@@ -80,6 +80,7 @@ Algumas perguntas para clarificar o que a *Engenharia de Dados* tenta resolver:
 ### Recursos
 
 - [[Wikipedia] Big Data](https://pt.wikipedia.org/wiki/Big_data)
+- [[Artigo] Data Science e Big Data: Dois mundos muito diferentes](https://www.thoughtworks.com/pt/insights/blog/data-science-and-big-data-two-very-different-beasts)
 - [[Pergunta & Resposta] O que é Engenharia de Dados?](https://www.quora.com/What-is-data-engineering)
   :uk:
 - [[Artigo] The Rise of the Data Engineer](https://www.datanami.com/2014/09/08/rise-big-data-engineer/)
