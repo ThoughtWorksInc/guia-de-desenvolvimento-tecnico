@@ -53,7 +53,40 @@ análise de dados.
 
 ## Engenharia de Dados
 
+*Engenharia de Dados* (ou *Data Engineering* :uk:) pode ser considerada uma área
+específica da *Engenharia de Software* voltada para solucionar problemas de
+armazenamento, transformação, processamento, manutenção e escalabilidade de
+dados.
+
+Existe muita colaboração entre *Engenharia de Dados* e *Ciência de Dados*. A
+*Engenharia de Dados* é responsável pela criação e manutenção de ferramentas e
+plataformas para a *Ciência de Dados*. Além disso, ela também é responsável por
+resolver problemas de implementação e escalabilidade de algoritmos e fluxos de
+processamento, enquanto a *Ciência de Dados* é mais focada no aspecto analítico
+e exploratório da Análise de Dados.
+
+Existem tecnologias específicas que visam resolver muitos dos problemas
+recorrentes da *Engenharia de Dados* em escala, essas tecnologias geralmente são
+encontradas sob termo guarda-chuva de **Big Data**.
+
+Algumas perguntas para clarificar o que a *Engenharia de Dados* tenta resolver:
+
+- Como armazenar de maneira escalável, confiável e segura petabytes de dados?
+- Para um dado processo de negócio envolvendo algoritmos de recomendação, será
+  melhor utilizar uma arquitetura orientada a eventos ou processamento em lote?
+- Como aplicar um modelo científico de Análise Preditiva em larga escala e
+  deixar seu resultado disponível para ser utilizada em produtos?
+
 ### Recursos
+
+- [[Wikipedia] Big Data](https://pt.wikipedia.org/wiki/Big_data)
+- [[Artigo] Data Science e Big Data: Dois mundos muito diferentes](https://www.thoughtworks.com/pt/insights/blog/data-science-and-big-data-two-very-different-beasts)
+- [[Pergunta & Resposta] O que é Engenharia de Dados?](https://www.quora.com/What-is-data-engineering)
+  :uk:
+- [[Artigo] The Rise of the Data Engineer](https://www.datanami.com/2014/09/08/rise-big-data-engineer/)
+  :uk:
+- [[Artigo] Ciência de Dados vs Engenharia de Dados](https://blog.insightdatascience.com/data-science-vs-data-engineering-62da7678adaa#.1a2xg69mb)
+  :uk:
 
 ## Ciência de Dados
 
