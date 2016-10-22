@@ -32,5 +32,8 @@
     "markdown-link-check": "^1.2.0",
     "markdownlint-cli": "^0.2.0",
     "onchange": "^2.5.0"
+  },
+  "dependencies": {
+    "gitbook-plugin-ga": "^1.0.1"
   }
 }

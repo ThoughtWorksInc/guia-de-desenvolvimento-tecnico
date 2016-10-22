@@ -5,11 +5,15 @@
     "summary": "INDICE.md"
   },
   "plugins" : [
+    "ga",
     "localized-footer",
     "simple-page-toc",
     "advanced-emoji"
   ],
   "pluginsConfig": {
+    "ga": {
+      "token": "UA-86166823-1"
+    },
     "localized-footer": {
       "filename": "layouts/FOOTER.md"
     },
