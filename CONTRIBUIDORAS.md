@@ -7,9 +7,9 @@ fez uso dos recursos e viu que faltam informações.
 
 A contribuidora:
 
-* Adiciona recursos que conhece
-* Atualiza links quando vê que algum link está desatualizado
-* Cria pull requests
-* Atualiza pull request quando tem comentários
+* Adiciona recursos que conhece;
+* Atualiza links quando vê que algum link está desatualizado;
+* Cria pull requests;
+* Atualiza pull request quando tem comentários;
 * Pode ajudar implementando as melhoras para as quais já existem issues ou
-criar issues a serem priorizados
+criar issues a serem priorizados;

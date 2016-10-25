@@ -7,13 +7,13 @@ pre-requisito de estar alinhadas com a visão e os compromissos.
 
 Uma curadora:
 
-* Participa do grupo do slack, myTW, e é admin do repositório
+* Participa do grupo do slack, myTW, e é admin do repositório;
 * Se compromete a revisar pull requests frequentemente (guardando pelo menos
-  uns 20 minutos por semana para esse propósito)
-* Responde a perguntas em issues, emails, comentários
-* Ajuda a implementar as melhoras que foram priorizadas nos issues
-* Cria novos issues com os feedbacks de usuárias
-* Dissemina o guia para outras comunidades
-* Busca sempre novos colaboradores e campeões
-* Oferece ajuda a campeões, contribuidores e usuárias
-* Aprova e mergea pull requests
+  uns 20 minutos por semana para esse propósito);
+* Responde a perguntas em issues, emails, comentários;
+* Ajuda a implementar as melhoras que foram priorizadas nos issues;
+* Cria novos issues com os feedbacks de usuárias;
+* Dissemina o guia para outras comunidades;
+* Busca sempre novos colaboradores e campeões;
+* Oferece ajuda a campeões, contribuidores e usuárias;
+* Aprova e mergea pull requests;
