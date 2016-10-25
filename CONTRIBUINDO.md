@@ -1,12 +1,10 @@
 # Contribuindo
 
-
-
 ## Categorias de Pessoas Contribuidoras
 
-* [CONTRIBUIDORAS.md](Contribuidoras)
-* [CAMPEAS.md](Campeãs)
-* [CURADORAS.md](Curadoras)
+* [Contribuidoras](CONTRIBUIDORAS.md)
+* [Campeãs](CAMPEAS.md)
+* [Curadoras](CURADORAS.md)
 
 ## Padrão
 
