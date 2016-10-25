@@ -12,4 +12,4 @@ A contribuidora:
 * Cria pull requests;
 * Atualiza pull request quando tem comentários;
 * Pode ajudar implementando as melhoras para as quais já existem issues ou
-criar issues a serem priorizados;
+  criar issues a serem priorizados;
