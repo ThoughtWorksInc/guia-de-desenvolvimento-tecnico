@@ -1,6 +1,6 @@
 # Campeãs
 
-Campeões são o grupo de pessoas que garante que cada tópico se mantenha
+Grupo formado por pessoas que garantem que cada tópico se mantenha
 atualizado. Teríamos somente uma campeã (ou duas) por tópico e normalmente essa
 campeã tem um pouco mais de conhecimento sobre o tópico que ela se
 responsabiliza por.
