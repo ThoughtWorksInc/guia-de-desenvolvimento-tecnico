@@ -13,7 +13,7 @@ em poucas linhas. Você vai ver que com experiência você criará seus próprio
 pontos de vista. De qualquer forma, esse paradigma se constrói sobre os
 seguintes pilares:
 
-* Encapsulamento: Quando Alan Key criou o SmallTalk por volta de 1970,
+* Encapsulamento: Quando Alan Kay criou o SmallTalk por volta de 1970,
   ele acreditava que cada objeto era uma representação de todos os recursos
   do computador, sendo, dessa forma, completamente independente. É nesse
   contexto que se formou a ideia de encapsulamento. Os seus componentes devem
