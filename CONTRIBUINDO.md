@@ -1,5 +1,11 @@
 # Contribuindo
 
+## Categorias de Pessoas Contribuidoras
+
+* [Contribuidoras](CONTRIBUIDORAS.md)
+* [Campeãs](CAMPEAS.md)
+* [Curadoras](CURADORAS.md)
+
 ## Padrão
 
 Cada tópico tem um arquivo Markdown na pasta `topics/` e para seu conteúdo
