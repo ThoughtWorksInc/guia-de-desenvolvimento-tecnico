@@ -6,6 +6,7 @@
   },
   "plugins" : [
     "ga",
+    "git-author",
     "localized-footer",
     "simple-page-toc",
     "advanced-emoji"
@@ -13,6 +14,12 @@
   "pluginsConfig": {
     "ga": {
       "token": "UA-86166823-1"
+    },
+    "git-author":{
+      "position": "bottom",
+      "modifyTpl": "Última modificação feita por {user}, {timeStamp}",
+      "createTpl": "Criada por {user}, {timeStamp}",
+      "timeStampFormat": "YYYY-MM-DD HH:mm:ss"
     },
     "localized-footer": {
       "filename": "layouts/FOOTER.md"

@@ -1,1 +1,0 @@
-*Última modificação: {{ file.mtime }}*
