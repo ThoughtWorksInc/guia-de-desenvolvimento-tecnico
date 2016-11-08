@@ -1,5 +1,5 @@
 {
-  "gitbook": "3.2.2",
+  "gitbook": "3.1.1",
   "language": "pt",
   "structure" : {
     "summary": "INDICE.md"
@@ -7,7 +7,6 @@
   "plugins" : [
     "ga",
     "git-author",
-    "comment",
     "localized-footer",
     "simple-page-toc",
     "advanced-emoji"
