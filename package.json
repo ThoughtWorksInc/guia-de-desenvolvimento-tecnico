@@ -28,6 +28,7 @@
     "gitbook-cli": "^2.3.0",
     "gitbook-plugin-advanced-emoji": "^0.2.1",
     "gitbook-plugin-git-author": "^1.1.2",
+    "gitbook-plugin-comment": "^1.0.5",
     "gitbook-plugin-localized-footer": "^0.2.2",
     "gitbook-plugin-simple-page-toc": "^0.1.0",
     "markdown-link-check": "^1.2.0",
