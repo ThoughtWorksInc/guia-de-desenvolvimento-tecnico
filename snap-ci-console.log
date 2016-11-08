@@ -3,22 +3,22 @@ $ [32mgit clone git@localhost:ThoughtWorksInc/guia-de-desenvolvimento-tecnico .
 Cloning into '.'...
 Warning: Permanently added 'localhost' (RSA) to the list of known hosts.
 Command [32mgit clone git@localhost:ThoughtWorksInc/guia-de-desenvolvimento-tecnico .[0m exited successfully with status 0.
-Took 0.43459 seconds.
+Took 0.45336 seconds.
 
 $ [32mgit checkout master[0m
 Already on 'master'
 Your branch is up-to-date with 'origin/master'.
 Command [32mgit checkout master[0m exited successfully with status 0.
-Took 0.02574 seconds.
+Took 0.02662 seconds.
 
-$ [32mgit reset --hard 1f197fc1711000df211c1d0f23653e5c8a8009ab[0m
-HEAD is now at 1f197fc Merge pull request #67 from ThoughtWorksInc/google-analytics
-Command [32mgit reset --hard 1f197fc1711000df211c1d0f23653e5c8a8009ab[0m exited successfully with status 0.
-Took 0.02582 seconds.
+$ [32mgit reset --hard 75f11ffba929eae906568d91d4cebf835eca60bc[0m
+HEAD is now at 75f11ff Merge pull request #70 from ThoughtWorksInc/git-author
+Command [32mgit reset --hard 75f11ffba929eae906568d91d4cebf835eca60bc[0m exited successfully with status 0.
+Took 0.02703 seconds.
 
 $ [32mgit submodule update --init --recursive[0m
 Command [32mgit submodule update --init --recursive[0m exited successfully with status 0.
-Took 0.04409 seconds.
+Took 0.04498 seconds.
 
 Fetching artifacts from stage Lint
 $ export SNAP_CI=true
@@ -27,82 +27,28 @@ $ export SNAP_CACHE_DIR=/var/go
 $ export LANG=en_US.UTF-8
 $ export LC_ALL=en_US.UTF-8
 $ export SNAP_WORKING_DIR=/var/snap-ci/repo
-$ export SNAP_PIPELINE_COUNTER=43
+$ export SNAP_PIPELINE_COUNTER=45
 $ export SNAP_STAGE_NAME=check-links
 $ export SNAP_BRANCH=master
-$ export SNAP_COMMIT=1f197fc1711000df211c1d0f23653e5c8a8009ab
-$ export SNAP_COMMIT_SHORT=1f197fc
+$ export SNAP_COMMIT=75f11ffba929eae906568d91d4cebf835eca60bc
+$ export SNAP_COMMIT_SHORT=75f11ff
 $ export SNAP_TRACKING_PIPELINE=true
 $ export SNAP_INTEGRATION_PIPELINE=false
 
+$ [32mnvm install v6.2.2 2>/dev/null[0m
+Now using node v6.2.2 (npm v3.9.5)
+Command [32mnvm install v6.2.2 2>/dev/null[0m exited successfully with status 0.
+Took 1.03 seconds.
+
+$ [32mif [ -d ${SNAP_CACHE_DIR}/node_modules ]; then sudo mv -f ${SNAP_CACHE_DIR}/node_modules .; sudo chown -R --no-dereference go:go node_modules; fi[0m
+Command [32mif [ -d ${SNAP_CACHE_DIR}/node_modules ]; then sudo mv -f ${SNAP_CACHE_DIR}/node_modules .; sudo chown -R --no-dereference go:go node_modules; fi[0m exited successfully with status 0.
+Took 0.09433 seconds.
+
 $ [32mnpm install[0m
-npm WARN engine markdownlint-cli@0.2.0: wanted: {"node":">=0.12.0"} (current: {"node":"0.10.37","npm":"1.4.28"})
-npm WARN engine deep-extend@0.4.1: wanted: {"node":">=0.12.0","iojs":">=1.0.0"} (current: {"node":"0.10.37","npm":"1.4.28"})
-npm WARN deprecated wrench@1.5.8: wrench.js is deprecated! You should check out fs-extra (https://github.com/jprichardson/node-fs-extra) for any operations you were using wrench for. Thanks for all the usage over the years.
-npm WARN engine request@2.78.0: wanted: {"node":">= 4"} (current: {"node":"0.10.37","npm":"1.4.28"})
-npm WARN optional dep failed, continuing fsevents@1.0.15
-npm WARN engine form-data@2.1.1: wanted: {"node":">= 0.12"} (current: {"node":"0.10.37","npm":"1.4.28"})
-npm WARN engine hoek@2.16.3: wanted: {"node":">=0.10.40"} (current: {"node":"0.10.37","npm":"1.4.28"})
-npm WARN engine cryptiles@2.0.5: wanted: {"node":">=0.10.40"} (current: {"node":"0.10.37","npm":"1.4.28"})
-npm WARN engine boom@2.10.1: wanted: {"node":">=0.10.40"} (current: {"node":"0.10.37","npm":"1.4.28"})
-gitbook-plugin-localized-footer@0.2.2 node_modules/gitbook-plugin-localized-footer
-
-gitbook-plugin-ga@1.0.1 node_modules/gitbook-plugin-ga
-
-onchange@2.5.0 node_modules/onchange
-├── arrify@1.0.1
-├── minimist@1.2.0
-├── cross-spawn@4.0.2 (which@1.2.11, lru-cache@4.0.1)
-└── chokidar@1.5.2 (async-each@1.0.1, glob-parent@2.0.0, path-is-absolute@1.0.1, inherits@2.0.3, is-binary-path@1.0.1, is-glob@2.0.1, anymatch@1.3.0, readdirp@2.1.0)
-
-gh-pages@0.11.0 node_modules/gh-pages
-├── graceful-fs@4.1.2
-├── wrench@1.5.8
-├── async@1.5.2
-├── commander@2.9.0 (graceful-readlink@1.0.1)
-├── q@1.4.1
-├── globby@4.1.0 (arrify@1.0.1, object-assign@4.1.0, pify@2.3.0, array-union@1.0.2, pinkie-promise@2.0.1, glob@6.0.4)
-└── q-io@1.13.2 (mimeparse@0.1.4, url2@0.0.0, mime@1.3.4, qs@1.2.2, collections@0.2.2)
-
-markdownlint-cli@0.2.0 node_modules/markdownlint-cli
-├── lodash.flatten@4.3.0
-├── deep-extend@0.4.1
-├── lodash.values@4.2.0
-├── commander@2.9.0 (graceful-readlink@1.0.1)
-├── glob@7.0.6 (path-is-absolute@1.0.1, inherits@2.0.3, fs.realpath@1.0.0, inflight@1.0.6, once@1.4.0, minimatch@3.0.3)
-├── rc@1.1.6 (ini@1.3.4, strip-json-comments@1.0.4, minimist@1.2.0)
-└── markdownlint@0.2.0 (markdown-it@7.0.1)
-
-gitbook-plugin-simple-page-toc@0.1.0 node_modules/gitbook-plugin-simple-page-toc
-├── uslug@1.0.4 (unorm@1.4.1)
-└── markdown-toc@0.12.16 (markdown-link@0.1.1, strip-color@0.1.0, repeat-string@1.6.1, mixin-deep@1.1.3, minimist@1.2.0, object.pick@1.2.0, lazy-cache@2.0.1, concat-stream@1.5.2, list-item@1.1.1, gray-matter@2.1.0, remarkable@1.7.1)
-
-markdown-link-check@1.2.0 node_modules/markdown-link-check
-├── link-check@2.1.0
-├── chalk@1.1.3 (escape-string-regexp@1.0.5, supports-color@2.0.0, ansi-styles@2.2.1, strip-ansi@3.0.1, has-ansi@2.0.0)
-├── markdown-link-extractor@1.1.0 (marked@0.3.6)
-├── commander@2.9.0 (graceful-readlink@1.0.1)
-├── async@1.5.2
-├── request@2.78.0 (is-typedarray@1.0.0, oauth-sign@0.8.2, aws-sign2@0.6.0, forever-agent@0.6.1, tunnel-agent@0.4.3, caseless@0.11.0, stringstream@0.0.5, isstream@0.1.2, json-stringify-safe@5.0.1, extend@3.0.0, aws4@1.5.0, combined-stream@1.0.5, node-uuid@1.4.7, qs@6.3.0, form-data@2.1.1, mime-types@2.1.12, tough-cookie@2.3.2, har-validator@2.0.6, http-signature@1.1.1, hawk@3.1.3)
-└── lodash@4.16.6
-
-gitbook-cli@2.3.0 node_modules/gitbook-cli
-├── bash-color@0.0.4
-├── user-home@2.0.0 (os-homedir@1.0.2)
-├── commander@2.9.0 (graceful-readlink@1.0.1)
-├── q@1.4.1
-├── semver@5.1.0
-├── tmp@0.0.28 (os-tmpdir@1.0.2)
-├── optimist@0.6.1 (wordwrap@0.0.3, minimist@0.0.10)
-├── fs-extra@0.26.5 (path-is-absolute@1.0.1, klaw@1.3.1, jsonfile@2.4.0, graceful-fs@4.1.10, rimraf@2.5.4)
-├── lodash@4.5.1
-├── npmi@1.0.1 (semver@4.3.6, npm@2.15.11)
-└── npm@3.7.5
-
-gitbook-plugin-advanced-emoji@0.2.1 node_modules/gitbook-plugin-advanced-emoji
-└── emojify.js@1.1.0
+npm WARN optional Skipping failed optional dependency /chokidar/fsevents:
+npm WARN notsup Not compatible with your operating system or architecture: fsevents@1.0.15
 Command [32mnpm install[0m exited successfully with status 0.
-Took 22.4 seconds.
+Took 3.26 seconds.
 
 $ [32mnpm run check-link-diff[0m
 
@@ -110,28 +56,33 @@ $ [32mnpm run check-link-diff[0m
 > npm run generate-diff | node scripts/markdownLinkCheck.js
 
 
+npm ERR! Linux 2.6.32-042stab105.14
+npm ERR! argv "/opt/local/nvm/versions/node/v6.2.2/bin/node" "/var/snap-ci/repo/node_modules/.bin/npm" "run" "generate-diff"
+npm ERR! node v6.2.2
+npm ERR! npm  v3.7.5
+npm ERR! code ELIFECYCLE
 npm ERR! guia-de-desenvolvimento-tecnico@0.0.1 generate-diff: `git diff origin/master {.,topics}/*.md | grep -v '^-'`
 npm ERR! Exit status 1
 npm ERR! 
-npm ERR! Failed at the guia-de-desenvolvimento-tecnico@0.0.1 generate-diff script.
-npm ERR! This is most likely a problem with the guia-de-desenvolvimento-tecnico package,
+npm ERR! Failed at the guia-de-desenvolvimento-tecnico@0.0.1 generate-diff script 'git diff origin/master {.,topics}/*.md | grep -v '^-''.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the guia-de-desenvolvimento-tecnico package,
 npm ERR! not with npm itself.
 npm ERR! Tell the author that this fails on your system:
 npm ERR!     git diff origin/master {.,topics}/*.md | grep -v '^-'
-npm ERR! You can get their info via:
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs guia-de-desenvolvimento-tecnico
+npm ERR! Or if that isn't available, you can get their info via:
 npm ERR!     npm owner ls guia-de-desenvolvimento-tecnico
 npm ERR! There is likely additional logging output above.
-npm ERR! System Linux 2.6.32-042stab105.14
-npm ERR! command "/opt/local/nvm/v0.10.37/bin/node" "/opt/local/nvm/v0.10.37/bin/npm" "run" "generate-diff"
-npm ERR! cwd /var/snap-ci/repo
-npm ERR! node -v v0.10.37
-npm ERR! npm -v 1.4.28
-npm ERR! code ELIFECYCLE
-npm ERR! 
-npm ERR! Additional logging details can be found in:
+
+npm ERR! Please include the following file with any support request:
 npm ERR!     /var/snap-ci/repo/npm-debug.log
-npm ERR! not ok code 0
 Command [32mnpm run check-link-diff[0m exited successfully with status 0.
-Took 0.64726 seconds.
+Took 0.93522 seconds.
+
+$ [32mif [ -d node_modules ]; then sudo mv -f node_modules ${SNAP_CACHE_DIR}/; sudo chown -R --no-dereference go:go ${SNAP_CACHE_DIR}/node_modules; fi[0m
+Command [32mif [ -d node_modules ]; then sudo mv -f node_modules ${SNAP_CACHE_DIR}/; sudo chown -R --no-dereference go:go ${SNAP_CACHE_DIR}/node_modules; fi[0m exited successfully with status 0.
+Took 0.09127 seconds.
 
 Saving console log for later
