@@ -1,6 +1,6 @@
 # Codificação
 
-A codificação é a principal tarefa relalizada por um desenvolvedor
+A codificação é a principal tarefa realizada por um desenvolvedor
 de software e nesta seção abordaremos linguagens de programação,
 ferramentas e práticas utilizados para tal finalidade.
 
@@ -80,7 +80,7 @@ Dentre os mais utilizados temos:
 ## Conheça sua IDE e/ou editor de texto
 
 Para programar é importante dominar ao menos um editor de texto ou
-IDE(Integrated Development Environment). Por mais que o editor pode mudar
+IDE (Integrated Development Environment). Por mais que o editor possa mudar
 dependendo da linguagem usada em cada contexto, conhecer uma ferramenta
 extremamente bem irá ajuda-lo a ser mais eficiente e produtivo. Se a pessoa
 desenvolvedora é uma pintora, seu editor é seu pincel!
@@ -131,7 +131,7 @@ existente, alterando sua estrutura interna sem alterar seu comportamento". -
 Martin Fowler (2011).
 
 Refatoração é o ato de executar qualquer melhoria no código, seja ela em um
-simples método ou em quase todo ele.
+simples método ou em quase toda aplicação.
 
 ### Recursos
 
