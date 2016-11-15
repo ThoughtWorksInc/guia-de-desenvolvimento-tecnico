@@ -56,8 +56,9 @@ diferentes requisitos de performance e disponibilidade para leitura e escrita.
 
 ## Recursos
 
-* [[Livro] Software Architecture in Practice](http://a.co/dj9GSz9) :uk:
-* [[Livro] Padrões de Arquitetura de Aplicações Corporativas](http://a.co/fuy7rga)
-* [[Livro] Software Architecture: Perspectives on an Emerging Discipline](http://a.co/jgpoy3W)
+* [[Livro] Software Architecture in
+ Practice](https://www.amazon.com/dp/0321815734) :uk:
+* [[Livro] Padrões de Arquitetura de Aplicações Corporativas](https://www.amazon.com/dp/8536306386)
+* [[Livro] Software Architecture: Perspectives on an Emerging Discipline](https://www.amazon.com/dp/0131829572)
  :uk:
 * [[Artigo] Event Sourcing](http://martinfowler.com/eaaDev/EventSourcing.html) :uk:
