@@ -7,6 +7,7 @@
   "plugins" : [
     "ga",
     "git-author",
+    "githubcontributors",
     "comment",
     "localized-footer",
     "simple-page-toc",
@@ -21,6 +22,10 @@
       "modifyTpl": "Última modificação feita por {user}, {timeStamp}",
       "createTpl": "Criada por {user}, {timeStamp}",
       "timeStampFormat": "YYYY-MM-DD HH:mm:ss"
+    },
+    "githubcontributors": {
+      "githubOwner": "ThoughtWorksInc",
+      "githubRepository": "guia-de-desenvolvimento-tecnico"
     },
     "localized-footer": {
       "filename": "layouts/FOOTER.md"
