@@ -41,6 +41,32 @@ alfabética):
 
 ## Programe em (pelo menos) uma linguagem de programação funcional
 
+Programação funcional é um paradigma de programação que molda a computação
+através da avaliação de funções matemáticas e evita estado e dados mutáveis.
+
+O paradigma funcional traz ênfase no uso de funções de forma declarativa,
+em contraste com programação procedural ou orientada a objetos, que enfatizam
+mudanças no estado de forma imperativa.
+
+Apesar de ter suas origens em lambda calculus, um sistema formal desenvolvido
+na década de 1930, apenas mais recente linguagens funcionais ganharam mais
+popularidade, inclusive linguagens que eram tradicionalmente Orientadas a Objeto
+agora estão absorvendo estes conceitos.
+
+Exemplos de linguagens funcionais (em ordem alfabética):
+
+* [Haskell](https://www.haskell.org/)
+* [Clojure](http://clojure.org/)
+* [Elixir](http://elixir-lang.org/)
+* [Erlang](http://www.erlang.org/)
+
+### Recursos
+
+* [Functional Programming should be your #1 priority for 2015](https://medium.com/@jugoncalves/functional-programming-should-be-your-1-priority-for-2015-47dd4641d6b9#.s4970krpa) :uk:
+* [Functional Programming Wikipedia](https://en.wikipedia.org/wiki/Functional_programming) :uk:
+* [[Curso] Aprender Haskell será um grande bem para você](http://haskell.tailorfontela.com.br/)
+* [Object Oriented Programming is an expensive disaster which must end](http://www.smashcompany.com/technology/object-oriented-programming-is-an-expensive-disaster-which-must-end) :uk:
+
 ## Construa soluções guiadas por testes (TDD)
 
 O desenvolvimento guiado por testes faz com que se foque num problema por vez,
