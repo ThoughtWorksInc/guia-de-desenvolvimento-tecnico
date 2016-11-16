@@ -290,11 +290,66 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="arquitetura-de-software">Arquitetura de Software</h1>
-<p>(Introdu&#xE7;&#xE3;o aqui)</p>
+<pre><code>Uma arquitetura de software &#xE9; o conjunto de estruturas necess&#xE1;rias para
+entender como um sistema funciona. Dessas estruras fazem parte elementos de
+software, relac&#xF5;es entre esses elementos e propriedades desses elementos e
+dessas rela&#xE7;&#xF5;es. (Len Bass, Paul Clements, Rick Kazman,  Software Architecture
+in practice, tradu&#xE7;&#xE3;o nossa)
+</code></pre><p>A arquitetura de software &#xE9; uma abstra&#xE7;&#xE3;o que ajuda a comunica&#xE7;&#xE3;o e o
+entendimento do funcionamento de um sistema. Ela inclui as funcionalidades do
+sistema, mas o principal objetivo de uma arquitetura &#xE9; determinar como o
+sistema vai conseguir cumprir os requisitos de qualidade estabelecidos (como
+performance, escalabilidade, seguran&#xE7;a) e restri&#xE7;&#xF5;es impostas ao
+desenvolvimento (restri&#xE7;&#xF5;es legais, de plataforma, etc).</p>
+<p>Todos os sistemas t&#xEA;m uma arquitetura de software, mas nem toda arquitetura &#xE9;
+boa ou sequer adequada ao problema que o sistema tenta resolver.</p>
 <!-- toc -->
+<ul>
+<li><a href="#princ&#xED;pios-padr&#xF5;es-e-estilos-arquiteturais">Princ&#xED;pios, Padr&#xF5;es e Estilos Arquiteturais</a></li>
+<li><a href="#recursos">Recursos</a></li>
+</ul>
 <!-- tocstop -->
+<h2 id="princ&#xED;pios-padr&#xF5;es-e-estilos-arquiteturais">Princ&#xED;pios, Padr&#xF5;es e Estilos Arquiteturais</h2>
+<p>Desenvolver uma arquitetura &#xE9; um trabalho de pondera&#xE7;&#xE3;o. Muito frequentemente
+diferentes objetivos s&#xE3;o conflitantes. Por exemplo introduzir algoritmos de
+encripta&#xE7;&#xE3;o mais robustos podem degradar a performance. Princ&#xED;pios, padr&#xF5;es
+estilos arquiteturais ajudam a guiar o desenvolvimento da arquitetura e
+ressaltam o objetivo principal daquela arquitetura. Nesta sess&#xE3;o, n&#xE3;o estamos
+preocupados em diferenciar padr&#xF5;es, princ&#xED;pios ou estilos arquiteturais. Alguns
+exemplos s&#xE3;o:</p>
+<p><a href="https://12factor.net/pt_br/" target="_blank">12 factor apps</a> re&#xFA;ne fatores a serem seguidos
+para que a aplica&#xE7;&#xE3;o seja amig&#xE1;vel para ser instalada na nuvem (<em>cloud
+friendly</em>). Um dos efeitos colaterais &#xE9; que a aplica&#xE7;&#xE3;o tamb&#xE9;m ser&#xE1; mais f&#xE1;cil
+de escalar horizontalmente al&#xE9;m de ser port&#xE1;vel entre ambientes.</p>
+<p><a href="https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html" target="_blank">Clean Architecture</a>.
+Os princ&#xED;pios descritos aqui podem ser seguidos para promover uma arquitetura
+que &#xE9; test&#xE1;vel, independente de frameworks, da interface com o
+usu&#xE1;rio, do banco de dados utilizado e de qualquer outro recurso
+externo como servi&#xE7;os externos &#xE0; aplica&#xE7;&#xE3;o.</p>
+<p><a href="http://shop.oreilly.com/product/0636920033158.do" target="_blank">[Livro] Microservi&#xE7;os</a> &#xE9;
+uma abordagem para desenvolver uma aplica&#xE7;&#xE3;o composta por um conjunto de
+pequenos servi&#xE7;os que rodam em processos separados, se comunicam de forma leve
+(como HTTP). Esses servi&#xE7;os devem ser desenvolvidos para encapsular capacidades
+de neg&#xF3;cio e devem ser poss&#xED;veis de serem instalados independentemente. As
+vantagens dessa abordagem incluem: poss&#xED;vel heterogeneidade de tecnologia entre
+servi&#xE7;os; escalabilidade; resili&#xEA;ncia; facilidade de compor servi&#xE7;os.</p>
+<p><a href="http://antoniofcastro.blogspot.in/2015/01/cqrs.html" target="_blank">[Artigo] Command-Query Responsibility Separation (CQRS)</a>.
+Como o nome diz esse estilo arquitetural sugere a separa&#xE7;&#xE3;o de
+responsabilidades entre consultas e comandos, onde comandos s&#xE3;o a&#xE7;&#xF5;es que
+resultam em mudan&#xE7;as nos dados e consultas s&#xE3;o somente leitura. O padr&#xE3;o &#xE9;
+interessante para aplica&#xE7;&#xF5;es de alta performance especialmente quando h&#xE1;
+diferentes requisitos de performance e disponibilidade para leitura e escrita.</p>
+<h2 id="recursos">Recursos</h2>
+<ul>
+<li><a href="https://www.amazon.com.br/dp/0321815734" target="_blank">[Livro] Software Architecture in
+Practice</a> <img align="absmiddle" alt=":uk:" class="emoji" src="../gitbook/gitbook-plugin-advanced-emoji/emojis/uk.png" title=":uk:"></li>
+<li><a href="https://www.amazon.com.br/dp/8536306386" target="_blank">[Livro] Padr&#xF5;es de Arquitetura de Aplica&#xE7;&#xF5;es Corporativas</a></li>
+<li><a href="https://www.amazon.com.br/dp/0131829572" target="_blank">[Livro] Software Architecture: Perspectives on an Emerging Discipline</a>
+<img align="absmiddle" alt=":uk:" class="emoji" src="../gitbook/gitbook-plugin-advanced-emoji/emojis/uk.png" title=":uk:"></li>
+<li><a href="http://martinfowler.com/eaaDev/EventSourcing.html" target="_blank">[Artigo] Event Sourcing</a> <img align="absmiddle" alt=":uk:" class="emoji" src="../gitbook/gitbook-plugin-advanced-emoji/emojis/uk.png" title=":uk:"></li>
+</ul>
 <p><div id="page-footer"><hr></div></p>
-<div class="git-author-container git-author-bottom"><div class="modified">&#xDA;ltima modifica&#xE7;&#xE3;o feita por Anike Arni, 2016-10-05 18:33:00</div><div class="created">Criada por Roberto Soares, 2016-08-17 16:50:13</div></div>
+<div class="git-author-container git-author-bottom"><div class="modified">&#xDA;ltima modifica&#xE7;&#xE3;o feita por Ricardo Cavalcanti, 2016-11-16 19:35:56</div><div class="created">Criada por Roberto Soares, 2016-08-17 16:50:13</div></div>
                                 
                                 </section>
                             
@@ -337,7 +392,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Arquitetura de Software","level":"1.4","depth":1,"next":{"title":"Entrega de Software","level":"1.5","depth":1,"path":"topics/Entrega_de_Software.md","ref":"topics/Entrega_de_Software.md","articles":[]},"previous":{"title":"Projeto de Software","level":"1.3","depth":1,"path":"topics/Projeto_de_Software.md","ref":"topics/Projeto_de_Software.md","articles":[]},"dir":"ltr"},"config":{"plugins":["ga","git-author","comment","localized-footer","simple-page-toc","advanced-emoji"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"simple-page-toc":{"maxDepth":2,"skipFirstH1":true},"git-author":{"position":"bottom","modifyTpl":"Última modificação feita por {user}, {timeStamp}","createTpl":"Criada por {user}, {timeStamp}","timeStampFormat":"YYYY-MM-DD HH:mm:ss"},"search":{},"localized-footer":{"filename":"layouts/FOOTER.md"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"ga":{"configuration":"auto","token":"UA-86166823-1"},"advanced-emoji":{"embedEmojis":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"comment":{"highlightCommented":true}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"INDICE.md"},"variables":{},"language":"pt","gitbook":"3.2.2"},"file":{"path":"topics/Arquitetura_de_Software.md","mtime":"2016-11-15T20:42:09.498Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2016-11-15T20:42:54.894Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Arquitetura de Software","level":"1.4","depth":1,"next":{"title":"Entrega de Software","level":"1.5","depth":1,"path":"topics/Entrega_de_Software.md","ref":"topics/Entrega_de_Software.md","articles":[]},"previous":{"title":"Projeto de Software","level":"1.3","depth":1,"path":"topics/Projeto_de_Software.md","ref":"topics/Projeto_de_Software.md","articles":[]},"dir":"ltr"},"config":{"plugins":["ga","git-author","comment","localized-footer","simple-page-toc","advanced-emoji"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"simple-page-toc":{"maxDepth":2,"skipFirstH1":true},"git-author":{"position":"bottom","modifyTpl":"Última modificação feita por {user}, {timeStamp}","createTpl":"Criada por {user}, {timeStamp}","timeStampFormat":"YYYY-MM-DD HH:mm:ss"},"search":{},"localized-footer":{"filename":"layouts/FOOTER.md"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"ga":{"configuration":"auto","token":"UA-86166823-1"},"advanced-emoji":{"embedEmojis":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"comment":{"highlightCommented":true}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"INDICE.md"},"variables":{},"language":"pt","gitbook":"3.2.2"},"file":{"path":"topics/Arquitetura_de_Software.md","mtime":"2016-11-16T20:29:51.332Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2016-11-16T20:29:59.355Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
