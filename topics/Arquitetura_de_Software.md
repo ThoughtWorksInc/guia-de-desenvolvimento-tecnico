@@ -26,18 +26,18 @@ encriptação mais robustos podem degradar a performance. Princípios, padrões
 estilos arquiteturais ajudam a guiar o desenvolvimento da arquitetura e
 ressaltam o objetivo principal daquela arquitetura. Nesta sessão, não estamos
 preocupados em diferenciar padrões, princípios ou estilos arquiteturais. Alguns
-exeplos são:
+exemplos são:
 
-[12 factor apps](https://12factor.net/pt_br/) reune fatores a serem seguidos
-para que a aplicação seja amigável para ser instalada na núvem (_cloud
+[12 factor apps](https://12factor.net/pt_br/) reúne fatores a serem seguidos
+para que a aplicação seja amigável para ser instalada na nuvem (_cloud
 friendly_). Um dos efeitos colaterais é que a aplicação também será mais fácil
 de escalar horizontalmente além de ser portável entre ambientes.
 
 [Clean Architecture](https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html).
 Os princípios descritos aqui podem ser seguidos para promover uma arquitetura
-que é testável, independente de frameworks, independente de interface com o
-usuário, independente do banco de dados utilizado e indendente de recursos
-externos como serviços externos à aplicação.
+que é testável, independente de frameworks, da interface com o
+usuário, do banco de dados utilizado e de qualquer outro recurso
+externo como serviços externos à aplicação.
 
 [[Livro] Microserviços](http://shop.oreilly.com/product/0636920033158.do) é
 uma abordagem para desenvolver uma aplicação composta por um conjunto de
