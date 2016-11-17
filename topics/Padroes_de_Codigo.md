@@ -29,8 +29,40 @@ causadas por concorrência, que fazer a aplicação impossível de debugar.
 
 ### Recursos
 
-* [[Wikipedia] Orientação a Objetos](https://pt.wikipedia.org/wiki/Orienta%C3%A7%C3%A3o_a_objetos)
-* [[Artigo] Orientação a Objetos](http://www.training.com.br/lpmaia/pub_prog_oo.htm)
+* [[Artigo] Objects Should be Immutable](http://www.yegor256.com/2014/06/09/objects-should-be-immutable.html)
+  :uk:
+
+## SOLID
+
+SOLID é um acronimo que engloba os cinco princípios básicos de orientação a
+objetos. Existem variações, mas em geral eles se resumem a:
+
+* *Single Responsibility Principle* (Princípio de Responsabilidade Única)
+  O principio de responsabilidade única define que uma classe ou método deveria
+  existir somente para implementar uma funcionalidade, mas que essa
+  responsabilidade seja completamente encapsulada pela entidade.
+* *Open/Close Principle* (Princípio Aberto/Fechado)
+  O princípio aberto/fechado dita que entidades de software deveriam ser abertas
+  a extensão, mas fechadas a modificação. A ideia é que essas entidades
+  (classes, objetos, metodos...) possam ter suas funcionalidades extendidas,
+  mas não seu código modificado.
+* *Liskov substitution principle* (princípio da substituição de Liskov)
+  Esse princípio visa definir o conceito de subtipo, garantindo que subtipos
+  mantém as propriedades defininas no tipo original. Esse princípio afirma que
+  se S é um subtipo do objeto T, qualquer objeto de tipo T pode ser subtituído
+  por objetos de tipo S.
+* *Interface segregation principle* (princípio de separação de interfaces)
+  ISP diz que nenhum cliente deveria dependender de metodos que ele não vai
+  usar. Promove interfaces menores, desacopladas, e expressivas.
+* *Dependency inversion principle* (princípio de inversão de depêndencias)
+  Esse príncipio define que módulos de alto-nível não dependem de módulos de
+  baixo-nível, mas que os dois dependem de abstrações. Além disso, abstrações
+  não deveriam depender de detalhes de implementação, mas o contrário.
+
+### Recursos
+
+* [[Wikipedia] SOLID (object-oriented design)](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design))
+  :uk:
 * [[Artigo] Pilares da Orientação a Objetos](https://renatomotzko.wordpress.com/2011/08/29/pilares-da-orientao-a-objetos/)
 
 ## Encapsulamento
