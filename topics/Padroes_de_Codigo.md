@@ -61,9 +61,8 @@ objetos. Existem variações, mas em geral eles se resumem a:
 
 ### Recursos
 
-* [[Wikipedia] SOLID (object-oriented design)](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design))
+* [[Wikipedia] SOLID (object-oriented design)](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)
   :uk:
-* [[Artigo] Pilares da Orientação a Objetos](https://renatomotzko.wordpress.com/2011/08/29/pilares-da-orientao-a-objetos/)
 
 ## Encapsulamento
 
@@ -95,8 +94,9 @@ método sobre objetos diferentes.
 
 ### Recursos
 
-* [[Wikipedia] Orientação a Objetos](https://pt.wikipedia.org/wiki/Orienta%C3%A7%C3%A3o_a_objetos)
-* [[Artigo] Orientação a Objetos](http://www.training.com.br/lpmaia/pub_prog_oo.htm)
+* [[Wikipedia] Polimorfismo](https://pt.wikipedia.org/wiki/Polimorfismo)
+* [[Artigo] Java Tutorials - Polymorphism](https://docs.oracle.com/javase/tutorial/java/IandI/polymorphism.html)
+  :uk:
 
 
 ## Padrões de Projeto Orientado a Objeto
