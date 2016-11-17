@@ -49,16 +49,17 @@ em contraste com programação procedural ou orientada a objetos, que enfatizam
 mudanças no estado de forma imperativa.
 
 Apesar de ter suas origens em lambda calculus, um sistema formal desenvolvido
-na década de 1930, apenas mais recente linguagens funcionais ganharam mais
-popularidade, inclusive linguagens que eram tradicionalmente Orientadas a Objeto
+na década de 1930, apenas mais recentemente linguagens funcionais ganharam
+popularidade. Inclusive, linguagens que eram tradicionalmente Orientadas a Objeto
 agora estão absorvendo estes conceitos.
 
 Exemplos de linguagens funcionais (em ordem alfabética):
 
-* [Haskell](https://www.haskell.org/)
 * [Clojure](http://clojure.org/)
 * [Elixir](http://elixir-lang.org/)
 * [Erlang](http://www.erlang.org/)
+* [Haskell](https://www.haskell.org/)
+* [Scala](http://www.scala-lang.org/)
 
 ### Recursos
 
