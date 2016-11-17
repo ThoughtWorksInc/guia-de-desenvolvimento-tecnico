@@ -61,7 +61,7 @@ objetos. Existem variações, mas em geral eles se resumem a:
 
 ### Recursos
 
-* [[Wikipedia] SOLID (object-oriented design)](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)
+* [[Wikipedia] SOLID (object-oriented design)](https://en.wikipedia.org/wiki/SOLID_%28object-oriented_design%29)
   :uk:
 
 ## Encapsulamento
@@ -75,6 +75,7 @@ sem perderem suas propriedades.
 
 ### Recursos
 
+* [[Wikipedia] Encapsulamento](https://pt.wikipedia.org/wiki/Encapsulamento)
 * [[Artigo] Curiosidade - Early History of SmallTalk (história do SmallTalk)](http://worrydream.com/EarlyHistoryOfSmalltalk/)
   :uk:
 
@@ -97,7 +98,6 @@ método sobre objetos diferentes.
 * [[Wikipedia] Polimorfismo](https://pt.wikipedia.org/wiki/Polimorfismo)
 * [[Artigo] Java Tutorials - Polymorphism](https://docs.oracle.com/javase/tutorial/java/IandI/polymorphism.html)
   :uk:
-
 
 ## Padrões de Projeto Orientado a Objeto
 
