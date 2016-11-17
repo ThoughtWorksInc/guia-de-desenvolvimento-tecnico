@@ -9,7 +9,7 @@ uso dessas ferramentas.
 
 Nessa sessão focaremos em alguns padrões e práticas de código mais usados. É
 importante notar que alguns desses conceitos derivam do paradigma de orientação
-a objeto e outros do paradima funcional, e funcionam melhor em contextos
+a objeto e outros do paradigma funcional, e funcionam melhor em contextos
 espefícos. Porém, aqui, veremos cada conceito separadamente, pois cada software
 tem requisitos diferentes.
 
@@ -25,7 +25,7 @@ valores variáveis (ou seja, sejam imutáveis).
 
 Porém, esse conceito tem evoluido além de linguagens funcionais, pois
 imutabilidade evita também que a sua aplicação retorne informações conflitantes,
-causadas por concorrência, que fazer a aplicação impossível de debugar.
+causadas por concorrência, que fazem a aplicação impossível de debugar.
 
 ### Recursos
 
@@ -34,14 +34,14 @@ causadas por concorrência, que fazer a aplicação impossível de debugar.
 
 ## SOLID
 
-SOLID é um acronimo que engloba os cinco princípios básicos de orientação a
+SOLID é um acrônimo que engloba os cinco princípios básicos de orientação a
 objetos. Existem variações, mas em geral eles se resumem a:
 
-* *Single Responsibility Principle* (Princípio de Responsabilidade Única)
+* *Single responsibility principle* (princípio de responsabilidade única)
   O principio de responsabilidade única define que uma classe ou método deveria
   existir somente para implementar uma funcionalidade, mas que essa
   responsabilidade seja completamente encapsulada pela entidade.
-* *Open/Close Principle* (Princípio Aberto/Fechado)
+* *Open/close principle* (princípio aberto/fechado)
   O princípio aberto/fechado dita que entidades de software deveriam ser abertas
   a extensão, mas fechadas a modificação. A ideia é que essas entidades
   (classes, objetos, metodos...) possam ter suas funcionalidades extendidas,
@@ -49,7 +49,7 @@ objetos. Existem variações, mas em geral eles se resumem a:
 * *Liskov substitution principle* (princípio da substituição de Liskov)
   Esse princípio visa definir o conceito de subtipo, garantindo que subtipos
   mantém as propriedades defininas no tipo original. Esse princípio afirma que
-  se S é um subtipo do objeto T, qualquer objeto de tipo T pode ser subtituído
+  se S é um subtipo do objeto T, qualquer objeto de tipo T pode ser substituído
   por objetos de tipo S.
 * *Interface segregation principle* (princípio de separação de interfaces)
   ISP diz que nenhum cliente deveria dependender de metodos que ele não vai
