@@ -32,8 +32,40 @@ causadas por concorrência, que fazer a aplicação impossível de debugar.
 * [[Wikipedia] Orientação a Objetos](https://pt.wikipedia.org/wiki/Orienta%C3%A7%C3%A3o_a_objetos)
 * [[Artigo] Orientação a Objetos](http://www.training.com.br/lpmaia/pub_prog_oo.htm)
 * [[Artigo] Pilares da Orientação a Objetos](https://renatomotzko.wordpress.com/2011/08/29/pilares-da-orientao-a-objetos/)
+
+## Encapsulamento
+
+Quando Alan Kay criou o SmallTalk por volta de 1970,
+ele acreditava que cada objeto era uma representação de todos os recursos
+do computador, sendo, dessa forma, completamente independente. É nesse
+contexto que se formou a ideia de encapsulamento. Os seus componentes devem
+ser simples o suficiente para poderem ser transportados por toda a aplicação,
+sem perderem suas propriedades.
+
+### Recursos
+
 * [[Artigo] Curiosidade - Early History of SmallTalk (história do SmallTalk)](http://worrydream.com/EarlyHistoryOfSmalltalk/)
   :uk:
+
+## Polimorfismo
+
+Polimorfismo é a propriedade de ter uma só interface para vários tipos. Ou seja,
+uma funcionalidade tomaria várias formas.
+
+Pode ser tanto implementado como uma interface ou classe abstrata em Java, ou
+por herança em muitas linguagens orientadas a objeto.
+
+Linguagens dinamicas, como Ruby, oferecem ainda mais flexibilidade para
+polimorfismo, dando pouca importancia ao tipo do objeto mas apenas se
+preocupando que o objeto implemente a funcionalidade desejada. Assim, o código
+fica mais flexivél para, por exemplo, iterar sobre uma lista e chamar um mesmo
+método sobre objetos diferentes.
+
+### Recursos
+
+* [[Wikipedia] Orientação a Objetos](https://pt.wikipedia.org/wiki/Orienta%C3%A7%C3%A3o_a_objetos)
+* [[Artigo] Orientação a Objetos](http://www.training.com.br/lpmaia/pub_prog_oo.htm)
+
 
 ## Padrões de Projeto Orientado a Objeto
 
