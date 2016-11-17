@@ -7,33 +7,25 @@ diferente que, muitas vezes, tenta resolver esse problema de formas diferentes.
 Porém, cabe a pessoa desenvolvedora ter conhecimento desses conceitos para o bom
 uso dessas ferramentas.
 
-Nessa sessão focaremos em alguns padrões e práticas de código mais usados.
+Nessa sessão focaremos em alguns padrões e práticas de código mais usados. É
+importante notar que alguns desses conceitos derivam do paradigma de orientação
+a objeto e outros do paradima funcional, e funcionam melhor em contextos
+espefícos. Porém, aqui, veremos cada conceito separadamente, pois cada software
+tem requisitos diferentes.
 
 <!-- toc -->
 
-## Orientação a Objetos
+## Imutabilidade
 
-Orientação a objetos é um dos paradigmas de programação mais usados atualmente.
-Entender os conceitos e saber aplicá-los são passos importantes para escrever
-bons sistemas.
+Imutabilidade é um conceito muito presente em linguagens funcionais, que buscam
+garantir que uma função sempre retornará o mesmo valor, possibilitando até que
+a funcionalidade alí definida possa ser provada matemáticamente. Para que isso
+seja verdade, é preciso garantir que funções não mantenham estado e não tenham
+valores variáveis (ou seja, sejam imutáveis).
 
-São muitos os conceitos que compõe esse paradigma e não é fácil resumí-los
-em poucas linhas. Você vai ver que com experiência você criará seus próprios
-pontos de vista. De qualquer forma, esse paradigma se constrói sobre os
-seguintes pilares:
-
-* Encapsulamento: Quando Alan Kay criou o SmallTalk por volta de 1970,
-  ele acreditava que cada objeto era uma representação de todos os recursos
-  do computador, sendo, dessa forma, completamente independente. É nesse
-  contexto que se formou a ideia de encapsulamento. Os seus componentes devem
-  ser simples o suficiente para poderem ser transportados por toda a aplicação,
-  sem perderem suas propriedades;
-* Polimofismo: É a propriedade de ter várias formas de implementar a mesma
-  coisa.
-  Essa propriedade permite mudanças de comportamento para um mesmo
-  tipo de componente;
-* Herança: É a propriedade de poder extender o comportamento de um componente
-  sem alterá-lo.
+Porém, esse conceito tem evoluido além de linguagens funcionais, pois
+imutabilidade evita também que a sua aplicação retorne informações conflitantes,
+causadas por concorrência, que fazer a aplicação impossível de debugar.
 
 ### Recursos
 
