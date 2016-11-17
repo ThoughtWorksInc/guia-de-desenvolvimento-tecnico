@@ -2,6 +2,7 @@
 
 * [Sobre o Guia](README.md)
 * [Codificação](topics/Codificacao.md)
+* [Padrões de Código](topics/Padroes_de_Codigo.md)
 * [Projeto de Software](topics/Projeto_de_Software.md)
 * [Arquitetura de Software](topics/Arquitetura_de_Software.md)
 * [Entrega de Software](topics/Entrega_de_Software.md)
