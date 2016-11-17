@@ -1,10 +1,19 @@
 # Projeto de Software
 
+Software geralmente é criado para solucionar um problema específico, seja ele de
+negócio, social, ou qualquer outra area. Porém, muitas vezes encontramos
+dificuldades ao mapear esse problema com software. Por isso, existe uma area
+muito importante de desenvolvimento de software que aqui decidimos chamar
+de "Projeto de Software", que busca encontrar uma forma melhor para expressar
+esses problemas reais em software.
+
+<!-- toc -->
+
 ## Domain-Driven Design
 
-Domain-Driven Design é uma abordagem de trabalho em desenvolvimento de software
-que não é restrita a orientação a objetos, mas é nesse paradigma que as práticas
-e padrões são descritos.
+*Domain-Driven Design* (desenho guiado pelo dominio, ou DDD) é uma abordagem de
+trabalho em desenvolvimento de software que não é restrita a orientação a
+objetos, mas é nesse paradigma que as práticas e padrões são descritos.
 
 Nessa abordagem, o _domínio_ é o que mais importa, sendo o núcleo do produto, as
 necessidades que ele deve atender. Nele estão contidas todas as regras,
