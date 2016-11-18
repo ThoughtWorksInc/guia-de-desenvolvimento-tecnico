@@ -18,12 +18,12 @@ tem requisitos diferentes.
 ## Imutabilidade
 
 Imutabilidade é um conceito muito presente em linguagens funcionais, que buscam
-garantir que uma função sempre retornará o mesmo valor, possibilitando até que
+garantir que uma entidade sempre contenha o mesmo valor, possibilitando até que
 a funcionalidade ali definida possa ser provada matematicamente. Para que isso
 seja verdade, é preciso garantir que funções não mantenham estado e não tenham
 valores variáveis (ou seja, sejam imutáveis).
 
-Porém, esse conceito tem evoluido além de linguagens funcionais, pois
+Porém, esse conceito tem evoluído além de linguagens funcionais, pois
 imutabilidade evita também que a sua aplicação retorne informações conflitantes,
 causadas por concorrência, que fazem a aplicação difícil de debugar.
 
@@ -106,8 +106,9 @@ método sobre objetos diferentes.
 
 Os padrões de projeto surgiram e surgem devido a solução de problemas
 recorrentes em aplicações orientadas a objetos. São aplicações diretas
-dos três pilares citados anteriormente. Conhecer padrões de projeto vai
-ajudar você a entender melhor como esse paradigma funciona e como usar
+dos três pilares de orientação a objeto (Encapsulamento, Polimorfismo
+e Herança). Conhecer padrões de projeto vai ajudar você a entender
+melhor como esse paradigma funciona e como usar
 seus poderosos recursos.
 
 ### Recursos
