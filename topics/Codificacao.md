@@ -63,12 +63,14 @@ Exemplos de linguagens funcionais (em ordem alfabética):
 
 ### Recursos
 
-* [Functional Programming should be your #1 priority for 2015](https://medium.com/@jugoncalves/functional-programming-should-be-your-1-priority-for-2015-47dd4641d6b9#.s4970krpa)
+* [[Artigo] Functional Programming should be your #1 priority for 2015](https://medium.com/@jugoncalves/functional-programming-should-be-your-1-priority-for-2015-47dd4641d6b9#.s4970krpa)
   :uk:
-* [Functional Programming Wikipedia](https://en.wikipedia.org/wiki/Functional_programming)
+* [[Wikipedia] Functional Programming](https://en.wikipedia.org/wiki/Functional_programming)
   :uk:
 * [[Curso] Aprender Haskell será um grande bem para você](http://haskell.tailorfontela.com.br/)
-* [A rant on Object Oriented Programming](http://www.smashcompany.com/technology/object-oriented-programming-is-an-expensive-disaster-which-must-end)
+* [[Artigo] Functional Programming Jargon](https://github.com/hemanth/functional-programming-jargon)
+  :uk:
+* [[Artigo] A rant on Object Oriented Programming](http://www.smashcompany.com/technology/object-oriented-programming-is-an-expensive-disaster-which-must-end)
   :uk:
 
 ## Construa soluções guiadas por testes (TDD)
