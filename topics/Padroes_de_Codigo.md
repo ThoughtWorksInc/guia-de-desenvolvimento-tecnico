@@ -1,9 +1,9 @@
 # Padrões de Código
 
 Sistemas complexos requerem padrões de código bem formulados para garantir
-extensibilidade, manutenabilidade, flexibilidade, fácil entendimento e
+extensibilidade, manutenibilidade, flexibilidade, fácil entendimento e
 qualidade. Cada linguagem de programação é construída em cima de um paradigma
-diferente que, muitas vezes, tenta resolver esse problema de formas diferentes.
+diferente que, muitas vezes, tenta resolver esse problema de formas distintas.
 Porém, cabe a pessoa desenvolvedora ter conhecimento desses conceitos para o bom
 uso dessas ferramentas.
 
@@ -19,13 +19,13 @@ tem requisitos diferentes.
 
 Imutabilidade é um conceito muito presente em linguagens funcionais, que buscam
 garantir que uma função sempre retornará o mesmo valor, possibilitando até que
-a funcionalidade alí definida possa ser provada matemáticamente. Para que isso
+a funcionalidade ali definida possa ser provada matematicamente. Para que isso
 seja verdade, é preciso garantir que funções não mantenham estado e não tenham
 valores variáveis (ou seja, sejam imutáveis).
 
 Porém, esse conceito tem evoluido além de linguagens funcionais, pois
 imutabilidade evita também que a sua aplicação retorne informações conflitantes,
-causadas por concorrência, que fazem a aplicação impossível de debugar.
+causadas por concorrência, que fazem a aplicação difícil de debugar.
 
 ### Recursos
 
@@ -43,14 +43,14 @@ objetos. Existem variações, mas em geral eles se resumem a:
   responsabilidade seja completamente encapsulada pela entidade.
 * *Open/close principle* (princípio aberto/fechado)
   O princípio aberto/fechado dita que entidades de software deveriam ser abertas
-  a extensão, mas fechadas a modificação. A ideia é que essas entidades
+  à extensão, mas fechadas à modificação. A ideia é que essas entidades
   (classes, objetos, metodos...) possam ter suas funcionalidades extendidas,
   mas não seu código modificado.
 * *Liskov substitution principle* (princípio da substituição de Liskov)
   Esse princípio visa definir o conceito de subtipo, garantindo que subtipos
-  mantém as propriedades defininas no tipo original. Esse princípio afirma que
-  se S é um subtipo do objeto T, qualquer objeto de tipo T pode ser substituído
-  por objetos de tipo S.
+  mantenham as propriedades defininas no tipo original. Esse princípio afirma
+  que se S é um subtipo do objeto T, qualquer objeto de tipo T pode ser
+  substituído por objetos de tipo S.
 * *Interface segregation principle* (princípio de separação de interfaces)
   ISP diz que nenhum cliente deveria dependender de metodos que ele não vai
   usar. Promove interfaces menores, desacopladas, e expressivas.
