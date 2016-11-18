@@ -60,7 +60,7 @@ por herança em muitas linguagens orientadas a objeto.
 Linguagens dinamicas, como Ruby, oferecem ainda mais flexibilidade para
 polimorfismo, dando pouca importancia ao tipo do objeto mas apenas se
 preocupando que o objeto implemente a funcionalidade desejada. Assim, o código
-fica mais flexivél para, por exemplo, iterar sobre uma lista e chamar um mesmo
+fica mais flexível para, por exemplo, iterar sobre uma lista e chamar um mesmo
 método sobre objetos diferentes.
 
 ### Recursos
