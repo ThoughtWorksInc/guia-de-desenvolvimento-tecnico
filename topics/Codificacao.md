@@ -59,7 +59,7 @@ Exemplos de linguagens funcionais (em ordem alfabética):
 * [Elixir](http://elixir-lang.org/)
 * [Erlang](http://www.erlang.org/)
 * [Haskell](https://www.haskell.org/)
-* [Scala](http://www.scala-lang.org/)
+* [Scala](http://www.scala-lang.org/) (híbrida entre OO e functional)
 
 ### Recursos
 
