@@ -32,38 +32,6 @@ causadas por concorrência, que fazem a aplicação difícil de debugar.
 * [[Artigo] Objects Should be Immutable](http://www.yegor256.com/2014/06/09/objects-should-be-immutable.html)
   :uk:
 
-## SOLID
-
-SOLID é um acrônimo que engloba os cinco princípios básicos de orientação a
-objetos. Existem variações, mas em geral eles se resumem a:
-
-* *Single responsibility principle* (princípio de responsabilidade única)
-  O principio de responsabilidade única define que uma classe ou método deveria
-  existir somente para implementar uma funcionalidade, mas que essa
-  responsabilidade seja completamente encapsulada pela entidade.
-* *Open/close principle* (princípio aberto/fechado)
-  O princípio aberto/fechado dita que entidades de software deveriam ser abertas
-  à extensão, mas fechadas à modificação. A ideia é que essas entidades
-  (classes, objetos, metodos...) possam ter suas funcionalidades extendidas,
-  mas não seu código modificado.
-* *Liskov substitution principle* (princípio da substituição de Liskov)
-  Esse princípio visa definir o conceito de subtipo, garantindo que subtipos
-  mantenham as propriedades defininas no tipo original. Esse princípio afirma
-  que se S é um subtipo do objeto T, qualquer objeto de tipo T pode ser
-  substituído por objetos de tipo S.
-* *Interface segregation principle* (princípio de separação de interfaces)
-  ISP diz que nenhum cliente deveria dependender de metodos que ele não vai
-  usar. Promove interfaces menores, desacopladas, e expressivas.
-* *Dependency inversion principle* (princípio de inversão de depêndencias)
-  Esse príncipio define que módulos de alto-nível não dependem de módulos de
-  baixo-nível, mas que os dois dependem de abstrações. Além disso, abstrações
-  não deveriam depender de detalhes de implementação, mas o contrário.
-
-### Recursos
-
-* [[Wikipedia] SOLID (object-oriented design)](https://en.wikipedia.org/wiki/SOLID_%28object-oriented_design%29)
-  :uk:
-
 ## Encapsulamento
 
 Quando Alan Kay criou o SmallTalk por volta de 1970,
@@ -100,6 +68,38 @@ método sobre objetos diferentes.
 * [[Wikipedia] Polimorfismo](https://pt.wikipedia.org/wiki/Polimorfismo)
 * [[Artigo] Ruby e o duck typing](https://nandovieira.com.br/ruby-e-o-duck-typing)
 * [[Artigo] Java Tutorials - Polymorphism](https://docs.oracle.com/javase/tutorial/java/IandI/polymorphism.html)
+  :uk:
+
+## SOLID
+
+SOLID é um acrônimo que engloba os cinco princípios básicos de orientação a
+objetos. Existem variações, mas em geral eles se resumem a:
+
+* *Single responsibility principle* (princípio de responsabilidade única)
+  O principio de responsabilidade única define que uma classe ou método deveria
+  existir somente para implementar uma funcionalidade, mas que essa
+  responsabilidade seja completamente encapsulada pela entidade.
+* *Open/close principle* (princípio aberto/fechado)
+  O princípio aberto/fechado dita que entidades de software deveriam ser abertas
+  à extensão, mas fechadas à modificação. A ideia é que essas entidades
+  (classes, objetos, metodos...) possam ter suas funcionalidades extendidas,
+  mas não seu código modificado.
+* *Liskov substitution principle* (princípio da substituição de Liskov)
+  Esse princípio visa definir o conceito de subtipo, garantindo que subtipos
+  mantenham as propriedades defininas no tipo original. Esse princípio afirma
+  que se S é um subtipo do objeto T, qualquer objeto de tipo T pode ser
+  substituído por objetos de tipo S.
+* *Interface segregation principle* (princípio de separação de interfaces)
+  ISP diz que nenhum cliente deveria dependender de metodos que ele não vai
+  usar. Promove interfaces menores, desacopladas, e expressivas.
+* *Dependency inversion principle* (princípio de inversão de depêndencias)
+  Esse príncipio define que módulos de alto-nível não dependem de módulos de
+  baixo-nível, mas que os dois dependem de abstrações. Além disso, abstrações
+  não deveriam depender de detalhes de implementação, mas o contrário.
+
+### Recursos
+
+* [[Wikipedia] SOLID (object-oriented design)](https://en.wikipedia.org/wiki/SOLID_%28object-oriented_design%29)
   :uk:
 
 ## Padrões de Projeto Orientado a Objeto
