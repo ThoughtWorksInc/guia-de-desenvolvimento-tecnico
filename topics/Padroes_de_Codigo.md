@@ -76,6 +76,8 @@ sem perderem suas propriedades.
 ### Recursos
 
 * [[Wikipedia] Encapsulamento](https://pt.wikipedia.org/wiki/Encapsulamento)
+* [[Artigo] Erlang Is the Most Object Oriented Language](http://rylev.github.io/words/blog/2013/10/03/erlang-is-the-most-object-oriented-language/)
+  :uk:
 * [[Artigo] Curiosidade - Early History of SmallTalk (história do SmallTalk)](http://worrydream.com/EarlyHistoryOfSmalltalk/)
   :uk:
 
@@ -96,6 +98,7 @@ método sobre objetos diferentes.
 ### Recursos
 
 * [[Wikipedia] Polimorfismo](https://pt.wikipedia.org/wiki/Polimorfismo)
+* [[Artigo] Ruby e o duck typing](https://nandovieira.com.br/ruby-e-o-duck-typing)
 * [[Artigo] Java Tutorials - Polymorphism](https://docs.oracle.com/javase/tutorial/java/IandI/polymorphism.html)
   :uk:
 
