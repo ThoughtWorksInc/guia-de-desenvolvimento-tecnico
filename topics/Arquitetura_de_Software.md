@@ -1,7 +1,7 @@
 # Arquitetura de Software
 
     Uma arquitetura de software é o conjunto de estruturas necessárias para
-    entender como um sistema funciona. Dessas estruras fazem parte elementos de
+    entender como um sistema funciona. Dessas estruturas fazem parte elementos de
     software, relacões entre esses elementos e propriedades desses elementos e
     dessas relações. (Len Bass, Paul Clements, Rick Kazman,  Software Architecture
     in practice, tradução nossa)
@@ -22,7 +22,7 @@ boa ou sequer adequada ao problema que o sistema tenta resolver.
 
 Desenvolver uma arquitetura é um trabalho de ponderação. Muito frequentemente
 diferentes objetivos são conflitantes. Por exemplo introduzir algoritmos de
-encriptação mais robustos podem degradar a performance. Princípios, padrões
+encriptação mais robustos podem degradar a performance. Princípios, padrões e
 estilos arquiteturais ajudam a guiar o desenvolvimento da arquitetura e
 ressaltam o objetivo principal daquela arquitetura. Nesta sessão, não estamos
 preocupados em diferenciar padrões, princípios ou estilos arquiteturais. Alguns
