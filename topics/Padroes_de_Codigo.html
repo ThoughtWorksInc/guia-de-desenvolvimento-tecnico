@@ -1,0 +1,506 @@
+
+<!DOCTYPE HTML>
+<html lang="pt" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Padrões de Código · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-git-author/style.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-comment/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-advanced-emoji/emoji-website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="Projeto_de_Software.html" />
+    
+    
+    <link rel="prev" href="Codificacao.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Escreva para pesquisar" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Sobre o Guia
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="Codificacao.html">
+            
+                <a href="Codificacao.html">
+            
+                    
+                    Codificação
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3" data-path="Padroes_de_Codigo.html">
+            
+                <a href="Padroes_de_Codigo.html">
+            
+                    
+                    Padrões de Código
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="Projeto_de_Software.html">
+            
+                <a href="Projeto_de_Software.html">
+            
+                    
+                    Projeto de Software
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="Arquitetura_de_Software.html">
+            
+                <a href="Arquitetura_de_Software.html">
+            
+                    
+                    Arquitetura de Software
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="Entrega_de_Software.html">
+            
+                <a href="Entrega_de_Software.html">
+            
+                    
+                    Entrega de Software
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="Infraestrutura.html">
+            
+                <a href="Infraestrutura.html">
+            
+                    
+                    Infraestrutura
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="Processos_de_Desenvolvimento.html">
+            
+                <a href="Processos_de_Desenvolvimento.html">
+            
+                    
+                    Processos de Desenvolvimento
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="Estrategia_de_Qualidade.html">
+            
+                <a href="Estrategia_de_Qualidade.html">
+            
+                    
+                    Estratégia de qualidade
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="Armazenamento_de_Dados.html">
+            
+                <a href="Armazenamento_de_Dados.html">
+            
+                    
+                    Armazenamento de dados
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="Seguranca.html">
+            
+                <a href="Seguranca.html">
+            
+                    
+                    Segurança
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="Analytics.html">
+            
+                <a href="Analytics.html">
+            
+                    
+                    Análise de Dados (Analytics)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Publicado com GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Padrões de Código</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="padr&#xF5;es-de-c&#xF3;digo">Padr&#xF5;es de C&#xF3;digo</h1>
+<p>Sistemas complexos requerem padr&#xF5;es de c&#xF3;digo bem formulados para garantir
+extensibilidade, manutenibilidade, flexibilidade, f&#xE1;cil entendimento e
+qualidade. Cada linguagem de programa&#xE7;&#xE3;o &#xE9; constru&#xED;da em cima de um paradigma
+diferente que, muitas vezes, tenta resolver esse problema de formas distintas.
+Por&#xE9;m, cabe a pessoa desenvolvedora ter conhecimento desses conceitos para o bom
+uso dessas ferramentas.</p>
+<p>Nessa sess&#xE3;o focaremos em alguns padr&#xF5;es e pr&#xE1;ticas de c&#xF3;digo mais usados. &#xC9;
+importante notar que alguns desses conceitos derivam do paradigma de orienta&#xE7;&#xE3;o
+a objeto e outros do paradigma funcional, e funcionam melhor em contextos
+espef&#xED;cos. Por&#xE9;m, aqui, veremos cada conceito separadamente, pois cada software
+tem requisitos diferentes.</p>
+<!-- toc -->
+<ul>
+<li><a href="#imutabilidade">Imutabilidade</a></li>
+<li><a href="#encapsulamento">Encapsulamento</a></li>
+<li><a href="#polimorfismo">Polimorfismo</a></li>
+<li><a href="#solid">SOLID</a></li>
+<li><a href="#padr&#xF5;es-de-projeto-orientado-a-objeto">Padr&#xF5;es de Projeto Orientado a Objeto</a></li>
+</ul>
+<!-- tocstop -->
+<h2 id="imutabilidade">Imutabilidade</h2>
+<p>Imutabilidade &#xE9; um conceito muito presente em linguagens funcionais, que buscam
+garantir que uma entidade sempre contenha o mesmo valor, possibilitando at&#xE9; que
+a funcionalidade ali definida possa ser provada matematicamente. Para que isso
+seja verdade, &#xE9; preciso garantir que fun&#xE7;&#xF5;es n&#xE3;o mantenham estado e n&#xE3;o tenham
+valores vari&#xE1;veis (ou seja, sejam imut&#xE1;veis).</p>
+<p>Por&#xE9;m, esse conceito tem evolu&#xED;do al&#xE9;m de linguagens funcionais, pois
+imutabilidade evita tamb&#xE9;m que a sua aplica&#xE7;&#xE3;o retorne informa&#xE7;&#xF5;es conflitantes,
+causadas por concorr&#xEA;ncia, que fazem a aplica&#xE7;&#xE3;o dif&#xED;cil de debugar.</p>
+<h3 id="recursos">Recursos</h3>
+<ul>
+<li><a href="http://www.yegor256.com/2014/06/09/objects-should-be-immutable.html" target="_blank">[Artigo] Objects Should be Immutable</a>
+<img align="absmiddle" alt=":uk:" class="emoji" src="../gitbook/gitbook-plugin-advanced-emoji/emojis/uk.png" title=":uk:"></li>
+</ul>
+<h2 id="encapsulamento">Encapsulamento</h2>
+<p>Quando Alan Kay criou o SmallTalk por volta de 1970,
+ele acreditava que cada objeto era uma representa&#xE7;&#xE3;o de todos os recursos
+do computador, sendo, dessa forma, completamente independente. &#xC9; nesse
+contexto que se formou a ideia de encapsulamento. Os seus componentes devem
+ser simples o suficiente para poderem ser transportados por toda a aplica&#xE7;&#xE3;o,
+sem perderem suas propriedades.</p>
+<h3 id="recursos">Recursos</h3>
+<ul>
+<li><a href="https://pt.wikipedia.org/wiki/Encapsulamento" target="_blank">[Wikipedia] Encapsulamento</a></li>
+<li><a href="http://rylev.github.io/words/blog/2013/10/03/erlang-is-the-most-object-oriented-language/" target="_blank">[Artigo] Erlang Is the Most Object Oriented Language</a>
+<img align="absmiddle" alt=":uk:" class="emoji" src="../gitbook/gitbook-plugin-advanced-emoji/emojis/uk.png" title=":uk:"></li>
+<li><a href="http://worrydream.com/EarlyHistoryOfSmalltalk/" target="_blank">[Artigo] Curiosidade - Early History of SmallTalk (hist&#xF3;ria do SmallTalk)</a>
+<img align="absmiddle" alt=":uk:" class="emoji" src="../gitbook/gitbook-plugin-advanced-emoji/emojis/uk.png" title=":uk:"></li>
+</ul>
+<h2 id="polimorfismo">Polimorfismo</h2>
+<p>Polimorfismo &#xE9; a propriedade de ter uma s&#xF3; interface para v&#xE1;rios tipos. Ou seja,
+uma funcionalidade tomaria v&#xE1;rias formas.</p>
+<p>Pode ser tanto implementado como uma interface ou classe abstrata em Java, ou
+por heran&#xE7;a em muitas linguagens orientadas a objeto.</p>
+<p>Linguagens dinamicas, como Ruby, oferecem ainda mais flexibilidade para
+polimorfismo, dando pouca importancia ao tipo do objeto mas apenas se
+preocupando que o objeto implemente a funcionalidade desejada. Assim, o c&#xF3;digo
+fica mais flex&#xED;vel para, por exemplo, iterar sobre uma lista e chamar um mesmo
+m&#xE9;todo sobre objetos diferentes.</p>
+<h3 id="recursos">Recursos</h3>
+<ul>
+<li><a href="https://pt.wikipedia.org/wiki/Polimorfismo" target="_blank">[Wikipedia] Polimorfismo</a></li>
+<li><a href="https://nandovieira.com.br/ruby-e-o-duck-typing" target="_blank">[Artigo] Ruby e o duck typing</a></li>
+<li><a href="https://docs.oracle.com/javase/tutorial/java/IandI/polymorphism.html" target="_blank">[Artigo] Java Tutorials - Polymorphism</a>
+<img align="absmiddle" alt=":uk:" class="emoji" src="../gitbook/gitbook-plugin-advanced-emoji/emojis/uk.png" title=":uk:"></li>
+</ul>
+<h2 id="solid">SOLID</h2>
+<p>SOLID &#xE9; um acr&#xF4;nimo que engloba os cinco princ&#xED;pios b&#xE1;sicos de orienta&#xE7;&#xE3;o a
+objetos. Existem varia&#xE7;&#xF5;es, mas em geral eles se resumem a:</p>
+<ul>
+<li><em>Single responsibility principle</em> (princ&#xED;pio de responsabilidade &#xFA;nica)
+O princ&#xED;pio de responsabilidade &#xFA;nica define que uma classe ou m&#xE9;todo deveria
+existir somente para implementar uma funcionalidade, mas que essa
+responsabilidade seja completamente encapsulada pela entidade.</li>
+<li><em>Open/close principle</em> (princ&#xED;pio aberto/fechado)
+O princ&#xED;pio aberto/fechado dita que entidades de software deveriam ser abertas
+&#xE0; extens&#xE3;o, mas fechadas &#xE0; modifica&#xE7;&#xE3;o. A ideia &#xE9; que essas entidades
+(classes, objetos, m&#xE9;todos...) possam ter suas funcionalidades extendidas,
+mas n&#xE3;o seu c&#xF3;digo modificado.</li>
+<li><em>Liskov substitution principle</em> (princ&#xED;pio da substitui&#xE7;&#xE3;o de Liskov)
+Esse princ&#xED;pio visa definir o conceito de subtipo, garantindo que subtipos
+mantenham as propriedades defininas no tipo original. Esse princ&#xED;pio afirma
+que se S &#xE9; um subtipo do objeto T, qualquer objeto de tipo T pode ser
+substitu&#xED;do por objetos de tipo S.</li>
+<li><em>Interface segregation principle</em> (princ&#xED;pio de separa&#xE7;&#xE3;o de interfaces)
+ISP diz que nenhum cliente deveria dependender de m&#xE9;todos que ele n&#xE3;o vai
+usar. Promove interfaces menores, desacopladas, e expressivas.</li>
+<li><em>Dependency inversion principle</em> (princ&#xED;pio de invers&#xE3;o de dep&#xEA;ndencias)
+Esse pr&#xED;ncipio define que m&#xF3;dulos de alto-n&#xED;vel n&#xE3;o dependem de m&#xF3;dulos de
+baixo-n&#xED;vel, mas que os dois dependem de abstra&#xE7;&#xF5;es. Al&#xE9;m disso, abstra&#xE7;&#xF5;es
+(como, por exemplo, interfaces) n&#xE3;o deveriam depender de detalhes de
+implementa&#xE7;&#xE3;o, mas o contr&#xE1;rio.</li>
+</ul>
+<h3 id="recursos">Recursos</h3>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/SOLID_%28object-oriented_design%29" target="_blank">[Wikipedia] SOLID (object-oriented design)</a>
+<img align="absmiddle" alt=":uk:" class="emoji" src="../gitbook/gitbook-plugin-advanced-emoji/emojis/uk.png" title=":uk:"></li>
+</ul>
+<h2 id="padr&#xF5;es-de-projeto-orientado-a-objeto">Padr&#xF5;es de Projeto Orientado a Objeto</h2>
+<p>Os padr&#xF5;es de projeto surgiram e surgem devido a solu&#xE7;&#xE3;o de problemas
+recorrentes em aplica&#xE7;&#xF5;es orientadas a objetos. S&#xE3;o aplica&#xE7;&#xF5;es diretas
+dos pilares de orienta&#xE7;&#xE3;o a objeto (Encapsulamento, Polimorfismo
+e Heran&#xE7;a). Conhecer padr&#xF5;es de projeto vai ajudar voc&#xEA; a entender
+melhor como esse paradigma funciona e como usar
+seus poderosos recursos.</p>
+<h3 id="recursos">Recursos</h3>
+<ul>
+<li><a href="https://brizeno.wordpress.com/padroes/" target="_blank">[Artigo] Padr&#xF5;es de projeto</a></li>
+<li><a href="http://www.devmedia.com.br/conheca-os-padroes-de-projeto/957" target="_blank">[Artigo] Conhe&#xE7;a os padr&#xF5;es de projeto</a></li>
+<li><a href="https://www.amazon.com.br/Cabe%C3%A7a-Padr%C3%B5es-Projetos-Eric-Freeman/dp/8576081741" target="_blank">[Livro] Use a cabe&#xE7;a! Padr&#xF5;es de projeto</a></li>
+<li><a href="https://pt.wikipedia.org/wiki/Padr%C3%A3o_de_projeto_de_software" target="_blank">[Wikipedia] Padr&#xF5;es de projeto de software</a></li>
+</ul>
+<p><div id="page-footer"><hr></div></p>
+<div class="git-author-container git-author-bottom"><div class="modified">&#xDA;ltima modifica&#xE7;&#xE3;o feita por Anike Arni, 2016-11-21 12:15:48</div><div class="created">Criada por Anike Arni, 2016-11-17 16:44:34</div></div>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="Codificacao.html" class="navigation navigation-prev " aria-label="Previous page: Codificação">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="Projeto_de_Software.html" class="navigation navigation-next " aria-label="Next page: Projeto de Software">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Padrões de Código","level":"1.3","depth":1,"next":{"title":"Projeto de Software","level":"1.4","depth":1,"path":"topics/Projeto_de_Software.md","ref":"topics/Projeto_de_Software.md","articles":[]},"previous":{"title":"Codificação","level":"1.2","depth":1,"path":"topics/Codificacao.md","ref":"topics/Codificacao.md","articles":[]},"dir":"ltr"},"config":{"plugins":["ga","git-author","comment","localized-footer","simple-page-toc","advanced-emoji"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"simple-page-toc":{"maxDepth":2,"skipFirstH1":true},"git-author":{"position":"bottom","modifyTpl":"Última modificação feita por {user}, {timeStamp}","createTpl":"Criada por {user}, {timeStamp}","timeStampFormat":"YYYY-MM-DD HH:mm:ss"},"search":{},"localized-footer":{"filename":"layouts/FOOTER.md"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"ga":{"configuration":"auto","token":"UA-86166823-1"},"advanced-emoji":{"embedEmojis":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"comment":{"highlightCommented":true}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"INDICE.md"},"variables":{},"language":"pt","gitbook":"3.2.2"},"file":{"path":"topics/Padroes_de_Codigo.md","mtime":"2016-11-21T12:24:52.521Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2016-11-21T12:25:40.220Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-ga/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-comment/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
