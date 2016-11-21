@@ -2,7 +2,7 @@
 
 Software geralmente é criado para solucionar um problema específico, seja ele de
 negócio, social, ou qualquer outra area. Porém, muitas vezes encontramos
-dificuldades ao mapear esse problema com software. Por isso, existe uma area
+dificuldades ao mapear esse problema com software. Por isso, existe uma área
 muito importante de desenvolvimento de software que aqui decidimos chamar
 de "Projeto de Software", que busca encontrar uma forma melhor para expressar
 esses problemas reais em software.

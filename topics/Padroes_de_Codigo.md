@@ -76,13 +76,13 @@ SOLID é um acrônimo que engloba os cinco princípios básicos de orientação 
 objetos. Existem variações, mas em geral eles se resumem a:
 
 * *Single responsibility principle* (princípio de responsabilidade única)
-  O principio de responsabilidade única define que uma classe ou método deveria
+  O princípio de responsabilidade única define que uma classe ou método deveria
   existir somente para implementar uma funcionalidade, mas que essa
   responsabilidade seja completamente encapsulada pela entidade.
 * *Open/close principle* (princípio aberto/fechado)
   O princípio aberto/fechado dita que entidades de software deveriam ser abertas
   à extensão, mas fechadas à modificação. A ideia é que essas entidades
-  (classes, objetos, metodos...) possam ter suas funcionalidades extendidas,
+  (classes, objetos, métodos...) possam ter suas funcionalidades extendidas,
   mas não seu código modificado.
 * *Liskov substitution principle* (princípio da substituição de Liskov)
   Esse princípio visa definir o conceito de subtipo, garantindo que subtipos
@@ -90,12 +90,13 @@ objetos. Existem variações, mas em geral eles se resumem a:
   que se S é um subtipo do objeto T, qualquer objeto de tipo T pode ser
   substituído por objetos de tipo S.
 * *Interface segregation principle* (princípio de separação de interfaces)
-  ISP diz que nenhum cliente deveria dependender de metodos que ele não vai
+  ISP diz que nenhum cliente deveria dependender de métodos que ele não vai
   usar. Promove interfaces menores, desacopladas, e expressivas.
 * *Dependency inversion principle* (princípio de inversão de depêndencias)
   Esse príncipio define que módulos de alto-nível não dependem de módulos de
   baixo-nível, mas que os dois dependem de abstrações. Além disso, abstrações
-  não deveriam depender de detalhes de implementação, mas o contrário.
+  (como, por exemplo, interfaces) não deveriam depender de detalhes de
+  implementação, mas o contrário.
 
 ### Recursos
 
@@ -106,7 +107,7 @@ objetos. Existem variações, mas em geral eles se resumem a:
 
 Os padrões de projeto surgiram e surgem devido a solução de problemas
 recorrentes em aplicações orientadas a objetos. São aplicações diretas
-dos três pilares de orientação a objeto (Encapsulamento, Polimorfismo
+dos pilares de orientação a objeto (Encapsulamento, Polimorfismo
 e Herança). Conhecer padrões de projeto vai ajudar você a entender
 melhor como esse paradigma funciona e como usar
 seus poderosos recursos.
