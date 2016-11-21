@@ -54,7 +54,7 @@ resultam em mudanças nos dados e consultas são somente leitura. O padrão é
 interessante para aplicações de alta performance especialmente quando há
 diferentes requisitos de performance e disponibilidade para leitura e escrita.
 
-## Recursos
+### Recursos
 
 * [[Livro] Software Architecture in
  Practice](https://www.amazon.com.br/dp/0321815734) :uk:
