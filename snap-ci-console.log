@@ -3,22 +3,22 @@ $ [32mgit clone git@localhost:ThoughtWorksInc/guia-de-desenvolvimento-tecnico .
 Cloning into '.'...
 Warning: Permanently added 'localhost' (RSA) to the list of known hosts.
 Command [32mgit clone git@localhost:ThoughtWorksInc/guia-de-desenvolvimento-tecnico .[0m exited successfully with status 0.
-Took 0.37729 seconds.
+Took 0.51937 seconds.
 
 $ [32mgit checkout master[0m
 Already on 'master'
 Your branch is up-to-date with 'origin/master'.
 Command [32mgit checkout master[0m exited successfully with status 0.
-Took 0.02781 seconds.
+Took 0.02909 seconds.
 
-$ [32mgit reset --hard 2ef7ba10471194fd3773476df40244addcc30d16[0m
-HEAD is now at 2ef7ba1 Merge pull request #76 from ThoughtWorksInc/padroes-de-codigo
-Command [32mgit reset --hard 2ef7ba10471194fd3773476df40244addcc30d16[0m exited successfully with status 0.
-Took 0.02803 seconds.
+$ [32mgit reset --hard 63c2d8e8052c5b6094a8b0540f5f95e77b183ed7[0m
+HEAD is now at 63c2d8e Merge pull request #79 from ThoughtWorksInc/corrige_secao_recursos_arq
+Command [32mgit reset --hard 63c2d8e8052c5b6094a8b0540f5f95e77b183ed7[0m exited successfully with status 0.
+Took 0.01782 seconds.
 
 $ [32mgit submodule update --init --recursive[0m
 Command [32mgit submodule update --init --recursive[0m exited successfully with status 0.
-Took 0.0431 seconds.
+Took 0.04268 seconds.
 
 Fetching artifacts from stage Lint
 $ export SNAP_CI=true
@@ -27,11 +27,11 @@ $ export SNAP_CACHE_DIR=/var/go
 $ export LANG=en_US.UTF-8
 $ export LC_ALL=en_US.UTF-8
 $ export SNAP_WORKING_DIR=/var/snap-ci/repo
-$ export SNAP_PIPELINE_COUNTER=50
+$ export SNAP_PIPELINE_COUNTER=51
 $ export SNAP_STAGE_NAME=check-links
 $ export SNAP_BRANCH=master
-$ export SNAP_COMMIT=2ef7ba10471194fd3773476df40244addcc30d16
-$ export SNAP_COMMIT_SHORT=2ef7ba1
+$ export SNAP_COMMIT=63c2d8e8052c5b6094a8b0540f5f95e77b183ed7
+$ export SNAP_COMMIT_SHORT=63c2d8e
 $ export SNAP_TRACKING_PIPELINE=true
 $ export SNAP_INTEGRATION_PIPELINE=false
 
@@ -42,13 +42,13 @@ Took 1.02 seconds.
 
 $ [32mif [ -d ${SNAP_CACHE_DIR}/node_modules ]; then sudo mv -f ${SNAP_CACHE_DIR}/node_modules .; sudo chown -R --no-dereference go:go node_modules; fi[0m
 Command [32mif [ -d ${SNAP_CACHE_DIR}/node_modules ]; then sudo mv -f ${SNAP_CACHE_DIR}/node_modules .; sudo chown -R --no-dereference go:go node_modules; fi[0m exited successfully with status 0.
-Took 0.08695 seconds.
+Took 0.08195 seconds.
 
 $ [32mnpm install[0m
 npm WARN optional Skipping failed optional dependency /chokidar/fsevents:
 npm WARN notsup Not compatible with your operating system or architecture: fsevents@1.0.15
 Command [32mnpm install[0m exited successfully with status 0.
-Took 3.14 seconds.
+Took 3.19 seconds.
 
 $ [32mnpm run check-link-diff[0m
 
@@ -79,10 +79,10 @@ npm ERR! There is likely additional logging output above.
 npm ERR! Please include the following file with any support request:
 npm ERR!     /var/snap-ci/repo/npm-debug.log
 Command [32mnpm run check-link-diff[0m exited successfully with status 0.
-Took 0.92876 seconds.
+Took 0.88716 seconds.
 
 $ [32mif [ -d node_modules ]; then sudo mv -f node_modules ${SNAP_CACHE_DIR}/; sudo chown -R --no-dereference go:go ${SNAP_CACHE_DIR}/node_modules; fi[0m
 Command [32mif [ -d node_modules ]; then sudo mv -f node_modules ${SNAP_CACHE_DIR}/; sudo chown -R --no-dereference go:go ${SNAP_CACHE_DIR}/node_modules; fi[0m exited successfully with status 0.
-Took 0.08393 seconds.
+Took 0.09078 seconds.
 
 Saving console log for later
