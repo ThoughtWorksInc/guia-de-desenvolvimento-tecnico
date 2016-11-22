@@ -11,6 +11,7 @@
     "comment",
     "localized-footer",
     "simple-page-toc",
+    "edit-link",
     "advanced-emoji"
   ],
   "pluginsConfig": {
@@ -29,6 +30,10 @@
     },
     "localized-footer": {
       "filename": "layouts/FOOTER.md"
+    },
+    "edit-link": {
+      "base": "https://github.com/ThoughtWorksInc/guia-de-desenvolvimento-tecnico/blob/master",
+      "label": "Editar esta página"
     },
     "simple-page-toc": {
       "maxDepth": 2,
