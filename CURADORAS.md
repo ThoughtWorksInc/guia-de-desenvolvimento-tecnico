@@ -14,6 +14,6 @@ Uma curadora:
 * Ajuda a implementar as melhoras que foram priorizadas nos issues;
 * Cria novos issues com os feedbacks de usuárias;
 * Dissemina o guia para outras comunidades;
-* Busca sempre novas colaboradoras e campeães;
-* Oferece ajuda a campeães, contribuidoras e usuárias;
+* Busca sempre novas colaboradoras e campeãs;
+* Oferece ajuda a campeãs, contribuidoras e usuárias;
 * Aprova e mergea pull requests;
