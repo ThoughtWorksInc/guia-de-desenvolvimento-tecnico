@@ -139,7 +139,8 @@ de explicar resultados para uma ampla audiência.
 
 ### Recursos
 
-- [[Livro]] Storytelling with Data :uk:
+- [[Livro] Storytelling with
+  Data](http://www.storytellingwithdata.com/book/) :uk:
 - [[Curso] Visualização de Dados com
   d3.js](https://br.udacity.com/course/data-visualization-and-d3js--ud507/)
 - [[Projeto] React-Vis](https://github.com/uber/react-vis)
