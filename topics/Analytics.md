@@ -94,7 +94,55 @@ Algumas perguntas para clarificar o que a *Engenharia de Dados* tenta resolver:
 
 ## Visualização de Dados
 
+Esta é uma área ampla e essencial para efetuar análise de dados.
+
+Em um primeiro momento, Visualização de Dados é importante como um
+processo exploratório, uma vez que permite descobrir alguns padrões
+escondidos antes mesmo de aplicar qualquer análise aos dados que se tem
+em mãos. Quando nos deparamos com um determinado problema, é frequente a
+dúvida sobre quais atributos são relevantes, ou simplesmente, que tipo
+de dados estamos explorando? Existem muitos dados faltantes?  Existem
+_[valores atípicos](https://pt.wikipedia.org/wiki/Outlier)_? Qual é a
+qualidade dos dados que estamos coletando? Tais perguntas podem ser
+facilmente respondidas dependendo de como utilizamos Visualização de
+Dados para análises exploratórias.
+
+Quando estamos falando sobre análise exploratória, a visualização de
+dados é direcionada basicamente a cientistas/analistas de dados.
+Raramente, todas as visualizações geradas durante esta fase são
+apresentadas para o usuário final, interessado na análise em si. Por ser
+voltada para para analistas de dados, esta área pode ser
+vista como uma ferramenta poderosa, a medida que permite o conhecimento
+prévio e profundo dos dados aos quais estão expostos antes de qualquer
+análise, através da construção de diferentes visualizações. Tal
+conhecimento prévio coloca o cientetista de dados em vantagem em relação
+a quais hipóteses podem ser relevantes mediante ao resultado gráfico
+obtido.
+
+Visualização de Dados também é algo relevante quando queremos comunicar
+os resultados de uma análise. Qual é a melhor maneira de apresentar
+resultados encontrados? É fundamental saber traduzir resultados
+matemáticos em visualizações gráficas. Para se chegar a melhor forma de
+visualização, é importante também pensar na audiência: quem são as
+pessoas interessadas nos resultados obtidos? É necessário ter habilidade
+para que resultados obtidos não sejam compreendidos apenas por
+profissionais envolvidos na área de dados.
+
+As melhores visualizações são as que não exigem muita reflexão por parte
+do receptor. Existem técnicas para que a visualização gerada seja a mais
+clara possível, tais como posicionamento de legenda (ou apenas rotulação
+dos pontos de dados graficados) e até mesmo a escolha de cores (e neste
+caso, deve-se levar em consideração a existência de pessoas daltônicas,
+por exemplo). Uma boa visualização de dados introduz novas perguntas de
+interesse, abrindo espaço para mais análises, mas também deve ser capaz
+de explicar resultados para uma ampla audiência.
+
 ### Recursos
+
+- [[Livro]] Storytelling with Data :uk:
+- [[Curso] Visualização de Dados com
+  d3.js](https://br.udacity.com/course/data-visualization-and-d3js--ud507/)
+- [[Projeto] React-Vis](https://github.com/uber/react-vis)
 
 ## Análise de Dados Ágil
 
