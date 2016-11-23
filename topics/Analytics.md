@@ -115,7 +115,7 @@ voltada para para analistas de dados, esta área pode ser
 vista como uma ferramenta poderosa, a medida que permite o conhecimento
 prévio e profundo dos dados aos quais estão expostos antes de qualquer
 análise, através da construção de diferentes visualizações. Tal
-conhecimento prévio coloca o cientetista de dados em vantagem em relação
+conhecimento prévio coloca o cientista de dados em vantagem em relação
 a quais hipóteses podem ser relevantes mediante ao resultado gráfico
 obtido.
 
