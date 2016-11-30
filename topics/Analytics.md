@@ -117,7 +117,9 @@ prévio e profundo dos dados aos quais estão expostos antes de qualquer
 análise, através da construção de diferentes visualizações. Tal
 conhecimento prévio coloca o cientista de dados em vantagem em relação
 a quais hipóteses podem ser relevantes mediante ao resultado gráfico
-obtido.
+obtido. Uma ferramenta que vem sendo utilizada cada vez mais para
+análises exploratórias é a Jupyter-Notebook. Mais informações podem ser
+encontradas [aqui](http://jupyter.org/). :uk:
 
 Visualização de Dados também é algo relevante quando queremos comunicar
 os resultados de uma análise. Qual é a melhor maneira de apresentar
@@ -144,6 +146,9 @@ de explicar resultados para uma ampla audiência.
 - [[Curso] Visualização de Dados com
   d3.js](https://br.udacity.com/course/data-visualization-and-d3js--ud507/)
 - [[Projeto] React-Vis](https://github.com/uber/react-vis)
+- [[Curso] Tutorial Jupyter Notebook: Guia
+  Definitivo](https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook)
+:uk:
 
 ## Análise de Dados Ágil
 
