@@ -33,8 +33,8 @@ O XP defende 5 valores básicos de onde derivam seus princípios e práticas:
   para justificar falhas. Todos do time trabalham juntos e se adaptam a
   mudanças quando elas aparecem.
 * Feedback: Entregar software funcionando a cada iteração e ouvir atentamente
-  ao que os usuários precisam de verdade. O processo vai ser planejado em torno
-  das discussões do projeto e não contrário.
+  ao que os usuários precisam de verdade. O processo é planejado em torno
+  das discussões do projeto ao invés de fazer o projeto se adaptar ao processo.
 * Respeito: Todos no time contribuem para o projeto respeitando e sendo respeitados.
 * Simplicidade: O time faz o que precisa ser feito e nada mais. Isso permite
   maximizar o valor produzido, caminhando com pequenos passos e mitigando riscos.
@@ -47,7 +47,7 @@ mais sobre os princípios e práticas do XP.
 * [[Artigo] The Values of Extreme Programming](http://www.extremeprogramming.org/values.html)
 * [[Site] Extreme Programming](http://www.desenvolvimentoagil.com.br/xp/)
 * [[Site] Agile Software Development: A gentle introduction](http://www.agile-process.org)
-* [[Livro] Extreme Programming Explained](https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658)
+* [[Livro] Extreme Programming Explained](https://www.amazon.com.br/Extreme-Programming-Explained-Embrace-Change/dp/0321278658)
   :uk:
 
 ## Conheça outras metodologias
