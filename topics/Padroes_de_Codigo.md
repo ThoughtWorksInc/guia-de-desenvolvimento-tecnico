@@ -72,7 +72,10 @@ método sobre objetos diferentes.
 
 ## SOLID
 
-SOLID é um acrônimo para os cinco princípios básicos de design de classes orientadas a objetos criados por Robert C. Martin (Uncle Bob). Princípios dão nomes a conceitos complexos sobre o cdigo, mas não são regras ou verdades absolutas.
+SOLID é um acrônimo para os cinco princípios básicos de design de classes
+orientadas a objetos criados por Robert C. Martin (Uncle Bob).
+Princípios dão nomes a conceitos complexos sobre o cdigo,
+mas não são regras ou verdades absolutas.
 
 * *Single responsibility principle* (princípio de responsabilidade única)
   O princípio de responsabilidade única define que uma classe ou método deveria
