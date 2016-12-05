@@ -74,7 +74,7 @@ método sobre objetos diferentes.
 
 SOLID é um acrônimo para os cinco princípios básicos de design de classes
 orientadas a objetos criados por Robert C. Martin (Uncle Bob).
-Princípios dão nomes a conceitos complexos sobre o cdigo,
+Princípios dão nomes a conceitos complexos sobre o código,
 mas não são regras ou verdades absolutas.
 
 * *Single responsibility principle* (princípio de responsabilidade única)
@@ -83,9 +83,9 @@ mas não são regras ou verdades absolutas.
   responsabilidade seja completamente encapsulada pela entidade.
 * *Open/close principle* (princípio aberto/fechado)
   O princípio aberto/fechado dita que entidades de software deveriam ser abertas
-  à extensão, mas fechadas à modificação. A ideia é que essas classes
-  possam ter suas funcionalidades extendidas por outras classe sem a necessidade
-  de modificar seu código.
+  à extensão, mas fechadas à modificação. A ideia é que essas entidades (Classes,
+  Módulos, Funções, etc.) possam ter suas funcionalidades extendidas por outras
+  classes sem a necessidade de modificar seu código.
 * *Liskov substitution principle* (princípio da substituição de Liskov)
   Esse princípio visa definir o conceito de subtipo, garantindo que subtipos
   mantenham as propriedades defininas no tipo original. Esse princípio afirma
@@ -104,7 +104,7 @@ mas não são regras ou verdades absolutas.
 
 * [[Artigo] The Principles of Object Oriented Design](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod)
   :uk:
-* [[Artigo] Getting a SLOD start](https://sites.google.com/site/unclebobconsultingllc/getting-a-solid-start)
+* [[Artigo] Getting a SOLID start](https://sites.google.com/site/unclebobconsultingllc/getting-a-solid-start)
   :uk:
 * [[Wikipedia] SOLID (object-oriented design)](https://en.wikipedia.org/wiki/SOLID_%28object-oriented_design%29)
   :uk:
