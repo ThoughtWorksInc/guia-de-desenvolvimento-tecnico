@@ -33,6 +33,9 @@
     "gitbook-plugin-githubcontributors": "^0.1.1",
     "gitbook-plugin-localized-footer": "^0.2.2",
     "gitbook-plugin-simple-page-toc": "^0.1.0",
+    "gitbook-plugin-disqus": "0.1.0",
+    "react": "15.0.1",
+    "react-dom": "15.0.1",
     "markdown-link-check": "^1.2.0",
     "markdownlint-cli": "^0.2.0",
     "onchange": "^2.5.0"
