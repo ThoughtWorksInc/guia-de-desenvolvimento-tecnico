@@ -5,6 +5,7 @@
     "summary": "INDICE.md"
   },
   "plugins" : [
+    "disqus",
     "ga",
     "git-author",
     "githubcontributors",
@@ -15,6 +16,9 @@
     "advanced-emoji"
   ],
   "pluginsConfig": {
+    "disqus": {
+        "shortName": "guiadedesenvolvimentotw"
+    },
     "ga": {
       "token": "UA-86166823-1"
     },
