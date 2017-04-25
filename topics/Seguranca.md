@@ -66,11 +66,12 @@ SnapCI, etc)
 
 Ferramentas para gerenciador de senhas:
 
-[1Password](https://1password.com/) Ferramenta paga compatível com Mac OS,
+- [1Password](https://1password.com/) Ferramenta paga compatível com Mac OS,
 Windows, Android e iOS (ferramenta paga)
-[KeepassX](https://www.keepassx.org/) Ferramenta gratis e open source, com
+- [KeepassX](https://www.keepassx.org/) Ferramenta gratis e open source, com
 interface gráfica compativel com Linux, Mac OS, Android, iOS
-[Pass](https://www.passwordstore.org/) Ferramenta gratis e open source, roda no
+
+- [Pass](https://www.passwordstore.org/) Ferramenta gratis e open source, roda no
 terminal e utiliza o GPG para criptografar compativel para Linux, Mac OS,
 Android.
 
