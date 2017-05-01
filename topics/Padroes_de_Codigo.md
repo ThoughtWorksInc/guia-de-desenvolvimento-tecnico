@@ -88,7 +88,7 @@ mas não são regras ou verdades absolutas.
   classes sem a necessidade de modificar seu código.
 * *Liskov substitution principle* (princípio da substituição de Liskov)
   Esse princípio visa definir o conceito de subtipo, garantindo que subtipos
-  mantenham as propriedades defininas no tipo original. Esse princípio afirma
+  mantenham as propriedades definidas no tipo original. Esse princípio afirma
   que se S é um subtipo do objeto T, qualquer objeto de tipo T pode ser
   substituído por objetos de tipo S.
 * *Interface segregation principle* (princípio de separação de interfaces)
