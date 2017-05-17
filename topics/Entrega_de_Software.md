@@ -1,6 +1,6 @@
 # Entrega de Software
 
-Um software, conforme vai sendo desenvolvido, precisa ser entegre, ou "colocado
+Um software, conforme vai sendo desenvolvido, precisa ser entregue, ou "colocado
 em produção".
 
 Ao reduzir o tempo de entrega entre uma iteração e outra, podemos encontrar
