@@ -6,8 +6,8 @@
   "scripts": {
     "start": "gitbook serve",
     "build": "gitbook build",
-    "test": "markdownlint --config lint.json {.,topics}/*.md",
-    "generate-diff": "git diff origin/master {.,topics}/*.md | grep -v '^-'",
+    "test": "markdownlint --config lint.json *.md topics/*.md",
+    "generate-diff": "git diff origin/master *.md topics/*.md | grep -v '^-' || echo ''",
     "check-link-diff": "npm run generate-diff | node scripts/markdownLinkCheck.js",
     "check-link-local": "cat *.md topics/*.md | node scripts/markdownLinkCheck.js",
     "watch": "onchange '**/*.md' -v -- npm test",
