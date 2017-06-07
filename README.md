@@ -1,7 +1,7 @@
 # Guia de Desenvolvimento Técnico
 
 [![License](https://img.shields.io/aur/license/yaourt.svg?maxAge=2592000)](https://github.com/ThoughtWorksInc/guia-de-desenvolvimento-tecnico/blob/master/LICENSE)
-[![Build Status](https://snap-ci.com/ThoughtWorksInc/guia-de-desenvolvimento-tecnico/branch/master/build_image)](https://snap-ci.com/ThoughtWorksInc/guia-de-desenvolvimento-tecnico/branch/master)
+[![Build Status](https://circleci.com/gh/ThoughtWorksInc/guia-de-desenvolvimento-tecnico.svg?style=shield)](https://circleci.com/gh/ThoughtWorksInc/guia-de-desenvolvimento-tecnico)
 
 ## [Acesse :link:](https://thoughtworksinc.github.io/guia-de-desenvolvimento-tecnico/)
 
