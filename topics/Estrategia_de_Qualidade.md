@@ -248,7 +248,7 @@ Nesta revisão algumas verificações que podem ser feitas são:
 
 ### Recursos
 
-* [[Artigo] Programação em Par](git@github.com:ThoughtWorksInc/guia-de-desenvolvimento-tecnico.git)
+* [[Artigo] Programação em Par](https://goo.gl/mRNeHn)
 * [[Artigo] The benefits of pull request](https://goo.gl/s62Xjk) :uk:
 * [[Artigo] Pair Programming vs. Code Reviews](https://goo.gl/duu3UW) :uk:
 * [[Artigo] Defect Prevention Using Agile Techniques](https://goo.gl/sbkWr4) :uk:
