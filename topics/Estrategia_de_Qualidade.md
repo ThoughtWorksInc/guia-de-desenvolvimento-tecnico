@@ -202,6 +202,19 @@ os testes de mutação.
 
 ## Cultura de qualidade em projetos
 
+### Programação em Par
+
+Programação em par é a técnica onde duas pessoas trabalham juntas no desenvolvimento
+da mesma solução. Ter duas pessoas trabalhando ao mesmo tempo pode parecer um deperdício,
+pois elas poderiam estar desenvolvedo outras atividades, mas a principal dificuldade
+no desenvolvimento de software não é a quantidade de código que é escrito,
+mas sim ter entendimento do que o código faz e deveria fazer. Programação em par
+otimiza o entendimento compartilhado e é uma técnica poderosa para criar uma
+cultura de qualidade com a equipe. Desenvolver em pares não é uma técnica
+simples e requer muito alinhamento entre as pessoas, caso isso não funcione pode-se
+utilizar Pull Requests para garantir que outras pessoas olhem o código que está
+sendo desenvolvido.
+
 ### Pull request
 
 Em alguns projetos que utilizam desenvolvimento orientado por branches,
@@ -235,5 +248,7 @@ Nesta revisão algumas verificações que podem ser feitas são:
 
 ### Recursos
 
+* [[Artigo] Programação em Par](https://goo.gl/mRNeHn)
 * [[Artigo] The benefits of pull request](https://goo.gl/s62Xjk) :uk:
+* [[Artigo] Pair Programming vs. Code Reviews](https://goo.gl/duu3UW) :uk:
 * [[Artigo] Defect Prevention Using Agile Techniques](https://goo.gl/sbkWr4) :uk:
