@@ -92,7 +92,7 @@ mas não são regras ou verdades absolutas.
   que se S é um subtipo do objeto T, qualquer objeto de tipo T pode ser
   substituído por objetos de tipo S.
 * *Interface segregation principle* (princípio de separação de interfaces)
-  ISP diz que nenhum cliente deveria dependender de métodos que ele não vai
+  ISP diz que nenhum cliente deveria depender de métodos que ele não vai
   usar. Promove interfaces menores, desacopladas, e expressivas.
 * *Dependency inversion principle* (princípio de inversão de depêndencias)
   Esse príncipio define que módulos de alto-nível não dependem de módulos de
