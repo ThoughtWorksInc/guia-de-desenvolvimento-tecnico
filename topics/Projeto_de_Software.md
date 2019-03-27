@@ -1,7 +1,7 @@
 # Projeto de Software
 
 Software geralmente é criado para solucionar um problema específico, seja ele de
-negócio, social, ou qualquer outra area. Porém, muitas vezes encontramos
+negócio, social, ou qualquer outra área. Porém, muitas vezes encontramos
 dificuldades ao mapear esse problema com software. Por isso, existe uma área
 muito importante de desenvolvimento de software que aqui decidimos chamar
 de "Projeto de Software", que busca encontrar uma forma melhor para expressar
@@ -22,11 +22,11 @@ restrições e ações que realmente refletem o negócio.
 Para falar em domínio, ninguém melhor do que o _cliente_ para descrevê-lo, e
 para que o sistema atenda as necessidades desse cliente, a comunicação é
 fundamental. Portanto, é necessário que uma **linguagem ubíqua**, uma linguagem
-comum, seja construída e utilizada tanto pelo cliente quanto pelos
-desenvolvedores que estiverem trabalhando nesse produto.
+comum, seja construída e utilizada tanto pelo cliente quanto pela equipe de 
+desenvolvimento que estiver trabalhando nesse produto.
 
-Seguindo nessa linha, é importante deixar claro o que deve ser desenvolvido de
-forma que tanto o cliente quanto os desenvolvedores consigam trocar ideias e
+Seguindo nessa linha, é importante deixar claro o que deve ser desenvolvido, de
+forma que tanto o cliente quanto a equipe de desenvolvimento consigam trocar ideias e
 gerar algum tipo de documentação de todas as regras implementadas no sistema.
 Em DDD, é indicado que usemos o conceito de **desenvolvimento orientado pelo
 modelo**, que pode ser um desenho, um diagrama ou qualquer coisa que facilite a
@@ -37,7 +37,7 @@ aplicação.
 
 Esse domínio pode ter várias peças, componentes organizados de maneira a
 executar uma determinada tarefa ou para refletir um processo de negócio usado
-pelo cliente. _Dividir para conquistar_, é um ditado conhecido. Cada componente
+pelo cliente. _Dividir para conquistar_ é um ditado conhecido. Cada componente
 deve ter seu **contexto** bem definido e **limitado**, deve ser responsável por
 um único aspecto do sistema. Por exemplo: em um sistema de compras _on line_
 temos o contexto do cliente, do pagamento, do catálogo, etc. Cada um desses
