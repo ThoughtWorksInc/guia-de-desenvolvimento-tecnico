@@ -22,12 +22,12 @@ restrições e ações que realmente refletem o negócio.
 Para falar em domínio, ninguém melhor do que o _cliente_ para descrevê-lo, e
 para que o sistema atenda as necessidades desse cliente, a comunicação é
 fundamental. Portanto, é necessário que uma **linguagem ubíqua**, uma linguagem
-comum, seja construída e utilizada tanto pelo cliente quanto pela equipe de 
+comum, seja construída e utilizada tanto pelo cliente quanto pela equipe de
 desenvolvimento que estiver trabalhando nesse produto.
 
 Seguindo nessa linha, é importante deixar claro o que deve ser desenvolvido, de
-forma que tanto o cliente quanto a equipe de desenvolvimento consigam trocar ideias e
-gerar algum tipo de documentação de todas as regras implementadas no sistema.
+forma que tanto o cliente quanto a equipe de desenvolvimento consigam trocar ideias
+e gerar algum tipo de documentação de todas as regras implementadas no sistema.
 Em DDD, é indicado que usemos o conceito de **desenvolvimento orientado pelo
 modelo**, que pode ser um desenho, um diagrama ou qualquer coisa que facilite a
 comunicação. Esse modelo deve ser _vivo_, ou seja, qualquer alteração no modelo
