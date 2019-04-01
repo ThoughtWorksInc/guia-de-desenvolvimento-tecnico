@@ -7,7 +7,7 @@ diferente que, muitas vezes, tenta resolver esse problema de formas distintas.
 Porém, cabe a pessoa desenvolvedora ter conhecimento desses conceitos para o bom
 uso dessas ferramentas.
 
-Nessa sessão focaremos em alguns padrões e práticas de código mais usados. É
+Nessa seção focaremos em alguns padrões e práticas de código mais usados. É
 importante notar que alguns desses conceitos derivam do paradigma de orientação
 a objeto e outros do paradigma funcional, e funcionam melhor em contextos
 espefícos. Porém, aqui, veremos cada conceito separadamente, pois cada software
