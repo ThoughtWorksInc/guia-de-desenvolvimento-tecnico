@@ -3,29 +3,29 @@ jobs:
   build:
     working_directory: ~/guia-de-desenvolvimento-tecnico
     docker:
-      - image: circleci/node:7
+    - image: circleci/node:7
     steps:
-      - checkout
-      - restore_cache:
-          key: dependency-cache-{{ checksum "package.json" }}
-      - run:
-          name: install-dependencies
-          command: npm install
-      - save_cache:
-          key: dependency-cache-{{ checksum "package.json" }}
-          paths:
-            - node_modules
-      - run:
-          name: lint
-          command: npm test
-      - run:
-          name: check-links
-          command: npm run check-link-diff
-      - deploy:
-          name: deploy
-          command: |
-            if [ "${CIRCLE_BRANCH}" == "master" ]; then
-              git config --global user.email "sayhi@circleci.com"
-              git config --global user.name "CircleCI"
-              npm run deploy
-            fi
+    - checkout
+    - restore_cache:
+        key: dependency-cache-{{ checksum "package.json" }}
+    - run:
+        name: install-dependencies
+        command: npm install
+    - save_cache:
+        key: dependency-cache-{{ checksum "package.json" }}
+        paths:
+        - node_modules
+    - run:
+        name: lint
+        command: npm test
+    - run:
+        name: check-links
+        command: npm run check-link-diff
+    - deploy:
+        name: deploy
+        command: |
+          if [ "${CIRCLE_BRANCH}" == "master" ]; then
+            git config --global user.email "sayhi@circleci.com"
+            git config --global user.name "CircleCI"
+            npm run deploy
+          fi
