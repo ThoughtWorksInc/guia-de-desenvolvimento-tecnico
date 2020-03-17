@@ -26,7 +26,7 @@ mais comumente encontrados, mas não se limitando aos citados abaixo, são:
 
 ### Testes funcionais
 
-Estes testes tem como propósito verficar *o que* o sistema faz,
+Estes testes têm como propósito verificar *o que* o sistema faz,
 bem como se atende as necessidades pré-determinadas para o mesmo.
 
 Alguns testes considerados funcionais são:
@@ -38,7 +38,7 @@ Alguns testes considerados funcionais são:
 * **Testes automatizados de interface**: visam a automação de cenários de testes
  a nível de tela, aonde simulam os comportamentos realizados manualmente por usuários.
 * **Testes automatizados de integração**: testam a interação entre sistemas e parte
-  isoladas de software afim de garantir que o conjunto se comporte da forma esperada
+  isoladas de software a fim de garantir que o conjunto se comporte da forma esperada
   quando integrados.
 * **Testes exploratórios**: aqui a ideia é a mesma dos testes manuais, porém,
   não existe uma especificação de teste a ser seguida.
@@ -49,17 +49,17 @@ Alguns testes considerados funcionais são:
 * **Testes de regressão**: visam garantir que outras partes do software não
   tenham sido impactados por alterações recentes.
   Tais testes podem ser manuais ou automatizados.
-* **Testes de fumaça**: são compostos por uma pequena suite de todos os testes do
+* **Testes de fumaça**: são compostos por uma pequena suíte de todos os testes do
   sistema em questão, onde apenas as principais funcionalidades são validadas.
   Tais testes podem ser manuais ou automatizados e
   geralmente são executados após uma nova versão do software ser gerada.
 
 ### Testes não funcionais
 
-Estes testes tem como finalidade verificar *como* o sistema
+Estes testes têm como finalidade verificar *como* o sistema
 se comporta mediante alguma situação. Alguns testes considerados não funcionais são:
 
-* **Testes de performance**: são testes que básicamente verificam como sua aplicação
+* **Testes de performance**: são testes que basicamente verificam como sua aplicação
   se comporta em situações extremas, por exemplo,
   quando vários usuários estão acessando a mesma página em um curto período de tempo.
   Esses testes tem como objetivo captar possíveis pontos de gargalo no sistema.
@@ -180,7 +180,7 @@ comportamento ou intenção da aplicação está sendo validado.
 Assim, consequentemente, pode-se alterar a aplicação com maior segurança e
 eventuais falhas podem ser percebidas mais rapidamente.
 
-É importante dizer que a maioria dessas ferrramentas trabalha com testes do tipo
+É importante dizer que a maioria dessas ferramentas trabalha com testes do tipo
 unitário. Além disso, o foco delas é realizar uma avaliação quantitativa, sem
 focar na qualidade exata dos cenários de testes existentes.
 Por exemplo: é possível ter uma
@@ -205,8 +205,8 @@ os testes de mutação.
 ### Programação em Par
 
 Programação em par é a técnica onde duas pessoas trabalham juntas no desenvolvimento
-da mesma solução. Ter duas pessoas trabalhando ao mesmo tempo pode parecer um deperdício,
-pois elas poderiam estar desenvolvedo outras atividades, mas a principal dificuldade
+da mesma solução. Ter duas pessoas trabalhando ao mesmo tempo pode parecer um desperdício,
+pois elas poderiam estar desenvolvendo outras atividades, mas a principal dificuldade
 no desenvolvimento de software não é a quantidade de código que é escrito,
 mas sim ter entendimento do que o código faz e deveria fazer. Programação em par
 otimiza o entendimento compartilhado e é uma técnica poderosa para criar uma
