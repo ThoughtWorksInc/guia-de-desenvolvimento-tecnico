@@ -9,8 +9,8 @@ muito difícil no modelo relacional normalizado.
 Esse movimento deu origem ao termo **NoSQL** que significa "não SQL" ou "não
 apenas SQL" (Not Only SQL), dependendo de quem define. Em projetos de alguma
 complexidade não é raro o uso de um banco de dados relacional junto com um ou
-mais bancos de dados não-relacionais. Essa tendência é conhecida como "Poliglot
-Persistency", termo cunhado pelo nosso colega Neal Ford e popularizado por outro
+mais bancos de dados não-relacionais. Essa tendência é conhecida como "Polyglot
+Persistence", termo cunhado pelo nosso colega Neal Ford e popularizado por outro
 colega, o Martin Fowler, em seu
 [blog](http://martinfowler.com/bliki/PolyglotPersistence.html).
 
