@@ -330,7 +330,7 @@
 t&#xE3;o essencial de ser pensada quanto qualidade, arquitetura e acessibilidade.</p>
 <p>Esse guia tende a mostrar alguns itens de seguran&#xE7;a que s&#xE3;o importantes, com o
 intuito de tornar o software mais seguro conforme o desenvolvimento do mesmo,
-e previnindo-se de sofrer alguns ataques por falta de conhecimento de algumas
+e prevenindo-se de sofrer alguns ataques por falta de conhecimento de algumas
 ferramentas e pr&#xE1;ticas. Mas n&#xE3;o se limite somente a esse guia.</p>
 <!-- toc -->
 <ul>
@@ -351,7 +351,7 @@ podendo assim manter a seguran&#xE7;a e autenticidade dos mesmos.</p>
 <h4 id="recursos">Recursos</h4>
 <ul>
 <li><a href="https://en.wikipedia.org/wiki/Pretty_Good_Privacy" target="_blank">PGP</a> <img align="absmiddle" alt=":uk:" class="emoji" src="../gitbook/gitbook-plugin-advanced-emoji/emojis/uk.png" title=":uk:">
-(Pretty Good Privacy) &#xE9; uma implementa&#xE7;&#xE3;o que prov&#xEA; criptografica e autentica&#xE7;&#xE3;o
+(Pretty Good Privacy) &#xE9; uma implementa&#xE7;&#xE3;o que prov&#xEA; criptografia e autentica&#xE7;&#xE3;o
 de dados.</li>
 <li><a href="https://pt.wikipedia.org/wiki/GNU_Privacy_Guard" target="_blank">GPG</a> (Gnu Privacy Guard) &#xE9; a
 implementa&#xE7;&#xE3;o livre do PGP.</li>
@@ -365,7 +365,7 @@ reposit&#xF3;rios git entre outros.</p>
 <p>Ao fazer commits com a ferramenta git, n&#xE3;o h&#xE1; garantias de saber quem &#xE9; o autor
 dos commits, j&#xE1; que git config n&#xE3;o faz nenhum tipo de autentica&#xE7;&#xE3;o durante as
 configura&#xE7;&#xF5;es.</p>
-<p>Um possivel meio para ter garantia na autenticidade dos commits &#xE9; assinando-os
+<p>Um poss&#xED;vel meio para ter garantia na autenticidade dos commits &#xE9; assinando-os
 com chave PGP, assim todas as pessoas da sua equipe e as ferramentas usadas
 (como o Github, por exemplo) poder&#xE1; verificar a assinatura do <em>commit</em>.</p>
 <p>Efetuar commit assinado <a href="https://git-scm.com/docs/git-commit" target="_blank">git commit -S</a> <img align="absmiddle" alt=":uk:" class="emoji" src="../gitbook/gitbook-plugin-advanced-emoji/emojis/uk.png" title=":uk:">
@@ -403,7 +403,7 @@ SnapCI, etc)</p>
 <h3 id="gerenciar-segredos-com-o-time">Gerenciar segredos com o time</h3>
 <p>Um meio seguro de compartilhar segredos com o time &#xE9; utilizar gerenciador de
 senhas compartilhado.</p>
-<p>Um examplo &#xE9; usar o <a href="https://www.passwordstore.org/" target="_blank">Pass</a> que utiliza GPG para
+<p>Um exemplo &#xE9; usar o <a href="https://www.passwordstore.org/" target="_blank">Pass</a> que utiliza GPG para
 encriptar, o que permite que segredos sejam compartilhados para mais de uma
 pessoa resultando em um &#xFA;nico arquivo e o segredos s&#xE3;o sincronizados atrav&#xE9;s do
 git para ser compartilhado por todos os membros do time.</p>
@@ -411,27 +411,27 @@ git para ser compartilhado por todos os membros do time.</p>
 essa ferramenta &#xE9; paga.</p>
 <h3 id="dois-fatores-de-autentica&#xE7;&#xE3;o">Dois fatores de autentica&#xE7;&#xE3;o</h3>
 <p>Possuir dois fatores de autentica&#xE7;&#xE3;o (Two factor authentication) &#xE9; uma boa
-pr&#xE1;tica para manter maior seguran&#xE7;a no acesso as contas, principalemnte quanto a
+pr&#xE1;tica para manter maior seguran&#xE7;a no acesso as contas, principalmente quanto a
 servi&#xE7;os que podem dar acesso ao codebase ou a algum ambiente, exemplo: Github,
 Heroku, SnapCI e etc.</p>
 <h4 id="recursos">Recursos</h4>
 <p>Algumas ferramentas para fazer os dois fatores de autentica&#xE7;&#xE3;o s&#xE3;o:</p>
 <ul>
 <li><a href="https://www.okta.com/" target="_blank">Okta</a> e</li>
-<li><a href="https://www.google.com/landing/2step/" target="_blank">Google Autenticator</a>.</li>
+<li><a href="https://www.google.com/landing/2step/" target="_blank">Google Authenticator</a>.</li>
 </ul>
-<h3 id="oauth2-para-authentica&#xE7;&#xE3;o-em-apis">OAuth2 para authentica&#xE7;&#xE3;o em APIs</h3>
+<h3 id="oauth2-para-autentica&#xE7;&#xE3;o-em-apis">OAuth2 para autentica&#xE7;&#xE3;o em APIs</h3>
 <p>Recomenda-se o uso de OAuth2 para autentica&#xE7;&#xE3;o em APIs, esse mecanismo permite
 com que apps externos possam se conectar em APIs sem com que o mesmo saiba a
 senha do usu&#xE1;rio.</p>
 <p>Um exemplo para isso &#xE9; uma app que utiliza a API do Github, essa app basta
-apenas pedir autoriza&#xE7;&#xE3;o pelo usu&#xE1;rio para acessar deferminadas informa&#xE7;&#xF5;es, no
+apenas pedir autoriza&#xE7;&#xE3;o pelo usu&#xE1;rio para acessar determinadas informa&#xE7;&#xF5;es, no
 qual o usu&#xE1;rio far&#xE1; utilizando o pr&#xF3;prio Github.</p>
 <p>Para mais detalhes sobre o OAuth2 no site
 <a href="http://oauth.net/2/" target="_blank">http://oauth.net/2/</a> <img align="absmiddle" alt=":uk:" class="emoji" src="../gitbook/gitbook-plugin-advanced-emoji/emojis/uk.png" title=":uk:"></p>
 <h3 id="seguran&#xE7;a-em-aplica&#xE7;&#xF5;es-web">Seguran&#xE7;a em aplica&#xE7;&#xF5;es web</h3>
 <p>Durante o desenvolvimento de aplica&#xE7;&#xF5;es web geralmente s&#xE3;o pensados pontos de
-usuabilidade e performance. Assim como esses itens, seguran&#xE7;a &#xE9; algo que deve
+usabilidade e performance. Assim como esses itens, seguran&#xE7;a &#xE9; algo que deve
 ser levado em considera&#xE7;&#xE3;o durante todo o desenvolvimento da aplica&#xE7;&#xE3;o. Um guia
 para os itens relacionados a seguran&#xE7;a &#xE9; o
 <a href="https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project" target="_blank">OWASP top 10</a>
@@ -443,7 +443,7 @@ para os itens relacionados a seguran&#xE7;a &#xE9; o
 </ul>
 <h3 id="https-n&#xE3;o-significa-estar-seguro">HTTPS n&#xE3;o significa estar seguro</h3>
 <p>Um item importante ao construir aplica&#xE7;&#xF5;es &#xE9; sempre pensar em encriptar os meios
-de comunica&#xE7;&#xE3;o entre APIs, microservi&#xE7;os e usu&#xE1;rio-aplica&#xE7;&#xE3;o.  HTTPS &#xE9; um
+de comunica&#xE7;&#xE3;o entre APIs, microsservi&#xE7;os e usu&#xE1;rio-aplica&#xE7;&#xE3;o.  HTTPS &#xE9; um
 recurso que pode-se dizer obrigat&#xF3;rio e de baixo custo, que evita ataques
 <a href="https://pt.wikipedia.org/wiki/Ataque_man-in-the-middle" target="_blank"><em>man-in-the-middle</em></a> e
 garante que os dados trafegados na rede n&#xE3;o foram lidos por mais ningu&#xE9;m
@@ -466,7 +466,7 @@ e depend&#xEA;ncias que utilizas.</p>
 </ul>
 </li>
 <li>Java<ul>
-<li><a href="https://github.com/jeremylong/DependencyCheck" target="_blank">OWASP Depency check</a></li>
+<li><a href="https://github.com/jeremylong/DependencyCheck" target="_blank">OWASP Dependency check</a></li>
 </ul>
 </li>
 <li>Python<ul>
@@ -475,7 +475,7 @@ e depend&#xEA;ncias que utilizas.</p>
 </ul>
 </li>
 <li>Ruby<ul>
-<li><a href="https://github.com/jeremylong/DependencyCheck" target="_blank">OWASP Depency check</a></li>
+<li><a href="https://github.com/jeremylong/DependencyCheck" target="_blank">OWASP Dependency check</a></li>
 <li><a href="http://rubysec.com/" target="_blank">RubySec</a></li>
 <li><a href="https://gemnasium.com/" target="_blank">Gemnasium</a></li>
 </ul>
@@ -492,7 +492,7 @@ camada extra de l&#xF3;gica antes de gerar esse hash.</p>
 <a href="https://pt.wikipedia.org/wiki/Bcrypt" target="_blank">bcrypt</a> que possui uma seguran&#xE7;a maior
 ao gerar o hash das senhas dos usu&#xE1;rios.</p>
 <p><div id="page-footer"><hr></div></p>
-<div class="git-author-container git-author-bottom"><div class="modified">&#xDA;ltima modifica&#xE7;&#xE3;o feita por Pedro, 2020-03-17 02:13:13</div><div class="created">Criada por Roberto Soares, 2016-08-17 16:50:13</div></div>
+<div class="git-author-container git-author-bottom"><div class="modified">&#xDA;ltima modifica&#xE7;&#xE3;o feita por Pedro Henrique, 2020-04-20 15:58:08</div><div class="created">Criada por Roberto Soares, 2016-08-17 16:50:13</div></div>
                                 
                                 </section>
                             
@@ -535,7 +535,7 @@ ao gerar o hash das senhas dos usu&#xE1;rios.</p>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Segurança","level":"1.11","depth":1,"next":{"title":"Análise de Dados (Analytics)","level":"1.12","depth":1,"path":"topics/Analytics.md","ref":"topics/Analytics.md","articles":[]},"previous":{"title":"Armazenamento de dados","level":"1.10","depth":1,"path":"topics/Armazenamento_de_Dados.md","ref":"topics/Armazenamento_de_Dados.md","articles":[]},"dir":"ltr"},"config":{"plugins":["disqus","ga","git-author","githubcontributors","comment","localized-footer","simple-page-toc","edit-link","advanced-emoji"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"disqus":{"useIdentifier":false,"shortName":"guiadedesenvolvimentotw"},"simple-page-toc":{"maxDepth":2,"skipFirstH1":true},"git-author":{"position":"bottom","modifyTpl":"Última modificação feita por {user}, {timeStamp}","createTpl":"Criada por {user}, {timeStamp}","timeStampFormat":"YYYY-MM-DD HH:mm:ss"},"search":{},"localized-footer":{"filename":"layouts/FOOTER.md"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"ga":{"configuration":"auto","token":"UA-86166823-1"},"githubcontributors":{"githubOwner":"ThoughtWorksInc","githubRepository":"guia-de-desenvolvimento-tecnico"},"advanced-emoji":{"embedEmojis":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"edit-link":{"label":"Editar esta página","base":"https://github.com/ThoughtWorksInc/guia-de-desenvolvimento-tecnico/blob/master"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"comment":{"highlightCommented":true}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"INDICE.md"},"variables":{},"language":"pt","gitbook":"3.2.2"},"file":{"path":"topics/Seguranca.md","mtime":"2020-04-20T15:57:58.933Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2020-04-20T15:58:34.700Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Segurança","level":"1.11","depth":1,"next":{"title":"Análise de Dados (Analytics)","level":"1.12","depth":1,"path":"topics/Analytics.md","ref":"topics/Analytics.md","articles":[]},"previous":{"title":"Armazenamento de dados","level":"1.10","depth":1,"path":"topics/Armazenamento_de_Dados.md","ref":"topics/Armazenamento_de_Dados.md","articles":[]},"dir":"ltr"},"config":{"plugins":["disqus","ga","git-author","githubcontributors","comment","localized-footer","simple-page-toc","edit-link","advanced-emoji"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"disqus":{"useIdentifier":false,"shortName":"guiadedesenvolvimentotw"},"simple-page-toc":{"maxDepth":2,"skipFirstH1":true},"git-author":{"position":"bottom","modifyTpl":"Última modificação feita por {user}, {timeStamp}","createTpl":"Criada por {user}, {timeStamp}","timeStampFormat":"YYYY-MM-DD HH:mm:ss"},"search":{},"localized-footer":{"filename":"layouts/FOOTER.md"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"ga":{"configuration":"auto","token":"UA-86166823-1"},"githubcontributors":{"githubOwner":"ThoughtWorksInc","githubRepository":"guia-de-desenvolvimento-tecnico"},"advanced-emoji":{"embedEmojis":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"edit-link":{"label":"Editar esta página","base":"https://github.com/ThoughtWorksInc/guia-de-desenvolvimento-tecnico/blob/master"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"comment":{"highlightCommented":true}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"INDICE.md"},"variables":{},"language":"pt","gitbook":"3.2.2"},"file":{"path":"topics/Seguranca.md","mtime":"2020-04-20T15:58:22.108Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2020-04-20T15:59:08.183Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
