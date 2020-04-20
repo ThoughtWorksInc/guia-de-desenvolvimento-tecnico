@@ -10,7 +10,7 @@ uso dessas ferramentas.
 Nessa seção focaremos em alguns padrões e práticas de código mais usados. É
 importante notar que alguns desses conceitos derivam do paradigma de orientação
 a objeto e outros do paradigma funcional, e funcionam melhor em contextos
-espefícos. Porém, aqui, veremos cada conceito separadamente, pois cada software
+específicos. Porém, aqui, veremos cada conceito separadamente, pois cada software
 tem requisitos diferentes.
 
 <!-- toc -->
