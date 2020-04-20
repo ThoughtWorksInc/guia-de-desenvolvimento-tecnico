@@ -16,7 +16,7 @@ corporativas. Algumas das linguagens mais famosas são (em ordem
 alfabética):
 
 * [C#](https://www.microsoft.com/net)
-* [Java](https://java.net)
+* [Java](https://www.oracle.com/java)
 * [Python](https://www.python.org)
 * [Ruby](https://www.ruby-lang.org)
 
