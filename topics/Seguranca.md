@@ -133,7 +133,7 @@ para os itens relacionados a segurança é o
 #### Recursos
 
 - Há um PDF em português através do link
-  [OWASP top 10](https://owasptop10.googlecode.com/files/OWASP_Top_10_-_2013_Brazilian_Portuguese.pdf).
+  [OWASP top 10](https://www.owasp.org/images/9/9c/OWASP_Top_10_2013_PT-BR.pdf).
 
 ### HTTPS não significa estar seguro
 
