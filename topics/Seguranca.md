@@ -193,61 +193,124 @@ ao gerar o hash das senhas dos usuários.
 
 ### Dinâmica: Modelagem de Ameaças
 
-Também conhecida como _Threat Modeling_, a modelagem de ameaças é um processo pelo qual é possível
-identificar, entender, comunicar e priorizar as ameaças de segurança dentro do contexto do projeto.
+Também conhecida como _Threat Modeling_, a modelagem de ameaças é
+um processo pelo qual é possível identificar, entender, comunicar
+e priorizar as ameaças de segurança dentro do contexto do projeto.
 
-#### Quem participa?
+#### Quem participa
+
 É importante que todos os envolvidos no projeto participem:
-- **Pessoas desenvolvedoras:** _elas serão capazes de trazer a visão técnica da aplicação. Além disso, sua participação 
-incentiva desenvolvimento seguro e fortalece conhecimento de vulnerabilidades._
 
-- **Pessoas da área de negócio:** _são as melhores pessoas para compartilharem o contexto do negócio,
-ajudar na priorização do backlog, identificação dos riscos e garantir a melhora contínua do projeto._
+- Pessoas desenvolvedoras:
 
-- **Times se segurança, qualidade, infra e outros:** _se há equipes separadas dentro do projeto, todas as equipes devem participar da dinâmica. A responsabilidade de manter a solução segura é de todos. A participação também ajuda
-a quebrar os silos entre as equipes e promover uma visão unificada das ameaças e possíveis mitigações._
+  - _elas serão capazes de trazer a visão técnica da aplicação. Além disso,
+  sua participação incentiva desenvolvimento seguro e fortalece conhecimento de vulnerabilidades._
 
-- **Clientes:** é quaze institinvo querer esconder qualquer vulnerabilidade de segurança dos clientes, entretanto, esse é o pior caminho. A participação do cliente promove a transparência quanto riscos do projeto, fortalece a confiança e compartilha também a visão dos riscos de segurança que devem ser priorizados. Essa é uma grande vantagem da dinâmica, facilitar a conversa e priorização inclusive com quem é o dono do produto.
+- Pessoas da área de negócio:
 
-#### Qual processo?
+  - _são as melhores pessoas para compartilharem o contexto do negócio, ajudar
+  na priorização do backlog, identificação dos riscos e garantir
+  a melhora contínua do projeto._
+
+- Times se segurança, qualidade, infra e outros:
+
+  - _se há equipes separadas dentro do projeto, todas as equipes devem participar
+  da dinâmica. A responsabilidade de manter a solução segura é de todos. A
+  participação também ajuda a quebrar os silos entre as equipes e
+  promover uma visão unificada das ameaças e possíveis mitigações._
+
+- Clientes:
+  - _é quase institinvo querer esconder qualquer vulnerabilidade
+  de segurança dos clientes, entretanto, esse é o pior caminho. A participação
+  do cliente promove a transparência quanto riscos do projeto,
+  fortalece a confiança e compartilha também a visão dos
+  riscos de segurança que devem ser priorizados. Essa é uma grande vantagem da dinâmica,
+  facilitar a conversa e priorização inclusive com quem é o dono do produto._
+
+#### Qual processo
 
 A dinâmica envolve 4 etapas:
 
-- **Contexto**: _O que estamos construindo?_
-  - Esta etapa é destinada ao **entendimento da aplicação** ou solução, qual o ser **valor para o negócio** do cliente e qual o **aspecto de segurança mais importante**. Use diagramas (arquitetura, sequência, componentes e/ou desenhos) e lembre-se de marcar um _time-box_ como 15 minutos.
+- Contexto: _O que estamos construindo?_
+  - Esta etapa é destinada ao **entendimento da aplicação** ou solução, qual o ser
+  **valor para o negócio** do cliente e qual o **aspecto de segurança mais importante**.
+  Use diagramas (arquitetura, sequência, componentes e/ou desenhos)
+  e lembre-se de marcar um _time-box_ como 15 minutos.
 
-- **Identificação**: _O que podemos melhorar?_
-  - Esta etapa é destinada a entender **aquilo que pode acontecer de ruim com a app**, quem pode causar isso e como pode causar isso;
-  - Discuta com o time e liste os principais atores que podem nos atacar: 
+- Identificação: _O que podemos melhorar?_
+  - Esta etapa é destinada a entender **aquilo que pode acontecer de ruim com a app**,
+  quem pode causar isso e como pode causar isso;
+  - Discuta com o time e liste os principais atores que podem nos atacar:
     - Vizinho
     - Atacante desconhecida (hacker);
     - Cliente descontente;
     - Ex-funcionário recém demitido;
     - Atacante interno (insider).
-  - Identifique de que **forma os atores podem atacar a aplicação**. Essa é a parte central da dinâmica. Existem várias formas de executar essa etapa. Recomendamos que todos escrevem em post its de forma individual o que acham que cada ator pode fazer na aplicação, assim estamos tentando identificar quais ameaças pode acontecer no nosso sistema.
+  - Identifique de que **forma os atores podem atacar a aplicação**. Essa é a
+  parte central da dinâmica. Existem várias formas de executar essa etapa.
+  Recomendamos que todos escrevem em post its de forma individual o que acham que
+  cada ator pode fazer na aplicação, assim estamos tentando identificar quais ameaças
+  pode acontecer no nosso sistema.
 
-- **Mitigação**: _O que faremos sobre isso?_
-  - Etapa destinada a identificarmos quais são os controles que já possuímos e quais são os controles que precisamos implementar;
-  - Para cada vulnerabilidade realize a pergunta: _"Temos algum controle que impeça isso de acontecer?"_. Se sim, retirar item com referência. Se não, manter o item no nosso mapeamento para próxima etapa.
+- Mitigação: _O que faremos sobre isso?_
+  - Etapa destinada a identificarmos quais são os controles que já possuímos
+  e quais são os controles que precisamos implementar;
+  - Para cada vulnerabilidade realize a pergunta:
+  _"Temos algum controle que impeça isso de acontecer?"_.
+  Se sim, retirar item com referência.
+  Se não, manter o item no nosso mapeamento para próxima etapa.
 
-- **Priorização**: _Quando faremos?_
-  - Esta etapa é destinada a identificar **probabilidade e impacto** de cada associados às ameaças encontradas. Com isso, priorizá-las;
-  - Desenhe um matriz de Impacto versus Probabilidade. Defina para cada item qual é quadrante que ele está. Por exemplo:  alto impacto, baixa probabilidade. Priorize as de Alto Impacto e Alta Probabilidade;
+- Priorização: _Quando faremos?_
+  - Esta etapa é destinada a identificar **probabilidade e impacto**
+  de cada associados às ameaças encontradas. Com isso, priorizá-las;
+  - Desenhe um matriz de Impacto versus Probabilidade. Defina para cada
+  item qual é quadrante que ele está. Por exemplo:  alto impacto, baixa
+  probabilidade. Priorize as de Alto Impacto e Alta Probabilidade;
   - Derive e priorize tarefas no backlog de acordo com o risco de cada uma.
 
-<table style="border-collapse:collapse;border-spacing:0;margin:0px auto" class="tg">
+<table style="border-collapse:collapse; border-spacing:0; margin:0px auto" class="tg">
    <tbody>
       <tr>
-         <td style="background-color:#edbebe;border-color:inherit;border-style:solid;border-width:1px;color:#000000;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Alto Impacto<br>Baixa Probabilidade</td>
-         <td style="background-color:#fd6864;border-color:inherit;border-style:solid;border-width:1px;color:#000000;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Alto Impacto<br>Alta Probabilidade</td>
+        <td style="background-color:#edbebe; border-color:inherit;
+         border-style:solid; border-width:1px; color:#000000;
+         font-family:Arial, sans-serif; font-size:14px; overflow:hidden;
+         padding:10px 5px; text-align:left; vertical-align:top; word-break:normal">
+          Alto Impacto <br>
+          Baixa Probabilidade
+        </td>
+        <td style="background-color:#fd6864; border-color:inherit;
+        border-style:solid; border-width:1px; color:#000000;
+        font-family:Arial, sans-serif; font-size:14px;
+        overflow:hidden; padding:10px 5px; text-align:left;
+        vertical-align:top; word-break:normal">
+          Alto Impacto <br>
+          Alta Probabilidade
+        </td>
       </tr>
       <tr>
-         <td style="background-color:#b1e993;border-color:inherit;border-style:solid;border-width:1px;color:#000000;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Baixo Impacto<br>Baixa Probabilidade</td>
-         <td style="background-color:#ffccc9;border-color:inherit;border-style:solid;border-width:1px;color:#000000;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Baixo Impacto<br>Alta Probabilidade</td>
+        <td style="background-color:#b1e993; border-color:inherit;
+        border-style:solid; border-width:1px; color:#000000;
+        font-family:Arial, sans-serif; font-size:14px;
+        overflow:hidden; padding:10px 5px; text-align:left;
+        vertical-align:top; word-break:normal">
+          Baixo Impacto <br>
+          Baixa Probabilidade
+        </td>
+        <td style="background-color:#ffccc9; border-color:inherit;
+        border-style:solid; border-width:1px; color:#000000;
+        font-family:Arial, sans-serif; font-size:14px;
+        overflow:hidden; padding:10px 5px; text-align:left;
+        vertical-align:top; word-break:normal">
+          Baixo Impacto <br>
+          Alta Probabilidade
+        </td>
       </tr>
    </tbody>
 </table>
 
-#### Saiba mais em:
-- [Application Threat Modeling - OWASP](https://owasp.org/www-community/Application_Threat_Modeling) :uk:
-- [Agile Threat Modeling - Martin Fowler](https://martinfowler.com/articles/agile-threat-modelling.html) :uk:
+#### Referências
+
+- [Application Threat Modeling - OWASP](https://owasp.org/www-community/Application_Threat_Modeling)
+  :uk:
+- [Agile Threat Modeling - Martin Fowler](https://martinfowler.com/articles/agile-threat-modelling.html)
+  :uk:
