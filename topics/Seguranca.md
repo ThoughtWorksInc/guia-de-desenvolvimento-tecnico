@@ -162,6 +162,7 @@ e dependências que utilizas.
 Exemplos de ferramentas:
 
 - NodeJS
+  - [NPM-Audit](https://docs.npmjs.com/cli/audit)
   - [Snyk](https://github.com/Snyk/snyk)
   - [Gemnasium](https://gemnasium.com/)
 - Java
@@ -173,6 +174,9 @@ Exemplos de ferramentas:
   - [OWASP Dependency check](https://github.com/jeremylong/DependencyCheck)
   - [RubySec](http://rubysec.com/)
   - [Gemnasium](https://gemnasium.com/)
+
+Recomenda-se executar essa verificação de forma periódica. Para isso, pode-se utilizar
+um script e integrar junto com uma ferramenta de [integração contínua](Entrega_de_Software.md).
 
 ### Gerenciando senhas em aplicações
 
@@ -186,3 +190,29 @@ camada extra de lógica antes de gerar esse hash.
 Existe um método de criptografia para hash chamado
 [bcrypt](https://pt.wikipedia.org/wiki/Bcrypt) que possui uma segurança maior
 ao gerar o hash das senhas dos usuários.
+
+### Dinâmica: Modelagem de Ameaças
+
+Também conhecida como _Threat Modeling_, a modelagem de ameaças é um processo pelo qual é possível
+identificar, entender, comunicar e priorizar as ameaças de segurança dentro do contexto do projeto.
+
+#### Quem participa?
+É importante que todos os envolvidos no projeto participem:
+- **Pessoas desenvolvedoras:** _elas serão capazes de trazer a visão técnica da aplicação. Além disso, sua participação 
+incentiva desenvolvimento seguro e fortalece conhecimento de vulnerabilidades._
+
+- **Pessoas da área de negócio:** _são as melhores pessoas para compartilharem o contexto do negócio,
+ajudar na priorização do backlog, identificação dos riscos e garantir a melhora contínua do projeto._
+
+- **Times se segurança, qualidade, infra e outros:** _se há equipes separadas dentro do projeto, todas as equipes devem participar da dinâmica. A responsabilidade de manter a solução segura é de todos. A participação também ajuda
+a quebrar os silos entre as equipes e promover uma visão unificada das ameaças e possíveis mitigações._
+
+- **Clientes:** é quaze institinvo querer esconder qualquer vulnerabilidade de segurança dos clientes, entretanto, esse é o pior caminho. A participação do cliente promove a transparência quanto riscos do projeto, fortalece a confiança e compartilha também a visão dos riscos de segurança que devem ser priorizados. Essa é uma grande vantagem da dinâmica, facilitar a conversa e priorização inclusive com quem é o dono do produto.
+
+#### Qual processo?
+
+#### Qual resultado?
+
+Saiba mais em:
+- [Application Threat Modeling - OWASP](https://owasp.org/www-community/Application_Threat_Modeling) :uk:
+- [Agile Threat Modeling - Martin Fowler](https://martinfowler.com/articles/agile-threat-modelling.html) :uk:
