@@ -214,12 +214,40 @@ a quebrar os silos entre as equipes e promover uma visão unificada das ameaças
 A dinâmica envolve 4 etapas:
 
 - **Contexto**: _O que estamos construindo?_
+  - Esta etapa é destinada ao **entendimento da aplicação** ou solução, qual o ser **valor para o negócio** do cliente e qual o **aspecto de segurança mais importante**. Use diagramas (arquitetura, sequência, componentes e/ou desenhos) e lembre-se de marcar um _time-box_ como 15 minutos.
+
 - **Identificação**: _O que podemos melhorar?_
+  - Esta etapa é destinada a entender **aquilo que pode acontecer de ruim com a app**, quem pode causar isso e como pode causar isso;
+  - Discuta com o time e liste os principais atores que podem nos atacar: 
+    - Vizinho
+    - Atacante desconhecida (hacker);
+    - Cliente descontente;
+    - Ex-funcionário recém demitido;
+    - Atacante interno (insider).
+  - Identifique de que **forma os atores podem atacar a aplicação**. Essa é a parte central da dinâmica. Existem várias formas de executar essa etapa. Recomendamos que todos escrevem em post its de forma individual o que acham que cada ator pode fazer na aplicação, assim estamos tentando identificar quais ameaças pode acontecer no nosso sistema.
+
 - **Mitigação**: _O que faremos sobre isso?_
+  - Etapa destinada a identificarmos quais são os controles que já possuímos e quais são os controles que precisamos implementar;
+  - Para cada vulnerabilidade realize a pergunta: _"Temos algum controle que impeça isso de acontecer?"_. Se sim, retirar item com referência. Se não, manter o item no nosso mapeamento para próxima etapa.
+
 - **Priorização**: _Quando faremos?_
+  - Esta etapa é destinada a identificar **probabilidade e impacto** de cada associados às ameaças encontradas. Com isso, priorizá-las;
+  - Desenhe um matriz de Impacto versus Probabilidade. Defina para cada item qual é quadrante que ele está. Por exemplo:  alto impacto, baixa probabilidade. Priorize as de Alto Impacto e Alta Probabilidade;
+  - Derive e priorize tarefas no backlog de acordo com o risco de cada uma.
 
-#### Qual resultado?
+<table style="border-collapse:collapse;border-spacing:0;margin:0px auto" class="tg">
+   <tbody>
+      <tr>
+         <td style="background-color:#edbebe;border-color:inherit;border-style:solid;border-width:1px;color:#000000;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Alto Impacto<br>Baixa Probabilidade</td>
+         <td style="background-color:#fd6864;border-color:inherit;border-style:solid;border-width:1px;color:#000000;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Alto Impacto<br>Alta Probabilidade</td>
+      </tr>
+      <tr>
+         <td style="background-color:#b1e993;border-color:inherit;border-style:solid;border-width:1px;color:#000000;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Baixo Impacto<br>Baixa Probabilidade</td>
+         <td style="background-color:#ffccc9;border-color:inherit;border-style:solid;border-width:1px;color:#000000;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Baixo Impacto<br>Alta Probabilidade</td>
+      </tr>
+   </tbody>
+</table>
 
-Saiba mais em:
+#### Saiba mais em:
 - [Application Threat Modeling - OWASP](https://owasp.org/www-community/Application_Threat_Modeling) :uk:
 - [Agile Threat Modeling - Martin Fowler](https://martinfowler.com/articles/agile-threat-modelling.html) :uk:
