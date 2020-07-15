@@ -211,6 +211,13 @@ a quebrar os silos entre as equipes e promover uma visão unificada das ameaças
 
 #### Qual processo?
 
+A dinâmica envolve 4 etapas:
+
+- **Contexto**: _O que estamos construindo?_
+- **Identificação**: _O que podemos melhorar?_
+- **Mitigação**: _O que faremos sobre isso?_
+- **Priorização**: _Quando faremos?_
+
 #### Qual resultado?
 
 Saiba mais em:
