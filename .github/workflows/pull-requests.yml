@@ -1,0 +1,24 @@
+name: Checking Pull Requests
+
+on: pull_request
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    
+    - name: Set up Node.js
+      uses: actions/setup-node@v1
+      with:
+        node-version: 10
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Run tests
+      run: npm test
+    
+    - name: Check links
+      run: npm run check-link-diff
