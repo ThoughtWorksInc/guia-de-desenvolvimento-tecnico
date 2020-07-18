@@ -10,8 +10,7 @@
     "generate-diff": "git diff origin/master *.md topics/*.md | grep -v '^-' || echo ''",
     "check-link-diff": "npm run generate-diff | node scripts/markdownLinkCheck.js",
     "check-link-local": "cat *.md topics/*.md | node scripts/markdownLinkCheck.js",
-    "watch": "onchange '**/*.md' -v -- npm test",
-    "deploy": "npm run build && gh-pages -d _book"
+    "watch": "onchange '**/*.md' -v -- npm test"
   },
   "repository": {
     "type": "git",
@@ -24,7 +23,6 @@
   },
   "homepage": "https://github.com/ThoughtWorksInc/guia-de-desenvolvimento-tecnico#readme",
   "devDependencies": {
-    "gh-pages": "^0.11.0",
     "gitbook-cli": "^2.3.0",
     "gitbook-plugin-advanced-emoji": "^0.2.1",
     "gitbook-plugin-comment": "^1.0.5",
