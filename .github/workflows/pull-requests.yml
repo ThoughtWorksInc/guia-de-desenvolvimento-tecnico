@@ -1,4 +1,4 @@
-name: Checking Pull Requests
+name: Checking Pull Request
 
 on: pull_request
 
@@ -19,6 +19,3 @@ jobs:
 
     - name: Run tests
       run: npm test
-    
-    - name: Check links
-      run: npm run check-link-diff
