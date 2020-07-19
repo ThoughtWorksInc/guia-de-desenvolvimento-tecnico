@@ -461,6 +461,7 @@ e depend&#xEA;ncias que utilizas.</p>
 <p>Exemplos de ferramentas:</p>
 <ul>
 <li>NodeJS<ul>
+<li><a href="https://docs.npmjs.com/cli/audit" target="_blank">NPM-Audit</a></li>
 <li><a href="https://github.com/Snyk/snyk" target="_blank">Snyk</a></li>
 <li><a href="https://gemnasium.com/" target="_blank">Gemnasium</a></li>
 </ul>
@@ -481,6 +482,8 @@ e depend&#xEA;ncias que utilizas.</p>
 </ul>
 </li>
 </ul>
+<p>Recomenda-se executar essa verifica&#xE7;&#xE3;o de forma peri&#xF3;dica. Para isso, pode-se utilizar
+um script e integrar junto com uma ferramenta de <a href="Entrega_de_Software.html">integra&#xE7;&#xE3;o cont&#xED;nua</a>.</p>
 <h3 id="gerenciando-senhas-em-aplica&#xE7;&#xF5;es">Gerenciando senhas em aplica&#xE7;&#xF5;es</h3>
 <p>H&#xE1; casos de aplica&#xE7;&#xF5;es que costumam salvar o
 <a href="https://pt.wikipedia.org/wiki/Fun%C3%A7%C3%A3o_hash" target="_blank">hash</a> de senhas no banco
@@ -491,8 +494,145 @@ camada extra de l&#xF3;gica antes de gerar esse hash.</p>
 <p>Existe um m&#xE9;todo de criptografia para hash chamado
 <a href="https://pt.wikipedia.org/wiki/Bcrypt" target="_blank">bcrypt</a> que possui uma seguran&#xE7;a maior
 ao gerar o hash das senhas dos usu&#xE1;rios.</p>
+<h3 id="din&#xE2;mica-modelagem-de-amea&#xE7;as">Din&#xE2;mica: Modelagem de Amea&#xE7;as</h3>
+<p>Tamb&#xE9;m conhecida como <em>Threat Modeling</em>, a modelagem de amea&#xE7;as &#xE9;
+um processo pelo qual &#xE9; poss&#xED;vel identificar, entender, comunicar
+e priorizar as amea&#xE7;as de seguran&#xE7;a dentro do contexto do projeto.</p>
+<h4 id="quem-participa">Quem participa</h4>
+<p>&#xC9; importante que todos os envolvidos no projeto participem:</p>
+<ul>
+<li><p>Pessoas desenvolvedoras:</p>
+<ul>
+<li><em>elas ser&#xE3;o capazes de trazer a vis&#xE3;o t&#xE9;cnica da aplica&#xE7;&#xE3;o. Al&#xE9;m disso,
+sua participa&#xE7;&#xE3;o incentiva desenvolvimento seguro e fortalece conhecimento de vulnerabilidades.</em></li>
+</ul>
+</li>
+<li><p>Pessoas da &#xE1;rea de neg&#xF3;cio:</p>
+<ul>
+<li><em>s&#xE3;o as melhores pessoas para compartilharem o contexto do neg&#xF3;cio, ajudar
+na prioriza&#xE7;&#xE3;o do backlog, identifica&#xE7;&#xE3;o dos riscos e garantir
+a melhora cont&#xED;nua do projeto.</em></li>
+</ul>
+</li>
+<li><p>Times de seguran&#xE7;a, qualidade, infra e outros:</p>
+<ul>
+<li><em>se h&#xE1; equipes separadas dentro do projeto, todas as equipes devem participar
+da din&#xE2;mica. A responsabilidade de manter a solu&#xE7;&#xE3;o segura &#xE9; de todos. A
+participa&#xE7;&#xE3;o tamb&#xE9;m ajuda a quebrar os silos entre as equipes e
+promover uma vis&#xE3;o unificada das amea&#xE7;as e poss&#xED;veis mitiga&#xE7;&#xF5;es.</em></li>
+</ul>
+</li>
+<li><p>Clientes:</p>
+<ul>
+<li><em>&#xE9; quase institinvo querer esconder qualquer vulnerabilidade
+de seguran&#xE7;a dos clientes, entretanto, esse &#xE9; o pior caminho. A participa&#xE7;&#xE3;o
+do cliente promove a transpar&#xEA;ncia quanto riscos do projeto,
+fortalece a confian&#xE7;a e compartilha tamb&#xE9;m a vis&#xE3;o dos
+riscos de seguran&#xE7;a que devem ser priorizados. Essa &#xE9; uma grande vantagem da din&#xE2;mica,
+facilitar a conversa e prioriza&#xE7;&#xE3;o inclusive com quem &#xE9; o dono do produto.</em></li>
+</ul>
+</li>
+</ul>
+<h4 id="qual-processo">Qual processo</h4>
+<p>A din&#xE2;mica envolve 4 etapas:</p>
+<ul>
+<li><p>Contexto: <em>O que estamos construindo?</em></p>
+<ul>
+<li>Esta etapa &#xE9; destinada ao <strong>entendimento da aplica&#xE7;&#xE3;o</strong> ou solu&#xE7;&#xE3;o, qual o ser
+<strong>valor para o neg&#xF3;cio</strong> do cliente e qual o <strong>aspecto de seguran&#xE7;a mais importante</strong>.
+Use diagramas (arquitetura, sequ&#xEA;ncia, componentes e/ou desenhos)
+e lembre-se de marcar um <em>time-box</em> como 15 minutos.</li>
+</ul>
+</li>
+<li><p>Identifica&#xE7;&#xE3;o: <em>O que podemos melhorar?</em></p>
+<ul>
+<li>Esta etapa &#xE9; destinada a entender <strong>aquilo que pode acontecer de ruim com a app</strong>,
+quem pode causar isso e como pode causar isso;</li>
+<li>Discuta com o time e liste os principais atores que podem nos atacar:<ul>
+<li>Vizinho</li>
+<li>Atacante desconhecida (hacker);</li>
+<li>Cliente descontente;</li>
+<li>Ex-funcion&#xE1;rio rec&#xE9;m demitido;</li>
+<li>Atacante interno (insider).</li>
+</ul>
+</li>
+<li>Identifique de que <strong>forma os atores podem atacar a aplica&#xE7;&#xE3;o</strong>. Essa &#xE9; a
+parte central da din&#xE2;mica. Existem v&#xE1;rias formas de executar essa etapa.
+Recomendamos que todos escrevem em post its de forma individual o que acham que
+cada ator pode fazer na aplica&#xE7;&#xE3;o, assim estamos tentando identificar quais amea&#xE7;as
+pode acontecer no nosso sistema.</li>
+</ul>
+</li>
+<li><p>Mitiga&#xE7;&#xE3;o: <em>O que faremos sobre isso?</em></p>
+<ul>
+<li>Etapa destinada a identificarmos quais s&#xE3;o os controles que j&#xE1; possu&#xED;mos
+e quais s&#xE3;o os controles que precisamos implementar;</li>
+<li>Para cada vulnerabilidade realize a pergunta:
+<em>&quot;Temos algum controle que impe&#xE7;a isso de acontecer?&quot;</em>.
+Se sim, retirar item com refer&#xEA;ncia.
+Se n&#xE3;o, manter o item no nosso mapeamento para pr&#xF3;xima etapa.</li>
+</ul>
+</li>
+<li><p>Prioriza&#xE7;&#xE3;o: <em>Quando faremos?</em></p>
+<ul>
+<li>Esta etapa &#xE9; destinada a identificar <strong>probabilidade e impacto</strong>
+de cada associados &#xE0;s amea&#xE7;as encontradas. Com isso, prioriz&#xE1;-las;</li>
+<li>Desenhe um matriz de Impacto versus Probabilidade. Defina para cada
+item qual &#xE9; quadrante que ele est&#xE1;. Por exemplo:  alto impacto, baixa
+probabilidade. Priorize as de Alto Impacto e Alta Probabilidade;</li>
+<li>Derive e priorize tarefas no backlog de acordo com o risco de cada uma.</li>
+</ul>
+</li>
+</ul>
+<table style="border-collapse:collapse; border-spacing:0; margin:0px auto" class="tg">
+   <tbody>
+      <tr>
+        <td style="background-color:#edbebe; border-color:inherit;
+         border-style:solid; border-width:1px; color:#000000;
+         font-family:Arial, sans-serif; font-size:14px; overflow:hidden;
+         padding:10px 5px; text-align:left; vertical-align:top; word-break:normal">
+          Alto Impacto <br>
+          Baixa Probabilidade
+        </td>
+        <td style="background-color:#fd6864; border-color:inherit;
+        border-style:solid; border-width:1px; color:#000000;
+        font-family:Arial, sans-serif; font-size:14px;
+        overflow:hidden; padding:10px 5px; text-align:left;
+        vertical-align:top; word-break:normal">
+          Alto Impacto <br>
+          Alta Probabilidade
+        </td>
+      </tr>
+      <tr>
+        <td style="background-color:#b1e993; border-color:inherit;
+        border-style:solid; border-width:1px; color:#000000;
+        font-family:Arial, sans-serif; font-size:14px;
+        overflow:hidden; padding:10px 5px; text-align:left;
+        vertical-align:top; word-break:normal">
+          Baixo Impacto <br>
+          Baixa Probabilidade
+        </td>
+        <td style="background-color:#ffccc9; border-color:inherit;
+        border-style:solid; border-width:1px; color:#000000;
+        font-family:Arial, sans-serif; font-size:14px;
+        overflow:hidden; padding:10px 5px; text-align:left;
+        vertical-align:top; word-break:normal">
+          Baixo Impacto <br>
+          Alta Probabilidade
+        </td>
+      </tr>
+   </tbody>
+</table>
+
+<h4 id="refer&#xEA;ncias">Refer&#xEA;ncias</h4>
+<ul>
+<li><a href="https://owasp.org/www-community/Application_Threat_Modeling" target="_blank">Application Threat Modeling - OWASP</a>
+<img align="absmiddle" alt=":uk:" class="emoji" src="../gitbook/gitbook-plugin-advanced-emoji/emojis/uk.png" title=":uk:"></li>
+<li><a href="https://martinfowler.com/articles/agile-threat-modelling.html" target="_blank">Agile Threat Modeling - Martin Fowler</a>
+<img align="absmiddle" alt=":uk:" class="emoji" src="../gitbook/gitbook-plugin-advanced-emoji/emojis/uk.png" title=":uk:"></li>
+</ul>
 <p><div id="page-footer"><hr></div></p>
-<div class="git-author-container git-author-bottom"><div class="modified">&#xDA;ltima modifica&#xE7;&#xE3;o feita por Roberto Soares, 2020-07-18 23:33:18</div><div class="created">Criada por Roberto Soares, 2020-07-18 23:33:18</div></div>
+<div class="git-author-container git-author-bottom"><div class="modified">&#xDA;ltima modifica&#xE7;&#xE3;o feita por Thaiane Braga, 2020-07-19 00:19:12</div><div class="created">Criada por Thaiane Braga, 2020-07-19 00:19:12</div></div>
                                 
                                 </section>
                             
@@ -535,7 +675,7 @@ ao gerar o hash das senhas dos usu&#xE1;rios.</p>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Segurança","level":"1.11","depth":1,"next":{"title":"Análise de Dados (Analytics)","level":"1.12","depth":1,"path":"topics/Analytics.md","ref":"topics/Analytics.md","articles":[]},"previous":{"title":"Armazenamento de dados","level":"1.10","depth":1,"path":"topics/Armazenamento_de_Dados.md","ref":"topics/Armazenamento_de_Dados.md","articles":[]},"dir":"ltr"},"config":{"plugins":["disqus","ga","git-author","githubcontributors","comment","localized-footer","simple-page-toc","edit-link","advanced-emoji"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"disqus":{"useIdentifier":false,"shortName":"guiadedesenvolvimentotw"},"simple-page-toc":{"maxDepth":2,"skipFirstH1":true},"git-author":{"position":"bottom","modifyTpl":"Última modificação feita por {user}, {timeStamp}","createTpl":"Criada por {user}, {timeStamp}","timeStampFormat":"YYYY-MM-DD HH:mm:ss"},"search":{},"localized-footer":{"filename":"layouts/FOOTER.md"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"ga":{"configuration":"auto","token":"UA-86166823-1"},"githubcontributors":{"githubOwner":"ThoughtWorksInc","githubRepository":"guia-de-desenvolvimento-tecnico"},"advanced-emoji":{"embedEmojis":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"edit-link":{"label":"Editar esta página","base":"https://github.com/ThoughtWorksInc/guia-de-desenvolvimento-tecnico/blob/master"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"comment":{"highlightCommented":true}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"INDICE.md"},"variables":{},"language":"pt","gitbook":"3.2.2"},"file":{"path":"topics/Seguranca.md","mtime":"2020-07-18T23:42:21.475Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2020-07-18T23:43:05.371Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Segurança","level":"1.11","depth":1,"next":{"title":"Análise de Dados (Analytics)","level":"1.12","depth":1,"path":"topics/Analytics.md","ref":"topics/Analytics.md","articles":[]},"previous":{"title":"Armazenamento de dados","level":"1.10","depth":1,"path":"topics/Armazenamento_de_Dados.md","ref":"topics/Armazenamento_de_Dados.md","articles":[]},"dir":"ltr"},"config":{"plugins":["disqus","ga","git-author","githubcontributors","comment","localized-footer","simple-page-toc","edit-link","advanced-emoji"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"disqus":{"useIdentifier":false,"shortName":"guiadedesenvolvimentotw"},"simple-page-toc":{"maxDepth":2,"skipFirstH1":true},"git-author":{"position":"bottom","modifyTpl":"Última modificação feita por {user}, {timeStamp}","createTpl":"Criada por {user}, {timeStamp}","timeStampFormat":"YYYY-MM-DD HH:mm:ss"},"search":{},"localized-footer":{"filename":"layouts/FOOTER.md"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"ga":{"configuration":"auto","token":"UA-86166823-1"},"githubcontributors":{"githubOwner":"ThoughtWorksInc","githubRepository":"guia-de-desenvolvimento-tecnico"},"advanced-emoji":{"embedEmojis":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"edit-link":{"label":"Editar esta página","base":"https://github.com/ThoughtWorksInc/guia-de-desenvolvimento-tecnico/blob/master"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"comment":{"highlightCommented":true}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"INDICE.md"},"variables":{},"language":"pt","gitbook":"3.2.2"},"file":{"path":"topics/Seguranca.md","mtime":"2020-07-19T00:24:58.236Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2020-07-19T00:25:41.629Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
