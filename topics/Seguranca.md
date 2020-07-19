@@ -212,7 +212,7 @@ e priorizar as ameaças de segurança dentro do contexto do projeto.
   na priorização do backlog, identificação dos riscos e garantir
   a melhora contínua do projeto._
 
-- Times se segurança, qualidade, infra e outros:
+- Times de segurança, qualidade, infra e outros:
 
   - _se há equipes separadas dentro do projeto, todas as equipes devem participar
   da dinâmica. A responsabilidade de manter a solução segura é de todos. A
